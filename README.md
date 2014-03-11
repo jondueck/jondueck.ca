@@ -10,7 +10,7 @@ jondueck.ca
 
 ## Rules
 
-* Clean
+* Clean layout
 * “Personal” rather than “corporate”
 * No mandatory hovers
 * All images retina-ready
