@@ -8,7 +8,13 @@ jondueck.ca
 * Host writing
 * Showcase school work, privately or publicly
 
-## Rules 
+## Rules
+
 * Clean
 * “Personal” rather than “corporate”
 * No mandatory hovers
+* All images retina-ready
+* Anything that can be an SVG, should be an SVG
+* Minimal JS
+* pixels only for borders
+* clean code
