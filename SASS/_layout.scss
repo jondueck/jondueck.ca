@@ -1,0 +1,120 @@
+/*========================================
+	Layout
+  ========================================*/
+
+body {
+	background: $lightgrey;
+	margin-top: 1em;
+}
+
+.wrap {
+	width: 90%;
+	max-width: $max-width;
+	max-width: 720px;
+	margin: auto;
+}
+
+.work {
+	max-width: 1100px;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	text-align: center;
+	padding: 2em 0;
+	img { display: inline-block;}
+	nav {
+		text-align: center;
+		font-family: $sans;
+		a:not(img) {
+			display: inline-block;
+			margin: 1.75em 1em 0;
+		}
+		
+		ul {
+			list-style: none;
+			margin: auto;
+			overflow: hidden;
+			padding-left: 0;
+			
+			li {
+				height: 4.5em;
+				float: left;
+				width: 33%;
+			}
+			li:first-of-type a{
+				float: right;
+			}
+/*			li:last-of-type:after{
+				content: url('../assets/logo444.svg');
+			}*/
+			li:last-of-type a{
+				float: left;
+			}
+
+		}
+		
+	}
+	
+}
+
+.content-title {
+	margin-top: 1em;
+}
+
+/*.post-preview {
+	/*background: $white;*!/
+	/*padding: 1em;*!/
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	margin: 1em 0;
+	margin-right: 5%;
+}*/
+
+/*.post-preview:nth-of-type(3n+3) {
+	margin-right: 0%;
+}*/
+
+.post-preview {
+	padding-top: 2em;
+}
+
+footer {
+	clear: both;
+	border-top: 1px solid $darkgrey;
+	min-height: 5em;
+	line-height: 2.5em;
+	a {
+		margin: 0.5em;
+	}
+	overflow: hidden;
+	margin-top: 3em;
+	padding: 1em 0;
+	margin-top: 5em;
+}
+
+footer:nth-child(5) {
+	color: $green;
+}
+
+::selection {
+	background: $green;
+	color: $white;
+	padding: 0.5em;
+}
+
+p {
+	margin: 1em auto;
+}
+
+.home-writings {
+	border-bottom: 1px dotted #ddd;
+}
+
+.home-writings:last-of-type {
+	border-bottom: none;
+}

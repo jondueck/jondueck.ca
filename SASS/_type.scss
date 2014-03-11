@@ -1,0 +1,91 @@
+/*========================================
+	Type
+  ========================================*/
+
+@font-face {font-family: 'Calluna-Regular';src: url('webfonts/2868DF_0_0.eot');src: url('webfonts/2868DF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2868DF_0_0.woff') format('woff'),url('webfonts/2868DF_0_0.ttf') format('truetype');}
+
+body {
+	font-family: $sans;
+	color: $black;/*
+	font-size: 1.125em;*/
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/*font-family: $sans;*/
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+h2 {
+	margin: 1.5em 0;
+}
+
+header h1{
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.is-current-page {
+	border-bottom: 2px double $green;
+}
+
+p a:not(img), header a {
+	border-bottom: 0.125em solid $green;
+}
+
+post-thumba img {
+	border: none;
+}
+
+a:hover {
+	color: $green;
+}
+
+.grid-golden-sm ul {
+	list-style: none !important;
+	padding: 0;
+}
+
+.project_data {
+	list-style: none;
+	padding: 0;
+}
+
+.writing {
+	font-family: 'Calluna', 'Calluna Regular', georgia, serif;
+	font-size: 1.25em;
+	line-height: 1.625em;
+	h1, h2, h3 {font-family: $sans; }
+}
+
+blockquote {
+	border-left: 0.1625em solid $green;
+	margin-left: 0;
+	padding-left: 2em;
+	box-sizing: border-box;
+	font-style: italic;
+	margin: 1em 0;
+	padding-right: 2em;
+}
+
+code {
+	background: #fff;
+	padding: 0.5em;
+}

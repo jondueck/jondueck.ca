@@ -1,0 +1,34 @@
+<!--===========================================================
+   	 Made with much love by Jon Dueck in the Great White North.
+   	=========================================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		{% include 'includes/head' %}
+		
+	</head>
+	<body>
+		
+			
+			{% include 'includes/menu' %}
+			
+			{% if meta.hero %}
+				<div class="hero" style="background: url('{{meta.hero.value}}'); background-size: cover;">
+					<div class="content">
+						<span>{{meta.hero_tagline}}</span>
+					</div>
+				</div>
+			{% endif %}
+			
+			<div class="wrap">
+			{{ content }}
+			</div>
+			
+			{% include 'includes/footer' %}
+			
+			
+			
+		</body>
+	</html>

@@ -1,0 +1,14 @@
+{% capture content %}
+<section class="content about">
+	
+	{% if meta.profile-picture %}
+			
+			<img src="{{meta['profile-picture']}}" alt="" />
+			
+	{% endif %}
+	
+	{{ body }}
+	
+</section>
+{% endcapture %}
+{% include 'layouts/default' %}
