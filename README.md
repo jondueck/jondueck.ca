@@ -18,3 +18,5 @@ jondueck.ca
 * H1, H2, H3 etc must remain the same throughout
 * Keep articles narrow, for better legibility
 * Quieter, more personal than [collectif.co](collectif.co)
+* no `!important`s
+* Elements and classes should be as reusable as possible
