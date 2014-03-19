@@ -6,15 +6,15 @@ jondueck.ca
 * Portfolio
 * Redirect to [Collectif](http://www.collectif.co)
 * Host writing
-* Showcase school work, privately or publicly
+* Showcase college work, privately or publicly
 
 ## Rules
-
-* Clean layout
-* “Personal” rather than “corporate”
 * No mandatory hovers
 * All images retina-ready
-* Anything that can be an SVG, should be an SVG
+* Anything that can be .SVG, should be
 * Minimal JS
 * pixels only for borders
-* clean code
+* code must be easy to navigate
+* H1, H2, H3 etc must remain the same throughout
+* Keep articles narrow, for better legibility
+* Quieter, more personal than [collectif.co](collectif.co)
