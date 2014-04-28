@@ -2,38 +2,47 @@
 	Type
   ========================================*/
 
-@font-face {font-family: 'Calluna-Regular';src: url('webfonts/2868DF_0_0.eot');src: url('webfonts/2868DF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2868DF_0_0.woff') format('woff'),url('webfonts/2868DF_0_0.ttf') format('truetype');}
+//@font-face {font-family: 'Calluna-Regular';src: url('webfonts/2868DF_0_0.eot');src: url('webfonts/2868DF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2868DF_0_0.woff') format('woff'),url('webfonts/2868DF_0_0.ttf') format('truetype');}
 
 body {
 	font-family: $sans;
+	/*font-family: $serif;*/
 	color: $black;/*
 	font-size: 1.125em;*/
-	font-size: 1em;
+	font-size: 1.25rem;
 	line-height: 1.5em;
+	font-feature-settings: "liga""dlig";
+	/*font-size: 1.25rem;*/
+	/*font-size: 1.125rem;*/
+	/*font-weight: 600;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-	/*font-family: $sans;*/
+	font-family: $sans;
 	font-weight: normal;
+	font-weight: bolder;
+	font-weight: 800;
+	/*font-weight: 700;*/
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: 300;
 }
 
 h2 {
-	margin: 1.5em 0;
+	margin: 1.5em 0 0.5em;
+	font-size: 1.75rem;
 }
 
-header h1{
-	font-size: 1.25rem;
-	text-transform: uppercase;
-	font-weight: 700;
+header {
+//	font-size: 1.25rem;
+//	text-transform: uppercase;
+	font-weight: 600;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 
 h3 {
@@ -41,6 +50,10 @@ h3 {
 	font-style: italic;
 	font-weight: bold;
 }
+
+/*p {
+	font-size: 1.125em;
+}*/
 
 .is-current-page {
 	border-bottom: 2px double $green;
@@ -50,7 +63,7 @@ p a:not(img), header a {
 	border-bottom: 0.125em solid $green;
 }
 
-post-thumba img {
+.post-thumb img {
 	border: none;
 }
 
@@ -58,21 +71,32 @@ a:hover {
 	color: $green;
 }
 
-.grid-golden-sm ul {
-	list-style: none !important;
-	padding: 0;
-}
-
-.project_data {
+.project-tags {
 	list-style: none;
 	padding: 0;
 }
 
+.project-tags li::after {
+	content: ',';
+}
+.project-tags li:last-of-type::after {
+	content: "";
+}
+
 .writing {
-	font-family: 'Calluna', 'Calluna Regular', georgia, serif;
-	font-size: 1.25em;
-	line-height: 1.625em;
+	font-family: $serif;
+//	font-size: 1.25rem;
+//	line-height: 1.625rem;
 	h1, h2, h3 {font-family: $sans; }
+/*	font-family: $sans;
+	font-size: 1em;*/
+	h1 {
+		font-size: 2.5rem;
+	}
+	h2 {
+		font-size: 1.875rem;
+		margin-bottom: 0.5em;
+	}
 }
 
 blockquote {
@@ -86,6 +110,48 @@ blockquote {
 }
 
 code {
+	font-family: "source-code-pro", monospace;
 	background: #fff;
-	padding: 0.5em;
+	padding: 0.25em;
+}
+
+.pagination .inactive {
+	cursor: auto;
+	text-decoration: line-through;
+}
+
+footer .grid-6:last-of-type {
+	text-align: right;
+}
+
+.pagination, .back-to {
+	text-align: center;
+	border-bottom: none;
+}
+
+.is-current-page {
+	color: $green;
+}
+
+.project-information {
+	/*font-family: $serif;
+	font-size: 1.125rem;
+	div:first-of-type p:first-of-type {
+		font-weight: bolder;
+		font-weight: 700;
+		font-style: italic;
+		/*background: green;*!/
+	}*/
+}
+
+.project-preview {
+	h2 {
+		line-height: 3em;
+	}
+	.project-tags, .date,  .work-location {
+		line-height: 1.5em;
+	}
+	.date {
+		margin-top: -0.5em;
+	}
 }
