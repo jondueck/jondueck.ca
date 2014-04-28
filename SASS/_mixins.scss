@@ -3,7 +3,7 @@
   ========================================*/
   
   $serif			:		'Calluna-Regular', 'Calluna', georgia, serif;
-  $sans				:		'Montserrat', sans-serif;
+  $sans				:		 /*'Brandon Grotesque', 'Source Sans Pro', 'Futura Std', Futura,*/ 'Calluna Sans', 'calluna-sans','nimbus-sans','Montserrat', sans-serif;
   
   $white			:		#fff;
   $lightgrey		:		#f5f5f5;
@@ -15,3 +15,4 @@
   
   $padding			:		2em;
   $spacing			:		4em;
+  $border			:		0.125em solid $green;

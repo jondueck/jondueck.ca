@@ -1,5 +1,5 @@
 {% capture content %}
-<section class="content work">
+<!--<section class="content work">
 	
 	{% if type == "post" %}
 		
@@ -39,7 +39,7 @@
 		
 		{% if type == "post" %}
 		
-		<!--{% include 'includes/metadata' %}-->
+		<!--{% include 'includes/metadata' %}--*>
 		
 		{% else %}
 		
@@ -47,7 +47,7 @@
 		{% for post in posts %}
 			<article class="post-preview">
 			<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>
-<!--			<h2><a href="{{post.url}}">{{post.title}}</a></h3>-->
+<!--			<h2><a href="{{post.url}}">{{post.title}}</a></h3>--*>
 			
 			<div class=".grid-golden-sm">
 				<h2>{{post.title}}</h2>
@@ -82,7 +82,7 @@
 		</div>
 	{% endif %}
 	
-	</section><!-- /content -->
-{% endcapture %}
+	</section><!-- /content --*>
+{% endcapture %}-->
 
 {% include 'layouts/rrc' %}
