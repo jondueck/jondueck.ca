@@ -1,0 +1,138 @@
+/*========================================
+	Type
+  ========================================*/
+
+//@font-face {font-family: 'Calluna-Regular';src: url('webfonts/2868DF_0_0.eot');src: url('webfonts/2868DF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2868DF_0_0.woff') format('woff'),url('webfonts/2868DF_0_0.ttf') format('truetype');}
+
+body {
+	font-family: $sans;
+	color: $black;
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	font-feature-settings: "liga""dlig";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $sans;
+	font-weight: normal;
+	font-weight: bolder;
+	font-weight: 800;
+	/*font-weight: 700;*/
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+h2 {
+	margin: 1.5rem 0 0.5rem;
+	font-size: 1.75rem;
+}
+
+header {
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+h3 {
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.is-current-page {
+	border-bottom: 2px double $green;
+}
+
+p a:not(img), header a {
+	border-bottom: 0.125em solid $green;
+}
+
+.post-thumb img {
+	border: none;
+}
+
+a:hover {
+	color: $green;
+}
+
+.project-tags {
+	list-style: none;
+	padding: 0;
+}
+
+.project-tags li::after {
+	content: ',';
+}
+.project-tags li:last-of-type::after {
+	content: "";
+}
+
+.writing {
+	font-family: $serif;
+	h1, h2, h3 {font-family: $sans; }
+	@include span-columns(4 of 8);
+	@include shift(2 of 8);
+}
+
+blockquote {
+	border-left: 0.1625em solid $green;
+	margin-left: 0;
+	padding-left: 2em;
+	box-sizing: border-box;
+	font-style: italic;
+	margin: 1em 0;
+	padding-right: 2em;
+}
+
+code {
+	font-family: "source-code-pro", monospace;
+	background: #fff;
+	padding: 0.25em;
+}
+
+.pagination .inactive {
+	cursor: auto;
+	text-decoration: line-through;
+}
+
+footer .grid-6:last-of-type {
+	text-align: right;
+}
+
+.pagination, .back-to {
+	text-align: center;
+	border-bottom: none;
+}
+
+.is-current-page {
+	color: $green;
+}
+
+.project-information {
+	/*font-family: $serif;
+	font-size: 1.125rem;
+	div:first-of-type p:first-of-type {
+		font-weight: bolder;
+		font-weight: 700;
+		font-style: italic;
+		/*background: green;*!/
+	}*/
+}
+
+.project-preview {
+	h2 {
+		line-height: 3em;
+	}
+	.project-tags, .date,  .work-location {
+		line-height: 1.5em;
+	}
+	.date {
+		margin-top: -0.5em;
+	}
+}
