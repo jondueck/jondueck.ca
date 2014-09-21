@@ -1,7 +1,15 @@
 <div class="wrap">
 	<footer>
 		<section class="grid-6">
-			<a href="/colophon">&copy; Jonathan Dueck 2014</a>
+			<a href="/colophon">
+				{% capture currentyear %}{{site.date | date: "%Y"}}{% endcapture %}
+				
+				{% if currentyear != year %}
+					&copy; 2014 Jonathan Dueck
+				{% else if %}
+					&copy; 2014–{{ 'now' | date: "%Y" }} Jonathan Dueck
+				{% endif %}
+			</a>
 		</section>
 		
 		<section class="grid-6">
