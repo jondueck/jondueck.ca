@@ -1,5 +1,5 @@
 ---
-time: 1408459273
+time: 1411339107
 inventory:
   /about/index.html:
     md5: 581da3e199ad970d1cf9a3adf9935b21
@@ -83,8 +83,8 @@ inventory:
     md5: e409f7c5c8a1bd8517b143d48e102ff1
     time: 1408459160
   /colophon/index.html:
-    md5: d5e4597b25b93e4710b67c1c85b39f35
-    time: 1408459161
+    md5: 27e9d976b1b813383304c830f60c28ce
+    time: 1411339105
   /resources/index.html:
     md5: 19f04b7d61967514fcaca8bcf90c89e9
     time: 1408459161
@@ -116,8 +116,8 @@ inventory:
     md5: a0d3920e02224b44b043fc550f821894
     time: 1408456401
   /feed.xml:
-    md5: 3e893d6578a141144f1c7139cd5f89bb
-    time: 1408459162
+    md5: 5788459e75eb9a63cd560b2e11f76863
+    time: 1411339106
   /assets/logo444.svg:
     md5: 6c0883d2ef07c0211ee16aae2425583c
     time: 1406299939
