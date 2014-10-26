@@ -1,12 +1,12 @@
 ---
-time: 1411852820
+time: 1414282534
 inventory:
   /about/index.html:
-    md5: 1b9b1ec2723fdf4b44c5df70a88b0756
-    time: 1411339585
+    md5: 65133fe317b7ab6b29689a755475cf9b
+    time: 1414282510
   /index.html:
-    md5: 1b9b1ec2723fdf4b44c5df70a88b0756
-    time: 1411339585
+    md5: 65133fe317b7ab6b29689a755475cf9b
+    time: 1414282510
   /work/index.html:
     md5: ee16e9f993c71509b4c408823268e4b1
     time: 1411339585
@@ -17,8 +17,8 @@ inventory:
     md5: a78ae81b40366d7c7e75a658cfe5fe6f
     time: 1411339585
   /work/those-were-the-days/index.html:
-    md5: b09c7e0cc331b207d19b9290c84ee777
-    time: 1411339585
+    md5: f9ec5e864324d9910647cc792518c839
+    time: 1414282516
   /work/rhyme-rhythm/index.html:
     md5: b06b93d1620de058cfadca2c95474239
     time: 1411339586
@@ -65,11 +65,14 @@ inventory:
     md5: 30a28a1c67e26e51c48c9e17000bf617
     time: 1411339587
   /writings/index.html:
-    md5: 0cdd7d7736e454b58fc1ad4da49323ed
-    time: 1411339587
+    md5: 2656e9de57d07311d4249eabab1d3012
+    time: 1414282523
+  /writings/five-design-questions/index.html:
+    md5: 26ed80647045376a7537d4da0d4159af
+    time: 1414282523
   /writings/status-update/index.html:
-    md5: de923d21849ad62f8fcd06bcd37c0f18
-    time: 1411339587
+    md5: 18c52556bd1b7acaab811dc6fd5de0f6
+    time: 1414282523
   /writings/day-one/index.html:
     md5: 310d1709e27d289f31eec3b7bd1087f7
     time: 1411339587
@@ -77,47 +80,47 @@ inventory:
     md5: 2124a33542f49a88b43b4a887b53556b
     time: 1411339587
   /writings/archive/index.html:
-    md5: e6c98f97a007a97def531f84def5c3c3
-    time: 1411339587
+    md5: f17971bc46c855383c29e9090343673a
+    time: 1414282523
   /writings/tags/index.html:
     md5: 52696f1ee9ff88733e11aad06585db5d
     time: 1411339587
   /colophon/index.html:
-    md5: 5bd946a7df717e79b1952e7830c6b472
-    time: 1411852808
+    md5: a3bddf1e33395367b0791df28e6f8452
+    time: 1414282523
   /resources/index.html:
-    md5: 0c48c24257fd2dfff0220312995317b2
-    time: 1411339587
+    md5: 345e6c5af1c6b0d1f87acdf6807a940c
+    time: 1414282524
   /styleguide/index.html:
     md5: 92e38dd01715e21d5802ae2d58ff6e5a
     time: 1411339588
   /learning/index.html:
-    md5: 8ce9ca692320f6c43dbd2371320bb6ae
-    time: 1411339588
+    md5: f0ab3653c265db77dc4c61878c671d8d
+    time: 1414282528
   /quotes/index.html:
-    md5: 244692f35157b4730164108468cd7948
-    time: 1411339588
+    md5: 47084b2fc6bf493a2271950d5d969878
+    time: 1414282528
   /library/index.html:
-    md5: 43f2662e9c9337239d0c54158fcac411
-    time: 1411339588
+    md5: b54de5636a990caceba2f8331fc57a8d
+    time: 1414282528
   /learn/index.html:
-    md5: 654304479c892ba4e896fa8329b097df
-    time: 1411339588
+    md5: 2dac7c5b884db66b7b96abc3289a5038
+    time: 1414282528
   /learn/web/index.html:
-    md5: cbf09a6068a9f70e38b8fe4ca509f0e5
-    time: 1411339588
+    md5: 360c33273c011a5a59016b769ca27dd3
+    time: 1414282528
   /learn/design/index.html:
-    md5: 91c677d4b97267c8560773a5c2c9daed
-    time: 1411339588
+    md5: 88d0f355b21c1b5e0eca7926d8f14b44
+    time: 1414282528
   /CNAME:
     md5: 8fac08855009395b6d304f2774d27653
     time: 1406299932
   /sitemap.xml:
-    md5: a0d3920e02224b44b043fc550f821894
-    time: 1408456401
+    md5: 771b713c989e272aa331cb784d706c4f
+    time: 1414282528
   /feed.xml:
-    md5: 8ee1ff9dc8cef3363c4f348c86ce82e9
-    time: 1411852809
+    md5: 516e5be254a61e230e3b1980869bd8c3
+    time: 1414282528
   /assets/logo444.svg:
     md5: 6c0883d2ef07c0211ee16aae2425583c
     time: 1406299939
@@ -163,9 +166,9 @@ inventory:
   /assets/tj-001.jpg:
     md5: b4b25feaf0dd3ecada973367ea6e607d
     time: 1406299937
-  /assets/DSC_0248.jpg:
-    md5: 26949e326fb932ab6d19cc93f4e727da
-    time: 1406299944
+  /assets/DSC_0167.jpg:
+    md5: c618324bfda102284de430c0a496e22d
+    time: 1406299953
   /assets/interface_banner.jpg:
     md5: c2d565e96f507004129f36f4c36db41b
     time: 1406299937
@@ -460,9 +463,9 @@ inventory:
   /assets/infographic.png:
     md5: 6e6ab56cd9e8a9872c4f634ef6793bac
     time: 1406299944
-  /assets/DSC_0266.jpg:
-    md5: 7769eb8d43cd34bfa414adda328c629d
-    time: 1406299946
+  /assets/DSC_0242.jpg:
+    md5: 0eb374e8d8429c14deffe421cad79b21
+    time: 1406299954
   /assets/openhouse_home.png:
     md5: d4a4eeeac86e7eee990f2b400276f6cd
     time: 1406299945
@@ -484,9 +487,9 @@ inventory:
   /assets/jonnys.jpg:
     md5: 85a5e4971bf9f018207dd28afdf9a3eb
     time: 1406299946
-  /assets/DSC_0253.jpg:
-    md5: 63945dc51ce8acd69ef33251bfe4fc6f
-    time: 1406299950
+  /assets/DSC_0186.jpg:
+    md5: 95c511d9d08cdae0455ee4a91d0090c8
+    time: 1406299954
   /assets/openhouse_major.png:
     md5: 15ee08813a32a3f76e3e46ae64eba0cc
     time: 1406299947
@@ -508,9 +511,9 @@ inventory:
   /assets/posters.png:
     md5: 5869166a94efaaf21ad8dbd91bb18f9e
     time: 1406299949
-  /assets/DSC_0167.jpg:
-    md5: c618324bfda102284de430c0a496e22d
-    time: 1406299953
+  /assets/DSC_0212.jpg:
+    md5: ff1afd7c9d3491e27ca87f4a8ee26da5
+    time: 1406299954
   /assets/openhouse_profile.png:
     md5: cbd47f47592ebeecf87045bc735bb24c
     time: 1406299951
@@ -523,8 +526,8 @@ inventory:
   /assets/Untitled-2 copy.png:
     md5: 604d270305537aa7ecedf0ad7b5ee43c
     time: 1406299952
-  /assets/DSC_0242.jpg:
-    md5: 0eb374e8d8429c14deffe421cad79b21
+  /assets/DSC_0081.jpg:
+    md5: 121c12760766ca951246db3f04333d45
     time: 1406299954
   /assets/co_banner.jpg:
     md5: 4abdb4db163877b6b48e55608eca41af
@@ -534,15 +537,6 @@ inventory:
     time: 1406299953
   /assets/arcadefire_header.png:
     md5: d011c4c572733d482411c4cb4a3cb5a2
-    time: 1406299954
-  /assets/DSC_0186.jpg:
-    md5: 95c511d9d08cdae0455ee4a91d0090c8
-    time: 1406299954
-  /assets/DSC_0212.jpg:
-    md5: ff1afd7c9d3491e27ca87f4a8ee26da5
-    time: 1406299954
-  /assets/DSC_0081.jpg:
-    md5: 121c12760766ca951246db3f04333d45
     time: 1406299954
   /assets/DSC_0097.jpg:
     md5: 51a90aa2713703dc90fac0a385988dcf
@@ -577,3 +571,12 @@ inventory:
   /assets/DSC_0155.jpg:
     md5: 3b2b58dccc51221d29552abc153aa06e
     time: 1411852817
+  /assets/DSC_0248.jpg:
+    md5: 7ef67b5e1f6bbcffda802b52c8ffbcd6
+    time: 1414282529
+  /assets/DSC_0253.jpg:
+    md5: 27673489fc49215af023b086c3aacbc5
+    time: 1414282530
+  /assets/DSC_0266.jpg:
+    md5: b7d1c622e9fd9460e5d56c08cfc1a8ea
+    time: 1414282530

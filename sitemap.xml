@@ -28,7 +28,7 @@
   
   <url>
     <loc>http://jondueck.ca/work/those-were-the-days</loc>
-    <lastmod>2014-04-25T05:02:31+00:00</lastmod>
+    <lastmod>2014-09-27T21:26:25+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
@@ -70,6 +70,12 @@
   </url>
   
   <url>
+    <loc>http://jondueck.ca/writings/five-design-questions</loc>
+    <lastmod>2014-10-26T00:15:08+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://jondueck.ca/writings/status-update</loc>
     <lastmod>2014-04-10T01:35:33+00:00</lastmod>
     <priority>0.5</priority>
@@ -91,7 +97,7 @@
 
   <url>
     <loc>http://jondueck.ca/resources</loc>
-    <lastmod>2014-04-25T05:20:51+00:00</lastmod>
+    <lastmod>2014-10-22T18:38:17+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
