@@ -16,3 +16,15 @@
 //@import 'compass/css3';
 //
 //@import 'parallax';
+
+hr {
+	content: "";
+	width: 2rem;
+	height: 2px;
+	display: block;
+	margin: 2rem auto;
+	overflow: hidden;
+	background: $green;
+	background: $darkgrey;
+	border: none;
+}

@@ -1,5 +1,5 @@
 ---
-time: 1414427905
+time: 1414433255
 inventory:
   /about/index.html:
     md5: 65133fe317b7ab6b29689a755475cf9b
@@ -256,9 +256,6 @@ inventory:
   /assets/sass/_responsive.scss:
     md5: e09ff8c21134f7abc604ee3322c63f45
     time: 1411339589
-  /assets/sass/default.scss:
-    md5: b5a6aaa29f36119fe8a073b43c457193
-    time: 1411339590
   /gruntfile.js:
     md5: 191c138f4f0130cf74931f750270eeef
     time: 1411339590
@@ -313,17 +310,11 @@ inventory:
   /assets/DSC_0314.jpg:
     md5: c45867f1fbfa7548f9f1c63173000a71
     time: 1406299956
-  /assets/sass/_layout.scss:
-    md5: 0a637ea9aa0d400128dc86dc9b08083d
-    time: 1414385288
   /assets/sass/_mixins.scss:
     md5: 03e893666f5069712a8d469c64228209
     time: 1414385288
   /assets/sass/_type.scss:
     md5: b3443f4a259195e411bb338a337a1be6
-    time: 1414385288
-  /default.css:
-    md5: 7332918e12d65ebea9115fb74a9b3e9d
     time: 1414385288
   /jondueck.ca.esproj/user.JonathanDueck.espressostorage:
     md5: e7182d6753c072beb36c9ee8670aa1ad
@@ -334,6 +325,15 @@ inventory:
   /robots.txt:
     md5: d41d8cd98f00b204e9800998ecf8427e
     time: 1414385289
+  /assets/sass/_layout.scss:
+    md5: c27c415ebd11cbdf336bc616914f5c79
+    time: 1414433254
+  /assets/sass/default.scss:
+    md5: 745cf4c9d334f5ff23ef95086887b595
+    time: 1414433254
+  /default.css:
+    md5: 2b9ed72fa07ae9109ea94986ab1a9746
+    time: 1414433254
   /assets/co02.jpg:
     md5: 7f6d318e1e86a4c93bff58964d8ba236
     time: 1406299943
