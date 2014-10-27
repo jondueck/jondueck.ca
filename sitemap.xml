@@ -1,133 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+ 
   <url>
     <loc>http://jondueck.ca/</loc>
-    <lastmod>2014-04-30T03:23:54+00:00</lastmod>
+    <lastmod>2014-04-30</lastmod>
     <priority>1.0</priority>
   </url>
-  
-
+      
+    
+ 
   <url>
-    <loc>http://jondueck.ca/work</loc>
-    <lastmod>2014-04-28T02:28:30+00:00</lastmod>
+    <loc>http://jondueck.ca/work/</loc>
+    <lastmod>2014-10-27</lastmod>
     <priority>1.0</priority>
   </url>
+      
+    
+    <url>
+      <loc>http://jondueck.ca/work/school-of-the-kingdom/</loc>
+      <lastmod>2014-05-08</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/work/school-of-the-kingdom</loc>
-    <lastmod>2014-05-08T18:48:29+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/work/open-house-interface/</loc>
+      <lastmod>2014-04-28</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/work/open-house-interface</loc>
-    <lastmod>2014-04-28T03:24:12+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/work/those-were-the-days/</loc>
+      <lastmod>2014-09-27</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/work/those-were-the-days</loc>
-    <lastmod>2014-09-27T21:26:25+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/work/rhyme-rhythm/</loc>
+      <lastmod>2014-05-08</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/work/rhyme-rhythm</loc>
-    <lastmod>2014-05-08T18:45:38+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/work/garden-valley-collegiate/</loc>
+      <lastmod>2014-04-25</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/work/garden-valley-collegiate</loc>
-    <lastmod>2014-04-25T05:05:05+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/work/bitmap-fest/</loc>
+      <lastmod>2014-04-28</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/work/bitmap-fest</loc>
-    <lastmod>2014-04-28T04:15:23+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/work/arcade-fire/</loc>
+      <lastmod>2014-04-28</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/work/arcade-fire</loc>
-    <lastmod>2014-04-28T04:05:50+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/work/jason-alli/</loc>
+      <lastmod>2014-04-28</lastmod>
+      <priority>0.5</priority>
+    </url>
   
+ 
   <url>
-    <loc>http://jondueck.ca/work/jason-alli</loc>
-    <lastmod>2014-04-28T03:58:05+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-
-  <url>
-    <loc>http://jondueck.ca/writings</loc>
-    <lastmod>2014-03-11T04:21:19+00:00</lastmod>
+    <loc>http://jondueck.ca/writings/</loc>
+    <lastmod>2014-03-11</lastmod>
     <priority>1.0</priority>
   </url>
+      
+    
+    <url>
+      <loc>http://jondueck.ca/writings/five-design-questions/</loc>
+      <lastmod>2014-10-26</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/writings/five-design-questions</loc>
-    <lastmod>2014-10-26T00:15:08+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/writings/status-update/</loc>
+      <lastmod>2014-04-10</lastmod>
+      <priority>0.5</priority>
+    </url>
   
-  <url>
-    <loc>http://jondueck.ca/writings/status-update</loc>
-    <lastmod>2014-04-10T01:35:33+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
+    <url>
+      <loc>http://jondueck.ca/writings/day-one/</loc>
+      <lastmod>2014-04-05</lastmod>
+      <priority>0.5</priority>
+    </url>
   
+ 
   <url>
-    <loc>http://jondueck.ca/writings/day-one</loc>
-    <lastmod>2014-04-05T22:19:16+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-
-  <url>
-    <loc>http://jondueck.ca/colophon</loc>
-    <lastmod>2014-04-30T03:08:24+00:00</lastmod>
+    <loc>http://jondueck.ca/colophon/</loc>
+    <lastmod>2014-04-30</lastmod>
     <priority>1.0</priority>
   </url>
-  
-
+      
+    
+ 
   <url>
-    <loc>http://jondueck.ca/resources</loc>
-    <lastmod>2014-10-22T18:38:17+00:00</lastmod>
+    <loc>http://jondueck.ca/resources/</loc>
+    <lastmod>2014-10-22</lastmod>
     <priority>1.0</priority>
   </url>
-  
-
+      
+    
+ 
   <url>
-    <loc>http://jondueck.ca/styleguide</loc>
-    <lastmod>2014-08-19T13:29:07+00:00</lastmod>
+    <loc>http://jondueck.ca/styleguide/</loc>
+    <lastmod>2014-08-19</lastmod>
     <priority>1.0</priority>
   </url>
-  
-
+      
+    
+ 
   <url>
-    <loc>http://jondueck.ca/learning</loc>
-    <lastmod>2014-05-13T15:45:43+00:00</lastmod>
+    <loc>http://jondueck.ca/learning/</loc>
+    <lastmod>2014-05-13</lastmod>
     <priority>1.0</priority>
   </url>
-  
-
+      
+    
+ 
   <url>
-    <loc>http://jondueck.ca/library</loc>
-    <lastmod>2014-07-19T17:29:15+00:00</lastmod>
+    <loc>http://jondueck.ca/library/</loc>
+    <lastmod>2014-07-19</lastmod>
     <priority>1.0</priority>
   </url>
-  
-
+      
+    
+ 
   <url>
-    <loc>http://jondueck.ca/learn</loc>
-    <lastmod>2014-07-19T05:00:23+00:00</lastmod>
+    <loc>http://jondueck.ca/learn/</loc>
+    <lastmod>2014-10-27</lastmod>
     <priority>1.0</priority>
   </url>
-  
+    
+     <url>
+    <loc>http://jondueck.ca/learn/web/</loc>
+    <lastmod>2014-07-19</lastmod>
+    <priority>0.8</priority>
+    </url>
+    
+     <url>
+    <loc>http://jondueck.ca/learn/design/</loc>
+    <lastmod>2014-07-19</lastmod>
+    <priority>0.8</priority>
+    </url>
+      
+    
+ 
+  <url>
+    <loc>http://jondueck.ca/toolbox/</loc>
+    <lastmod>2014-10-27</lastmod>
+    <priority>1.0</priority>
+  </url>
+      
+    
 
 </urlset>

@@ -18,14 +18,15 @@
   $padding			:		2rem;
   $spacing			:		4rem;
   $border			:		0.125rem solid $green;
+  $border			:		1.5px solid $green;
   
   $grid-columns	: 			8;
   $gutter			:		2rem;
   $max-width		:		rem(1100);
-  $visual-grid: false;
-  $visual-grid-index:	back;
-  $visual-grid-color: rgba(0, 0, 15, .1);
-  $mobile: new-breakpoint(max-width 500px 4);
+  $visual-grid		: 		false;
+  $visual-grid-index:		back;
+  $visual-grid-color: 		rgba(0, 0, 15, .1);
+  $mobile			: 		new-breakpoint(max-width 500px 4);
   
   
   @mixin box-sizing() {

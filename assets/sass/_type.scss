@@ -1,6 +1,6 @@
-/*========================================
-	Type
-  ========================================*/
+//	
+//	Type
+//
 
 //@font-face {font-family: 'Calluna-Regular';src: url('webfonts/2868DF_0_0.eot');src: url('webfonts/2868DF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2868DF_0_0.woff') format('woff'),url('webfonts/2868DF_0_0.ttf') format('truetype');}
 
@@ -12,27 +12,32 @@ body {
 	font-feature-settings: "liga""dlig";
 }
 
+
+p a:not(img), header a, ul a:not(img) {
+	border-bottom: 1.5px solid $green;
+}
+
+// Headings
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $sans;
 	font-weight: normal;
 	font-weight: bolder;
-	font-weight: 800;
+	font-weight: 600;
 	/*font-weight: 700;*/
 	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
 	font-size: 2.5rem;
-	font-weight: 300;
+	font-size: 3rem;
+	font-weight: 500;
+	margin: 1.5rem 0;
 }
 
 h2 {
-	margin: 1.5rem 0 0.5rem;
+	margin: 1.5rem 0 1.5rem;
 	font-size: 1.75rem;
-}
-
-header {
-	font-weight: 600;
 }
 
 h2 {
@@ -45,12 +50,14 @@ h3 {
 	font-weight: bold;
 }
 
-.is-current-page {
-	border-bottom: 2px double $green;
+// Header & Menu
+
+header {
+	font-weight: 600;
 }
 
-p a:not(img), header a {
-	border-bottom: 0.125em solid $green;
+.is-current-page {
+	border-bottom: 2px double $green;
 }
 
 .post-thumb img {
@@ -59,6 +66,19 @@ p a:not(img), header a {
 
 a:hover {
 	color: $green;
+}
+
+.page-title {
+	text-align: center;
+	&:after {
+		content: "";
+		width: 2rem;
+		height: 2px;
+		display: block;
+		margin: 2rem auto;
+		overflow: hidden;
+		background: $green;
+	}	
 }
 
 .project-tags {
@@ -81,19 +101,23 @@ a:hover {
 }
 
 blockquote {
-	border-left: 0.1625em solid $green;
+	border-left: 0.1625rem solid $green;
 	margin-left: 0;
-	padding-left: 2em;
+	padding-left: 2rem;
 	box-sizing: border-box;
 	font-style: italic;
-	margin: 1em 0;
-	padding-right: 2em;
+	margin: 1rem 0;
+	padding-right: 2rem;
 }
 
 code {
 	font-family: "source-code-pro", monospace;
 	background: #fff;
-	padding: 0.25em;
+	padding: 0.25rem;
+}
+
+ul {
+	line-height: 2rem;
 }
 
 .pagination .inactive {
