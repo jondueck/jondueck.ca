@@ -1,3 +1,10 @@
-.DS_store
-node_modules
+*.DS_store
+node_modules/
 *.esproj
+gruntfile.js
+package.json
+assets/sass
+config.ru
+.git
+node_modules/*.*
+node_modules/*
