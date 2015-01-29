@@ -2,13 +2,11 @@
 //	Type
 //
 
-//@font-face {font-family: 'Calluna-Regular';src: url('webfonts/2868DF_0_0.eot');src: url('webfonts/2868DF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2868DF_0_0.woff') format('woff'),url('webfonts/2868DF_0_0.ttf') format('truetype');}
-
 body {
 	font-family: $sans;
 	color: $black;
-	font-size: 1.25rem;
-	line-height: 1.5rem;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
 	font-feature-settings: "liga""dlig";
 }
 
@@ -24,20 +22,22 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	font-weight: bolder;
 	font-weight: 600;
+	font-weight: 400;
 	/*font-weight: 700;*/
 	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
-	font-size: 2.5rem;
+//	font-size: 2.5rem;
 	font-size: 3rem;
 	font-weight: 500;
 	margin: 1.5rem 0;
+	line-height: 3rem;
 }
 
 h2 {
 	margin: 1.5rem 0 1.5rem;
-	font-size: 1.75rem;
+	font-size: 1.625rem;
 }
 
 h2 {
@@ -45,6 +45,12 @@ h2 {
 }
 
 h3 {
+	font-size: 1.125rem;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+h4 {
 	font-size: 1rem;
 	font-style: italic;
 	font-weight: bold;
@@ -52,9 +58,9 @@ h3 {
 
 // Header & Menu
 
-header {
-	font-weight: 600;
-}
+//header {
+//	font-weight: 600;
+//}
 
 .is-current-page {
 	border-bottom: 2px double $green;
@@ -95,9 +101,18 @@ a:hover {
 
 .writing {
 	font-family: $serif;
-	h1, h2, h3 {font-family: $sans; }
+	h1 {
+		font-family: $serif;
+		font-weight: 900;
+		text-align: center;
+	}
+	h2, h3 {font-family: $sans; }
 	@include span-columns(4 of 8);
 	@include shift(2 of 8);
+	&:after {
+		clear:  both;
+		content: "";
+	}
 }
 
 blockquote {
@@ -105,13 +120,15 @@ blockquote {
 	margin-left: 0;
 	padding-left: 2rem;
 	box-sizing: border-box;
-	font-style: italic;
+//	font-style: italic;
 	margin: 1rem 0;
 	padding-right: 2rem;
+	font-family: 'Calluna',"Apercu Mono Regular";
+	font-style: italic;
 }
 
 code {
-	font-family: "source-code-pro", monospace;
+	font-family: 'Apercu Mono Regular', "source-code-pro", monospace;
 	background: #fff;
 	padding: 0.25rem;
 }
@@ -147,16 +164,17 @@ footer .grid-6:last-of-type {
 		font-style: italic;
 		/*background: green;*!/
 	}*/
+	overflow: hidden;
 }
 
 .project-preview {
 	h2 {
-		line-height: 3em;
+		line-height: 3rem;
 	}
 	.project-tags, .date,  .work-location {
-		line-height: 1.5em;
+		line-height: 1.5rem;
 	}
 	.date {
-		margin-top: -0.5em;
+		margin-top: -0.5rem;
 	}
 }

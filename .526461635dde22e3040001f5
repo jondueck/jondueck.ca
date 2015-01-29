@@ -1,129 +1,135 @@
 ---
-time: 1414433255
+time: 1422513585
 inventory:
   /about/index.html:
-    md5: 65133fe317b7ab6b29689a755475cf9b
-    time: 1414282510
+    md5: 55a87de5f74fbdb33e805e605fa353e3
+    time: 1422513564
   /index.html:
-    md5: 65133fe317b7ab6b29689a755475cf9b
-    time: 1414282510
+    md5: 55a87de5f74fbdb33e805e605fa353e3
+    time: 1422513564
   /work/index.html:
-    md5: 3340e3634d6eb21e0dc3b3434509852d
-    time: 1414385279
+    md5: 9ada3f2dc0152c889b846b904c15be66
+    time: 1422513564
+  /work/silverwindsorg/index.html:
+    md5: a79687f3d9126a633c5dcaf998950069
+    time: 1422513564
   /work/school-of-the-kingdom/index.html:
-    md5: 828726f29ed3f1f3656f579048672d6b
-    time: 1414385280
+    md5: 2872845568ed7683b1ebf8051510c528
+    time: 1422513564
   /work/open-house-interface/index.html:
-    md5: 126688dbf482b392d674e520caa5c89e
-    time: 1414385280
+    md5: ca9fe6969930eeb50a2b0d514b76bdbb
+    time: 1422513565
   /work/those-were-the-days/index.html:
-    md5: ed52d3c20482c0159c5effe8d0ce8198
-    time: 1414385280
+    md5: 7221a286244a192204de2276df67a4f1
+    time: 1422513565
   /work/rhyme-rhythm/index.html:
-    md5: bfddc129285408fea5337c1bb0f86f65
-    time: 1414385280
+    md5: 7afeaaba4d9eb1b4d34aa2f572fd52b2
+    time: 1422513565
   /work/garden-valley-collegiate/index.html:
-    md5: 5c8c3a496c755b504ce8f29a86c5509d
-    time: 1414385280
+    md5: 8d74f256915d48977548a87fa7f7a168
+    time: 1422513565
   /work/bitmap-fest/index.html:
-    md5: 652865111b4261b20492d051f656b7b9
-    time: 1414385280
+    md5: 80a4235cbf01ccacf30e2d20d644b641
+    time: 1422513565
   /work/arcade-fire/index.html:
-    md5: 025f7de30e97c5a5a416addadf6fcc61
-    time: 1414385280
+    md5: 19cfe878feb63f40fe79a692c1bfb027
+    time: 1422513565
   /work/jason-alli/index.html:
-    md5: 3db0195c41411825c6e3eb479eea9e21
-    time: 1414385280
+    md5: 97218f97d7729ab916f8c76b6d4ebd0e
+    time: 1422513565
   /work/red-river-college/index.html:
-    md5: 1412f4e7c110c543bee71b413df73f9d
-    time: 1414385280
+    md5: cbe5d032cc389b28a1b4b7b710436cfb
+    time: 1422513565
   /work/collectif/index.html:
-    md5: 5da24d48bddece15a512ba2aa64c3fab
-    time: 1414385280
+    md5: 2ccade5c8252b9fbeb02587e7cd62cf8
+    time: 1422513565
   /work/colorado/index.html:
-    md5: c1eb52dd3426bed741ff45afb8fbe71a
-    time: 1414385280
+    md5: ecba3ccd144cf8f38e128d651ee942ff
+    time: 1422513566
   /work/mdeezy-treasure/index.html:
-    md5: b20287ec8cac3df7fb85ac65e82e63b8
-    time: 1414385280
+    md5: 70a5c51acbe00d2cbc5aa6edd4ed66e6
+    time: 1422513566
   /work/archive/index.html:
-    md5: 6f387c8a03aa943f2934281350cd1334
-    time: 1414385281
+    md5: 4521e77a80b2affad45aed2369d69bd6
+    time: 1422513566
   /work/tags/index.html:
-    md5: b12d4312f0479005b51cd1bc68342415
-    time: 1414385281
+    md5: dbddfff36d0becc4e16eb19ae1bc0ed6
+    time: 1422513566
   /work/tags/web-design/index.html:
-    md5: 6f58584e81bb0b1d6b586676469151c4
-    time: 1414385281
+    md5: 5602a57fb25c906a70f8b0b343f02521
+    time: 1422513566
+  /work/tags/web-development/index.html:
+    md5: e7f37b06b6e6fc8d627569716d3bc7a1
+    time: 1422513566
   /work/tags/photography/index.html:
-    md5: 4ab203edd05c74357f86784684831a7c
-    time: 1414385281
+    md5: 0ec7a938c8614636481f45e3ea40e0b9
+    time: 1422513566
   /work/tags/branding/index.html:
-    md5: c83f213d6ce5c40342192b1d9f09d6da
-    time: 1414385281
+    md5: 1ea335235786fc3df8b8b1ef6e147cde
+    time: 1422513566
   /work/tags/graphic-design/index.html:
-    md5: 03132674691b906199721004c73d610b
-    time: 1414385281
+    md5: 5750d57c34b756646317edda10800b48
+    time: 1422513566
   /writings/index.html:
-    md5: 7ffea1e0a26224ea9dffa66a43309e55
-    time: 1414385281
+    md5: 1f5185e94d1fa5ad620890abcbd169b5
+    time: 1422513567
   /writings/five-design-questions/index.html:
-    md5: 26ed80647045376a7537d4da0d4159af
-    time: 1414282523
+    md5: fb6d4ffc861846ce17b372fb47d1a23b
+    time: 1422513567
   /writings/status-update/index.html:
-    md5: 18c52556bd1b7acaab811dc6fd5de0f6
-    time: 1414282523
+    md5: bfb99d7c457d978c5f56da2f8086c004
+    time: 1422513567
   /writings/day-one/index.html:
-    md5: 310d1709e27d289f31eec3b7bd1087f7
-    time: 1411339587
+    md5: 867d644b7b252c889f2a2b738bb06b2b
+    time: 1422513567
   /writings/digital-nation/index.html:
-    md5: 2124a33542f49a88b43b4a887b53556b
-    time: 1411339587
+    md5: f596bade4c5ce13d0184a05da339e915
+    time: 1422513567
   /writings/archive/index.html:
-    md5: 63c0c2365f6186495639e4d70a91d0a3
-    time: 1414385282
+    md5: ef5b22f6a08001c987ad10ee5fee173e
+    time: 1422513567
   /writings/tags/index.html:
-    md5: 7d69d5755b2bb9aed73fdd2e08d88054
-    time: 1414385282
+    md5: c9149090e57b8c6fbf194968c90420ff
+    time: 1422513567
   /colophon/index.html:
-    md5: 294a6c93beb1db485d9d42b7205e97c0
-    time: 1414385282
+    md5: 82a83862e63fff9d5143167d7ce4cf4b
+    time: 1422513567
   /resources/index.html:
-    md5: 5e8ccb3c1e3141229e8855b586c8b331
-    time: 1414385282
+    md5: 8a4fa0c641ab210631717e6c8e12f280
+    time: 1422513567
   /styleguide/index.html:
-    md5: 92e38dd01715e21d5802ae2d58ff6e5a
-    time: 1411339588
+    md5: 15510e033e2ceb878a0f313e4ae0e477
+    time: 1422513568
   /learning/index.html:
-    md5: 9db49a8c6d58600a139304b2f5841d15
-    time: 1414385282
+    md5: cdbf9ba630599a1a5ee5c29daf6ea34c
+    time: 1422513568
   /quotes/index.html:
-    md5: cf9db3b591353e5f3f938b2051a7fd85
-    time: 1414427817
+    md5: d19d1925a32b0dd001337865d7e57a28
+    time: 1422513568
   /library/index.html:
-    md5: 10eb7e5188f04b28f0b56ee593c713ad
-    time: 1414385282
+    md5: 32e527e21c783808a47ba720ac351309
+    time: 1422513568
   /learn/index.html:
-    md5: 8ccb67cc2965d97d5b17c99d5907c68e
-    time: 1414385282
+    md5: 99cae98e1cb1f4a5e45b59ad5bb8de59
+    time: 1422513568
   /toolbox/index.html:
-    md5: 2ba9a07f770e5e19b070de5277d3d2cb
-    time: 1414427899
+    md5: 493a2866be1105c0328acf42c82cb656
+    time: 1422513568
   /learn/web/index.html:
-    md5: 359ea85ae15d49616eb2a77abaf22f5f
-    time: 1414385283
+    md5: 6b2f8164b307fee471309228b5117ce4
+    time: 1422513568
   /learn/design/index.html:
-    md5: 3f72041e312221d15f3d6064d26b41a1
-    time: 1414385283
+    md5: e4cfd3f721821497af4cb55869fc11f0
+    time: 1422513568
   /CNAME:
     md5: 8fac08855009395b6d304f2774d27653
     time: 1406299932
   /sitemap.xml:
-    md5: 47e762b5272964f31ff1e2d9fc883bd2
-    time: 1414385283
+    md5: 44cb50d6111e515906e1878fab2380ba
+    time: 1422513568
   /feed.xml:
-    md5: c94f29dec2f222661dcbecea3e7bc58f
-    time: 1414427899
+    md5: c8cd5ca6c41b7c4a2ee2fb108589016a
+    time: 1422513569
   /assets/logo444.svg:
     md5: 6c0883d2ef07c0211ee16aae2425583c
     time: 1406299939
@@ -220,23 +226,8 @@ inventory:
   /assets/webfonts/ss-social-circle.woff:
     md5: 0c1e82250fac16eb61d86406338995f5
     time: 1406299940
-  /assets/webfonts/ss-social-regular.eot:
-    md5: acde99d582139475cc144525c142b063
-    time: 1406299941
-  /assets/webfonts/ss-social-regular.svg:
-    md5: 2d6a81cc270daf50f3c9bb0a1fd5fcb4
-    time: 1406299941
-  /assets/webfonts/ss-social-regular.ttf:
-    md5: 3a73a98d7320b33beeeb38f74d9ef13c
-    time: 1406299941
-  /assets/webfonts/ss-social-regular.woff:
-    md5: 7dafc2c1dcd3eb6d175971eb406c3e64
-    time: 1406299942
   /assets/webfonts/ss-social.css:
     md5: 6de8c14e1b73f52dcafdc02a8070639e
-    time: 1406299942
-  /assets/webfonts/ss-social.js:
-    md5: 8224a426a1122f9afa8956e18abce78f
     time: 1406299942
   /rrc/index.php:
     md5: 28eda9861dd0e48c33ab295fe696c613
@@ -249,9 +240,6 @@ inventory:
     time: 1408459164
   /assets/sass/_grid.scss:
     md5: dc1e497ee9b24ecc8ad68755bf324337
-    time: 1411339589
-  /assets/sass/_reset.scss:
-    md5: 2d53aae046c2cf4bf694f544bbaf4f16
     time: 1411339589
   /assets/sass/_responsive.scss:
     md5: e09ff8c21134f7abc604ee3322c63f45
@@ -310,30 +298,57 @@ inventory:
   /assets/DSC_0314.jpg:
     md5: c45867f1fbfa7548f9f1c63173000a71
     time: 1406299956
-  /assets/sass/_mixins.scss:
-    md5: 03e893666f5069712a8d469c64228209
-    time: 1414385288
-  /assets/sass/_type.scss:
-    md5: b3443f4a259195e411bb338a337a1be6
-    time: 1414385288
-  /jondueck.ca.esproj/user.JonathanDueck.espressostorage:
-    md5: e7182d6753c072beb36c9ee8670aa1ad
-    time: 1414385289
   /jondueck.ca.esproj/user.JonathanDueck.ProjectGlyph.png:
     md5: c14022c16f2f24d79d3cee978d6b9e3b
     time: 1414385289
   /robots.txt:
     md5: d41d8cd98f00b204e9800998ecf8427e
     time: 1414385289
+  /assets/icons/dayone.svg:
+    md5: 5e506a6d1dae510779b0d1081fcbf302
+    time: 1422513574
+  /assets/icons/medium.svg:
+    md5: 132c8720585ca0f8354580ab507d61cc
+    time: 1422513574
   /assets/sass/_layout.scss:
-    md5: c27c415ebd11cbdf336bc616914f5c79
-    time: 1414433254
+    md5: 67383c530c17375eae6ce5bb6cba8735
+    time: 1422513575
+  /assets/sass/_reset.scss:
+    md5: ae404476454070682a53b3322d686f0b
+    time: 1422513575
+  /assets/sass/_type.scss:
+    md5: 0daa0ae56eda1900a003cc49d14c1229
+    time: 1422513575
   /assets/sass/default.scss:
-    md5: 745cf4c9d334f5ff23ef95086887b595
-    time: 1414433254
+    md5: 73dd030d91b6a87a9ec581518bdb275b
+    time: 1422513575
+  /assets/webfonts/ss-social-regular.css:
+    md5: 98b485419f455ffb071adab6355dea05
+    time: 1422513575
+  /assets/webfonts/ss-social-regular.eot:
+    md5: eb6a1a6f662348128811e9cff47cedaa
+    time: 1422513575
+  /assets/webfonts/ss-social-regular.svg:
+    md5: b5cb393e988284c463c29b6fe6e50861
+    time: 1422513576
+  /assets/webfonts/ss-social-regular.ttf:
+    md5: ee6cd6df651af1d3d682427e6a9ea30b
+    time: 1422513576
+  /assets/webfonts/ss-social-regular.woff:
+    md5: ef3156fdebbaff2cd76f57c87e8bf44a
+    time: 1422513576
+  /assets/webfonts/ss-social.js:
+    md5: 79100a0cc6c062c674c5be9fe18996ca
+    time: 1422513576
+  /jondueck.ca.esproj/user.JonathanDueck.espressostorage:
+    md5: 1fdc58d4969e2301e3f5fd8292bf9453
+    time: 1422513576
+  /assets/sass/_mixins.scss:
+    md5: 20808801b93014898f2b0c4e6dd33c75
+    time: 1422513577
   /default.css:
-    md5: 2b9ed72fa07ae9109ea94986ab1a9746
-    time: 1414433254
+    md5: 6c4d6844b41273e09d79b12f09904fc5
+    time: 1422513577
   /assets/co02.jpg:
     md5: 7f6d318e1e86a4c93bff58964d8ba236
     time: 1406299943

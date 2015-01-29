@@ -3,7 +3,7 @@
   <channel>
     <title>Jonathan Dueck</title>
     <link>http://jondueck.ca</link>
-    <pubDate>Mon, 27 Oct 2014 16:38:19 +0000</pubDate>
+    <pubDate>Thu, 29 Jan 2015 06:39:28 +0000</pubDate>
     
     <item>
       <title>Five Design Questions</title>
@@ -32,6 +32,20 @@
 &lt;h2&gt;5—What advice would you give someone entering the design field?&lt;/h2&gt;
 
 &lt;p&gt;Talk to designers that you know, and follow those that you don’t on Twitter. Honestly, a lot of the new techniques and tools that I learn about are via Twitter. It’s a great way to see what they’re reading and who they’re inspired by. It’s also a great way to talk to them. Reach out. Ask questions, or thank them for building that tool that you enjoy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Silverwinds.org</title>
+      <link>http://jondueck.ca/work/silverwindsorg</link>
+      <pubDate>Tue, 02 Sep 2014 00:13:00 -0500</pubDate>
+      <author>Jonathan Dueck</author>
+      <guid>http://jondueck.ca/work/silverwindsorg</guid>
+      <description>&lt;p&gt;Silverwinds is a Hutterite colony in Manitoba. They have on-site education as well as providing some educational materials to other colonies in Canada and the US. I developed a website, based on Wordpress, that allowed them to provide lessons and course materials to their students across devices. I worked closely with the principal who provided student feedback which helped me learn how the students were interacting with the course material.&lt;/p&gt;
+
+&lt;p&gt;Most of the heavy development is restricted to those with accounts to the website, but you can view the website at &lt;a href=&quot;http://silverwinds.org&quot;&gt;silverwinds.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[Branding by someone else.]&lt;/p&gt;
 </description>
     </item>
     

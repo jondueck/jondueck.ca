@@ -17,6 +17,12 @@
       
     
     <url>
+      <loc>http://jondueck.ca/work/silverwindsorg/</loc>
+      <lastmod>2015-01-29</lastmod>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
       <loc>http://jondueck.ca/work/school-of-the-kingdom/</loc>
       <lastmod>2014-05-08</lastmod>
       <priority>0.5</priority>
@@ -74,19 +80,19 @@
     
     <url>
       <loc>http://jondueck.ca/writings/five-design-questions/</loc>
-      <lastmod>2014-10-26</lastmod>
+      <lastmod>2015-01-19</lastmod>
       <priority>0.5</priority>
     </url>
   
     <url>
       <loc>http://jondueck.ca/writings/status-update/</loc>
-      <lastmod>2014-04-10</lastmod>
+      <lastmod>2015-01-19</lastmod>
       <priority>0.5</priority>
     </url>
   
     <url>
       <loc>http://jondueck.ca/writings/day-one/</loc>
-      <lastmod>2014-04-05</lastmod>
+      <lastmod>2015-01-19</lastmod>
       <priority>0.5</priority>
     </url>
   
@@ -109,7 +115,7 @@
  
   <url>
     <loc>http://jondueck.ca/styleguide/</loc>
-    <lastmod>2014-08-19</lastmod>
+    <lastmod>2015-01-18</lastmod>
     <priority>1.0</priority>
   </url>
       
@@ -153,7 +159,7 @@
  
   <url>
     <loc>http://jondueck.ca/toolbox/</loc>
-    <lastmod>2014-10-27</lastmod>
+    <lastmod>2014-12-09</lastmod>
     <priority>1.0</priority>
   </url>
       
