@@ -268,7 +268,7 @@ img {
 
 header {
   text-align: center;
-  padding: 2em 0; }
+  padding: 2rem 0; }
   header img {
     display: inline-block;
     max-height: 4.5rem; }
@@ -296,7 +296,7 @@ header {
       overflow: hidden;
       padding-left: 0; }
       header nav ul li {
-        height: 4.5em;
+        height: 4.5rem;
         float: left;
         float: left;
         display: block;
@@ -358,7 +358,7 @@ header {
   margin-top: 1rem; }
 
 .post-preview {
-  padding-top: 2em;
+  padding-top: 2rem;
   clear: both; }
 
 .project-preview {
@@ -410,14 +410,14 @@ header {
 footer {
   clear: both;
   border-top: 1px solid #ddd;
-  min-height: 5em;
-  line-height: 2.5em;
+  min-height: 5rem;
+  line-height: 2.5rem;
   overflow: hidden;
-  margin-top: 3em;
+  margin-top: 3rem;
   padding: 1rem 0;
-  margin-top: 5em; }
+  margin-top: 5rem; }
   footer a {
-    margin: 0.5em; }
+    margin: 0.5rem; }
 
 footer:nth-child(5) {
   color: #3fd4ad; }
@@ -427,7 +427,7 @@ footer:nth-child(5) {
   background: #fff;
   background: rgba(63, 212, 173, 0.25);
   color: #444;
-  padding: 0.5em; }
+  padding: 0.5rem; }
 
 p {
   margin: 1rem auto; }
@@ -474,11 +474,11 @@ p {
   float: right; }
 
 .project-information {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   overflow: hidden;
   display: block; }
   .project-information h2 {
-    margin-top: 0.5em; }
+    margin-top: 0.5rem; }
 
 .post .project-information {
   border-bottom: 1px solid #ddd; }

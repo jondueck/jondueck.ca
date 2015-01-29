@@ -39,7 +39,7 @@ img {
 
 header {
 	text-align: center;
-	padding: 2em 0;
+	padding: 2rem 0;
 	img { 
 		display: inline-block; 
 		max-height: 4.5rem;
@@ -68,7 +68,7 @@ header {
 			padding-left: 0;
 			
 			li {
-				height: 4.5em;
+				height: 4.5rem;
 				float: left;
 				@include span-columns (2 of 4);
 				@include media($mobile) {
@@ -104,7 +104,7 @@ header {
 }
 
 .post-preview {
-	padding-top: 2em;
+	padding-top: 2rem;
 	clear: both;
 }
 
@@ -140,15 +140,15 @@ header {
 footer {
 	clear: both;
 	border-top: 1px solid $darkgrey;
-	min-height: 5em;
-	line-height: 2.5em;
+	min-height: 5rem;
+	line-height: 2.5rem;
 	a {
-		margin: 0.5em;
+		margin: 0.5rem;
 	}
 	overflow: hidden;
-	margin-top: 3em;
+	margin-top: 3rem;
 	padding: 1rem 0;
-	margin-top: 5em;
+	margin-top: 5rem;
 }
 
 footer:nth-child(5) {
@@ -160,7 +160,7 @@ footer:nth-child(5) {
 	background: #fff;
 	background: rgba(63,212,173,0.25);
 	color: #444;
-	padding: 0.5em;
+	padding: 0.5rem;
 
 }
 
@@ -207,11 +207,11 @@ p {
 }
 
 .project-information {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 	overflow: hidden;
 	display: block;
 	h2 {
-		margin-top: 0.5em;
+		margin-top: 0.5rem;
 	}
 }
 
