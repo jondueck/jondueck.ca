@@ -1,5 +1,5 @@
 ---
-time: 1422513693
+time: 1424711520
 inventory:
   /about/index.html:
     md5: 45d7f58464e944486203e0d00121221f
@@ -26,8 +26,8 @@ inventory:
     md5: 7afeaaba4d9eb1b4d34aa2f572fd52b2
     time: 1422513565
   /work/garden-valley-collegiate/index.html:
-    md5: 8d74f256915d48977548a87fa7f7a168
-    time: 1422513565
+    md5: 98011424d16f97428fdfb35ed6f31522
+    time: 1424711507
   /work/bitmap-fest/index.html:
     md5: 80a4235cbf01ccacf30e2d20d644b641
     time: 1422513565
@@ -92,8 +92,8 @@ inventory:
     md5: c9149090e57b8c6fbf194968c90420ff
     time: 1422513567
   /colophon/index.html:
-    md5: 82a83862e63fff9d5143167d7ce4cf4b
-    time: 1422513567
+    md5: 3f59e3475b781f5117cde28a0b722009
+    time: 1424711509
   /resources/index.html:
     md5: 8a4fa0c641ab210631717e6c8e12f280
     time: 1422513567
@@ -112,12 +112,27 @@ inventory:
   /learn/index.html:
     md5: 99cae98e1cb1f4a5e45b59ad5bb8de59
     time: 1422513568
+  /learn/creating-custom-post-types-in-wordpress/index.html:
+    md5: 0f79406cc7bcacc57583ab79a78db29a
+    time: 1424711510
   /toolbox/index.html:
     md5: 493a2866be1105c0328acf42c82cb656
     time: 1422513568
   /learn/web/index.html:
     md5: 6b2f8164b307fee471309228b5117ce4
     time: 1422513568
+  /learn/web/getting-started-with-stripe/index.html:
+    md5: 157c7f467c1d0ff1b9f52a8b398eb9c2
+    time: 1424711510
+  /learn/web/aria/index.html:
+    md5: d47f532d1959366aa706b5260ebf61ec
+    time: 1424711510
+  /learn/web/archive/index.html:
+    md5: 1275ee409d1beee1bc21a90b554eb602
+    time: 1424711510
+  /learn/web/tags/index.html:
+    md5: 9f6538e1de67a258f00eb2f82d68a985
+    time: 1424711510
   /learn/design/index.html:
     md5: e4cfd3f721821497af4cb55869fc11f0
     time: 1422513568
@@ -125,11 +140,11 @@ inventory:
     md5: 8fac08855009395b6d304f2774d27653
     time: 1406299932
   /sitemap.xml:
-    md5: 44cb50d6111e515906e1878fab2380ba
-    time: 1422513568
+    md5: ff91e7619038895e24538453f4866f47
+    time: 1424711511
   /feed.xml:
-    md5: d276b522ee8549ddc4a75ee3bf36f66f
-    time: 1422513687
+    md5: 3326cd638764c02c815a8b003a35ca6f
+    time: 1424711511
   /assets/logo444.svg:
     md5: 6c0883d2ef07c0211ee16aae2425583c
     time: 1406299939
@@ -382,6 +397,9 @@ inventory:
   /assets/jason&alli1.png:
     md5: f27fcc8dbb65e02e5616d561906926a9
     time: 1406299945
+  /assets/gvc-logo-multi.png:
+    md5: e586bcc2a65bb0a5e561760a19fd7c8a
+    time: 1424711517
   /assets/work_colorado_thumb.png:
     md5: f26b79ccb9926919295c9f79c9066c8c
     time: 1406299946
@@ -403,6 +421,9 @@ inventory:
   /assets/jason&alli2.png:
     md5: fbabaaf453d826ad6559b7e255408742
     time: 1406299947
+  /assets/Zodiacs-wordmark-red.png:
+    md5: 7ec5e57b6f8af0170665b01946368f1a
+    time: 1424711517
   /assets/co03.jpg:
     md5: 3dc67bef43ee48540ff600aa07b01a60
     time: 1406299948
@@ -436,6 +457,9 @@ inventory:
   /assets/arcadefire_header.png:
     md5: d011c4c572733d482411c4cb4a3cb5a2
     time: 1406299954
+  /assets/GVC Zodiacs-wordmark-black.png:
+    md5: 85211dae9a5648df6eaf16a2cd5d0e6c
+    time: 1424711518
   /assets/DSC_0352.jpg:
     md5: 0d2f189f980009bcc21845bdc44f416a
     time: 1406299957

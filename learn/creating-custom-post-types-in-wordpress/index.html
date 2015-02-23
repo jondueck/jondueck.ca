@@ -9,7 +9,7 @@
 	
 	<head>		<meta charset="utf-8" />
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Jonathan Dueck | Colophon</title>
+	<title>Jonathan Dueck | Creating Custom Post Types in Wordpress</title>
 	<link rel="alternate" type="application/rss+xml" href="http://jondueck.ca/feed.xml" />
 	<link rel="stylesheet" type="text/css" href="/default.css" />
 	  
@@ -27,6 +27,14 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 	
 	
+		 <script src="/js/jquery.fitvids.js"></script>
+		 <script>
+		   $(document).ready(function(){
+		     // Target your .container, .wrapper, .post, etc.
+		     $(".content").fitVids();
+		   });
+		 </script>
+	 
 	
 <!--	-->
 	 
@@ -77,30 +85,41 @@
 		
 		<div class="wrap">
 		
-<section class="content colophon">
+	
+	
 		
-	<h1>Colophon</h1>
-
-<p>Designed, developed, and maintained by Jonathan Dueck. Hosted on MediaTemple.</p>
-
-<h2>Code</h2>
-
-<p>Built on <a href="http://siteleaf.com">Siteleaf</a> by <a href="http://oak.is">Oak</a>. Written in HTML, Liquid &amp; <a href="http://sass-lang.com">SASS</a>. Coded in <a href="http://macrabbit.com/espresso/">Espresso</a>.</p>
-
-<p><a href="https://github.com/jondueck/jondueck.ca">View the source on Github</a>.</p>
-
-<h2>Typography</h2>
-
-<p>Copy set in Calluna and headings set in Calluna Sans by Jos Buivenga at <a href="http://www.exljbris.com">exljbris</a>. Webfonts delivered by <a href="http://typekit.com">Typekit</a>.</p>
-
-<h2>Style Guide</h2>
-
-<p>View <a href="/styleguide">style guide</a>.</p>
-
+	<h1 class="page-title">Creating Custom Post Types in Wordpress</h1>
 	
-	<h2>Copyright</h2>
+	<div class="page-content">
+		<p>When using Wordpress for a site of anything other than a blog, it&rsquo;s common to need to create a custom post type.</p>
+
+<pre>
+add_action( 'init', 'create_posttype' );
+    function create_posttype() {
+      register_post_type( 'bulletinboard',
+        array(
+          'labels' => array(
+            'name' => __( 'Bulletins' ),
+            'menu_name' => __( 'Bulletin Board' ),
+            'singular_name' => __( 'Bulletin' ),
+            'view_item' => __( 'View Bulletin' ),
+            'add_new' => __( 'Add New Bulletin' ),
+            'add_new_item' => __( 'Add New Bulletin' ),
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'show_in_nav_menus' => TRUE,
+          'rewrite' => array('slug' => 'bulletinboard'),
+        )
+      );
+    }</pre>
+
+	</div>
 	
-	<p>Last updated 23 February 2015. Design &amp; content © 2014 by Jonathan Dueck</p>
+	
+		<a href="/learn">Back to Learn</a>
+	
+	
 
 
 		</div>

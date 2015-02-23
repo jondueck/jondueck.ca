@@ -3,7 +3,17 @@
   <channel>
     <title>Jonathan Dueck</title>
     <link>http://jondueck.ca</link>
-    <pubDate>Thu, 29 Jan 2015 06:41:27 +0000</pubDate>
+    <pubDate>Mon, 23 Feb 2015 17:11:51 +0000</pubDate>
+    
+    <item>
+      <title>Getting Started with Stripe</title>
+      <link>http://jondueck.ca/learn/web/getting-started-with-stripe</link>
+      <pubDate>Thu, 19 Feb 2015 13:40:00 -0600</pubDate>
+      <author>Jonathan Dueck</author>
+      <guid>http://jondueck.ca/learn/web/getting-started-with-stripe</guid>
+      <description>&lt;p&gt;Stripe is the best way to accept payments. It works from small-scale sales to large vendors like Kickstarter. Fees of 2.9% + 30¢ are about as good as it gets.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Five Design Questions</title>
@@ -173,7 +183,11 @@ With guest Link Neufeld of Link and the Moustaches
       <guid>http://jondueck.ca/work/garden-valley-collegiate</guid>
       <description>&lt;p&gt;At Collectif, we had the honor of redesigning our old high school&amp;rsquo;s identity. The school was an important place for me, as it was one of my teachers that encouraged me to pursue design, and to attend Red River College. We wanted to develop an identity that students could be proud of.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/GVC%20book.png&quot; alt=&quot;GVC book&quot;&gt; &lt;img src=&quot;/assets/Untitled-2%20copy.png&quot; alt=&quot;Untitled-2 copy&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/gvc-logo-multi.png&quot; alt=&quot;gvc-logo-multi&quot;&gt; 
+&lt;img src=&quot;/assets/GVC%20book.png&quot; alt=&quot;GVC book&quot;&gt;
+&lt;img src=&quot;/assets/Zodiacs-wordmark-red.png&quot; alt=&quot;Zodiacs-wordmark-red&quot;&gt;
+&lt;img src=&quot;/assets/GVC%20Zodiacs-wordmark-black.png&quot; alt=&quot;GVC Zodiacs-wordmark-black&quot;&gt; 
+ &lt;img src=&quot;/assets/Untitled-2%20copy.png&quot; alt=&quot;Untitled-2 copy&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     
