@@ -1,7 +1,7 @@
 {% capture content %}
 	
 	{% if meta.redirect %}
-	  <meta http-equiv="refresh" content="0;url={{meta.redirect}}">
+		<meta http-equiv="refresh" content="0;url={{meta.redirect}}">
 	{% endif %}
 		
 	<h1 class="page-title">{{ title }}</h1>
@@ -11,10 +11,10 @@
 	</div>
 	
 	{% if parent %}
-		<a href="{{ parent.url }}">Back to {{ parent.title }}</a>
+		<a href="{{ parent.url }}" class="back-to">Back to {{ parent.title }}</a>
 	{% endif %}
 	
 
-{% endcapture %}
+{% endcapture %}{{ html | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}
 
 {% include 'layouts/default' %}

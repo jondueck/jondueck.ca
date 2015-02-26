@@ -8,3 +8,9 @@ config.ru
 .git
 node_modules/*.*
 node_modules/*
+*.espressoproj
+sass
+love/
+/node_modules/
+rrc/
+

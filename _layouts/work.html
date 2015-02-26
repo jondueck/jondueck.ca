@@ -1,5 +1,43 @@
 {% capture content %}
 <section class="content work">
+
+	{% if type == "post" %}
+		
+<!--		<article class="post project">
+<!--			<img class="hero" src="{{ meta.thumb.value }}">--*>
+			
+			<div class="project-information">
+				<h2>{{ title }}</h2>
+				
+				{% if meta.worklocation %}
+					<p class="work-location">Made at 
+					{% if meta.worklocation == 'Collectif'%}
+						<a href="http://collectif.co">
+					{% endif %}
+							{{meta.worklocation}}
+					{% if meta.worklocation == 'Collectif'%}
+						</a>
+					{% endif %}
+					
+					</p>
+				{% endif %}
+				
+				<ul class="project-tags">
+					{% for tag in taxonomy.tags %}
+						<li>{{ tag.value }}</li>
+					{% endfor %}
+				</ul>
+				
+				{% if meta.details %}
+					<div class="project-details">
+						{{ meta.details | markdown }}
+					</div>
+				{% endif %}
+			</div>
+			
+		</article>-->
+		
+	{% endif %}
 	
 	{% if type == "post" %}
 		<article class="post">
@@ -32,16 +70,16 @@
 	{% endif %}
 
 		
-		{% if pages %}
-		{% comment %} Show subpages if there are any available {% endcomment %}
+<!--	{% if pages %}
+	{% comment %} Show subpages if there are any available {% endcomment %}
+	
+		<nav class="subpage-menu">
+			{% for subpage in pages %}
+			<a href="{{subpage.url}}">{{subpage.title}}</a>
+			{% endfor %}
+		</nav>
 		
-			<nav class="subpage-menu">
-				{% for subpage in pages %}
-				<a href="{{subpage.url}}">{{subpage.title}}</a>
-				{% endfor %}
-			</nav>
-			
-		{% endif %}
+	{% endif %}-->
 		
 		{{ body }}
 		
@@ -64,42 +102,57 @@
 		      {% endif %}
 		    </div>
 		  {% endif %}
+		  
+<!--		  <div class="related-posts">
+		  {% for related_post in parent.posts %}
+		    {% for tag in current.taxonomy['tags'].values %}
+		      {% if related_post.taxonomy['tags'][tag.slug] and related_post.id != current.id %}
+		        <div class="related-post">
+		        	<a href="{{related_post.url}}">
+		        		<img src="{{related_post.meta.thumb}}">
+		        	</a>
+		        </div>
+		        {% break %}
+		      {% endif %}
+		    {% endfor %}
+		    {% if forloop.index == 3 %}{% break %}{% endif %}
+		  {% endfor %}
+		  </div>-->
 		
 		
 		{% else %}
 		
-		{% comment %} Loop through any posts and show an excerpt {% endcomment %}
 		{% for post in posts %}
-			<article class="post-preview">
-			<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>
-			<div class="project-information">
-				<div class="grid-6">
+			<article class="post-preview project-preview">
+				<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>
+				<div class="project-information">
+				<!--<div class="grid-6">-->
 					<a href="{{post.url}}"><h2>{{post.title}}</h2></a>
 					
-					<ul class="project-tags">
+					<!--<ul class="project-tags">
 					{% for tag in post.taxonomy.tags %}
 					    <li>
 					        <a href="{{ tag.url }}">{{ tag.value }}</a>
 					    </li>
 					{% endfor %}
-					</ul>
+					</ul>-->
 				
-				</div>
-				<div style="float: right;">	
-					{% if post.meta.worklocation %}
+				<!--</div>-->
+				<div>	
+					<!--{% if post.meta.worklocation %}
 						
-						<p class="work-location"><!--Done at-->@ {{post.meta.worklocation}}</p>
+						<p class="work-location"><!--Done at--*>@ {{post.meta.worklocation}}</p>
 						
-					{% endif %}
+					{% endif %}-->
 					
-					<p class="date">{{post.date | date: "%B %Y"}}</p>
+					<!--<p class="date">{{post.date | date: "%B %Y"}}</p>-->
 					
 				</div>
 			</div>
 			
 			</article>
 			
-			<img src="{{meta.thumb.value}}" />
+			<!--<img src="{{meta.thumb.value}}" />-->
 			
 						
 		{% endfor %}

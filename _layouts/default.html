@@ -3,18 +3,26 @@
    	=========================================================== -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ca">
 	
-	<head>	{% include 'includes/head' %}	</head>
+	<head>	
+		{% include 'includes/head' %}	
+	</head>
+	
 	<body>
 		
 		{% include 'includes/menu' %}
 		
 		<div class="wrap">
-		{{ content }}
-		</div>
 		
+			{{ content }}
+		
+			{% include 'includes/comments' %}
+		
+		</div>
+
 		{% include 'includes/footer' %}
 			
 	</body>
+	
 </html>

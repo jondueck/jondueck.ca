@@ -1,32 +1,32 @@
-/*========================================
-	Layout
-  ========================================*/
+//	
+//	Layout
+//
 
 body {
 	background: $lightgrey;
 	margin-top: 1rem;
+	background: #f2f2f2;
 }
 
 .wrap {
 	width: 90%;
 	max-width: $max-width;
-//	max-width: 720px;
 	margin: auto;
-//	@include span-columns(8);
 	@include outer-container();
-//	max-width: 1100px;
 	@include row();
 	@include media($mobile) {
 		width: 95%;
 	}
-	
-	
 }
 
 .page-content {
 	@include span-columns(6 of 8);
 	@include shift(1 of 8);
 	@include omega();
+	@include media($mobile) {
+		@include span-columns(8 of 8);
+		@include shift(0);	
+	}
 }
 
 .work {
@@ -39,7 +39,7 @@ img {
 
 header {
 	text-align: center;
-	padding: 2em 0;
+	padding: 2rem 0;
 	img { 
 		display: inline-block; 
 		max-height: 4.5rem;
@@ -57,8 +57,7 @@ header {
 		li:nth-of-type(2) a{
 			margin-top: 0;
 			border-bottom: none;
-			/*background: $green;*/
-		}
+ 		}
 		li:nth-of-type(2) a:hover{
 			opacity: 0.8;
 		}
@@ -69,17 +68,26 @@ header {
 			padding-left: 0;
 			
 			li {
-				height: 4.5em;
+				height: 4.5rem;
 				float: left;
 				@include span-columns (2 of 4);
+				@include media($mobile) {
+					@include span-columns(1 of 3);
+				}
 			}
 			li:first-of-type {
 				text-align: right;
 				@include span-columns (1 of 4);
+				@include media($mobile) {
+					@include span-columns(1 of 3);
+				}
 			}
 			li:last-of-type {
 				text-align: left;
 				@include span-columns (1 of 4);
+				@include media($mobile) {
+					@include span-columns(1 of 3);
+				}
 			}
 	
 		}
@@ -92,25 +100,36 @@ header {
 }
 
 .content-title {
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
 .post-preview {
-	padding-top: 2em;
+	padding-top: 2rem;
 	clear: both;
 }
 
+.project-preview {
+	@include span-columns(4 of 8);
+	&:nth-of-type(2n+1) {
+		@include omega();
+		clear: none;
+	}
+	&:nth-of-type(2n) {
+		clear: both;
+	}
+	&:nth-of-type(1) {
+		@include span-columns(8);
+	}
+}
+
 .post-preview {
-	span {
+	.post-preview-date {
 		@include span-columns(1 of 6);
 		@include media($mobile) {
 			@include span-columns(3 of 8);
 		}
 	}
-	a {
-//		@include span-columns(5 of 6);
-	}
-}
+}	
 
 .home-bio {
 	@include span-columns(6 of 8);
@@ -121,15 +140,15 @@ header {
 footer {
 	clear: both;
 	border-top: 1px solid $darkgrey;
-	min-height: 5em;
-	line-height: 2.5em;
+	min-height: 5rem;
+	line-height: 2.5rem;
 	a {
-		margin: 0.5em;
+		margin: 0.5rem;
 	}
 	overflow: hidden;
-	margin-top: 3em;
-	padding: 1em 0;
-	margin-top: 5em;
+	margin-top: 3rem;
+	padding: 1rem 0;
+	margin-top: 5rem;
 }
 
 footer:nth-child(5) {
@@ -141,20 +160,21 @@ footer:nth-child(5) {
 	background: #fff;
 	background: rgba(63,212,173,0.25);
 	color: #444;
-	padding: 0.5em;
+	padding: 0.5rem;
 
 }
 
 p {
-	margin: 1em auto;
+	margin: 1rem auto;
 }
 
 .homepage_writings {
-	margin-top: 4em;
+	margin-top: 4rem;
 	@include span-columns(6 of 8);
 	@include shift (1);
 	@include media($mobile) {
-		@include span-columns(8);
+		@include span-columns(8 of 8);
+		@include shift(0);
 	}
 }
 
@@ -164,21 +184,16 @@ p {
 
 .home-writings:first-of-type {
 	border-top: none;
-/*	border-bottom: 1px dotted #ddd;*/
-}
-
-.home-writings:first-of-type:hover {
-	/*background: #fff;*/
 }
 
 .home-writings{
 	padding: none;
-	padding: 1em 0;
+	padding: 1rem 0;
 	span { 
 		font-family: $sans; 
-		font-size: 0.707em;
+		font-size: 0.75rem;
 		font-weight: 600; 
-		margin-right: 1em; 
+		margin-right: 1rem; 
 		height: 100%;
 	}
 }
@@ -187,23 +202,36 @@ p {
 	padding-top: 0;
 }
 
+.external-icon {
+	float: right;
+}
+
 .project-information {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 	overflow: hidden;
 	display: block;
 	h2 {
-		margin-top: 0.5em;
+		margin-top: 0.5rem;
 	}
 }
 
 .post .project-information {
 	
 	border-bottom: 1px solid $darkgrey ;
+//	@include span-columns(6 of 8);
+//	@include shift(2 of 8);
 }
 
 .post {
 	img {
-		margin: 1em auto;
+		margin: 2rem auto;
+	}
+}
+
+.related-posts {
+	.related-post {
+		@include span-columns(4);
+		@include omega(2n);
 	}
 }
 
@@ -225,4 +253,16 @@ p {
 		@include span-columns(3 of 8);
 		@include omega();
 	}
+}
+
+.disqus {
+	display: block;
+	clear:  both;
+}
+
+.back-to {
+	clear: both;
+	float: none;
+	display: block;
+	margin-bottom: 4rem
 }

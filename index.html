@@ -19,7 +19,17 @@
 			{% else %}
 				<a href="{{post.url}}">
 			{% endif %}
-				{{post.title}}</a>
+				
+				{{post.title}}
+				
+				{% if post.meta.external == 'Medium' %}
+					<img src="/assets/icons/medium.svg" class="external-icon">
+				{% endif %}
+				{% if post.meta.external == 'Day One' %}
+					<img src="/assets/icons/dayone.svg" class="external-icon">
+				{% endif %}
+				
+				</a>
 				
 			</article>
 		

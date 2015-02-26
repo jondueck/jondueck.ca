@@ -1,7 +1,6 @@
 {% capture content %}
 	
 	{% if type == "post" %}
-	
 	<section class="content writing">
 		
 		<img src="{{meta.thumb.value}}" />
@@ -22,24 +21,25 @@
 	
 		
 	{% if type == "post" %}
-	
-	  {% if next or previous %}
-	    <div class="pagination">
-	      {% if previous %}
-	        <a href="{{ previous.url }}" class="older">Older</a>
-	      {% else %}
-	        <span class="inactive">Older</span>
-	      {% endif %}
-	
-	      <span>&middot;</span>
-	
-	      {% if next %}
-	        <a href="{{ next.url }}" class="newer">Newer</a>
-	      {% else %}
-	        <span class="inactive">Newer</span>
-	      {% endif %}
-	    </div>
-	  {% endif %}
+		    
+		
+		{% if next or previous %}
+		    <div class="pagination">
+		      {% if previous %}
+		        <a href="{{ previous.url }}" class="older">Older</a>
+		      {% else %}
+		        <span class="inactive">Older</span>
+		      {% endif %}
+		
+		      <span>&middot;</span>
+		
+		      {% if next %}
+		        <a href="{{ next.url }}" class="newer">Newer</a>
+		      {% else %}
+		        <span class="inactive">Newer</span>
+		      {% endif %}
+		    </div>
+	  	{% endif %}
 	
 	
 	{% else %}
@@ -52,14 +52,25 @@
 	{% for post in posts %}
 		
 			<article class="post-preview home-writings">
-			<span>{{post.date | date: "%d %b %Y"}}</span>
-			
-			{% if post.meta.redirect%}
-				<a href="{{post.meta.redirect.value}}">
-			{% else %}
-				<a href="{{post.url}}">
-			{% endif %}
-				{{post.title}}</a>
+				<span class="post-preview-date">{{post.date | date: "%d %b %Y"}}</span>
+				
+				<a class="post-preview-title" href=
+				{% if post.meta.redirect%}
+					"{{post.meta.redirect.value}}"
+				{% else %}
+					"{{post.url}}"
+				{% endif %}
+				>
+					{{post.title}}
+					
+					{% if post.meta.external == 'Medium' %}
+						<img src="/assets/icons/medium.svg" class="external-icon">
+					{% endif %}
+					{% if post.meta.external == 'Day One' %}
+						<img src="/assets/icons/dayone.svg" class="external-icon">
+					{% endif %}
+				
+				</a>
 				
 			</article>
 		
