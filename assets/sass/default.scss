@@ -24,3 +24,11 @@ hr {
 	background: $darkgrey;
 	border: none;
 }
+
+a {
+	transition-duration: 0.15s;
+}
+
+a img:hover {
+	opacity: 0.75;
+}

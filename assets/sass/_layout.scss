@@ -254,3 +254,15 @@ p {
 		@include omega();
 	}
 }
+
+.disqus {
+	display: block;
+	clear:  both;
+}
+
+.back-to {
+	clear: both;
+	float: none;
+	display: block;
+	margin-bottom: 4rem
+}

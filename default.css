@@ -181,6 +181,13 @@ code {
   background: #fff;
   padding: 0.25rem; }
 
+pre {
+  background: #fff;
+  padding: 0.5rem;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  margin: 2rem 0; }
+
 ul {
   line-height: 2rem; }
 
@@ -536,6 +543,16 @@ p {
     .work-list tr td:nth-of-type(3):last-child {
       margin-right: 0; }
 
+.disqus {
+  display: block;
+  clear: both; }
+
+.back-to {
+  clear: both;
+  float: none;
+  display: block;
+  margin-bottom: 4rem; }
+
 /*========================================
 	Responsive
   ========================================*/
@@ -560,3 +577,9 @@ hr {
   background: #3fd4ad;
   background: #ddd;
   border: none; }
+
+a {
+  transition-duration: 0.15s; }
+
+a img:hover {
+  opacity: 0.75; }
