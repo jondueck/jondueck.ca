@@ -3,3 +3,5 @@ config.ru
 .DS_store
 node_modules
 *.esproj
+.sass-cache
+default.css

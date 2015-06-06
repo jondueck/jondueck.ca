@@ -9,18 +9,16 @@
 
 @import 'type';
 
+@import 'objects';
+
 @import 'layout';
 
 @import 'responsive';
 
-hr {
-	content: "";
-	width: 2rem;
-	height: 2px;
-	display: block;
-	margin: 2rem auto;
-	overflow: hidden;
-	background: $green;
-	background: $darkgrey;
-	border: none;
+a {
+	transition-duration: 0.15s;
+}
+
+a img:hover {
+	opacity: 0.75;
 }

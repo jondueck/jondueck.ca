@@ -3,6 +3,7 @@
    	=========================================================== -->
 
 <!DOCTYPE html>
+{% capture html %}
 <html lang="en-ca">
 	
 	<head>	
@@ -13,16 +14,17 @@
 		
 		{% include 'includes/menu' %}
 		
-		<div class="wrap">
+		<main class="wrap">
 		
 			{{ content }}
 		
 			{% include 'includes/comments' %}
 		
-		</div>
+		</main>
 
 		{% include 'includes/footer' %}
 			
 	</body>
 	
 </html>
+{% endcapture %}{{ html | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}

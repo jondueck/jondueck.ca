@@ -4,8 +4,8 @@
 
 body {
 	background: $lightgrey;
-	margin-top: 1rem;
 	background: #f2f2f2;
+	background: #f8f8f8;
 }
 
 .wrap {
@@ -147,7 +147,7 @@ footer {
 	}
 	overflow: hidden;
 	margin-top: 3rem;
-	padding: 1rem 0;
+	padding: 2.25rem 0;
 	margin-top: 5rem;
 }
 
@@ -265,4 +265,16 @@ p {
 	float: none;
 	display: block;
 	margin-bottom: 4rem
+}
+
+hr {
+	margin-top: 2.25rem;
+	margin-bottom: 2.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: none;
+	border-top: 1px solid #ddd;
+	width: 50%;
+	max-width: 10rem;
 }

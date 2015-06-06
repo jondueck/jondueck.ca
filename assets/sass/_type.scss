@@ -2,17 +2,27 @@
 //	Type
 //
 
+*, html, body {
+	font-size: 100%;
+}
+
 body {
 	font-family: $sans;
+	letter-spacing: -0.02rem;
 	color: $black;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
 	font-feature-settings: "liga""dlig";
+	font-size: 1.125rem;
+	line-height: 2.25rem;
+//	font-family: calluna;
 }
 
 
-p a:not(img), header a, ul a:not(img) {
-	border-bottom: 1.5px solid $green;
+p a:not(img), 
+header a, 
+ul a:not(img) {
+	border-bottom: 1.25px solid $green;
 }
 
 // Headings
@@ -134,9 +144,6 @@ code {
 }
 
 pre {
-//	font-size: 14px;
-//	line-height: 20px;
-	background: #fff;
 	padding: 0.5rem;
 	word-wrap: break-word;
 	white-space: pre-wrap;
@@ -144,7 +151,8 @@ pre {
 }
 
 ul {
-	line-height: 2rem;
+	line-height: 2.25rem;
+	margin-left: 1.25rem;
 }
 
 .pagination .inactive {

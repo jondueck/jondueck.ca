@@ -27,49 +27,47 @@
 			</div>
 		</article>
 	{% endif %}
-
 		
-		{% if pages %}
-		{% comment %} Show subpages if there are any available {% endcomment %}
+	{% if pages %}
+	{% comment %} Show subpages if there are any available {% endcomment %}
+	
+		<nav class="subpage-menu">
+			{% for subpage in pages %}
+			<a href="{{subpage.url}}">{{subpage.title}}</a>
+			{% endfor %}
+		</nav>
 		
-			<nav class="subpage-menu">
-				{% for subpage in pages %}
-				<a href="{{subpage.url}}">{{subpage.title}}</a>
-				{% endfor %}
-			</nav>
-			
-		{% endif %}
-		
-		{{ body }}
-		
-		{% if type == "post" %}
-		
-		  {% if next or previous %}
+	{% endif %}
+	
+	{{ body }}
+	
+	{% if type == "post" %}
+	
+		{% if next or previous %}
 		    <div class="pagination">
-		      {% if previous %}
-		        <a href="{{ previous.url }}" class="older">Older</a>
-		      {% else %}
-		        <span class="inactive">Older</span>
-		      {% endif %}
+		    	{% if previous %}
+		        	<a href="{{ previous.url }}" class="older">Older</a>
+		      	{% else %}
+		        	<span class="inactive">Older</span>
+				{% endif %}
 		
-		      <span>&middot;</span>
+		      	<span>&middot;</span>
 		
-		      {% if next %}
-		        <a href="{{ next.url }}" class="newer">Newer</a>
-		      {% else %}
-		        <span class="inactive">Newer</span>
-		      {% endif %}
+		      	{% if next %}
+		        	<a href="{{ next.url }}" class="newer">Newer</a>
+		      	{% else %}
+		      	  	<span class="inactive">Newer</span>
+		      	{% endif %}
 		    </div>
-		  {% endif %}
-		
-		
-		{% else %}
-		
+		{% endif %}
+	
+	{% else %}
+	
 		{% comment %} Loop through any posts and show an excerpt {% endcomment %}
 		{% for post in posts %}
 			<article class="post-preview">
 			<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>
-<!--			<h2><a href="{{post.url}}">{{post.title}}</a></h3>-->
+	<!--			<h2><a href="{{post.url}}">{{post.title}}</a></h3>-->
 			<div class="project-information">
 				<div class="grid-6">
 					<p><a href="{{post.url}}"><h2>{{post.title}}</h2></a></p>
@@ -98,20 +96,19 @@
 			</article>
 			
 			<img src="{{meta.thumb.value}}" />
-			
-						
+					
 		{% endfor %}
+	
+		<!--<div class="portfolio">
+			<h2>Latest from Dribble</h2>
+			<ul id="portfolio"></ul>
+		</div>-->
 		
-			<!--<div class="portfolio">
-				<h2>Latest from Dribble</h2>
-				<ul id="portfolio"></ul>
-			</div>-->
-			
-		{% endif %}
-		
-		{% if parent %}
-			<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
-		{% endif %}
+	{% endif %}
+	
+	{% if parent %}
+		<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
+	{% endif %}
 	
 	</section><!-- /content -->
 {% endcapture %}
