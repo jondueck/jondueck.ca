@@ -1,3 +1,5 @@
+AddType 'text/html; charset=UTF-8' html
+
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^jondueck.ca$ [NC]
 RewriteRule ^(.*)$ http://jondueck.ca/$1 [L,R=301]
