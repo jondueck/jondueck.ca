@@ -3,7 +3,7 @@ node_modules/
 *.esproj
 gruntfile.js
 package.json
-assets/sass
+assets/sass/
 config.ru
 .git
 node_modules/*.*
