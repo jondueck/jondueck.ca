@@ -9,9 +9,9 @@
 					<p>{{title}}</p>
 					<ul class="project-tags">
 					{% for tag in taxonomy.tags %}
-					    <li>
-					        <a href="{{ tag.url }}">{{ tag.value }}</a>
-					    </li>
+				    <li>
+				    	<a href="{{ tag.url }}">{{ tag.value }}</a>
+				    </li>
 					{% endfor %}
 					</ul>
 				</div>
@@ -88,7 +88,7 @@
 						
 					{% endif %}
 					
-					{{post.date | date: "%B %Y"}}
+					<span>{{post.date | date: "%B %Y"}}</span>
 					
 				</div>
 			</div>
@@ -98,11 +98,6 @@
 			<img src="{{meta.thumb.value}}" />
 					
 		{% endfor %}
-	
-		<!--<div class="portfolio">
-			<h2>Latest from Dribble</h2>
-			<ul id="portfolio"></ul>
-		</div>-->
 		
 	{% endif %}
 	

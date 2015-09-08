@@ -79,20 +79,35 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 body {
-  font-family: 'Maison Neue Medium', 'Maison Neue Book', Karla, Helvetica, sans-serif;
+  font-family: 'warnock-pro', 'Calluna', georgia, serif;
   letter-spacing: -0.02rem;
   color: #444;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-feature-settings: "liga" "dlig";
   font-size: 1.125rem;
-  line-height: 2.25rem; }
+  line-height: 2.25rem;
+  font-size: 1.25rem;
+  line-height: 2.5rem; }
+  @media screen and (max-width: 768px)  {
+    body {
+      font-size: 1.125rem;
+      line-height: 2.25rem; } }
+  @media screen and (max-width: 500px)  {
+    body {
+      font-size: 1rem;
+      line-height: 2.125rem; } }
 
 p a:not(img), header a, ul a:not(img) {
   border-bottom: 1.25px solid #3fd4ad; }
+  p a:not(img):hover, header a:hover, ul a:not(img):hover {
+    color: #3fd4ad; }
+
+header a {
+  border-bottom: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Maison Neue Medium', 'Maison Neue Book', Karla, Helvetica, sans-serif;
+  font-family: Karla, Helvetica, sans-serif;
   font-weight: normal;
   font-weight: bolder;
   font-weight: 600;
@@ -108,7 +123,8 @@ h1 {
 
 h2 {
   margin: 1.5rem 0 1.5rem;
-  font-size: 1.625rem; }
+  font-size: 1.625rem;
+  letter-spacing: -0.05rem; }
 
 h2 {
   font-size: 1.75rem; }
@@ -154,18 +170,18 @@ a:hover {
   content: ""; }
 
 .writing {
-  font-family: 'Calluna-Regular', 'Calluna', georgia, serif;
+  font-family: 'warnock-pro', 'Calluna', georgia, serif;
   float: left;
   display: block;
   margin-right: 3.5786636068%;
   width: 48.2106681966%;
   margin-left: 25.8946659017%; }
   .writing h1 {
-    font-family: 'Calluna-Regular', 'Calluna', georgia, serif;
+    font-family: 'warnock-pro', 'Calluna', georgia, serif;
     font-weight: 900;
     text-align: center; }
   .writing h2, .writing h3 {
-    font-family: 'Maison Neue Medium', 'Maison Neue Book', Karla, Helvetica, sans-serif; }
+    font-family: Karla, Helvetica, sans-serif; }
   .writing:last-child {
     margin-right: 0; }
   .writing:after {
@@ -179,11 +195,11 @@ blockquote {
   box-sizing: border-box;
   margin: 1rem 0;
   padding-right: 2rem;
-  font-family: 'Calluna', "Apercu Mono Regular";
+  font-family: 'warnock-pro', 'Calluna', georgia, serif, "Apercu Mono Regular";
   font-style: italic; }
 
 code {
-  font-family: 'Apercu Mono Regular', "source-code-pro", monospace;
+  font-family: 'source-code-pro', "Source Code Pro", monospace;
   background: #fff;
   padding: 0.25rem; }
 
@@ -229,10 +245,25 @@ footer .grid-6:last-of-type {
 .project-preview .date {
   margin-top: -0.5rem; }
 
+header, footer {
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: Karla, Helvetica, sans-serif; }
+
+.project-preview {
+  font-family: Karla, Helvetica, sans-serif; }
+
+.project-information {
+  font-family: Karla, Helvetica, sans-serif;
+  font-size: 1rem; }
+  .project-information ul {
+    margin-left: 0; }
+
 body {
   background: #f0f3f5;
   background: #f2f2f2;
-  background: #f8f8f8; }
+  background: #f8f8f8;
+  background: #fbfbfb; }
 
 .wrap {
   width: 90%;
@@ -250,122 +281,110 @@ body {
     content: "";
     display: table;
     clear: both; }
+  @media screen and (max-width: 768px)  {
+    .wrap {
+      width: 95%; } }
   @media screen and (max-width: 500px)  {
     .wrap {
       width: 95%; } }
 
-.page-content {
+.page-content, .content {
   float: left;
   display: block;
   margin-right: 3.5786636068%;
   width: 74.1053340983%;
   margin-left: 12.9473329508%;
   margin-right: 0; }
-  .page-content:last-child {
+  .page-content:last-child, .content:last-child {
     margin-right: 0; }
   @media screen and (max-width: 500px)  {
-    .page-content {
+    .page-content, .content {
       float: left;
       display: block;
       margin-right: 3.5786636068%;
       width: 100%;
       margin-left: 0%; }
-      .page-content:last-child {
+      .page-content:last-child, .content:last-child {
         margin-right: 0; } }
 
 .work {
-  max-width: 1100px; }
+  max-width: 68.75rem; }
 
 img {
   max-width: 100%; }
 
 header {
-  text-align: center;
   padding: 2rem 0; }
   header img {
     display: inline-block;
     max-height: 4.5rem; }
   header nav {
-    text-align: center;
-    font-family: 'Maison Neue Medium', 'Maison Neue Book', Karla, Helvetica, sans-serif;
+    text-align: left; }
+
+.site-brand {
+  float: left;
+  display: block;
+  margin-right: 3.5786636068%;
+  width: 48.2106681966%; }
+  .site-brand:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 500px)  {
+    .site-brand {
+      float: left;
+      display: block;
+      margin-right: 38.1982059067%;
+      width: 100%;
+      margin-right: 0; }
+      .site-brand:last-child {
+        margin-right: 0; } }
+
+.site-nav {
+  float: left;
+  display: block;
+  margin-right: 3.5786636068%;
+  width: 48.2106681966%;
+  margin-right: 0; }
+  .site-nav:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px)  {
+    .site-nav {
+      float: left;
+      display: block;
+      margin-right: 38.1982059067%;
+      width: 100%;
+      margin-right: 0; }
+      .site-nav:last-child {
+        margin-right: 0; } }
+  .site-nav div {
     float: left;
     display: block;
-    margin-right: 3.5786636068%;
-    width: 48.2106681966%;
-    margin-left: 25.8946659017%; }
-    header nav:last-child {
+    margin-right: 7.4229703521%;
+    width: 46.288514824%; }
+    .site-nav div:last-child {
       margin-right: 0; }
-    header nav a {
-      display: inline-block;
-      margin: 1.25rem 1rem 0; }
-    header nav li:nth-of-type(2) a {
-      margin-top: 0;
-      border-bottom: none; }
-    header nav li:nth-of-type(2) a:hover {
-      opacity: 0.8; }
-    header nav ul {
-      list-style: none;
-      margin: auto;
-      overflow: hidden;
-      padding-left: 0; }
-      header nav ul li {
-        height: 4.5rem;
-        float: left;
-        float: left;
-        display: block;
-        margin-right: 7.4229703521%;
-        width: 46.288514824%; }
-        header nav ul li:last-child {
-          margin-right: 0; }
-        @media screen and (max-width: 500px)  {
-          header nav ul li {
-            float: left;
-            display: block;
-            margin-right: 10.1483979942%;
-            width: 26.5677346705%; }
-            header nav ul li:last-child {
-              margin-right: 0; } }
-      header nav ul li:first-of-type {
-        text-align: right;
-        float: left;
-        display: block;
-        margin-right: 7.4229703521%;
-        width: 19.432772236%; }
-        header nav ul li:first-of-type:last-child {
-          margin-right: 0; }
-        @media screen and (max-width: 500px)  {
-          header nav ul li:first-of-type {
-            float: left;
-            display: block;
-            margin-right: 10.1483979942%;
-            width: 26.5677346705%; }
-            header nav ul li:first-of-type:last-child {
-              margin-right: 0; } }
-      header nav ul li:last-of-type {
-        text-align: left;
-        float: left;
-        display: block;
-        margin-right: 7.4229703521%;
-        width: 19.432772236%; }
-        header nav ul li:last-of-type:last-child {
-          margin-right: 0; }
-        @media screen and (max-width: 500px)  {
-          header nav ul li:last-of-type {
-            float: left;
-            display: block;
-            margin-right: 10.1483979942%;
-            width: 26.5677346705%; }
-            header nav ul li:last-of-type:last-child {
-              margin-right: 0; } }
-    @media screen and (max-width: 500px)  {
-      header nav {
-        float: left;
-        display: block;
-        margin-right: 3.5786636068%;
-        width: 100%;
-        margin-left: 0%; }
-        header nav:last-child {
-          margin-right: 0; } }
+    .site-nav div:nth-child(2n) {
+      margin-right: 0; }
+    .site-nav div:nth-child(2n+1) {
+      clear: left; }
+  .site-nav .social-links {
+    float: left;
+    display: block;
+    margin-right: 16.0363113405%;
+    width: 100%;
+    margin-right: 0; }
+    .site-nav .social-links:last-child {
+      margin-right: 0; }
+  .site-nav a {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .site-nav .ss-icon {
+    font-size: 0.875rem;
+    float: left;
+    max-width: 25%;
+    margin-right: 1rem; }
+    .site-nav .ss-icon:last-of-type {
+      margin-right: none; }
 
 .content-title {
   margin-top: 1rem; }
@@ -375,23 +394,25 @@ header {
   clear: both; }
 
 .project-preview {
-  float: left;
-  display: block;
-  margin-right: 3.5786636068%;
-  width: 48.2106681966%; }
-  .project-preview:last-child {
-    margin-right: 0; }
-  .project-preview:nth-of-type(2n+1) {
-    margin-right: 0;
-    clear: none; }
-  .project-preview:nth-of-type(2n) {
+  display: block; }
+  .project-preview:after {
+    content: "";
+    display: table;
     clear: both; }
-  .project-preview:nth-of-type(1) {
+  .project-preview .project-title {
     float: left;
     display: block;
     margin-right: 3.5786636068%;
-    width: 100%; }
-    .project-preview:nth-of-type(1):last-child {
+    width: 35.2633352458%; }
+    .project-preview .project-title:last-child {
+      margin-right: 0; }
+  .project-preview .project-information {
+    float: left;
+    display: block;
+    margin-right: 3.5786636068%;
+    width: 61.1580011475%;
+    margin-right: 0; }
+    .project-preview .project-information:last-child {
       margin-right: 0; }
 
 .post-preview .post-preview-date {
@@ -474,7 +495,7 @@ p {
   padding: none;
   padding: 1rem 0; }
   .home-writings span {
-    font-family: 'Maison Neue Medium', 'Maison Neue Book', Karla, Helvetica, sans-serif;
+    font-family: Karla, Helvetica, sans-serif;
     font-size: 0.75rem;
     font-weight: 600;
     margin-right: 1rem;
@@ -569,6 +590,64 @@ hr {
   border-top: 1px solid #ddd;
   width: 50%;
   max-width: 10rem; }
+
+.project-list {
+  display: block;
+  float: left;
+  display: block;
+  margin-right: 3.5786636068%;
+  width: 74.1053340983%;
+  margin-left: 12.9473329508%; }
+  .project-list:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .project-list:last-child {
+    margin-right: 0; }
+
+.project-year {
+  display: block; }
+  .project-year:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.project-year--year {
+  float: left;
+  display: block;
+  margin-right: 4.8291579146%;
+  width: 30.1138947236%; }
+  .project-year--year:last-child {
+    margin-right: 0; }
+
+.project-year--projects {
+  float: left;
+  display: block;
+  margin-right: 4.8291579146%;
+  width: 65.0569473618%;
+  margin-right: 0;
+  list-style: none;
+  margin-left: 0; }
+  .project-year--projects:last-child {
+    margin-right: 0; }
+
+.page-excerpt {
+  float: left;
+  display: block;
+  margin-right: 3.5786636068%;
+  width: 74.1053340983%;
+  margin-left: 25.8946659017%; }
+  .page-excerpt:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px)  {
+    .page-excerpt {
+      margin-left: 0%;
+      float: left;
+      display: block;
+      margin-right: 3.5786636068%;
+      width: 100%; }
+      .page-excerpt:last-child {
+        margin-right: 0; } }
 
 /*========================================
 	Responsive

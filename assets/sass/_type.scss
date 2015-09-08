@@ -2,12 +2,17 @@
 //	Type
 //
 
+$serif			:		'warnock-pro', 'Calluna', georgia, serif;
+$sans				:		Karla, Helvetica, sans-serif;
+//$sans				:		'Maison Neue Medium', 'Maison Neue Book', Karla, Helvetica, sans-serif;
+$mono				: 'source-code-pro', "Source Code Pro", monospace;
+
 *, html, body {
 	font-size: 100%;
 }
 
 body {
-	font-family: $sans;
+	font-family: $serif;
 	letter-spacing: -0.02rem;
 	color: $black;
 	font-size: 1.125rem;
@@ -16,6 +21,16 @@ body {
 	font-size: 1.125rem;
 	line-height: 2.25rem;
 //	font-family: calluna;
+	font-size: 1.25rem;
+	line-height: 2.5rem;
+	@include media($medium) {
+		font-size:  1.125rem;
+		line-height: 2.25rem;
+	}
+	@include media($small) {
+		font-size:  1rem;
+		line-height: 2.125rem;
+	}
 }
 
 
@@ -23,6 +38,13 @@ p a:not(img),
 header a, 
 ul a:not(img) {
 	border-bottom: 1.25px solid $green;
+	&:hover {
+		color: $green;
+	}
+}
+
+header a {
+	border-bottom: none;
 }
 
 // Headings
@@ -48,6 +70,8 @@ h1 {
 h2 {
 	margin: 1.5rem 0 1.5rem;
 	font-size: 1.625rem;
+	letter-spacing: -0.05rem;
+	// font-weight: 700;
 }
 
 h2 {
@@ -133,12 +157,12 @@ blockquote {
 //	font-style: italic;
 	margin: 1rem 0;
 	padding-right: 2rem;
-	font-family: 'Calluna',"Apercu Mono Regular";
+	font-family: $serif,"Apercu Mono Regular";
 	font-style: italic;
 }
 
 code {
-	font-family: 'Apercu Mono Regular', "source-code-pro", monospace;
+	font-family: $mono;
 	background: #fff;
 	padding: 0.25rem;
 }
@@ -194,5 +218,24 @@ footer .grid-6:last-of-type {
 	}
 	.date {
 		margin-top: -0.5rem;
+	}
+}
+
+header,
+footer {
+	font-weight: 300;
+	font-size: 1rem;
+	font-family: $sans;
+}
+
+.project-preview {
+	font-family:  $sans;
+}
+
+.project-information {
+	font-family: $sans;
+	font-size: 1rem;
+	ul {
+		margin-left: 0;
 	}
 }

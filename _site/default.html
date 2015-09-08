@@ -1,0 +1,20 @@
+{% capture content %}
+	
+	{% if meta.redirect %}
+		<meta http-equiv="refresh" content="0;url={{meta.redirect}}">
+	{% endif %}
+		
+	<h1 class="page-title">{{ title }}</h1>
+	
+	<div class="page-content">
+		{{ body }}
+	</div>
+	
+	{% if parent %}
+		<a href="{{ parent.url }}" class="back-to">Back to {{ parent.title }}</a>
+	{% endif %}
+	
+
+{% endcapture %}{{ html | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}
+
+{% include 'layouts/default' %}

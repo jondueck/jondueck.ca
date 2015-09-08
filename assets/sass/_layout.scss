@@ -6,6 +6,7 @@ body {
 	background: $lightgrey;
 	background: #f2f2f2;
 	background: #f8f8f8;
+	background: #fbfbfb;
 }
 
 .wrap {
@@ -14,12 +15,16 @@ body {
 	margin: auto;
 	@include outer-container();
 	@include row();
+	@include media($medium) {
+		width:  95%;
+	}
 	@include media($mobile) {
 		width: 95%;
 	}
 }
 
-.page-content {
+.page-content,
+.content {
 	@include span-columns(6 of 8);
 	@include shift(1 of 8);
 	@include omega();
@@ -30,7 +35,7 @@ body {
 }
 
 .work {
-	max-width: 1100px;
+	max-width: 68.75rem;
 }
 
 img {
@@ -38,7 +43,6 @@ img {
 }
 
 header {
-	text-align: center;
 	padding: 2rem 0;
 	img { 
 		display: inline-block; 
@@ -46,58 +50,54 @@ header {
 	}
 
 	nav {
-		text-align: center;
-		font-family: $sans;
-		@include span-columns(4 of 8);
-		@include shift (2 of 8);
-		a {
-			display: inline-block;
-			margin: 1.25rem 1rem 0;
-		}
-		li:nth-of-type(2) a{
-			margin-top: 0;
-			border-bottom: none;
- 		}
-		li:nth-of-type(2) a:hover{
-			opacity: 0.8;
-		}
-		ul {
-			list-style: none;
-			margin: auto;
-			overflow: hidden;
-			padding-left: 0;
-			
-			li {
-				height: 4.5rem;
-				float: left;
-				@include span-columns (2 of 4);
-				@include media($mobile) {
-					@include span-columns(1 of 3);
-				}
-			}
-			li:first-of-type {
-				text-align: right;
-				@include span-columns (1 of 4);
-				@include media($mobile) {
-					@include span-columns(1 of 3);
-				}
-			}
-			li:last-of-type {
-				text-align: left;
-				@include span-columns (1 of 4);
-				@include media($mobile) {
-					@include span-columns(1 of 3);
-				}
-			}
-	
-		}
-		@include media($mobile) {
-			@include span-columns(8 of 8);
-			@include shift (0 of 8);
-		}
+		text-align: left;
+//		a {
+//			display: inline-block;
+//			margin: 1.25rem 1rem 0;
+//		}
 		
 	}
 }
+
+.site-brand {
+	@include span-columns(4 of 8);
+	@include media($small) {
+		@include span-columns(1 of 1);
+		@include omega();
+	}
+}
+
+.site-nav {
+	@include span-columns(4 of 8);
+	@include omega();
+	@include media($medium) {
+		@include span-columns(1 of 1);
+		@include omega();
+	}
+	div {
+		@include span-columns(2 of 4);
+		@include omega(2n);
+	}
+	.social-links {
+		@include span-columns(2 of 2);
+		@include omega();
+	}
+	a {
+		display:  block;
+		margin-top:  0;
+		margin-bottom: 0;
+	}
+	.ss-icon {
+		font-size: 0.875rem;
+		float: left;
+		max-width: 25%;
+		margin-right: 1rem;
+		&:last-of-type {
+			margin-right: none;
+		}
+	}
+}
+
 
 .content-title {
 	margin-top: 1rem;
@@ -108,17 +108,28 @@ header {
 	clear: both;
 }
 
+//.project-preview {
+//	@include span-columns(4 of 8);
+//	&:nth-of-type(2n+1) {
+//		@include omega();
+//		clear: none;
+//	}
+//	&:nth-of-type(2n) {
+//		clear: both;
+//	}
+//	&:nth-of-type(1) {
+//		@include span-columns(8);
+//	}
+//}
+
 .project-preview {
-	@include span-columns(4 of 8);
-	&:nth-of-type(2n+1) {
+	@include row();
+	.project-title {
+		@include span-columns(3 of 8);
+	}
+	.project-information {
+		@include span-columns(5 of 8);
 		@include omega();
-		clear: none;
-	}
-	&:nth-of-type(2n) {
-		clear: both;
-	}
-	&:nth-of-type(1) {
-		@include span-columns(8);
 	}
 }
 
@@ -277,4 +288,34 @@ hr {
 	border-top: 1px solid #ddd;
 	width: 50%;
 	max-width: 10rem;
+}
+
+.project-list {
+	@include row();
+	@include span-columns(6 of 8);
+	@include shift (1);
+}
+
+.project-year {
+	@include row();
+}
+
+.project-year--year {
+	@include span-columns(2 of 6);
+}
+
+.project-year--projects {
+	@include span-columns(4 of 6);
+	@include omega();
+	list-style: none;
+	margin-left: 0;
+}
+
+.page-excerpt {
+	@include span-columns(6 of 8);
+	@include shift(2 of 8);
+	@include media($medium) {
+		@include shift(0);
+		@include span-columns(8 of 8);
+	}
 }

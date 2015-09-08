@@ -5,13 +5,13 @@
 		
 		<img src="{{meta.thumb.value}}" />
 		
-		<h1>{{title}}</h1>
+		<h1>{{ title }}</h1>
 		<ul class="project_data">
-		{% for tag in taxonomy.tags %}
+			{% for tag in taxonomy.tags %}
 		    <li>
 		        <a href="{{ tag.url }}">{{ tag.value }}</a>
 		    </li>
-		{% endfor %}
+			{% endfor %}
 		</ul>		
 			
 	{% endif %}
@@ -85,27 +85,6 @@
 			<p><a href="/toolbox">Toolbox</a> — A list of some of the tools I use everyday.</p>
 	
 		</section>	
-	
-		<!--{% for post in posts %}
-				<article class="post-preview">
-					<!--{% if meta.thumb %}
-						<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>
-					{% endif %}--*>
-					
-					{% if post.meta.redirect %}
-					<a href="{{post.meta.redirect.value}}">
-					{% else %}
-					<a href="{{post.url}}">
-					{% endif %}
-					<h2>{{post.title}}</h2></a>
-				
-					{{ post.body | truncate: 250}}
-						
-					<!--<p><a href="{{post.url}}">Read More &rarr;</a></p>--*>
-						
-				</article>
-								
-			{% endfor %}-->
 	
 		{% comment %} Pagination {% endcomment %}
 	

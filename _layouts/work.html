@@ -1,43 +1,5 @@
 {% capture content %}
 <section class="content work">
-
-	{% if type == "post" %}
-		
-<!--		<article class="post project">
-<!--			<img class="hero" src="{{ meta.thumb.value }}">--*>
-			
-			<div class="project-information">
-				<h2>{{ title }}</h2>
-				
-				{% if meta.worklocation %}
-					<p class="work-location">Made at 
-					{% if meta.worklocation == 'Collectif'%}
-						<a href="http://collectif.co">
-					{% endif %}
-							{{meta.worklocation}}
-					{% if meta.worklocation == 'Collectif'%}
-						</a>
-					{% endif %}
-					
-					</p>
-				{% endif %}
-				
-				<ul class="project-tags">
-					{% for tag in taxonomy.tags %}
-						<li>{{ tag.value }}</li>
-					{% endfor %}
-				</ul>
-				
-				{% if meta.details %}
-					<div class="project-details">
-						{{ meta.details | markdown }}
-					</div>
-				{% endif %}
-			</div>
-			
-		</article>-->
-		
-	{% endif %}
 	
 	{% if type == "post" %}
 		<article class="post">
@@ -49,7 +11,7 @@
 					<ul class="project-tags">
 					{% for tag in taxonomy.tags %}
 					    <li>
-					       <!-- <a href="{{ tag.url }}">-->{{ tag.value }}<!--</a>-->
+					       {{ tag.value }}
 					    </li>
 					{% endfor %}
 					</ul>
@@ -58,7 +20,7 @@
 				<div style="float: right;">	
 					{% if meta.worklocation %}
 						
-						<p class="work-location"><!--Done at-->@ {{meta.worklocation}}</p>
+						<p class="work-location"><!--Done at-->At {{meta.worklocation}}</p>
 						
 					{% endif %}
 					
@@ -67,112 +29,81 @@
 				</div>
 			</div>
 		</article>
-	{% endif %}
-
-		
-<!--	{% if pages %}
-	{% comment %} Show subpages if there are any available {% endcomment %}
-	
-		<nav class="subpage-menu">
-			{% for subpage in pages %}
-			<a href="{{subpage.url}}">{{subpage.title}}</a>
-			{% endfor %}
-		</nav>
-		
-	{% endif %}-->
 		
 		{{ body }}
-		
-		{% if type == "post" %}
-		
-		  {% if next or previous %}
-		    <div class="pagination">
-		      {% if previous %}
-		        <a href="{{ previous.url }}" class="older">Older</a>
-		      {% else %}
-		        <span class="inactive">Older</span>
-		      {% endif %}
-		
-		      <span>&middot;</span>
-		
-		      {% if next %}
-		        <a href="{{ next.url }}" class="newer">Newer</a>
-		      {% else %}
-		        <span class="inactive">Newer</span>
-		      {% endif %}
-		    </div>
-		  {% endif %}
+	
+	  {% if next or previous %}
+	    <div class="pagination">
+	      {% if previous %}
+	        <a href="{{ previous.url }}" class="older">Older</a>
+	      {% else %}
+	        <span class="inactive">Older</span>
+	      {% endif %}
+	
+	      <span>&middot;</span>
+	
+	      {% if next %}
+	        <a href="{{ next.url }}" class="newer">Newer</a>
+	      {% else %}
+	        <span class="inactive">Newer</span>
+	      {% endif %}
+	    </div>
+	  {% endif %}
 		  
-<!--		  <div class="related-posts">
-		  {% for related_post in parent.posts %}
-		    {% for tag in current.taxonomy['tags'].values %}
-		      {% if related_post.taxonomy['tags'][tag.slug] and related_post.id != current.id %}
-		        <div class="related-post">
-		        	<a href="{{related_post.url}}">
-		        		<img src="{{related_post.meta.thumb}}">
-		        	</a>
-		        </div>
-		        {% break %}
-		      {% endif %}
-		    {% endfor %}
-		    {% if forloop.index == 3 %}{% break %}{% endif %}
-		  {% endfor %}
-		  </div>-->
+	{% else %}
 		
+		<div class="page-excerpt">
+			{{ body }}
+		</div>	
+	
+		{% for article in posts %}
+	    
+	    {% assign year = article.date | date: '%Y' %}
+	
+	    {% if year != prev_year %}
+	      {% if prev_year %}
+	          </ul>
+	        </section>
+	        {% cycle "", "</div><div class='list-column'>" %}
+	      {% endif %}
+	
+	        <section class="project-year project-list post-preview project-preview">
+	        	<div class="project-year--year">
+	          	<h2>{{ year }}</h2>
+	          </div>
+	          <ul class="project-year--projects">
+	    {% endif %}
+	
+	    <li class="">
+	      <a href='{{ article.url }}'>{{ article.title }}</a>
+	    </li>
+	
+	    {% assign prev_year = year %}
+	  {% endfor %}
 		
-		{% else %}
-		
-		{% for post in posts %}
+		<!--{% for post in posts %}
 			<article class="post-preview project-preview">
-				<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>
-				<div class="project-information">
-				<!--<div class="grid-6">-->
+				<div class="project-title">
 					<a href="{{post.url}}"><h2>{{post.title}}</h2></a>
-					
-					<!--<ul class="project-tags">
-					{% for tag in post.taxonomy.tags %}
-					    <li>
-					        <a href="{{ tag.url }}">{{ tag.value }}</a>
-					    </li>
-					{% endfor %}
-					</ul>-->
-				
-				<!--</div>-->
-				<div>	
-					<!--{% if post.meta.worklocation %}
-						
-						<p class="work-location"><!--Done at--*>@ {{post.meta.worklocation}}</p>
-						
-					{% endif %}-->
-					
-					<!--<p class="date">{{post.date | date: "%B %Y"}}</p>-->
-					
 				</div>
-			</div>
-			
+				<!--<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>--*>
+				<div class="project-information">
+					<div class="">
+						{{ post.body | strip_html }}
+					</div>
+				</div>
+				
 			</article>
-			
-			<!--<img src="{{meta.thumb.value}}" />-->
-			
 						
-		{% endfor %}
-		
-			<!--<div class="portfolio">
-				<h2>Latest from Dribble</h2>
-				<ul id="portfolio"></ul>
-			</div>-->
+		{% endfor %}-->
 			
-		{% endif %}
+	{% endif %}
 		
 		{% if parent %}
 			<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
 		{% endif %}
 	
 	</section><!-- /content -->
-	
-	<!--<div class="work-list">
-		{{ meta.other-work | markdown }}
-	</div>-->
 	
 {% endcapture %}
 

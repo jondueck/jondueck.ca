@@ -7,10 +7,10 @@
 	</section>
 	
 	<section class="homepage_writings">
-	<h2>Writings</h2>
+		<h2>Writings</h2>
 	
-	{% for post in site.pages['writings'].posts limit: 3 %}
-		
+		{% for post in site.pages['writings'].posts limit: 3 %}
+			
 			<article class="post-preview home-writings">
 			<span>{{post.date | date: "%d %b %Y"}}</span>
 			
@@ -32,9 +32,9 @@
 				</a>
 				
 			</article>
-		
+			
 		{% else %}
-		CAN'T FIND POSTS :(	
+			CAN'T FIND POSTS :(	
 		{% endfor %}
 	</section>	
 

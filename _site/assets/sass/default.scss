@@ -1,0 +1,24 @@
+@import 'bourbon';
+@import 'neat';
+
+@import 'mixins';
+
+@import 'reset';
+
+@import 'grid';
+
+@import 'type';
+
+@import 'objects';
+
+@import 'layout';
+
+@import 'responsive';
+
+a {
+	transition-duration: 0.15s;
+}
+
+a img:hover {
+	opacity: 0.75;
+}
