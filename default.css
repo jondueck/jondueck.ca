@@ -107,7 +107,7 @@ header a {
   border-bottom: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Karla, Helvetica, sans-serif;
+  font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif;
   font-weight: normal;
   font-weight: bolder;
   font-weight: 600;
@@ -181,7 +181,7 @@ a:hover {
     font-weight: 900;
     text-align: center; }
   .writing h2, .writing h3 {
-    font-family: Karla, Helvetica, sans-serif; }
+    font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif; }
   .writing:last-child {
     margin-right: 0; }
   .writing:after {
@@ -248,13 +248,13 @@ footer .grid-6:last-of-type {
 header, footer {
   font-weight: 300;
   font-size: 1rem;
-  font-family: Karla, Helvetica, sans-serif; }
+  font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif; }
 
 .project-preview {
-  font-family: Karla, Helvetica, sans-serif; }
+  font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif; }
 
 .project-information {
-  font-family: Karla, Helvetica, sans-serif;
+  font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif;
   font-size: 1rem; }
   .project-information ul {
     margin-left: 0; }
@@ -495,7 +495,7 @@ p {
   padding: none;
   padding: 1rem 0; }
   .home-writings span {
-    font-family: Karla, Helvetica, sans-serif;
+    font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif;
     font-size: 0.75rem;
     font-weight: 600;
     margin-right: 1rem;
@@ -648,6 +648,12 @@ hr {
       width: 100%; }
       .page-excerpt:last-child {
         margin-right: 0; } }
+
+.front-page-photo-byline {
+  font-size: 1rem;
+  font-style: italic;
+  text-align: right;
+  margin-bottom: 0; }
 
 /*========================================
 	Responsive

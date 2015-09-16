@@ -1,23 +1,23 @@
-<meta property="og:url"             content="{{permalink}}" />
+<meta property="og:url" content="{{permalink}}" />
 
 {% if type == 'post' %}
-	<meta property="og:type"        content="article" />
+	<meta property="og:type" content="article" />
 	{% else %}
-	<meta property="og:type"		content="blog"/>
+	<meta property="og:type" content="blog"/>
 {% endif %}
-<meta property="og:site_name" 		content="{{site.title | escape}}" />
-<meta property="og:title"           content="{{ current.title }}" />
-<meta property="og:description"     content="{{ meta.description | fallback: current.body | strip_html | strip_newlines | truncate: 160 }}" />
+<meta property="og:site_name" content="{{site.title | escape}}" />
+<meta property="og:title" content="{{ current.title }}" />
+<meta property="og:description" content="{{ meta.description | fallback: current.body | strip_html | strip_newlines | truncate: 160 }}" />
 {% if type == 'post' %}
-	<meta property="article:author"     content="https://www.facebook.com/jondueck" />
-	<meta property="article:publisher"  content="https://www.facebook.com/jondueck" />
-	<meta property="article:published"  content="{{ current.date }}" />
+	<meta property="article:author" content="https://www.facebook.com/jondueck" />
+	<meta property="article:publisher" content="https://www.facebook.com/jondueck" />
+	<meta property="article:published" content="{{ current.date }}" />
 	{% for tagset in taxonomy %}{% for tag in tagset %}
-		<meta property="article:tag"		content="{{tag.value}}">
+		<meta property="article:tag" content="{{tag.value}}">
 	{% endfor %} {% endfor %}
 {% endif %}
-<meta property="og:image"           content="{{ meta.thumb }}">
-<meta property="og:locale"			content="en_CA">
+<meta property="og:image" content="{{ meta.thumb }}">
+<meta property="og:locale" content="en_CA">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{{site.meta.twitter}}">

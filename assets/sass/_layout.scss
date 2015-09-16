@@ -319,3 +319,10 @@ hr {
 		@include span-columns(8 of 8);
 	}
 }
+
+.front-page-photo-byline {
+	font-size: 1rem;
+	font-style: italic;
+	text-align: right;
+	margin-bottom: 0;
+}
