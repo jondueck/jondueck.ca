@@ -1,4 +1,4 @@
-//	
+//
 //	Layout
 //
 
@@ -30,7 +30,7 @@ body {
 	@include omega();
 	@include media($mobile) {
 		@include span-columns(8 of 8);
-		@include shift(0);	
+		@include shift(0);
 	}
 }
 
@@ -44,8 +44,8 @@ img {
 
 header {
 	padding: 2rem 0;
-	img { 
-		display: inline-block; 
+	img {
+		display: inline-block;
 		max-height: 4.5rem;
 	}
 
@@ -55,7 +55,7 @@ header {
 //			display: inline-block;
 //			margin: 1.25rem 1rem 0;
 //		}
-		
+
 	}
 }
 
@@ -140,7 +140,7 @@ header {
 			@include span-columns(3 of 8);
 		}
 	}
-}	
+}
 
 .home-bio {
 	@include span-columns(6 of 8);
@@ -160,6 +160,25 @@ footer {
 	margin-top: 3rem;
 	padding: 2.25rem 0;
 	margin-top: 5rem;
+}
+
+.copyright {
+	@include span-columns(6 of 12);
+}
+
+.footer-social {
+		@include span-columns(6 of 12);
+		@include omega();
+		text-align: right;
+}
+
+.copyright, .footer-social {
+  @media only screen and (max-width: 40rem) {
+		width: 100%;
+ 		text-align: center;
+ 		float: none;
+		@include omega();
+	}
 }
 
 footer:nth-child(5) {
@@ -200,11 +219,11 @@ p {
 .home-writings{
 	padding: none;
 	padding: 1rem 0;
-	span { 
-		font-family: $sans; 
+	span {
+		font-family: $sans;
 		font-size: 0.75rem;
-		font-weight: 600; 
-		margin-right: 1rem; 
+		font-weight: 600;
+		margin-right: 1rem;
 		height: 100%;
 	}
 }
@@ -227,7 +246,7 @@ p {
 }
 
 .post .project-information {
-	
+
 	border-bottom: 1px solid $darkgrey ;
 //	@include span-columns(6 of 8);
 //	@include shift(2 of 8);

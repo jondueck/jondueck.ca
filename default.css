@@ -453,6 +453,31 @@ footer {
   footer a {
     margin: 0.5rem; }
 
+.copyright {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%; }
+  .copyright:last-child {
+    margin-right: 0; }
+
+.footer-social {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+  margin-right: 0;
+  text-align: right; }
+  .footer-social:last-child {
+    margin-right: 0; }
+
+@media only screen and (max-width: 40rem) {
+  .copyright, .footer-social {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin-right: 0; } }
+
 footer:nth-child(5) {
   color: #3fd4ad; }
 
