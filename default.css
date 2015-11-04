@@ -228,14 +228,6 @@ footer .grid-6:last-of-type {
   color: #3fd4ad; }
 
 .project-information {
-  /*font-family: $serif;
-	font-size: 1.125rem;
-	div:first-of-type p:first-of-type {
-		font-weight: bolder;
-		font-weight: 700;
-		font-style: italic;
-		/*background: green;*!/
-	}*/
   overflow: hidden; }
 
 .project-preview h2 {
@@ -258,6 +250,11 @@ header, footer {
   font-size: 1rem; }
   .project-information ul {
     margin-left: 0; }
+
+*[rel="footnote"] {
+  font-size: 75%;
+  border-bottom: none;
+  opacity: 0.5; }
 
 body {
   background: #f0f3f5;

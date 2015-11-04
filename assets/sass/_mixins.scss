@@ -1,18 +1,18 @@
 //
 //	Mixins
-//  
+//
   $white			:		#fff;
 //  $lightgrey		:		#f5f5f5;
   $lightgrey		:		#f0f3f5;
   $darkgrey			:		#ddd;
   $black			:		#444;
   $green			:		#3fd4ad;
-    
+
   $padding			:		2rem;
   $spacing			:		4rem;
   $border			:		0.125rem solid $green;
   $border			:		1.5px solid $green;
-  
+
   $grid-columns	: 			8;
   $gutter			:		2rem;
   $max-width		:		rem(1100);
@@ -20,11 +20,11 @@
   $visual-grid-index:		back;
   $visual-grid-color: 		rgba(0, 0, 15, .1);
   $mobile			: 		new-breakpoint(max-width 500px 4);
-  
+
   $small: new-breakpoint(max-width 500px 4);
   $medium: new-breakpoint(max-width 768px 8);
   $large: new-breakpoint(max-width 900px 8);
-  
+
   @mixin box-sizing() {
   	-webkit-box-sizing: border-box;
   	-moz-box-sizing: border-box;

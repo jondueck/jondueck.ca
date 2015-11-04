@@ -51,10 +51,10 @@ header {
 
 	nav {
 		text-align: left;
-//		a {
-//			display: inline-block;
-//			margin: 1.25rem 1rem 0;
-//		}
+		//		a {
+		//			display: inline-block;
+		//			margin: 1.25rem 1rem 0;
+		//		}
 
 	}
 }
@@ -167,16 +167,16 @@ footer {
 }
 
 .footer-social {
-		@include span-columns(6 of 12);
-		@include omega();
-		text-align: right;
+	@include span-columns(6 of 12);
+	@include omega();
+	text-align: right;
 }
 
 .copyright, .footer-social {
-  @media only screen and (max-width: 40rem) {
+	@media only screen and (max-width: 40rem) {
 		width: 100%;
- 		text-align: center;
- 		float: none;
+		text-align: center;
+		float: none;
 		@include omega();
 	}
 }
@@ -248,8 +248,8 @@ p {
 .post .project-information {
 
 	border-bottom: 1px solid $darkgrey ;
-//	@include span-columns(6 of 8);
-//	@include shift(2 of 8);
+	//	@include span-columns(6 of 8);
+	//	@include shift(2 of 8);
 }
 
 .post {

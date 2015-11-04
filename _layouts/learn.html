@@ -1,25 +1,25 @@
 {% capture content %}
-	
+
 	{% if type == "post" %}
 	<section class="content writing">
-		
+
 		<img src="{{meta.thumb.value}}" />
-		
+
 		<h1>{{ title }}</h1>
 		<ul class="project_data">
 			{% for tag in taxonomy.tags %}
 		    <li>
-		        <a href="{{ tag.url }}">{{ tag.value }}</a>
+		      <a href="{{ tag.url }}">{{ tag.value }}</a>
 		    </li>
 			{% endfor %}
-		</ul>		
-			
+		</ul>
+
 	{% endif %}
-				
+
 	{{ body }}
-		
-	{% if type == "post" %}    
-		
+
+	{% if type == "post" %}
+
 		{% if next or previous %}
 		    <div class="pagination">
 		      {% if previous %}
@@ -27,9 +27,9 @@
 		      {% else %}
 		        <span class="inactive">Older</span>
 		      {% endif %}
-		
+
 		      <span>&middot;</span>
-		
+
 		      {% if next %}
 		        <a href="{{ next.url }}" class="newer">Newer</a>
 		      {% else %}
@@ -37,21 +37,21 @@
 		      {% endif %}
 		    </div>
 	  	{% endif %}
-	
+
 	{% else %}
-		
+
 	<section class="content ">
-	
+
 	{% comment %} Loop through any posts and show an excerpt {% endcomment %}
 
 		<section class="homepage_writings">
 		<!--<h2>Writings</h2>-->
 
 			{% for post in posts %}
-	
+
 				<article class="post-preview home-writings">
 					<span class="post-preview-date">{{post.date | date: "%d %b %Y"}}</span>
-					
+
 					<a class="post-preview-title" href=
 						{% if post.meta.redirect%}
 							"{{post.meta.redirect.value}}"
@@ -59,41 +59,39 @@
 							"{{post.url}}"
 						{% endif %}
 					>
-					
+
 					{{post.title}}
-					
+
 					{% if post.meta.external == 'Medium' %}
 						<img src="/assets/icons/medium.svg" class="external-icon">
 					{% endif %}
 					{% if post.meta.external == 'Day One' %}
 						<img src="/assets/icons/dayone.svg" class="external-icon">
 					{% endif %}
-					
+
 					</a>
-					
+
 				</article>
-	
+
 			{% else %}
 				<p>¯\_(ツ)_/¯</p>
 				<p>CAN'T FIND POSTS</p>
 				<p>:(</p>
 			{% endfor %}
-	
+
 			<h2>Here's more:</h2>
 
 			<p><a href="/quotes">Quotes</a> — Things that others said better than me</p>
 			<p><a href="/toolbox">Toolbox</a> — A list of some of the tools I use everyday.</p>
-	
-		</section>	
-	
-		{% comment %} Pagination {% endcomment %}
-	
+
+		</section>
+
 	{% endif %}
-			
+
 	{% if parent %}
 		<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
 	{% endif %}
-	
+
 	</section><!-- /content -->
 {% endcapture %}
 

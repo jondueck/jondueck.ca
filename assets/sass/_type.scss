@@ -1,4 +1,4 @@
-//	
+//
 //	Type
 //
 
@@ -34,8 +34,8 @@ body {
 }
 
 
-p a:not(img), 
-header a, 
+p a:not(img),
+header a,
 ul a:not(img) {
 	border-bottom: 1.25px solid $green;
 	&:hover {
@@ -118,7 +118,7 @@ a:hover {
 		margin: 2rem auto;
 		overflow: hidden;
 		background: $green;
-	}	
+	}
 }
 
 .project-tags {
@@ -198,14 +198,14 @@ footer .grid-6:last-of-type {
 }
 
 .project-information {
-	/*font-family: $serif;
-	font-size: 1.125rem;
-	div:first-of-type p:first-of-type {
-		font-weight: bolder;
-		font-weight: 700;
-		font-style: italic;
-		/*background: green;*!/
-	}*/
+	// font-family: $serif;
+	// font-size: 1.125rem;
+	// div:first-of-type p:first-of-type {
+	// 	font-weight: bolder;
+	// 	font-weight: 700;
+	// 	font-style: italic;
+	// 	background: green;
+	// }
 	overflow: hidden;
 }
 
@@ -238,4 +238,11 @@ footer {
 	ul {
 		margin-left: 0;
 	}
+}
+
+// Footnotes
+*[rel="footnote"] {
+	font-size: 75%;
+	border-bottom: none;
+	opacity: 0.5;
 }
