@@ -1,6 +1,6 @@
 jondueck.ca
 ===========
-As I do my work through Collectif, jondueck.ca should have a much more, personal feel. 
+As I do my work through Collectif, jondueck.ca should have a much more, personal feel.
 
 ## Purpose
 * Online home page

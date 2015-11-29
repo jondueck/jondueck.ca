@@ -3,19 +3,17 @@
 
 @import 'mixins';
 
-@import 'reset';
+@import 'partials/reset';
 
-@import 'grid';
+@import 'partials/type';
 
-@import 'type';
-
-@import 'objects';
+@import 'modules/objects';
 
 @import 'layout';
 
 @import 'responsive';
 
-//@import 'ss-social';
+// @import 'ss-social';
 
 a {
 	transition-duration: 0.15s;

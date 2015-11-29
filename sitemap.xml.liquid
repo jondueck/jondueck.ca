@@ -6,14 +6,14 @@
       <lastmod>{{page.updated_at| date: "%Y-%m-%d"}}</lastmod>
       <priority>1.0</priority>
     </url>
-      {% for subpage in page.pages %}
-       <url>
-      <loc>{{subpage.permalink}}/</loc>
-      <lastmod>{{subpage.updated_at| date: "%Y-%m-%d"}}</lastmod>
-      <priority>0.8</priority>
+    {% for subpage in page.pages %}
+      <url>
+        <loc>{{subpage.permalink}}/</loc>
+        <lastmod>{{subpage.updated_at| date: "%Y-%m-%d"}}</lastmod>
+        <priority>0.8</priority>
       </url>
-      {% endfor %}
-      {% for post in page.posts %}
+    {% endfor %}
+    {% for post in page.posts %}
       <url>
         <loc>{{post.permalink}}/</loc>
         <lastmod>{{post.updated_at| date: "%Y-%m-%d"}}</lastmod>

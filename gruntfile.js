@@ -4,20 +4,20 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    //        uglify: {
-    //            build: {
-    //                src: 'js/build/production.js',
-    //                dest: 'js/build/production.min.js'
-    //            }
-    //        },
+    // uglify: {
+    //   build: {
+    //     src: 'js/build/production.js',
+    //     dest: 'js/build/production.min.js'
+    //   }
+    // },
     watch: {
-      //	        scripts: {
-      //	            files: ['assets/js/*.js'],
-      //	            tasks: ['concat', 'uglify'],
-      //	            options: {
-      //	                spawn: false,
-      //	            },
-      //	        },
+      // scripts: {
+      //   files: ['assets/js/*.js'],
+      //   tasks: ['concat', 'uglify'],
+      //   options: {
+      //     spawn: false,
+      //   },
+      // },
       css: {
         files: ['assets/sass/*.scss'],
         tasks: ['sass'],

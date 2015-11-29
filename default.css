@@ -3,9 +3,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/*========================================
-	Reset
-  ========================================*/
 * {
   margin: 0;
   padding: 0;
@@ -27,54 +24,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0; }
 
-.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-golden-sm, .grid-golden-l {
-  box-sizing: border-box;
-  float: left; }
-
-.grid-1 {
-  width: 8.3333333333%; }
-
-.grid-2 {
-  width: 16.6666666667%; }
-
-.grid-3 {
-  width: 25%; }
-
-.grid-4 {
-  width: 33.3333333333%; }
-
-.grid-5 {
-  width: 41.6666666667%; }
-
-.grid-6 {
-  width: 50%; }
-
-.grid-7 {
-  width: 8.3333333333%; }
-
-.grid-8 {
-  width: 8.3333333333%; }
-
-.grid-9 {
-  width: 8.3333333333%; }
-
-.grid-10 {
-  width: 8.3333333333%; }
-
-.grid-11 {
-  width: 8.3333333333%; }
-
-.grid-12 {
-  width: 8.3333333333%; }
-
-.grid-golden-sm {
-  width: 38.2%;
-  overflow: hidden; }
-
-.grid-golden-l {
-  width: 61.8%;
-  overflow: hidden; }
-
 *, html, body {
   font-size: 100%; }
 
@@ -82,37 +31,35 @@ body {
   font-family: 'warnock-pro', 'Calluna', georgia, serif;
   letter-spacing: -0.02rem;
   color: #444;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
   font-feature-settings: "liga" "dlig";
-  font-size: 1.125rem;
-  line-height: 2.25rem;
   font-size: 1.25rem;
-  line-height: 2.5rem; }
+  line-height: 2.5rem;
+  line-height: 2; }
   @media screen and (max-width: 768px)  {
     body {
-      font-size: 1.125rem;
-      line-height: 2.25rem; } }
+      font-size: 1.125rem; } }
   @media screen and (max-width: 500px)  {
     body {
-      font-size: 1rem;
-      line-height: 2.125rem; } }
+      font-size: 1rem; } }
 
 p a:not(img), header a, ul a:not(img) {
   border-bottom: 1.25px solid #3fd4ad; }
   p a:not(img):hover, header a:hover, ul a:not(img):hover {
     color: #3fd4ad; }
 
+ul a:not(img) {
+  border-bottom-color: #ddd;
+  border-bottom-width: 1px; }
+  ul a:not(img):hover {
+    border-bottom-color: #3fd4ad; }
+
 header a {
   border-bottom: none; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif;
-  font-weight: normal;
   font-weight: bolder;
-  font-weight: 600;
   font-weight: 400;
-  /*font-weight: 700;*/
   -webkit-font-smoothing: antialiased; }
 
 h1 {
@@ -256,11 +203,11 @@ header, footer {
   border-bottom: none;
   opacity: 0.5; }
 
+.project-year--year h2 {
+  margin-top: 0; }
+
 body {
-  background: #f0f3f5;
-  background: #f2f2f2;
-  background: #f8f8f8;
-  background: #fbfbfb; }
+  background-color: #fbfbfb; }
 
 .wrap {
   width: 90%;
@@ -310,12 +257,12 @@ body {
 img {
   max-width: 100%; }
 
-header {
+.site-header {
   padding: 2rem 0; }
-  header img {
+  .site-header img {
     display: inline-block;
     max-height: 4.5rem; }
-  header nav {
+  .site-header nav {
     text-align: left; }
 
 .site-brand {
@@ -479,8 +426,6 @@ footer:nth-child(5) {
   color: #3fd4ad; }
 
 ::selection {
-  background: #eee;
-  background: #fff;
   background: rgba(63, 212, 173, 0.25);
   color: #444;
   padding: 0.5rem; }
@@ -514,7 +459,6 @@ p {
   border-top: none; }
 
 .home-writings {
-  padding: none;
   padding: 1rem 0; }
   .home-writings span {
     font-family: Karla, 'warnock-pro', 'Calluna', georgia, serif, Helvetica, sans-serif;
@@ -677,9 +621,6 @@ hr {
   text-align: right;
   margin-bottom: 0; }
 
-/*========================================
-	Responsive
-  ========================================*/
 @media only screen and (max-width: 40em) {
   .post-preview {
     width: 100%;

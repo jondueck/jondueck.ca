@@ -1,12 +1,10 @@
-//
 //	Layout
-//
 
 body {
-	background: $lightgrey;
-	background: #f2f2f2;
-	background: #f8f8f8;
-	background: #fbfbfb;
+	// background: $lightgrey;
+	// background: #f2f2f2;
+	// background: #f8f8f8;
+	background-color: #fbfbfb;
 }
 
 .wrap {
@@ -42,7 +40,7 @@ img {
 	max-width: 100%;
 }
 
-header {
+.site-header {
 	padding: 2rem 0;
 	img {
 		display: inline-block;
@@ -51,11 +49,10 @@ header {
 
 	nav {
 		text-align: left;
-		//		a {
-		//			display: inline-block;
-		//			margin: 1.25rem 1rem 0;
-		//		}
-
+		// a {
+		// 	display: inline-block;
+		// 	margin: 1.25rem 1rem 0;
+		// }
 	}
 }
 
@@ -98,7 +95,6 @@ header {
 	}
 }
 
-
 .content-title {
 	margin-top: 1rem;
 }
@@ -107,20 +103,6 @@ header {
 	padding-top: 2rem;
 	clear: both;
 }
-
-//.project-preview {
-//	@include span-columns(4 of 8);
-//	&:nth-of-type(2n+1) {
-//		@include omega();
-//		clear: none;
-//	}
-//	&:nth-of-type(2n) {
-//		clear: both;
-//	}
-//	&:nth-of-type(1) {
-//		@include span-columns(8);
-//	}
-//}
 
 .project-preview {
 	@include row();
@@ -186,8 +168,8 @@ footer:nth-child(5) {
 }
 
 ::selection {
-	background: #eee;
-	background: #fff;
+	// background: #eee;
+	// background: #fff;
 	background: rgba(63,212,173,0.25);
 	color: #444;
 	padding: 0.5rem;
@@ -217,7 +199,7 @@ p {
 }
 
 .home-writings{
-	padding: none;
+	// padding: none;
 	padding: 1rem 0;
 	span {
 		font-family: $sans;

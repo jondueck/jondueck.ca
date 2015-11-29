@@ -4,10 +4,11 @@
 
 $serif			:		'warnock-pro', 'Calluna', georgia, serif;
 $sans				:		Karla, $serif, Helvetica, sans-serif;
-//$sans				:		'Maison Neue Medium', 'Maison Neue Book', Karla, Helvetica, sans-serif;
-$mono				: 'source-code-pro', "Source Code Pro", monospace;
+$mono				:		'source-code-pro', "Source Code Pro", monospace;
 
-*, html, body {
+*,
+html,
+body {
 	font-size: 100%;
 }
 
@@ -15,31 +16,38 @@ body {
 	font-family: $serif;
 	letter-spacing: -0.02rem;
 	color: $black;
-	font-size: 1.125rem;
-	line-height: 1.75rem;
 	font-feature-settings: "liga""dlig";
-	font-size: 1.125rem;
-	line-height: 2.25rem;
-//	font-family: calluna;
 	font-size: 1.25rem;
 	line-height: 2.5rem;
+	line-height: 2;
 	@include media($medium) {
-		font-size:  1.125rem;
-		line-height: 2.25rem;
+		font-size: 1.125rem;
+		// line-height: 2.25rem;
 	}
 	@include media($small) {
-		font-size:  1rem;
-		line-height: 2.125rem;
+		font-size: 1rem;
+		// line-height: 2.125rem;
 	}
 }
-
 
 p a:not(img),
 header a,
 ul a:not(img) {
 	border-bottom: 1.25px solid $green;
+	// -webkit-box-shadow: inset 0 -1px 0 0 $green;
+	// -moz-box-shadow: inset 0 -1px 0 0 $green;
+	// box-shadow: inset 0 -1px 0 0 $green;
+	// text-decoration: underline;
 	&:hover {
 		color: $green;
+	}
+}
+
+ul a:not(img) {
+	border-bottom-color: $darkgrey;
+	border-bottom-width: 1px;
+	&:hover {
+		border-bottom-color: $green;
 	}
 }
 
@@ -51,16 +59,16 @@ header a {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $sans;
-	font-weight: normal;
+	// font-weight: normal;
 	font-weight: bolder;
-	font-weight: 600;
+	// font-weight: 600;
 	font-weight: 400;
-	/*font-weight: 700;*/
+	// font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
-//	font-size: 2.5rem;
+	//	font-size: 2.5rem;
 	font-size: 3rem;
 	font-weight: 500;
 	margin: 1.5rem 0;
@@ -154,7 +162,7 @@ blockquote {
 	margin-left: 0;
 	padding-left: 2rem;
 	box-sizing: border-box;
-//	font-style: italic;
+	//	font-style: italic;
 	margin: 1rem 0;
 	padding-right: 2rem;
 	font-family: $serif,"Apercu Mono Regular";
@@ -245,4 +253,8 @@ footer {
 	font-size: 75%;
 	border-bottom: none;
 	opacity: 0.5;
+}
+
+.project-year--year h2 {
+	margin-top: 0;
 }
