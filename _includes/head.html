@@ -1,5 +1,9 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>{{site.title}} | {{title}}</title>
+{% if current.url == '/' %}
+  <title>Jonathan Dueck – Designer and Developer</title>
+{% else %}
+  <title>{{title}} – {{site.title}}</title>
+{% endif %}
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}">
 <meta charset="UTF-8">
@@ -18,17 +22,6 @@
 
 <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 
-<script>
-  (function(d) {
-    var config = {
-      kitId: 'axl5ifo',
-      scriptTimeout: 3000,
-      async: true
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+="wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 
 {% if current.meta.vimeo %}
@@ -40,7 +33,3 @@
     });
   </script>
 {% endif %}
-
-<!--{% if meta.redirect %}
-<meta http-equiv="refresh" content="0;url={{meta.redirect}}">
-{% endif %}-->

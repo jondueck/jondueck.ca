@@ -5,7 +5,7 @@ As I do my work through Collectif, jondueck.ca should have a much more, personal
 ## Purpose
 * Online home page
 * Portfolio
-* Redirect to [Collectif](http://www.collectif.co)
+* Point to [Collectif](http://www.collectif.co)
 * Host writing
 * Showcase college work, privately or publicly
 
@@ -21,3 +21,4 @@ As I do my work through Collectif, jondueck.ca should have a much more, personal
 * Quieter, more personal than [collectif.co](collectif.co)
 * no `!important`s
 * Elements and classes should be as reusable as possible
+* Follow [accessability standards](http://a11yproject.com/).

@@ -14,10 +14,12 @@ body {
 	@include outer-container();
 	@include row();
 	@include media($medium) {
-		width:  95%;
+		width:  90%;
 	}
-	@include media($mobile) {
-		width: 95%;
+	@include media($small) {
+		width: 90%;
+		// padding-left: 2rem;
+		// padding-right: 2rem;
 	}
 }
 
@@ -124,13 +126,29 @@ img {
 	}
 }
 
+.article__header {
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	&:after {
+		content: "";
+		display: block;
+		background: $green;
+		height: 1px;
+		width: 2rem;
+		overflow: hidden;
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .home-bio {
 	@include span-columns(6 of 8);
 	@include shift(1);
 	margin-top: $spacing;
 }
 
-footer {
+.site-footer {
 	clear: both;
 	border-top: 1px solid $darkgrey;
 	min-height: 5rem;
@@ -148,13 +166,13 @@ footer {
 	@include span-columns(6 of 12);
 }
 
-.footer-social {
+.footer__social {
 	@include span-columns(6 of 12);
 	@include omega();
 	text-align: right;
 }
 
-.copyright, .footer-social {
+.copyright, .footer__social {
 	@media only screen and (max-width: 40rem) {
 		width: 100%;
 		text-align: center;
@@ -228,10 +246,9 @@ p {
 }
 
 .post .project-information {
-
 	border-bottom: 1px solid $darkgrey ;
-	//	@include span-columns(6 of 8);
-	//	@include shift(2 of 8);
+	// @include span-columns(6 of 8);
+	// @include shift(2 of 8);
 }
 
 .post {
@@ -254,22 +271,22 @@ p {
 	}
 	tr {
 		border-top: 1px dotted #ddd;
-	}
-	tr td:nth-of-type(1) {
-		@include span-columns(2 of 8);
-	}
-	tr td:nth-of-type(2) {
-		@include span-columns(3 of 8);
-	}
-	tr td:nth-of-type(3) {
-		@include span-columns(3 of 8);
-		@include omega();
+		td:nth-of-type(1) {
+			@include span-columns(2 of 8);
+		}
+		td:nth-of-type(2) {
+			@include span-columns(3 of 8);
+		}
+		td:nth-of-type(3) {
+			@include span-columns(3 of 8);
+			@include omega();
+		}
 	}
 }
 
 .disqus {
 	display: block;
-	clear:  both;
+	clear: both;
 }
 
 .back-to {
@@ -293,23 +310,30 @@ hr {
 
 .project-list {
 	@include row();
-	@include span-columns(6 of 8);
-	@include shift (1);
 }
 
 .project-year {
 	@include row();
+	border-top: $border;
+	padding-top: 0;
 }
 
-.project-year--year {
-	@include span-columns(2 of 6);
+.project-year__year {
+	@include span-columns(2 of 8);
 }
 
-.project-year--projects {
-	@include span-columns(4 of 6);
+.project-year__projects {
+	@include span-columns(6 of 8);
 	@include omega();
 	list-style: none;
 	margin-left: 0;
+}
+
+.project-year__projects li {
+	border-bottom: $border;
+	&:last-of-type {
+		border: none;
+	}
 }
 
 .page-excerpt {

@@ -1,43 +1,41 @@
-//
 //	Type
-//
 
 $serif			:		'warnock-pro', 'Calluna', georgia, serif;
-$sans				:		Karla, $serif, Helvetica, sans-serif;
+$sans				:		-apple-system, 'aktiv grotesk',Karla, $serif, Helvetica, sans-serif;
 $mono				:		'source-code-pro', "Source Code Pro", monospace;
 
-*,
-html,
-body {
+html {
 	font-size: 100%;
 }
 
 body {
 	font-family: $serif;
-	letter-spacing: -0.02rem;
 	color: $black;
+	color: #3a5e77;
+	color: #3f515d;
 	font-feature-settings: "liga""dlig";
 	font-size: 1.25rem;
 	line-height: 2.5rem;
-	line-height: 2;
+	line-height: 1.875;
 	@include media($medium) {
 		font-size: 1.125rem;
 		// line-height: 2.25rem;
 	}
 	@include media($small) {
 		font-size: 1rem;
-		// line-height: 2.125rem;
+		line-height: 2.125rem;
 	}
 }
 
 p a:not(img),
-header a,
+.site-header a,
 ul a:not(img) {
-	border-bottom: 1.25px solid $green;
+	// border-bottom: 1.25px solid $green;
 	// -webkit-box-shadow: inset 0 -1px 0 0 $green;
 	// -moz-box-shadow: inset 0 -1px 0 0 $green;
 	// box-shadow: inset 0 -1px 0 0 $green;
 	// text-decoration: underline;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, #fb8171 95%);
 	&:hover {
 		color: $green;
 	}
@@ -51,7 +49,7 @@ ul a:not(img) {
 	}
 }
 
-header a {
+.site-header a {
 	border-bottom: none;
 }
 
@@ -65,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	// font-weight: 700;
 	-webkit-font-smoothing: antialiased;
+	letter-spacing: -0.02rem;
 }
 
 h1 {
@@ -73,28 +72,31 @@ h1 {
 	font-weight: 500;
 	margin: 1.5rem 0;
 	line-height: 3rem;
+	line-height: 1.5;
+	font-size: 2.5rem;
 }
 
 h2 {
 	margin: 1.5rem 0 1.5rem;
-	font-size: 1.625rem;
+	font-size: 1.5rem;
 	letter-spacing: -0.05rem;
+	line-height: 1.875rem;
+	letter-spacing: -0.02rem;
 	// font-weight: 700;
-}
-
-h2 {
-	font-size: 1.75rem;
 }
 
 h3 {
 	font-size: 1.125rem;
-	font-weight: bold;
-	text-transform: uppercase
+	// font-weight: bold;
+	// text-transform: uppercase;
+	color: tint($black, 50%);
+	// text-transform: none;
+	font-style: italic;
 }
 
 h4 {
-	font-size: 1rem;
-	font-style: italic;
+	font-size: 0.875rem;
+	text-transform: uppercase;
 	font-weight: bold;
 }
 
@@ -229,19 +231,22 @@ footer .grid-6:last-of-type {
 	}
 }
 
-header,
+.site-header,
 footer {
-	font-weight: 300;
+	// font-weight: 300;
 	font-size: 1rem;
 	font-family: $sans;
+	letter-spacing: -0.02rem;
 }
 
 .project-preview {
 	font-family:  $sans;
+	letter-spacing: -0.02rem;
 }
 
 .project-information {
 	font-family: $sans;
+	letter-spacing: -0.02rem;
 	font-size: 1rem;
 	ul {
 		margin-left: 0;
@@ -255,6 +260,6 @@ footer {
 	opacity: 0.5;
 }
 
-.project-year--year h2 {
+.project-year__year h2 {
 	margin-top: 0;
 }

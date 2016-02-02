@@ -1,19 +1,20 @@
 {% capture content %}
 
 	{% if type == "post" %}
-	<section class="content writing">
+	<section class="content writing" role="article">
+		<header class="article__header"
+			<img src="{{meta.thumb.value}}" />
 
-		<img src="{{meta.thumb.value}}" />
-
-		<h1>{{title}}</h1>
-		<center>{{ current.date | date: '%-d %B %Y'}}</center>
-		<ul class="project_data">
-			{% for tag in taxonomy.tags %}
-			  <li>
-			    <a href="{{ tag.url }}">{{ tag.value }}</a>
-			  </li>
-			{% endfor %}
-		</ul>
+			<h1>{{title}}</h1>
+			<center>{{ current.date | date: '%-d %B %Y'}}</center>
+			<ul class="project_data">
+				{% for tag in taxonomy.tags %}
+				  <li>
+				    <a href="{{ tag.url }}">{{ tag.value }}</a>
+				  </li>
+				{% endfor %}
+			</ul>
+		</header>
 
 	{% endif %}
 
