@@ -1,3 +1,10 @@
+// Variables
+
+$base-font-size: 1.25rem;
+$line-height-unitless: 1.5;
+$line-height: #{($base-font-size*$line-height-unitless)};
+$line-height-2x: #{($base-font-size*$line-height-unitless)*2};
+
 //
 //	Mixins
 //
@@ -9,8 +16,15 @@ $darkgrey	  		  :		#ddd;
 $black: #3f515d;
 $green	   		    :		#3fd4ad;
 
+$primary-color:   $green;
+$background-color: #fbfbfb;
+
+$body-text-color: $black;
+$heading-text-color: $body-text-color;
+$link-text-color: tint($body-text-color, 25%);
+
 $padding          :		2rem;
-$spacing          :		4rem;
+$spacing          :		#{2*$padding};
 $border			      :		0.125rem solid $green;
 $border			      :		1.5px solid $green;
 $border           :   1.5px solid $lightgrey;

@@ -1,16 +1,13 @@
 //	Layout
 
 body {
-	// background: $lightgrey;
 	// background: #f2f2f2;
 	// background: #f8f8f8;
-	background-color: #fbfbfb;
+	background-color: $background-color;
 }
 
 .wrap {
 	width: 90%;
-	max-width: $max-width;
-	margin: auto;
 	@include outer-container();
 	@include row();
 	@include media($medium) {
@@ -18,13 +15,10 @@ body {
 	}
 	@include media($small) {
 		width: 90%;
-		// padding-left: 2rem;
-		// padding-right: 2rem;
 	}
 }
 
-.page-content,
-.content {
+.page-content {
 	@include span-columns(6 of 8);
 	@include shift(1 of 8);
 	@include omega();
@@ -34,28 +28,12 @@ body {
 	}
 }
 
-.work {
-	max-width: 68.75rem;
-}
-
-img {
-	max-width: 100%;
-}
-
 .site-header {
-	padding: 2rem 0;
-	img {
-		display: inline-block;
-		max-height: 4.5rem;
-	}
-
+	padding: $line-height 0;
 	nav {
 		text-align: left;
-		// a {
-		// 	display: inline-block;
-		// 	margin: 1.25rem 1rem 0;
-		// }
 	}
+	margin-bottom: $line-height;
 }
 
 .site-brand {
@@ -92,13 +70,9 @@ img {
 		max-width: 25%;
 		margin-right: 1rem;
 		&:last-of-type {
-			margin-right: none;
+			margin-right: 0;
 		}
 	}
-}
-
-.content-title {
-	margin-top: 1rem;
 }
 
 .post-preview {
@@ -142,24 +116,14 @@ img {
 	}
 }
 
-.home-bio {
-	@include span-columns(6 of 8);
-	@include shift(1);
-	margin-top: $spacing;
-}
-
 .site-footer {
-	clear: both;
-	border-top: 1px solid $darkgrey;
-	min-height: 5rem;
-	line-height: 2.5rem;
-	a {
+	@include row();
+	line-height: #{2*$line-height-unitless};
+	margin-top: $line-height;
+	margin-bottom: $line-height;
+	.ss-icon {
 		margin: 0.5rem;
 	}
-	overflow: hidden;
-	margin-top: 3rem;
-	padding: 2.25rem 0;
-	margin-top: 5rem;
 }
 
 .copyright {
@@ -181,107 +145,17 @@ img {
 	}
 }
 
-footer:nth-child(5) {
-	color: $green;
-}
-
 ::selection {
 	// background: #eee;
 	// background: #fff;
 	background: rgba(63,212,173,0.25);
-	color: #444;
+	color: $black;
 	padding: 0.5rem;
 
 }
 
-p {
-	margin: 1rem auto;
-}
-
-.homepage_writings {
-	margin-top: 4rem;
-	@include span-columns(6 of 8);
-	@include shift (1);
-	@include media($mobile) {
-		@include span-columns(8 of 8);
-		@include shift(0);
-	}
-}
-
-.home-writings {
-	border-top: 1px dotted #ddd;
-}
-
-.home-writings:first-of-type {
-	border-top: none;
-}
-
-.home-writings{
-	// padding: none;
-	padding: 1rem 0;
-	span {
-		font-family: $sans;
-		font-size: 0.75rem;
-		font-weight: 600;
-		margin-right: 1rem;
-		height: 100%;
-	}
-}
-
-.home-writings:first-of-type {
-	padding-top: 0;
-}
-
 .external-icon {
 	float: right;
-}
-
-.project-information {
-	margin-bottom: 2rem;
-	overflow: hidden;
-	display: block;
-	h2 {
-		margin-top: 0.5rem;
-	}
-}
-
-.post .project-information {
-	border-bottom: 1px solid $darkgrey ;
-	// @include span-columns(6 of 8);
-	// @include shift(2 of 8);
-}
-
-.post {
-	img {
-		margin: 2rem auto;
-	}
-}
-
-.related-posts {
-	.related-post {
-		@include span-columns(4);
-		@include omega(2n);
-	}
-}
-
-.work-list {
-	@include row();
-	table, tr {
-		@include span-columns(8);
-	}
-	tr {
-		border-top: 1px dotted #ddd;
-		td:nth-of-type(1) {
-			@include span-columns(2 of 8);
-		}
-		td:nth-of-type(2) {
-			@include span-columns(3 of 8);
-		}
-		td:nth-of-type(3) {
-			@include span-columns(3 of 8);
-			@include omega();
-		}
-	}
 }
 
 .disqus {
@@ -297,8 +171,8 @@ p {
 }
 
 hr {
-	margin-top: 2.25rem;
-	margin-bottom: 2.25rem;
+	margin-top: $line-height;
+	margin-bottom: $line-height;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -350,4 +224,54 @@ hr {
 	font-style: italic;
 	text-align: right;
 	margin-bottom: 0;
+	font-family: $serif;
+}
+
+.side-content {
+	margin: 0;
+	@media (min-width: 720px) {
+		@include span-columns(2 of 8);
+	}
+}
+
+.page-content-new {
+	margin: 0;
+	@media (min-width: 720px) {
+		@include span-columns(6 of 8);
+	}
+	@include omega();
+	p {
+		margin-top: 0;
+		margin-bottom: #{1.5*1.125rem};
+	}
+}
+
+section {
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.post-content {
+	@media (min-width: 800px) {
+		@include span-columns(6 of 8);
+		@include shift(1 of 8);
+		@include omega();
+	}
+}
+
+.work-preview {
+	@include span-columns(3 of 6);
+	@include omega(2n);
+	margin-bottom: $gutter;
+}
+
+.pagination {
+	margin-top: $line-height;
+	.older {
+		float: left;
+	}
+	.newer {
+		float: right;
+	}
 }

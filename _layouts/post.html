@@ -1,0 +1,45 @@
+{% capture content %}
+
+	<article class="post-content" role="article">
+		<header class="post-header">
+			<h1 class="post-title">{{title}}</h1>
+			<center>{{ current.date | date: '%-d %B %Y'}}</center>
+		</header>
+
+		{{ body }}
+
+		<ul class="project_data">
+			{% for tag in taxonomy.tags %}
+				<li>
+					<a href="{{ tag.url }}">{{ tag.value }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+
+		{% if next or previous %}
+	    <div class="pagination">
+	      {% if previous %}
+	        <a href="{{ previous.url }}" class="older">Older</a>
+	      {% else %}
+	        <span class="inactive">Older</span>
+	      {% endif %}
+
+	      <span>&middot;</span>
+
+	      {% if next %}
+	        <a href="{{ next.url }}" class="newer">Newer</a>
+	      {% else %}
+	        <span class="inactive">Newer</span>
+	      {% endif %}
+	    </div>
+  	{% endif %}
+
+		{% if parent %}
+			<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
+		{% endif %}
+
+	</article>
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

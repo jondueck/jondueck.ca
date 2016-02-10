@@ -6,6 +6,7 @@
   box-sizing: border-box;
   position: relative;
   font-size: inherit;
+  color: inherit;
 }
 
 img {
@@ -17,6 +18,13 @@ img {
 //  overflow: hidden;
 //}
 
+.site-header,
+.site-footer {
+  ul, ol {
+    list-style: none;
+  }
+}
+
 picture {
   display: block;
 }
@@ -27,12 +35,7 @@ a {
   cursor: pointer;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding: 0;
-  margin: 0;
+html {
+	font-size: 100%;
+	font-weight: normal;
 }

@@ -1,58 +1,61 @@
 {% capture content %}
 <section class="content work">
 
-	{% if type == "post" %}
-		<article class="post">
-			<img src="{{meta.thumb.value}}" />
-			<div class="project-information">
-				<div class="grid-6">
-					<h2>{{title}}</h2>
+	<section>
+		<div class="side-content">
+			<h1 class="page-title">{{ title }}</h1>
+			{% if meta.updated %}
+				Updated {{site.date | date: "%-d %B %Y"}}
+			{% endif %}
+			{% if type == "post" %}
+				<span>{{ current.date | date: '%-d %B %Y'}}</span><br><br>
+				{% for tag in taxonomy.tags %}
+					<span>
+						{{ tag.value }}
+					</span><br>
+				{% endfor %}
+				<br>
+				{% if meta.worklocation %}
+					<span>At {{meta.worklocation}}</span>
+				{% endif %}
 
-					<ul class="project-tags">
-						{% for tag in taxonomy.tags %}
-					    <li>
-					    	{{ tag.value }}
-					    </li>
-						{% endfor %}
-					</ul>
+				{% if next or previous %}
+			    <div class="pagination">
+			      {% if previous %}
+			        <a href="{{ previous.url }}" class="older">&#139; Older</a>
+			      {% else %}
+			        <span class="inactive">&#139; Older</span>
+			      {% endif %}
 
-				</div>
-				<div style="float: right;">
-					{% if meta.worklocation %}
-						<p class="work-location"><!--Done at-->At {{meta.worklocation}}</p>
-					{% endif %}
+			      {% if next %}
+			        <a href="{{ next.url }}" class="newer">Newer &#155;</a>
+			      {% else %}
+			        <span class="inactive">Newer &#155;</span>
+			      {% endif %}
+			    </div>
+			  {% endif %}
 
-					<p class="date">{{date | date: "%B %Y"}}</p>
+			{% endif %}
 
-				</div>
-			</div>
-		</article>
-
-		{{ body }}
-
-	  {% if next or previous %}
-	    <div class="pagination">
-	      {% if previous %}
-	        <a href="{{ previous.url }}" class="older">Older</a>
-	      {% else %}
-	        <span class="inactive">Older</span>
-	      {% endif %}
-
-	      <span>&middot;</span>
-
-	      {% if next %}
-	        <a href="{{ next.url }}" class="newer">Newer</a>
-	      {% else %}
-	        <span class="inactive">Newer</span>
-	      {% endif %}
-	    </div>
-	  {% endif %}
-
-	{% else %}
-
-		<div class="page-excerpt">
-			{{ body }}
 		</div>
+
+		<div class="page-content-new">
+			{{ body }}
+
+			<div>
+				{% for post in posts %}
+
+					<article class="work-preview">
+						<a href="{{ post.url }}">
+							<img src='/assets/icons/placeholder.svg'>
+						</a>
+					</article>
+
+				{% endfor %}
+			</div>
+
+		</div>
+	</section>
 
 		{% for article in posts %}
 
@@ -78,30 +81,6 @@
 
 	    {% assign prev_year = year %}
 	  {% endfor %}
-
-		<!--{% for post in posts %}
-			<article class="post-preview project-preview">
-				<div class="project-title">
-					<a href="{{post.url}}"><h2>{{post.title}}</h2></a>
-				</div>
-				<!--<a href="{{post.url}}"><img class="post-thumb" src="{{ post.meta.thumb }}" /></a>--*>
-				<div class="project-information">
-					<div class="">
-						{{ post.body | strip_html }}
-					</div>
-				</div>
-
-			</article>
-
-		{% endfor %}
-
-	{% endif %}
-
-		{% if parent %}
-			<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
-		{% endif %}
-
-	</section><!-- /content -->
 
 {% endcapture %}
 

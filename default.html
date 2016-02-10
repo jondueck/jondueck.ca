@@ -4,9 +4,14 @@
 		<meta http-equiv="refresh" content="0;url={{meta.redirect}}">
 	{% endif %}
 
-	<h1 class="page-title">{{ title }}</h1>
+	<div class="side-content">
+		<h1 class="page-title">{{ title }}</h1>
+		{% if meta.updated %}
+			Updated {{site.date | date: "%-d %B %Y"}}
+		{% endif %}
+	</div>
 
-	<div class="page-content">
+	<div class="page-content-new">
 		{{ body }}
 	</div>
 

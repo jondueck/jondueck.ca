@@ -1,22 +1,27 @@
 //	Type
 
 $serif			:		'warnock-pro', 'Calluna', georgia, serif;
-$sans				:		-apple-system, 'aktiv grotesk',Karla, $serif, Helvetica, sans-serif;
+$sans				:		karla, -apple-system, 'aktiv grotesk',Karla, $serif, Helvetica, sans-serif;
 $mono				:		'source-code-pro', "Source Code Pro", monospace;
 
 html {
-	font-size: 100%;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-feature-settings: "liga" 1, "kern" 1;
+	font-feature-settings: "liga" 1, "kern" 1;
+	-webkit-font-kerning: normal;
+	font-kerning: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
-	font-family: $serif;
 	color: $black;
-	color: #3a5e77;
-	color: #3f515d;
-	font-feature-settings: "liga""dlig";
-	font-size: 1.25rem;
-	line-height: 2.5rem;
-	line-height: 1.875;
+	font-family: $sans;
+	font-size: $base-font-size;
+	line-height: $line-height-unitless;
 	@include media($medium) {
 		font-size: 1.125rem;
 		// line-height: 2.25rem;
@@ -27,18 +32,30 @@ body {
 	}
 }
 
+.post,
+.post-content,
+.page-content-new {
+	font-family: $serif;
+}
+
 p a:not(img),
-.site-header a,
 ul a:not(img) {
+	text-decoration: underline;
+
 	// border-bottom: 1.25px solid $green;
 	// -webkit-box-shadow: inset 0 -1px 0 0 $green;
 	// -moz-box-shadow: inset 0 -1px 0 0 $green;
 	// box-shadow: inset 0 -1px 0 0 $green;
-	// text-decoration: underline;
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, #fb8171 95%);
+	// background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, #fb8171 95%);
 	&:hover {
 		color: $green;
 	}
+	// color: $link-text-color;
+}
+
+.site-header a,
+.site-footer a {
+	text-decoration: none;
 }
 
 ul a:not(img) {
@@ -57,54 +74,37 @@ ul a:not(img) {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $sans;
-	// font-weight: normal;
-	font-weight: bolder;
-	// font-weight: 600;
-	font-weight: 400;
-	// font-weight: 700;
-	-webkit-font-smoothing: antialiased;
-	letter-spacing: -0.02rem;
+	font-weight: normal;
 }
 
 h1 {
-	//	font-size: 2.5rem;
-	font-size: 3rem;
-	font-weight: 500;
-	margin: 1.5rem 0;
-	line-height: 3rem;
-	line-height: 1.5;
-	font-size: 2.5rem;
+	margin-bottom: $line-height;
+	font-size: #{2*$base-font-size};
 }
 
 h2 {
-	margin: 1.5rem 0 1.5rem;
-	font-size: 1.5rem;
-	letter-spacing: -0.05rem;
-	line-height: 1.875rem;
-	letter-spacing: -0.02rem;
-	// font-weight: 700;
+	margin-bottom: $line-height;
+	font-size: #{(1.2*$base-font-size)};
 }
 
 h3 {
-	font-size: 1.125rem;
-	// font-weight: bold;
-	// text-transform: uppercase;
+	// font-size: 1.125rem;
+	font-size: $base-font-size;
 	color: tint($black, 50%);
-	// text-transform: none;
-	font-style: italic;
+	// font-style: italic;
 }
 
 h4 {
-	font-size: 0.875rem;
+	font-size: #{0.75*$base-font-size};
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
-// Header & Menu
+p {
+	margin-bottom: $line-height;
+}
 
-//header {
-//	font-weight: 600;
-//}
+// Header & Menu
 
 .is-current-page {
 	border-bottom: 2px double $green;
@@ -119,7 +119,15 @@ a:hover {
 }
 
 .page-title {
+	font-size: $base-font-size;
+	font-weight: bold;
+}
+
+.post-title {
 	text-align: center;
+}
+
+.post-header {
 	&:after {
 		content: "";
 		width: 2rem;
@@ -145,11 +153,6 @@ a:hover {
 
 .writing {
 	font-family: $serif;
-	h1 {
-		font-family: $serif;
-		font-weight: 900;
-		text-align: center;
-	}
 	h2, h3 {font-family: $sans; }
 	@include span-columns(4 of 8);
 	@include shift(2 of 8);
@@ -165,7 +168,7 @@ blockquote {
 	padding-left: 2rem;
 	box-sizing: border-box;
 	//	font-style: italic;
-	margin: 1rem 0;
+	margin: $line-height 0;
 	padding-right: 2rem;
 	font-family: $serif,"Apercu Mono Regular";
 	font-style: italic;
@@ -173,8 +176,9 @@ blockquote {
 
 code {
 	font-family: $mono;
-	background: #fff;
+	background: $white;
 	padding: 0.25rem;
+	font-size: 80%;
 }
 
 pre {
@@ -184,9 +188,9 @@ pre {
 	margin: 2rem 0;
 }
 
-ul {
-	line-height: 2.25rem;
-	margin-left: 1.25rem;
+ul, ol {
+	margin-left: $line-height;
+	margin-bottom: $line-height;
 }
 
 .pagination .inactive {
@@ -208,14 +212,6 @@ footer .grid-6:last-of-type {
 }
 
 .project-information {
-	// font-family: $serif;
-	// font-size: 1.125rem;
-	// div:first-of-type p:first-of-type {
-	// 	font-weight: bolder;
-	// 	font-weight: 700;
-	// 	font-style: italic;
-	// 	background: green;
-	// }
 	overflow: hidden;
 }
 
@@ -232,7 +228,7 @@ footer .grid-6:last-of-type {
 }
 
 .site-header,
-footer {
+.site-footer {
 	// font-weight: 300;
 	font-size: 1rem;
 	font-family: $sans;
@@ -240,7 +236,7 @@ footer {
 }
 
 .project-preview {
-	font-family:  $sans;
+	font-family: $sans;
 	letter-spacing: -0.02rem;
 }
 

@@ -11,12 +11,22 @@
 
 <meta name="description" content="{{ meta.description | fallback: current.body | strip_html | strip_newlines | truncate: 160 }}">
 
-{% include 'includes/social' %}
+<link rel="stylesheet" href="/default.css" property="stylesheet">
 
-<link rel="stylesheet" href="/default.css">
+<!-- <script async>
+  function getStylesheet() {
+    var currentTime = new Date().getHours();
+    if (0 <= currentTime&&currentTime < 6) {
+     document.write("<link rel='stylesheet' href='/assets/night.css' type='text/css'>");
+    }
+    if (22 <= currentTime&&currentTime <= 24) {
+     document.write("<link rel='stylesheet' href='/assets/night.css' type='text/css'>");
+    }
+  }
+  getStylesheet();
+</script> -->
 
-<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
-<link rel="shortcut icon" type="image/ico" href="/assets/favicon.ico">
+<noscript><link href="main.css" rel="stylesheet"></noscript>
 
 <link href="/assets/webfonts/ss-social.css" rel="stylesheet">
 
@@ -33,3 +43,7 @@
     });
   </script>
 {% endif %}
+
+{% include 'includes/social' %}
+
+{% include 'includes/favicons' %}

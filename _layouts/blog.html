@@ -1,52 +1,12 @@
 {% capture content %}
 
-	{% if type == "post" %}
-	<section class="content writing" role="article">
-		<header class="article__header"
-			<img src="{{meta.thumb.value}}" />
+	<section>
+		<div class="side-content">
+			<h1 class="page-title">{{ title }}</h1>
+		</div>
 
-			<h1>{{title}}</h1>
-			<center>{{ current.date | date: '%-d %B %Y'}}</center>
-			<ul class="project_data">
-				{% for tag in taxonomy.tags %}
-				  <li>
-				    <a href="{{ tag.url }}">{{ tag.value }}</a>
-				  </li>
-				{% endfor %}
-			</ul>
-		</header>
-
-	{% endif %}
-
-	{{ body }}
-
-	{% if type == "post" %}
-
-		{% if next or previous %}
-	    <div class="pagination">
-	      {% if previous %}
-	        <a href="{{ previous.url }}" class="older">Older</a>
-	      {% else %}
-	        <span class="inactive">Older</span>
-	      {% endif %}
-
-	      <span>&middot;</span>
-
-	      {% if next %}
-	        <a href="{{ next.url }}" class="newer">Newer</a>
-	      {% else %}
-	        <span class="inactive">Newer</span>
-	      {% endif %}
-	    </div>
-  	{% endif %}
-
-	{% else %}
-
-	<section class="content ">
-
-	{% comment %} Loop through any posts and show an excerpt {% endcomment %}
-
-		<section class="homepage_writings">
+		<div class="page-content-new">
+			{{ body }}
 
 			{% for post in posts %}
 
@@ -85,13 +45,7 @@
 			<p><a href="/quotes/">Quotes</a> &ndash;Things that others said better than me</p>
 			<p><a href="/toolbox/">Toolbox</a> &ndash; A list of some of the tools I use everyday.</p>
 
-		</section>
-
-	{% endif %}
-
-	{% if parent %}
-		<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
-	{% endif %}
+		</div>
 
 	</section><!-- /content -->
 {% endcapture %}
