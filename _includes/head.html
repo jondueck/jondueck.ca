@@ -11,7 +11,7 @@
 
 <meta name="description" content="{{ meta.description | fallback: current.body | strip_html | strip_newlines | truncate: 160 }}">
 
-<link rel="stylesheet" href="/default.css" property="stylesheet">
+<link rel="stylesheet" href="/assets/css/default.css" property="stylesheet">
 
 <!-- <script async>
   function getStylesheet() {
@@ -26,7 +26,7 @@
   getStylesheet();
 </script> -->
 
-<noscript><link href="main.css" rel="stylesheet"></noscript>
+<!--<noscript><link href="main.css" rel="stylesheet"></noscript>-->
 
 <link href="/assets/webfonts/ss-social.css" rel="stylesheet">
 
@@ -38,7 +38,6 @@
   <script src="/js/jquery.fitvids.js"></script>
   <script>
     $(document).ready(function(){
-      // Target your .container, .wrapper, .post, etc.
       $(".content").fitVids();
     });
   </script>
