@@ -10,9 +10,9 @@
 			{% if type == "post" %}
 				<span>{{ current.date | date: '%-d %B %Y'}}</span><br><br>
 				{% for tag in taxonomy.tags %}
-					<span>
+					<span class="work__tag">
 						{{ tag.value }}
-					</span><br>
+					</span>
 				{% endfor %}
 				<br>
 				{% if meta.worklocation %}
@@ -76,7 +76,7 @@
 	    {% endif %}
 
 	    <li class="">
-	      <a href='{{ article.url }}'>{{ article.title }}</a>
+	      {{ article.title }}
 	    </li>
 
 	    {% assign prev_year = year %}

@@ -24,10 +24,10 @@
 						{{post.title}}
 
 						{% if post.meta.external == 'Medium' %}
-							<img src="/assets/icons/medium.svg" class="external-icon" alt="on Medium">
+							<img src="/assets/icons/medium.svg" class="external-icon" alt="Read on Medium">
 						{% endif %}
 						{% if post.meta.external == 'Day One' %}
-							<img src="/assets/icons/dayone.svg" class="external-icon" alt="on Day One">
+							<img src="/assets/icons/dayone.svg" class="external-icon" alt="Read on Day One">
 						{% endif %}
 
 					</a>
@@ -37,7 +37,6 @@
 			{% else %}
 				<p>¯\_(ツ)_/¯</p>
 				<p>CAN'T FIND POSTS</p>
-				<p>:(</p>
 			{% endfor %}
 
 			<h2>Here’s more:</h2>
@@ -47,7 +46,7 @@
 
 		</div>
 
-	</section><!-- /content -->
+	</section>
 {% endcapture %}
 
 {% include 'layouts/default' %}

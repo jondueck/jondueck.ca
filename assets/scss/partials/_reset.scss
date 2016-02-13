@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
   position: relative;
   font-size: inherit;
   color: inherit;
@@ -13,14 +13,9 @@ img {
   max-width: 100%;
 }
 
-//ul, ol {
-//  padding-left: 1.4em;
-//  overflow: hidden;
-//}
-
 .site-header,
 .site-footer {
-  ul, ol {
+  ul {
     list-style: none;
   }
 }
@@ -36,6 +31,27 @@ a {
 }
 
 html {
+  box-sizing: border-box;
 	font-size: 100%;
 	font-weight: normal;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-feature-settings: "liga" 1, "kern" 1;
+	font-feature-settings: "liga" 1, "kern" 1;
+	-webkit-font-kerning: normal;
+	font-kerning: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+section,
+article {
+	display: block;
+	overflow: hidden;
+}
+
+section {
+  clear: both;
 }

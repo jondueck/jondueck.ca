@@ -1,16 +1,19 @@
 @import 'bourbon';
 @import 'neat';
 
-@import 'mixins';
+// @import 'mixins';
+//
+// @import 'partials/reset';
+//
+// @import 'partials/type';
+//
+// @import 'modules/objects';
+//
+// @import 'layout';
+//
+// @import 'responsive';
 
-@import 'partials/reset';
-
-@import 'partials/type';
-
-@import 'modules/objects';
-
-@import 'layout';
-
-@import 'responsive';
+@import 'partials/all';
+@import 'modules/all';
 
 // @import 'ss-social';

@@ -9,44 +9,15 @@
 
 	<section>
 		<div class="side-content">
-			<strong>Jon Dueck</strong><br><br>
-			Designer & Developer<br><br>
+			<strong>Jon Dueck</strong>
+			<br><br>
+			Designer & Developer
+			<br><br>
 			Winkler, MB
 		</div>
+
 		<div class="page-content-new" >
 			{{ body }}
-		<!-- </div> -->
-
-		<div>
-			<h2>Writings</h2>
-
-			{% for post in site.pages['writings'].posts limit: 3 %}
-
-				<article class="post-preview home-writings">
-				<span>{{post.date | date: "%d %b %Y"}}</span>
-
-				{% if post.meta.redirect%}
-					<a href="{{post.meta.redirect.value}}">
-				{% else %}
-					<a href="{{post.url}}">
-				{% endif %}
-
-					{{post.title}}
-
-					{% if post.meta.external == 'Medium' %}
-						<img src="/assets/icons/medium.svg" alt="medium" class="external-icon" height="18" width="18">
-					{% endif %}
-					{% if post.meta.external == 'Day One' %}
-						<img src="/assets/icons/dayone.svg" alt="Day One app" class="external-icon" height="18" width="18">
-					{% endif %}
-
-					</a>
-
-				</article>
-
-			{% else %}
-				¯\_(No posts)_/¯
-			{% endfor %}
 		</div>
 
 	</section>

@@ -30,14 +30,16 @@ body {
 
 .site-header {
 	padding: $line-height 0;
-	nav {
-		text-align: left;
-	}
 	margin-bottom: $line-height;
 }
 
-.site-brand {
+.site-title {
 	@include span-columns(4 of 8);
+	&:after {
+		content: "_";
+		display: block;
+		color: $primary-color;
+	}
 	@include media($small) {
 		@include span-columns(1 of 1);
 		@include omega();
@@ -59,35 +61,15 @@ body {
 		@include span-columns(2 of 2);
 		@include omega();
 	}
-	a {
-		display:  block;
-		margin-top:  0;
-		margin-bottom: 0;
+	&__link {
+		display: block;
 	}
 	.ss-icon {
-		font-size: 0.875rem;
-		float: left;
-		max-width: 25%;
+		font-size: 75%;
 		margin-right: 1rem;
 		&:last-of-type {
 			margin-right: 0;
 		}
-	}
-}
-
-.post-preview {
-	padding-top: 2rem;
-	clear: both;
-}
-
-.project-preview {
-	@include row();
-	.project-title {
-		@include span-columns(3 of 8);
-	}
-	.project-information {
-		@include span-columns(5 of 8);
-		@include omega();
 	}
 }
 
@@ -136,7 +118,8 @@ body {
 	text-align: right;
 }
 
-.copyright, .footer__social {
+.copyright,
+.footer__social {
 	@media only screen and (max-width: 40rem) {
 		width: 100%;
 		text-align: center;
@@ -146,12 +129,8 @@ body {
 }
 
 ::selection {
-	// background: #eee;
-	// background: #fff;
 	background: rgba(63,212,173,0.25);
-	color: $black;
-	padding: 0.5rem;
-
+	color: $body-text-color;
 }
 
 .external-icon {
@@ -170,44 +149,8 @@ body {
 	margin-bottom: 4rem
 }
 
-hr {
-	margin-top: $line-height;
-	margin-bottom: $line-height;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	border: none;
-	border-top: 1px solid #ddd;
-	width: 50%;
-	max-width: 10rem;
-}
-
 .project-list {
 	@include row();
-}
-
-.project-year {
-	@include row();
-	border-top: $border;
-	padding-top: 0;
-}
-
-.project-year__year {
-	@include span-columns(2 of 8);
-}
-
-.project-year__projects {
-	@include span-columns(6 of 8);
-	@include omega();
-	list-style: none;
-	margin-left: 0;
-}
-
-.project-year__projects li {
-	border-bottom: $border;
-	&:last-of-type {
-		border: none;
-	}
 }
 
 .page-excerpt {
@@ -219,14 +162,6 @@ hr {
 	}
 }
 
-.front-page-photo-byline {
-	font-size: 1rem;
-	font-style: italic;
-	text-align: right;
-	margin-bottom: 0;
-	font-family: $serif;
-}
-
 .side-content {
 	margin: 0;
 	@media (min-width: 720px) {
@@ -236,6 +171,7 @@ hr {
 
 .page-content-new {
 	margin: 0;
+	min-height: calc(100vh - 15rem);
 	@media (min-width: 720px) {
 		@include span-columns(6 of 8);
 	}
@@ -244,12 +180,6 @@ hr {
 		margin-top: 0;
 		margin-bottom: #{1.5*1.125rem};
 	}
-}
-
-section {
-	display: block;
-	clear: both;
-	overflow: hidden;
 }
 
 .post-content {
