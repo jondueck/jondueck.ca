@@ -1,3 +1,16 @@
-.post img {
-	margin: $line-height auto;
+.post {
+	img {
+		margin: $line-height auto;
+	}
+}
+
+[src$='#half'] {
+	display: inline-block;
+	float: left;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	width: calc(50% - 0.5rem);
+	+ [src$='#half'] {
+		margin-right: 0;
+	}
 }

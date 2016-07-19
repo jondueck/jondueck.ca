@@ -1,0 +1,55 @@
+.site-header {
+	padding: $line-height 0;
+	margin-bottom: $line-height;
+	@include row();
+	font-size: #{0.875 * $base-font-size};
+}
+
+.site-title {
+	@include span-columns(4 of 8);
+	&:hover {
+		.athan {
+			text-decoration: line-through;
+		}
+	}
+	&:after {
+		content: '_';
+		display: block;
+		color: $primary-color;
+	}
+	@include media($small) {
+		@include span-columns(1 of 1);
+		@include omega();
+	}
+}
+
+.site-nav {
+	@include span-columns(4 of 8);
+	@include omega();
+	@include row();
+	@include media($medium) {
+		@include span-columns(1 of 1);
+		@include omega();
+	}
+	div {
+		@include span-columns(2 of 4);
+		@include omega(2n);
+	}
+
+	.social-links {
+		@include span-columns(2 of 2);
+		@include omega();
+	}
+
+	&__link {
+		display: block;
+	}
+
+	.ss-icon {
+		font-size: 75%;
+		margin-right: 1rem;
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}

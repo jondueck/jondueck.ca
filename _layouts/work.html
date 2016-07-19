@@ -4,16 +4,18 @@
 	<section>
 		<div class="side-content">
 			<h1 class="page-title">{{ title }}</h1>
-			{% if meta.updated %}
-				Updated {{site.date | date: "%-d %B %Y"}}
-			{% endif %}
 			{% if type == "post" %}
-				<span>{{ current.date | date: '%-d %B %Y'}}</span><br><br>
-				{% for tag in taxonomy.tags %}
-					<span class="work__tag">
-						{{ tag.value }}
-					</span>
-				{% endfor %}
+			{% if meta.updated %}
+				<span>Updated {{site.date | date: "%-d %B %Y"}}</span>
+			{% else %}
+				<span>{{ current.date | date: '%B %Y'}}</span><br>
+			{% endif %}
+			<br>
+			{% for tag in taxonomy.tags %}
+				<span class="work__tag">
+					{{ tag.value }}
+				</span>
+			{% endfor %}
 				<br>
 				{% if meta.worklocation %}
 					<span>At {{meta.worklocation}}</span>
@@ -22,15 +24,15 @@
 				{% if next or previous %}
 			    <div class="pagination">
 			      {% if previous %}
-			        <a href="{{ previous.url }}" class="older">&#139; Older</a>
+			        <a href="{{ previous.url }}" class="pagination--older">&#139; Older</a>
 			      {% else %}
-			        <span class="inactive">&#139; Older</span>
+			        <span class="pagination--older inactive">&#139; Older</span>
 			      {% endif %}
 
 			      {% if next %}
-			        <a href="{{ next.url }}" class="newer">Newer &#155;</a>
+			        <a href="{{ next.url }}" class="pagination--newer">Newer &#155;</a>
 			      {% else %}
-			        <span class="inactive">Newer &#155;</span>
+			        <span class="pagination--newer inactive">Newer &#155;</span>
 			      {% endif %}
 			    </div>
 			  {% endif %}
@@ -39,7 +41,7 @@
 
 		</div>
 
-		<div class="page-content-new">
+		<div class="page-content">
 			{{ body }}
 
 			<div>
@@ -47,7 +49,8 @@
 
 					<article class="work-preview">
 						<a href="{{ post.url }}">
-							<img src='/assets/icons/placeholder.svg'>
+							<img src="{{ post.meta.feature | fallback: '/assets/icons/placeholder.svg' }}" alt="">
+							<h3 class="work-preview__title">{{ post.title }}</h3>
 						</a>
 					</article>
 
@@ -56,31 +59,6 @@
 
 		</div>
 	</section>
-
-		{% for article in posts %}
-
-	    {% assign year = article.date | date: '%Y' %}
-
-	    {% if year != prev_year %}
-	      {% if prev_year %}
-	          </ul>
-	        </section>
-	        {% cycle "", "</div><div class='list-column'>" %}
-	      {% endif %}
-
-        <section class="project-year project-list post-preview project-preview">
-        	<div class="project-year__year">
-          	<h2>{{ year }}</h2>
-          </div>
-          <ul class="project-year__projects">
-	    {% endif %}
-
-	    <li class="">
-	      {{ article.title }}
-	    </li>
-
-	    {% assign prev_year = year %}
-	  {% endfor %}
 
 {% endcapture %}
 

@@ -1,13 +1,12 @@
 code {
-	font-family: $mono;
 	background: $white;
+	font-family: $mono;
 	padding: 0.25rem;
-	font-size: 80%;
 }
 
 pre {
 	padding: 0.5rem;
 	word-wrap: break-word;
 	white-space: pre-wrap;
-	margin: 2rem 0;
+	margin: $gutter 0;
 }

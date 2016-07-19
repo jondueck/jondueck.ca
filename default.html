@@ -7,11 +7,11 @@
 	<div class="side-content">
 		<h1 class="page-title">{{ title }}</h1>
 		{% if meta.updated %}
-			Updated {{site.date | date: "%-d %B %Y"}}
+			Updated {{ current.date | date: "%-d %B %Y" }}
 		{% endif %}
 	</div>
 
-	<div class="page-content-new">
+	<div class="page-content">
 		{{ body }}
 	</div>
 

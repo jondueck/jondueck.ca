@@ -1,40 +1,64 @@
 //	Type
 
-$serif			:		'warnock-pro', 'Calluna', georgia, serif;
-$sans				:		Calibre, karla, -apple-system, 'aktiv grotesk', Karla, Helvetica, sans-serif;
-$mono				:		'source-code-pro', "Source Code Pro", monospace;
+$serif: 'Calluna', 'warnock-pro', georgia, serif;
+$sans: 'Post Grotesk', 'post-grotesk', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', helvetica, sans-serif;
+$mono: 'source-code-pro', 'Source Code Pro', monospace;
 
 body {
-	color: $black;
+	color: $body-text-color;
 	font-family: $sans;
 	font-size: $base-font-size;
 	line-height: $line-height-unitless;
+	// font-weight: 400;
 	@include media($medium) {
 		font-size: 1.125rem;
-		// line-height: 2.25rem;
 	}
 	@include media($small) {
 		font-size: 1rem;
-		line-height: 2.125rem;
 	}
+}
+
+strong,
+b {
+	font-weight: bold;
 }
 
 .post,
 .post-content,
-.page-content-new {
+.page-content {
 	font-family: $serif;
 }
 
-p a:not(img),
-ul a:not(img) {
-	text-decoration: underline;
+.page-content {
+	//font-size: #{(1.25/1.125) * $base-font-size};
+}
 
-	// border-bottom: 1.25px solid $green;
-	// -webkit-box-shadow: inset 0 -1px 0 0 $green;
-	// -moz-box-shadow: inset 0 -1px 0 0 $green;
-	// box-shadow: inset 0 -1px 0 0 $green;
-	// background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, #fb8171 95%);
-	// color: $link-text-color;
+.page-content,
+.post-content {
+	a {
+		text-decoration: none;
+		background-image: linear-gradient(to bottom, rgba($grey, .8) 25%, rgba($grey, 0) 25%);
+		background-repeat: repeat-x;
+		background-size: 2px 2px;
+		background-position: 0 #{0.625 * $line-height};
+		position: relative;
+		&:hover {
+			background-image: linear-gradient(to bottom, rgba($link-text-color, .8) 25%, rgba($link-text-color, 0) 25%);
+		}
+		.blog-preview & {
+			background-image: none;
+			&:hover {
+				background-image: none;
+			}
+		}
+	}
+}
+
+.blog-preview a {
+	background-image: none;
+	&:hover {
+		background-image: none;
+	}
 }
 
 a {
@@ -42,61 +66,59 @@ a {
 	&:hover {
 		color: $primary-color;
 	}
-}
 
-a img:hover {
-	opacity: 0.75;
-}
-
-.site-header a,
-.site-footer a {
-	text-decoration: none;
-}
-
-.site-footer {
-
-}
-
-ul a:not(img) {
-	border-bottom-color: $darkgrey;
-	border-bottom-width: 1px;
-	&:hover {
-		border-bottom-color: $green;
+	img {
+		background-image: none;
+		&:hover {
+			background-image: none;
+		}
 	}
+
 }
 
-.site-header a {
-	border-bottom: none;
+.site-header,
+.site-footer {
+	a {
+		text-decoration: none;
+		border-bottom: 0 none;
+		background-image: none;
+		&:hover {
+			background-image: none;
+		}
+	}
 }
 
 // Headings
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: $sans;
 	font-weight: normal;
 }
 
 h1 {
+	font-size: #{2 * $base-font-size};
 	margin-bottom: $line-height;
-	font-size: #{2*$base-font-size};
 }
 
 h2 {
+	font-size: #{(1.2 * $base-font-size)};
 	margin-bottom: $line-height;
-	font-size: #{(1.2*$base-font-size)};
 }
 
 h3 {
-	// font-size: 1.125rem;
-	font-size: $base-font-size;
 	color: tint($black, 50%);
-	// font-style: italic;
+	font-size: $base-font-size;
 }
 
 h4 {
-	font-size: #{0.75*$base-font-size};
-	text-transform: uppercase;
+	font-size: #{0.75 * $base-font-size};
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 p {
@@ -105,7 +127,8 @@ p {
 
 .page-title {
 	font-size: $base-font-size;
-	font-weight: bold;
+	// font-weight: bold;
+	color: $body-text-color;
 }
 
 .post-title {
@@ -114,13 +137,13 @@ p {
 
 .post-header {
 	&:after {
-		content: "";
-		width: 2rem;
-		height: 2px;
-		display: block;
-		margin: 2rem auto;
-		overflow: hidden;
 		background: $green;
+		content: '';
+		display: block;
+		height: 2px;
+		width: $line-height;
+		margin: $gutter auto;
+		overflow: hidden;
 	}
 }
 
@@ -134,45 +157,83 @@ p {
 }
 
 blockquote {
-	border-left: 0.1625rem solid $green;
-	margin-left: 0;
-	padding-left: 2rem;
-	box-sizing: border-box;
-	//	font-style: italic;
-	margin: $line-height 0;
-	padding-right: 2rem;
-	font-family: $serif,"Apercu Mono Regular";
+	border-left: 0.125rem solid $green;
+	font-family: $serif;
 	font-style: italic;
+	margin-left: 0;
+	padding-left: $gutter;
+	box-sizing: border-box;
+	// font-style: italic;
+	padding-right: $line-height;
+	margin: $line-height 0;
 }
 
 ul,
 ol {
-	margin-left: $line-height;
+	margin-left: 1.25rem;
 	margin-bottom: $line-height;
 }
 
-.pagination .inactive {
-	cursor: auto;
-	text-decoration: line-through;
+.pagination {
+	.inactive {
+		cursor: auto;
+		text-decoration: line-through;
+	}
 }
 
 .pagination,
 .back-to {
+	border-bottom: 0 none;
 	text-align: center;
-	border-bottom: none;
-}
-
-// Footnotes
-*[rel="footnote"] {
-	font-size: 75%;
-	border-bottom: none;
-	opacity: 0.5;
 }
 
 .front-page-photo-byline {
+	color: $grey;
 	font-size: 1rem;
-	font-style: italic;
-	text-align: right;
 	margin-bottom: 0;
-	font-family: $serif;
+	text-align: right;
+	font-style: normal;
+}
+
+.post-synopsis {
+	font-style: italic;
+}
+
+.post-synopsis,
+.post-meta {
+	color: $grey;
+	display: block;
+	text-align: center;
+}
+
+.post-meta {
+	font-family: $sans;
+}
+
+// sup {
+// 	vertical-align: baseline;
+// 	position: relative;
+// 	top: -0.4rem;
+// 	font-size: 75%;
+//
+// 	[rel='footnote'] {
+// 		color: $grey;
+// 	}
+//
+// 	a {
+// 		text-decoration: none;
+// 	}
+// }
+
+.work-preview {
+	a {
+		background-image: none;
+		&:hover {
+			background-image: none;
+		}
+	}
+}
+
+.side-content {
+	color: $grey;
 }

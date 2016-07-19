@@ -1,14 +1,15 @@
 {% capture content %}
-<section class="content about">
+	<section class="content about">
 
-	{% if meta.profile-picture %}
+		{% if meta.profile-picture %}
 
-		<img src="{{meta['profile-picture']}}" alt="" />
+			<img src="{{meta['profile-picture']}}" alt="" />
 
-	{% endif %}
+		{% endif %}
 
-	{{ body }}
+		{{ body }}
 
-</section>
+	</section>
 {% endcapture %}
+
 {% include 'layouts/default' %}

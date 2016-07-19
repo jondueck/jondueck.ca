@@ -5,15 +5,14 @@
 			<h1 class="page-title">{{ title }}</h1>
 		</div>
 
-		<div class="page-content-new">
+		<div class="page-content blog-archive">
 			{{ body }}
 
 			{% for post in posts %}
 
-				<article class="post-preview home-writings">
-					<span class="post-preview-date">{{post.date | date: "%d %b %Y"}}</span>
+				<article class="post-preview blog-preview">
 
-					<a class="post-preview-title" href=
+					<a class="post-preview__title" href=
 						{% if post.meta.redirect%}
 							"{{post.meta.redirect.value}}"
 						{% else %}
@@ -21,7 +20,7 @@
 						{% endif %}
 					>
 
-						{{post.title}}
+						<h2 class="inline-heading">{{post.title}}</h2>
 
 						{% if post.meta.external == 'Medium' %}
 							<img src="/assets/icons/medium.svg" class="external-icon" alt="Read on Medium">
@@ -31,6 +30,8 @@
 						{% endif %}
 
 					</a>
+
+					<span class="post-preview__date">{{post.date | date: "%d %b %Y"}}</span>
 
 				</article>
 

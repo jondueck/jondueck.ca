@@ -1,36 +1,37 @@
 $base-font-size: 1.1875rem;
-$line-height-unitless: 1.5;
-$line-height: #{($base-font-size*$line-height-unitless)};
-$line-height-2x: #{($base-font-size*$line-height-unitless)*2};
+$line-height-unitless: 1.7;
+$line-height: #{($base-font-size * $line-height-unitless)};
+$line-height-2x: #{($base-font-size * $line-height-unitless)*2};
 
 $white:	#fff;
-//  $lightgrey		:		#f5f5f5;
 $lightgrey: #f0f3f5;
-$darkgrey: #ddd;
-// $black		  	    :		#444;
+$subdued-grey: #fafafa;
+$light-grey: #cedbe2;
+$grey: #95a7b1;
+$dark-grey: #7290a0;
 $black: #3f515d;
 $green: #3fd4ad;
 $collectif-blue: #74cdda;
 $web-blue: #0068ff;
 
-$primary-color:   $green;
+$primary-color: $green;
 $background-color: #fbfbfb;
 
 $body-text-color: $black;
 $heading-text-color: $body-text-color;
-$link-text-color: tint($body-text-color, 25%);
+$link-text-color: $primary-color;
 
-$padding          :		2rem;
-$spacing          :		#{2*$padding};
-$border           :   1.5px solid $lightgrey;
+$padding: 2rem;
+$spacing: #{2 * $padding};
+$border: 1.5px solid $lightgrey;
 
-$grid-columns	    : 	8;
-$gutter			      :		2rem;
-$max-width		    :		rem(1050);
-$visual-grid		  : 	false;
-$visual-grid-index:		back;
-$visual-grid-color: 	rgba(0, 0, 15, .1);
-$mobile			      : 	new-breakpoint(max-width 500px 4);
+$grid-columns: 8;
+$gutter: 2rem;
+$max-width: rem(1050);
+$visual-grid: false;
+$visual-grid-index: back;
+$visual-grid-color: rgba(0, 0, 15, .1);
+$mobile: new-breakpoint(max-width 500px 4);
 
 $small: new-breakpoint(max-width 500px 4);
 $medium: new-breakpoint(max-width 768px 8);

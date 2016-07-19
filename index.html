@@ -1,22 +1,20 @@
 {% capture content %}
 
-	<figure style="margin-bottom: 2.5rem;">
-		<img src="{{ meta.profile-picture.value}}" alt="{{ site.title }}"/>
+	<figure class="about__image">
+		<img src="{{ meta.profile-picture.value }}" alt="{{ site.title }}"/>
 		{% if meta.profile-picture-byline %}
-		<figcaption class="front-page-photo-byline">Photo by <a href="{{meta.profile-picture-bylink}}">{{meta.profile-picture-byline}}</a></figcaption>
+		<figcaption class="front-page-photo-byline">Photo by <a href="{{ meta.profile-picture-bylink }}">{{ meta.profile-picture-byline }}</a></figcaption>
 		{% endif %}
 	</figure>
 
 	<section>
 		<div class="side-content">
-			<strong>Jon Dueck</strong>
-			<br><br>
-			Designer & Developer
-			<br><br>
-			Winkler, MB
+			<h1 class="page-title">Jon Dueck</h1>
+			<p>Designer & Developer</p>
+			<p>Winkler, MB</p>
 		</div>
 
-		<div class="page-content-new" >
+		<div class="page-content" >
 			{{ body }}
 		</div>
 

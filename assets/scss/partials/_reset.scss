@@ -26,8 +26,8 @@ picture {
 
 a {
   color: inherit;
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 html {
@@ -42,14 +42,14 @@ html {
 	font-feature-settings: "liga" 1, "kern" 1;
 	-webkit-font-kerning: normal;
 	font-kerning: normal;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 section,
 article {
-	display: block;
-	overflow: hidden;
+  display: block;
+  overflow: hidden;
 }
 
 section {

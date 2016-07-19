@@ -28,7 +28,7 @@ AddType image/svg+xml .svg
 	ExpiresByType image/svg+xml "access plus 2 weeks"
 	ExpiresByType application/x-font-ttf "access plus 1 year"
 	ExpiresByType application/x-font-opentype "access plus 1 year"
-	ExpiresByType application/x-font-woff "access plus 1 year"
+	ExpiresByType application/x-font-woff "access plus 6 months"
 	ExpiresDefault "access 2 days"
 </IfModule>
 
