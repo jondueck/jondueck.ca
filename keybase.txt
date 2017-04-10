@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jondueck
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jondueck.ca
+  * I am jondueck (https://keybase.io/jondueck) on keybase.
+  * I have a public key ASD9Nw4S0vKj1Q_aR4rwEBHCHBxCbyzyGZedrZPqDfI3ugo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120fd370e12d2f2a3d50fda478af01011c21c1c426f2cf219979dad93ea0df237ba0a",
+            "host": "keybase.io",
+            "kid": "0120fd370e12d2f2a3d50fda478af01011c21c1c426f2cf219979dad93ea0df237ba0a",
+            "uid": "78adf014a4e46215b91dfc736cabb919",
+            "username": "jondueck"
+        },
+        "service": {
+            "hostname": "jondueck.ca",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1491830256,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1491830235,
+        "hash": "c1becd2490febaa58bfd052ae66799442837cd6818f4cd2c2602c1cf37d5ebd2dcb95649396a4b551b98bd070cdff2212105b4d36ffc3f537c8c01e17c4cfefb",
+        "seqno": 1010049
+    },
+    "prev": "d14414b9491a34d951bfabcfcfbe1d6e2a690142e8749f420821a0aa7d58a92c",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/TcOEtLyo9UP2keK8BARwhwcQm8s8hmXna2T6g3yN7oKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZmQzNzBlMTJkMmYyYTNkNTBmZGE0NzhhZjAxMDExYzIxYzFjNDI2ZjJjZjIxOTk3OWRhZDkzZWEwZGYyMzdiYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmQzNzBlMTJkMmYyYTNkNTBmZGE0NzhhZjAxMDExYzIxYzFjNDI2ZjJjZjIxOTk3OWRhZDkzZWEwZGYyMzdiYTBhIiwidWlkIjoiNzhhZGYwMTRhNGU0NjIxNWI5MWRmYzczNmNhYmI5MTkiLCJ1c2VybmFtZSI6ImpvbmR1ZWNrIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqb25kdWVjay5jYSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDkxODMwMjU2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTE4MzAyMzUsImhhc2giOiJjMWJlY2QyNDkwZmViYWE1OGJmZDA1MmFlNjY3OTk0NDI4MzdjZDY4MThmNGNkMmMyNjAyYzFjZjM3ZDVlYmQyZGNiOTU2NDkzOTZhNGI1NTFiOThiZDA3MGNkZmYyMjEyMTA1YjRkMzZmZmMzZjUzN2M4YzAxZTE3YzRjZmVmYiIsInNlcW5vIjoxMDEwMDQ5fSwicHJldiI6ImQxNDQxNGI5NDkxYTM0ZDk1MWJmYWJjZmNmYmUxZDZlMmE2OTAxNDJlODc0OWY0MjA4MjFhMGFhN2Q1OGE5MmMiLCJzZXFubyI6NywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAE1PQep/vY3YGZ5vO9iKp5k8QGEOHKanOfhvCR2GbaQGyisxjaVx+Y94PPxisVDF1IApb+sTga8f076IBygxQNqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgBafS+hcaRJgPXszHq9Hox6sgvwTQ8ONXMviJhGGTV9+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jondueck
+
+==================================================================
