@@ -6,7 +6,7 @@
 			<h1 class="page-title">{{ title }}</h1>
 			{% if type == "post" %}
 			{% if meta.updated %}
-				<span>Updated {{site.date | date: "%-d %B %Y"}}</span>
+				<span>Updated {{page.updated_at | date: "%-d %B %Y"}}</span>
 			{% else %}
 				<span>{{ current.date | date: '%B %Y'}}</span><br>
 			{% endif %}

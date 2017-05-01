@@ -28,3 +28,26 @@
 		@include omega();
 	}
 }
+
+.footer__social-icon {
+	margin-right: 0.5 * $line-height;
+	display: block;
+	float: left;
+
+	svg {
+		fill: $body-text-color;
+		height: 0.875 * $base-font-size;
+		width: 0.875 * $base-font-size;
+
+		&:hover,
+		&:focus {
+			fill: $green;
+		}
+
+	}
+
+}
+
+.footer__social-links {
+	float: right;
+}

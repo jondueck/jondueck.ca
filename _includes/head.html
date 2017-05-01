@@ -1,13 +1,14 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 {% if current.url == '/' %}
   <title>Jon Dueck – Designer and Developer</title>
+  <meta name="title" content="Jon Dueck – Designer and Developer">
 {% else %}
   <title>{{title}} – {{site.title}}</title>
+  <meta name="title" content="{{site.title}} – {{title}}">
 {% endif %}
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}">
 <meta charset="UTF-8">
-<meta name="title" content="{{site.title}} – {{title}}">
 
 <meta name="description" content="{{ meta.description | fallback: current.body | strip_html | strip_newlines | truncate: 160 }}">
 
@@ -28,11 +29,13 @@
 
 <!--<noscript><link href="main.css" rel="stylesheet"></noscript>-->
 
-<link href="/assets/webfonts/ss-social.css" rel="stylesheet">
+<!-- <link href="/assets/webfonts/ss-social.css" rel="stylesheet"> -->
 
 <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+{% if current.meta.vimeo %}
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+{% endif %}
 
 {% if current.meta.vimeo %}
   <script src="/js/jquery.fitvids.js"></script>

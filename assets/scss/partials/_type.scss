@@ -16,6 +16,9 @@ body {
 	@include media($small) {
 		font-size: 1rem;
 	}
+	@media (min-width: 1400px) {
+		font-size: 1.25rem;
+	}
 }
 
 strong,

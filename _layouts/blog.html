@@ -23,10 +23,10 @@
 						<h2 class="inline-heading">{{post.title}}</h2>
 
 						{% if post.meta.external == 'Medium' %}
-							<img src="/assets/icons/medium.svg" class="external-icon" alt="Read on Medium">
+							<svg  alt="Read on Medium" class="external-icon"><use xlink:href="/assets/icons.svg#medium-icon"></use></svg>
 						{% endif %}
 						{% if post.meta.external == 'Day One' %}
-							<img src="/assets/icons/dayone.svg" class="external-icon" alt="Read on Day One">
+							<svg  alt="Read on Day One" class="external-icon"><use xlink:href="/assets/icons.svg#dayone-icon"></use></svg>
 						{% endif %}
 
 					</a>

@@ -53,3 +53,22 @@
 		}
 	}
 }
+
+.header__social-icon {
+	margin-right: 0.5 * $line-height;
+	display: block;
+	float: left;
+
+	svg {
+		fill: $body-text-color;
+		height: 0.75 * $base-font-size;
+		width: 0.75 * $base-font-size;
+
+		&:hover,
+		&:focus {
+			fill: $green;
+		}
+
+	}
+
+}

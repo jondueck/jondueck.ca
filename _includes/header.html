@@ -14,10 +14,18 @@
         <div>
           <a href="/" class="site-nav__link">About</a>
           <span class="social-links" class="site-nav__link">
-            <a href="http://twitter.com/{{ site.meta.twitter }}" class="ss-icon">Twitter</a>&nbsp;&nbsp;
-            <a href="http://dribbble.com/{{ site.meta.dribbble }}" class="ss-icon">Dribbble</a>&nbsp;&nbsp;
-            <a href="http://instagram.com/{{ site.meta.instagram }}" class="ss-icon">Instagram</a>&nbsp;&nbsp;
-            <a href="https://open.spotify.com/user/{{ site.meta.spotify }}/" class="ss-icon">Spotify</a>
+            <a href="http://twitter.com/{{site.meta.twitter}}" class="header__social-icon">
+              <svg><use xlink:href="/assets/icons/icons.svg#twitter-icon"></use></svg>
+            </a>
+            <a href="https://dribbble.com/{{site.meta.dribbble}}" class="header__social-icon">
+              <svg><use xlink:href="/assets/icons/icons.svg#dribbble-icon"></use></svg>
+            </a>
+            <a href="http://instagram.com/{{site.meta.instagram}}" class="header__social-icon">
+              <svg><use xlink:href="/assets/icons/icons.svg#instagram-icon"></use></svg>
+            </a>
+            <a href="https://open.spotify.com/user/{{site.meta.spotify}}/" class="header__social-icon">
+              <svg><use xlink:href="/assets/icons/icons.svg#spotify-icon"></use></svg>
+            </a>
           </span>
         </div>
       </nav>

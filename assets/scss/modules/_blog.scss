@@ -15,10 +15,26 @@
 }
 
 .blog-preview {
-  padding-bottom: #{0.5 * $line-height};
-  margin-bottom: #{0.5 * $line-height};
-  border-bottom: 1px solid rgba($light-grey, 0.5);
-  &:last-of-type {
-    border-bottom: 0 none;
-  }
+	padding-bottom: #{0.5 * $line-height};
+	margin-bottom: #{0.5 * $line-height};
+	border-bottom: 1px solid rgba($light-grey, 0.5);
+	&:last-of-type {
+		border-bottom: 0 none;
+	}
+}
+
+.external-icon {
+	position: absolute;
+	right: 0;
+	fill: $grey;
+	height: 0.5 * $base-font-size;
+	width: $base-font-size;
+	margin-top: (0.5 * $line-height) - (0.25 * $base-font-size);
+
+	svg {
+		height: $base-font-size;
+		width: $base-font-size;
+		fill: $grey;
+	}
+
 }
