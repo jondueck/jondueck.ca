@@ -10,7 +10,9 @@
 	margin-bottom: 1rem;
 	margin-right: 1rem;
 	width: calc(50% - 0.5rem);
+
 	+ [src$='#half'] {
 		margin-right: 0;
 	}
+
 }

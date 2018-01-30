@@ -24,10 +24,13 @@
 
 						{% if post.meta.external == 'Medium' %}
 							<svg  alt="Read on Medium" class="external-icon"><use xlink:href="/assets/icons.svg#medium-icon"></use></svg>
-						{% endif %}
-						{% if post.meta.external == 'Day One' %}
+						{% elsif post.meta.external == 'Day One' %}
 							<svg  alt="Read on Day One" class="external-icon"><use xlink:href="/assets/icons.svg#dayone-icon"></use></svg>
+						{% else post.meta.external == 'Day One' %}
+							<span class="external-icon">&nearr;</span>
 						{% endif %}
+
+
 
 					</a>
 
@@ -44,6 +47,7 @@
 
 			<p><a href="/quotes/">Quotes</a> &ndash;Things that others said better than me</p>
 			<p><a href="/toolbox/">Toolbox</a> &ndash; A list of some of the tools I use everyday.</p>
+			<p><a href="/podcasts/">Podcasts</a> &ndash; My favourite podcasts.</p>
 
 		</div>
 

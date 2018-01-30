@@ -1,8 +1,9 @@
 .site-header {
-	padding: $line-height 0;
-	margin-bottom: $line-height;
 	@include row();
-	font-size: #{0.875 * $base-font-size};
+	padding: $line-height 0;
+	margin-top: 0.5 * $line-height;
+	margin-bottom: $line-height;
+	font-size: #{(7 / 8) * $base-font-size};
 }
 
 .site-title {
@@ -27,10 +28,12 @@
 	@include span-columns(4 of 8);
 	@include omega();
 	@include row();
+
 	@include media($medium) {
 		@include span-columns(1 of 1);
 		@include omega();
 	}
+
 	div {
 		@include span-columns(2 of 4);
 		@include omega(2n);
@@ -61,12 +64,12 @@
 
 	svg {
 		fill: $body-text-color;
-		height: 0.75 * $base-font-size;
-		width: 0.75 * $base-font-size;
+		height: (3 / 4) * $base-font-size;
+		width: (3 / 4) * $base-font-size;
 
 		&:hover,
 		&:focus {
-			fill: $green;
+			fill: $link-text-color;
 		}
 
 	}

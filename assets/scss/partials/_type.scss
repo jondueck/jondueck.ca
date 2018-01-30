@@ -10,6 +10,7 @@ body {
 	font-size: $base-font-size;
 	line-height: $line-height-unitless;
 	// font-weight: 400;
+
 	@include media($medium) {
 		font-size: 1.125rem;
 	}
@@ -19,6 +20,7 @@ body {
 	@media (min-width: 1400px) {
 		font-size: 1.25rem;
 	}
+
 }
 
 strong,
@@ -45,23 +47,28 @@ b {
 		background-size: 2px 2px;
 		background-position: 0 #{0.625 * $line-height};
 		position: relative;
+
 		&:hover {
 			background-image: linear-gradient(to bottom, rgba($link-text-color, .8) 25%, rgba($link-text-color, 0) 25%);
 		}
+
 		.blog-preview & {
 			background-image: none;
 			&:hover {
 				background-image: none;
 			}
 		}
+
 	}
 }
 
 .blog-preview a {
 	background-image: none;
+
 	&:hover {
 		background-image: none;
 	}
+
 }
 
 a {
@@ -103,22 +110,26 @@ h6 {
 	font-weight: normal;
 }
 
-h1 {
+h1,
+.h1 {
 	font-size: #{2 * $base-font-size};
 	margin-bottom: $line-height;
 }
 
-h2 {
+h2,
+.h2 {
 	font-size: #{(1.2 * $base-font-size)};
 	margin-bottom: $line-height;
 }
 
-h3 {
+h3,
+.h3 {
 	color: tint($black, 50%);
 	font-size: $base-font-size;
 }
 
-h4 {
+h4,
+.h4 {
 	font-size: #{0.75 * $base-font-size};
 	font-weight: bold;
 	text-transform: uppercase;
@@ -130,7 +141,6 @@ p {
 
 .page-title {
 	font-size: $base-font-size;
-	// font-weight: bold;
 	color: $body-text-color;
 }
 

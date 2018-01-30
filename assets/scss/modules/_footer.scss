@@ -4,6 +4,7 @@
 	margin-top: $line-height;
 	margin-bottom: $line-height;
 	font-size: #{0.875 * $base-font-size};
+
 	.ss-icon {
 		margin: 0.5rem;
 	}
@@ -41,7 +42,7 @@
 
 		&:hover,
 		&:focus {
-			fill: $green;
+			fill: $link-text-color;
 		}
 
 	}

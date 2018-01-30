@@ -17,17 +17,14 @@ body {
 	margin: 0;
 	// min-height: calc(75vh - 15rem);
 
-	@media (min-width: 720px) {
+	@media (min-width: 45rem) {
 		@include span-columns(6 of 8);
+		@include omega();
 	}
 
 	@include media($mobile) {
 		@include span-columns(8 of 8);
 		@include shift(0);
-	}
-
-	@media (min-width: 720px) {
-		@include span-columns(6 of 8);
 	}
 }
 
@@ -83,6 +80,8 @@ body {
 .page-excerpt {
 	@include span-columns(6 of 8);
 	@include shift(2 of 8);
+	@include omega();
+
 	@include media($medium) {
 		@include shift(0);
 		@include span-columns(8 of 8);
@@ -93,13 +92,13 @@ body {
 	margin: 0;
 	margin-bottom: $line-height-2x;
 	@include row();
-	@media (min-width: 720px) {
+	@media (min-width: 45rem) {
 		@include span-columns(2 of 8);
 	}
 }
 
 .post-content {
-	@media (min-width: 800px) {
+	@media (min-width: 50rem) {
 		@include span-columns(6 of 8);
 		@include shift(1 of 8);
 		@include omega();
