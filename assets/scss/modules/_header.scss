@@ -7,7 +7,7 @@
 }
 
 .site-title {
-	@include span-columns(4 of 8);
+	// @include span-columns(4 of 8);
 	&:hover {
 		.athan {
 			text-decoration: line-through;
@@ -80,4 +80,8 @@
 
 	}
 
+}
+
+.site-nav__social-links {
+	color: $grey;
 }
