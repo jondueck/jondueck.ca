@@ -24,8 +24,12 @@
 	}
 }
 
+.site-brand {
+	@include span-columns(2 of 8);
+}
+
 .site-nav {
-	@include span-columns(4 of 8);
+	@include span-columns(6 of 8);
 	@include omega();
 	@include row();
 
@@ -45,7 +49,9 @@
 	}
 
 	&__link {
-		display: block;
+		display: inline-block;
+		float: left;
+		margin-right: $line-height;
 	}
 
 	.ss-icon {
