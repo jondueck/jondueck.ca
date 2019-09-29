@@ -45,10 +45,8 @@ defaults:
     layout: post
     author: Jon Dueck
 email: hi@jondueck.ca
-description: 'Brand designer and front-end web developer from Winkler, Manitoba. Partner
+description: Brand designer and front-end web developer from Winkler, Manitoba. Partner
   at Collectif. Personal site, blog, and portfolio.
-
-'
 baseurl: 
 url: https://jondueck.ca
 twitter: jondueck
