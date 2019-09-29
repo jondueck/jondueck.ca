@@ -18,7 +18,7 @@ body {
 	// min-height: calc(75vh - 15rem);
 
 	@media (min-width: 45rem) {
-		@include span-columns(6 of 8);
+		@include span-columns(4 of 8);
 		@include omega();
 	}
 
