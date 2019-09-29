@@ -1,6 +1,6 @@
 ---
 title: Jon Dueck
-timezone: America/New_York
+timezone: America/Winnipeg
 collections:
   eat:
     title: Eat
@@ -47,7 +47,7 @@ defaults:
 email: hi@jondueck.ca
 description: Brand designer and front-end web developer from Winkler, Manitoba. Partner
   at Collectif. Personal site, blog, and portfolio.
-baseurl: 
+baseurl:
 url: https://jondueck.ca
 twitter: jondueck
 github: jondueck
@@ -66,4 +66,4 @@ gems:
 - jekyll-sitemap
 - jekyll-redirect-from
 markdown: kramdown
-theme: 
+theme:

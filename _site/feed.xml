@@ -6,34 +6,9 @@
 </description>
     <link>https://jondueck.ca/</link>
     <atom:link href="https://jondueck.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Sep 2019 21:58:56 -0500</pubDate>
-    <lastBuildDate>Sat, 28 Sep 2019 21:58:56 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
-    
-      <item>
-        <title>Fast Software, the Best Software</title>
-        <description>&lt;p&gt;I recently came across &lt;a href=&quot;https://webwewant.fyi&quot;&gt;webwewant.fyi&lt;/a&gt;, a website “to collect your feedback about the current state of the web and to give you a voice to help shape its future.” I think that’s a worthwhile mission. Sometimes the process of bringing new features to browsers feels a tad esoteric, and maybe this will be a way to start some discussions on features that developers would like to see.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you build websites, you inevitably run into problems. Maybe there’s no way to achieve an aspect of your design using CSS. Or maybe there’s a device feature you really wish you could tap into using JavaScript. Or perhaps the in-browser DevTools don’t give you a key insight you need to do your job. We want to hear about it!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Another thing I found interesting about this project is their approach to upvoting. Rather than a button on their site, they use webmentions, so suggestions receive “votes” based on how people are actually talking about them.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Sep 2019 09:00:00 -0500</pubDate>
-        <link>https://jondueck.ca/2019/fast-software/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/fast-software/</guid>
-        
-        
-        <category>Highlighted</category>
-        
-      </item>
+    <pubDate>Sun, 29 Sep 2019 03:17:01 +0000</pubDate>
+    <lastBuildDate>Sun, 29 Sep 2019 03:17:01 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.0</generator>
     
       <item>
         <title>The Web We Want</title>
@@ -51,9 +26,34 @@
 
 &lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 12 Sep 2019 09:00:00 -0500</pubDate>
+        <pubDate>Thu, 12 Sep 2019 14:00:00 +0000</pubDate>
         <link>https://jondueck.ca/2019/the-web-we-want/</link>
         <guid isPermaLink="true">https://jondueck.ca/2019/the-web-we-want/</guid>
+        
+        
+        <category>Highlighted</category>
+        
+      </item>
+    
+      <item>
+        <title>Fast Software, the Best Software</title>
+        <description>&lt;p&gt;I recently came across &lt;a href=&quot;https://webwewant.fyi&quot;&gt;webwewant.fyi&lt;/a&gt;, a website “to collect your feedback about the current state of the web and to give you a voice to help shape its future.” I think that’s a worthwhile mission. Sometimes the process of bringing new features to browsers feels a tad esoteric, and maybe this will be a way to start some discussions on features that developers would like to see.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you build websites, you inevitably run into problems. Maybe there’s no way to achieve an aspect of your design using CSS. Or maybe there’s a device feature you really wish you could tap into using JavaScript. Or perhaps the in-browser DevTools don’t give you a key insight you need to do your job. We want to hear about it!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another thing I found interesting about this project is their approach to upvoting. Rather than a button on their site, they use webmentions, so suggestions receive “votes” based on how people are actually talking about them.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Sep 2019 14:00:00 +0000</pubDate>
+        <link>https://jondueck.ca/2019/fast-software/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2019/fast-software/</guid>
         
         
         <category>Highlighted</category>
@@ -68,7 +68,7 @@
   &lt;p&gt;Instead we must start to see inaccessible and slow websites for what they are: a form of cruelty. And if we want to build a web that is truly a World Wide Web, a place for all and everyone, a web that is accessible and fast for as many people as possible, and one that will outlive us all, then first we must make our websites something else altogether; we must make them kind.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Wed, 21 Aug 2019 14:00:00 -0500</pubDate>
+        <pubDate>Wed, 21 Aug 2019 19:00:00 +0000</pubDate>
         <link>https://jondueck.ca/2019/accessability-as-the-baseline/</link>
         <guid isPermaLink="true">https://jondueck.ca/2019/accessability-as-the-baseline/</guid>
         
@@ -102,7 +102,7 @@
 
 &lt;p&gt;Are there other features that are important to you that I should include? Or podcatchers that cover all of my requests? &lt;a href=&quot;https://twitter.com/jondueck&quot;&gt;Let me know on Twitter&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 03 Jul 2019 11:00:00 -0500</pubDate>
+        <pubDate>Wed, 03 Jul 2019 16:00:00 +0000</pubDate>
         <link>https://jondueck.ca/2019/on-podcast-players/</link>
         <guid isPermaLink="true">https://jondueck.ca/2019/on-podcast-players/</guid>
         
@@ -126,9 +126,9 @@
   &lt;li&gt;Vacations – &lt;em&gt;Changes&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Mon, 31 Dec 2018 22:30:00 -0600</pubDate>
-        <link>https://jondueck.ca/2018/2018-albums-of-the-year/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2018/2018-albums-of-the-year/</guid>
+        <pubDate>Tue, 01 Jan 2019 04:30:00 +0000</pubDate>
+        <link>https://jondueck.ca/2019/2018-albums-of-the-year/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2019/2018-albums-of-the-year/</guid>
         
         
       </item>
@@ -137,7 +137,7 @@
         <title>A Day One in the life of</title>
         <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Aug 2015 11:00:00 -0500</pubDate>
+        <pubDate>Thu, 13 Aug 2015 16:00:00 +0000</pubDate>
         <link>https://jondueck.ca/2015/state-of-collectif/</link>
         <guid isPermaLink="true">https://jondueck.ca/2015/state-of-collectif/</guid>
         
@@ -148,7 +148,7 @@
         <title>Five Design Questions</title>
         <description>
 </description>
-        <pubDate>Sat, 25 Oct 2014 23:56:00 -0500</pubDate>
+        <pubDate>Sun, 26 Oct 2014 04:56:00 +0000</pubDate>
         <link>https://jondueck.ca/2014/five-design-questions/</link>
         <guid isPermaLink="true">https://jondueck.ca/2014/five-design-questions/</guid>
         
@@ -159,7 +159,7 @@
         <title>Status Update</title>
         <description>
 </description>
-        <pubDate>Wed, 09 Apr 2014 23:56:00 -0500</pubDate>
+        <pubDate>Thu, 10 Apr 2014 04:56:00 +0000</pubDate>
         <link>https://jondueck.ca/2014/status-update/</link>
         <guid isPermaLink="true">https://jondueck.ca/2014/status-update/</guid>
         
@@ -170,7 +170,7 @@
         <title>A Day One in the life of</title>
         <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 03 Mar 2014 22:56:00 -0600</pubDate>
+        <pubDate>Tue, 04 Mar 2014 04:56:00 +0000</pubDate>
         <link>https://jondueck.ca/2014/a-day-one-in-the-life-of/</link>
         <guid isPermaLink="true">https://jondueck.ca/2014/a-day-one-in-the-life-of/</guid>
         
