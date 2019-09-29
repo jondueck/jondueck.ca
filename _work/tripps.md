@@ -1,10 +1,10 @@
 ---
-layout: project
-date: August 1, 2015
 title: Tripp’s Tree Care
+date: 2015-08-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Collectif
-thumb: /uploads/tripps_thumb.svg
+thumb: "/uploads/tripps_thumb.svg"
 ---
 
 In 2015, Phil Tripp approached us about his new business venture. After wrapping up his studies, he was about to start his own tree care company. We wanted to create a bold and modern identity that would attract young and new homeowners.

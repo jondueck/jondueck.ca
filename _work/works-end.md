@@ -1,10 +1,10 @@
 ---
-layout: project
-date: May 1, 2019
 title: Works End
+date: 2019-05-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Personal
-thumb: /uploads/wety-thumb.svg
+thumb: "/uploads/wety-thumb.svg"
 hidden: false
 ---
 

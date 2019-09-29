@@ -1,10 +1,10 @@
 ---
-layout: project
-date: July 1, 2016
 title: Fixtures Design System
+date: 2016-07-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Co-op@home
-thumb: /uploads/cover.jpg
+thumb: "/uploads/cover.jpg"
 hidden: true
 ---
 

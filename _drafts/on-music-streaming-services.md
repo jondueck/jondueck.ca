@@ -1,7 +1,7 @@
 ---
-layout: post
-date: June 1, 2019 10:00 CST
 title: On Music Streaming Services
+date: 2019-06-01 16:00:00 Z
+layout: post
 author: Jon Dueck
 ---
 

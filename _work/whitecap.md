@@ -1,10 +1,10 @@
 ---
-layout: project
-date: August 1, 2016
 title: Whitecap
+date: 2016-08-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Collectif
-thumb: /uploads/whitecap_thumb.svg
+thumb: "/uploads/whitecap_thumb.svg"
 ---
 
 Whitecap is a specialty coffee shop in Winkler, MB.

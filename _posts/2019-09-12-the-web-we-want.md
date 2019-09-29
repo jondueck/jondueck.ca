@@ -1,9 +1,10 @@
 ---
-layout: post
-date: September 12, 2019 08:00 CST
 title: The Web We Want
+date: 2019-09-12 14:00:00 Z
+categories:
+- Highlighted
+layout: post
 author: Jon Dueck
-categories: Highlighted
 ---
 
 I recently came across [webwewant.fyi](https://webwewant.fyi), a website "to collect your feedback about the current state of the web and to give you a voice to help shape its future." I think that's a worthwhile mission. Sometimes the process of bringing new features to browsers feels a tad esoteric, and maybe this will be a way to start some discussions on features that developers would like to see.

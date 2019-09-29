@@ -1,8 +1,9 @@
 ---
 title: Favourites
-permalink: /favourites/
+permalink: "/favourites/"
 layout: page
-description: A list of my favourite records, books, TV shows, Chic-Fil-A sauces, tabletop games, video games, and more.
+description: A list of my favourite records, books, TV shows, Chic-Fil-A sauces, tabletop
+  games, video games, and more.
 updated: true
 ---
 

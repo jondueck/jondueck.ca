@@ -1,6 +1,6 @@
 ---
 title: Sauce
-permalink: /sauce/
+permalink: "/sauce/"
 layout: page
 description: Jon Dueck's guide to the best Chick-Fil-A sauces.
 updated: true

@@ -1,10 +1,10 @@
 ---
-layout: post
-date: August 5, 2019 21:29 CST
 title: The Dark Side of the Video Game Industry
-author: Jon Dueck
+date: 2019-08-06 03:29:00 Z
 categories:
 - Highlighted
+layout: post
+author: Jon Dueck
 ---
 
 https://youtu.be/pLAi_cmly6Q

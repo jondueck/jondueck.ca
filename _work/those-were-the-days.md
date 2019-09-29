@@ -1,10 +1,10 @@
 ---
-layout: project
-date: March 15, 2014
 title: Those Were the Days
+date: 2014-03-15 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Freelance
-thumb: /uploads/tfgrun_thumb.jpg
+thumb: "/uploads/tfgrun_thumb.jpg"
 hidden: true
 ---
 

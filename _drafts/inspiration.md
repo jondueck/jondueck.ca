@@ -1,10 +1,10 @@
 ---
-layout: post
-date: January 1, 2019 10:30pm CST
 title: When You're out of Inspiration
+date: 2019-01-02 04:30:00 Z
+layout: post
 author: Jon Dueck
-external:
-redirect:
+external: 
+redirect: 
 ---
 
 ## Get offscreen

@@ -1,10 +1,10 @@
 ---
-layout: project
-date: September 1, 2015
 title: Thanks For Giving Run
+date: 2015-09-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Freelance
-thumb: /uploads/tfgrun_thumb.jpg
+thumb: "/uploads/tfgrun_thumb.jpg"
 ---
 
 The *Thanks for Giving Run* is an annual charity run. The run raises up to fifty percent of the local food cupboard’s annual budget.

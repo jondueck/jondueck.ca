@@ -1,10 +1,10 @@
 ---
-layout: project
-date: April 1, 2014
 title: Open House Interface
+date: 2014-04-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Red River College
-thumb: /uploads/open-house_thumb.jpg
+thumb: "/uploads/open-house_thumb.jpg"
 hidden: true
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: post
-date: July 3, 2019 10:00 CST
 title: What I'm Looking For in a Podcatcher
+date: 2019-07-03 16:00:00 Z
+layout: post
 author: Jon Dueck
 ---
 

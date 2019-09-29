@@ -1,7 +1,7 @@
 ---
-layout: post
-date: July 20, 2019 14:00 CST
 title: 'On Stranger Things: Season 3'
+date: 2019-07-20 20:00:00 Z
+layout: post
 author: Jon Dueck
 ---
 

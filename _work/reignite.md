@@ -1,7 +1,7 @@
 ---
-layout: project
-date: Jan 1, 2018
 title: Reignite
+date: 2018-01-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Freelance
 thumb: https://cdn.dribbble.com/users/117659/screenshots/3909354/re002-dribbble.png

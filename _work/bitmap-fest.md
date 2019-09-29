@@ -1,10 +1,10 @@
 ---
-layout: project
-date: October 1, 2013
 title: Bitmap Fest
+date: 2013-10-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Red River College
-thumb: /uploads/bitmap_thumb.jpg
+thumb: "/uploads/bitmap_thumb.jpg"
 hidden: true
 ---
 
