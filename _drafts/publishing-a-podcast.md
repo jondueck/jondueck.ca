@@ -1,9 +1,9 @@
 ---
-layout: post
-date: November 1, 2018
 title: How To Publish a Podcast
+date: 2018-11-01 00:00:00 Z
+layout: post
 author: Jon Dueck
-redirect:
+redirect: 
 ---
 
 As you may know, I have a fun little podcast called Whatevertown that I make with some friends. It's a silly little show about whatever we find interesting on a given week, but it's been a fun side project. It's pushed me creatively, as a host, with accompanying graphic design and music, and with web development.

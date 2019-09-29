@@ -1,10 +1,10 @@
 ---
-layout: post
-date: December 31, 2018 10:30pm CST
 title: 2018 Albums of the Year
+date: 2019-01-01 04:30:00 Z
+layout: post
 author: Jon Dueck
-external:
-redirect:
+external: 
+redirect: 
 ---
 
 As originally posted on [Listeners Club](https://listenersclub.ca).

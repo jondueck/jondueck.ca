@@ -1,10 +1,10 @@
 ---
-layout: project
-date: May 21, 2019
 title: Roundnet Winkler
+date: 2019-05-21 00:00:00 Z
+layout: project
 author: Jon Dueck
 location: Personal
-thumb: /uploads/rw_thumb.jpg
+thumb: "/uploads/rw_thumb.jpg"
 hidden: false
 ---
 

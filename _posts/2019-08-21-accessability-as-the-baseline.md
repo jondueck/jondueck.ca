@@ -1,12 +1,12 @@
 ---
-layout: post
-date: August 21, 2019 13:00pm CST
-title: “Accessibility and web performance are not features, they’re the baseline”
-author: Jon Dueck
-external:
-redirect:
+title: "“Accessibility and web performance are not features, they’re the baseline”"
+date: 2019-08-21 19:00:00 Z
 categories:
 - Highlighted
+layout: post
+author: Jon Dueck
+external: 
+redirect: 
 ---
 
 Some sharp writing from [Robin Rendle](https://www.robinrendle.com) for [CSS-Tricks](https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/).

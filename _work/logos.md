@@ -1,7 +1,7 @@
 ---
-layout: project
-date: May 1, 2012
 title: Logos, Marks, etc
+date: 2012-05-01 00:00:00 Z
+layout: project
 author: Jon Dueck
 updated: true
 thumb: https://jondueck.ca/assets/misc-logos.svg

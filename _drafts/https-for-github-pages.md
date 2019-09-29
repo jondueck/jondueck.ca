@@ -1,9 +1,9 @@
 ---
-layout: post
-date: January 7, 2019
 title: HTTPS With Custom Domains on Github Pages
+date: 2019-01-07 00:00:00 Z
+layout: post
 author: Jon Dueck
-redirect:
+redirect: 
 ---
 
 1. [Custom Domains Configured with A Records](https://help.github.com/articles/troubleshooting-custom-domains/#custom-domains-configured-with-a-records)

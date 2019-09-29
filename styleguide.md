@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Style Guide
+layout: default
 hidden: true
 ---
 

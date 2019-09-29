@@ -1,7 +1,7 @@
 ---
-layout: post
-date: August 24, 2019 09:00 CST
 title: How I Listen to Music
+date: 2019-08-24 15:00:00 Z
+layout: post
 author: Jon Dueck
 ---
 

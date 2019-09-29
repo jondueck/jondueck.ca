@@ -1,7 +1,7 @@
 ---
-layout: post
-date: August 01, 2019 10:00am CST
 title: On Designing Multi-Level Identities
+date: 2019-08-01 16:00:00 Z
+layout: post
 author: Jon Dueck
 ---
 

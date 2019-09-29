@@ -1,8 +1,9 @@
 ---
-layout: default
 title: About
-description: Jon Dueck is a graphic designer and front-end web developer and founder of Collectif.
-hero: '/uploads/banner19.jpg'
+layout: default
+description: Jon Dueck is a graphic designer and front-end web developer and founder
+  of Collectif.
+hero: "/uploads/banner19.jpg"
 credit: Michael Dyck
 ---
 

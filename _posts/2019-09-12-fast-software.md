@@ -1,9 +1,10 @@
 ---
-layout: post
-date: September 12, 2019 08:00 CST
 title: Fast Software, the Best Software
+date: 2019-09-12 14:00:00 Z
+categories:
+- Highlighted
+layout: post
 author: Jon Dueck
-categories: Highlighted
 link: https://craigmod.com/essays/fast_software/
 ---
 

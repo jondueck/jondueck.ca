@@ -1,6 +1,6 @@
 ---
 title: Colophon
-permalink: /colophon/
+permalink: "/colophon/"
 layout: page
 description: About the website jondueck.ca
 updated: true

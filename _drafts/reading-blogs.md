@@ -1,7 +1,7 @@
 ---
-layout: post
-date: August 29, 2019 08:00 CST
 title: Reading Blogs
+date: 2019-08-29 14:00:00 Z
+layout: post
 author: Jon Dueck
 ---
 
