@@ -1,0 +1,31 @@
+@import 'bourbon';
+@import 'neat';
+
+// Partials are OOCSS components not necessarily related to the site at a stylistic level
+@import 'partials/all';
+
+// Modules are site- and style-specific rules
+@import 'modules/all';
+
+// force a vertical scrollbar to prevent a jumpy page
+// html {overflow-y: scroll;}
+
+ins {
+  background-color: #fcd700;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #fcd700;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+// Print styles
+@media print {
+  article a[href^="/"]:after {
+    content: " (http://jondueck.ca" attr(href) ") ";
+  }
+}

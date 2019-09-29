@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jon Dueck</title>
+    <description>Brand designer and front-end web developer from Winkler, Manitoba. Partner at Collectif. Personal site, blog, and portfolio.
+</description>
+    <link>https://jondueck.ca/</link>
+    <atom:link href="https://jondueck.ca/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 28 Sep 2019 21:58:56 -0500</pubDate>
+    <lastBuildDate>Sat, 28 Sep 2019 21:58:56 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Fast Software, the Best Software</title>
+        <description>&lt;p&gt;I recently came across &lt;a href=&quot;https://webwewant.fyi&quot;&gt;webwewant.fyi&lt;/a&gt;, a website “to collect your feedback about the current state of the web and to give you a voice to help shape its future.” I think that’s a worthwhile mission. Sometimes the process of bringing new features to browsers feels a tad esoteric, and maybe this will be a way to start some discussions on features that developers would like to see.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you build websites, you inevitably run into problems. Maybe there’s no way to achieve an aspect of your design using CSS. Or maybe there’s a device feature you really wish you could tap into using JavaScript. Or perhaps the in-browser DevTools don’t give you a key insight you need to do your job. We want to hear about it!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another thing I found interesting about this project is their approach to upvoting. Rather than a button on their site, they use webmentions, so suggestions receive “votes” based on how people are actually talking about them.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Sep 2019 09:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/2019/fast-software/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2019/fast-software/</guid>
+        
+        
+        <category>Highlighted</category>
+        
+      </item>
+    
+      <item>
+        <title>The Web We Want</title>
+        <description>&lt;p&gt;I recently came across &lt;a href=&quot;https://webwewant.fyi&quot;&gt;webwewant.fyi&lt;/a&gt;, a website “to collect your feedback about the current state of the web and to give you a voice to help shape its future.” I think that’s a worthwhile mission. Sometimes the process of bringing new features to browsers feels a tad esoteric, and maybe this will be a way to start some discussions on features that developers would like to see.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you build websites, you inevitably run into problems. Maybe there’s no way to achieve an aspect of your design using CSS. Or maybe there’s a device feature you really wish you could tap into using JavaScript. Or perhaps the in-browser DevTools don’t give you a key insight you need to do your job. We want to hear about it!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another thing I found interesting about this project is their approach to upvoting. Rather than a button on their site, they use webmentions, so suggestions receive “votes” based on how people are actually talking about them.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Sep 2019 09:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/2019/the-web-we-want/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2019/the-web-we-want/</guid>
+        
+        
+        <category>Highlighted</category>
+        
+      </item>
+    
+      <item>
+        <title>“Accessibility and web performance are not features, they’re the baseline”</title>
+        <description>&lt;p&gt;Some sharp writing from &lt;a href=&quot;https://www.robinrendle.com&quot;&gt;Robin Rendle&lt;/a&gt; for &lt;a href=&quot;https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/&quot;&gt;CSS-Tricks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Instead we must start to see inaccessible and slow websites for what they are: a form of cruelty. And if we want to build a web that is truly a World Wide Web, a place for all and everyone, a web that is accessible and fast for as many people as possible, and one that will outlive us all, then first we must make our websites something else altogether; we must make them kind.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 21 Aug 2019 14:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/2019/accessability-as-the-baseline/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2019/accessability-as-the-baseline/</guid>
+        
+        
+        <category>Highlighted</category>
+        
+      </item>
+    
+      <item>
+        <title>What I'm Looking For in a Podcatcher</title>
+        <description>&lt;!-- Even though ad breaks are numerous, and [a genre of joke to themselves](https://youtu.be/4YEmeXsknE4), podcasts are a realm that still comes across as more for the love than the money. --&gt;
+&lt;p&gt;I listen to a lot of &lt;a href=&quot;/podcasts/&quot;&gt;podcasts&lt;/a&gt; and so podcatchers are some of my most-used apps. I’ve tried a number of them in search of the right one, but each one I’ve tried has at least something missing. Currently I’m using &lt;a href=&quot;https://overcast.fm&quot;&gt;Overcast&lt;/a&gt;, but I’m also interested in &lt;a href=&quot;https://castro.fm&quot;&gt;Castro&lt;/a&gt;, &lt;a href=&quot;https://www.apple.com/ca/itunes/podcasts/&quot;&gt;Apple Podcasts&lt;/a&gt;, and Spotify.&lt;/p&gt;
+
+&lt;h2 id=&quot;mark-as-played&quot;&gt;Mark as Played&lt;/h2&gt;
+&lt;p&gt;With years of podcasts behind me, it’s important for me to be able to mark an episode as played without having to play through it in the podcatcher. This is an especially important feature when moving to a new podcatcher. Overcast has this, but it’s tough to see which episodes you’ve “Recommended”. This has been a bbig hindrance for me with trying Castro more. Losing my record of which episodes I have and haven’t listened to in a show’s back catalogue is too much of a hassle.&lt;/p&gt;
+
+&lt;h2 id=&quot;favourites&quot;&gt;Favourites&lt;/h2&gt;
+&lt;p&gt;Sometimes it’s nice to revisit favourite episode, or to be able to find an episode to recommend in a pinch. Overcast has “Recommendations”, but there’s no easy way to find them without going through each podcast and looking for a starred episode. Castro does this well with a playlist of all favourites. Breaker shows all “likes” on your profile page. Stitcher kind of has it.&lt;/p&gt;
+
+&lt;h2 id=&quot;light-social-features&quot;&gt;Light Social Features&lt;/h2&gt;
+&lt;p&gt;Like music, it’s nice to know what friends are listening to without them having to recommend it in person. I don’t need – and don’t want – to be able to see a live look at what they’re listening to, or all of their episodes, but it would be nice to see each others favourites/recommendations/etc. Breaker does too much of this, letting you see all episodes. Overcast lets you see recommendations from people you follow on Twitter, but only in a single feed, so you cant’t follow specific people, or see recommendations from specific people.&lt;/p&gt;
+
+&lt;h2 id=&quot;sharing-audio-clips&quot;&gt;Sharing Audio Clips&lt;/h2&gt;
+&lt;p&gt;This isn’t critical, but it is nice to be able to share a funny bit or interesting audio clip with a friend.&lt;/p&gt;
+
+&lt;h2 id=&quot;cross-platform&quot;&gt;Cross-platform&lt;/h2&gt;
+&lt;p&gt;Ideally, I can listen via iPhone, or on my Mac. Spotify and Apple Podcasts are strong here. Overcast sort of works with a web browser player, or using the unofficial app Fog, but episodes don’t get marked as played properly through these channels, and some of the smart speed and EQ features don’t work outside of the iOS app. Castro doesn’t have any Mac options.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-features-i-like&quot;&gt;Other Features I like&lt;/h2&gt;
+&lt;p&gt;I really like Overcast’s Smart Speed feature which shortens silences. It’s more natural than just the ability to speed up the audio. Overcast claims to have saved me over 180 hours of listening thanks to the Smart Speed feature which is, frankly, frightening. Custom audio features per show is nice too.&lt;/p&gt;
+
+&lt;p&gt;Are there other features that are important to you that I should include? Or podcatchers that cover all of my requests? &lt;a href=&quot;https://twitter.com/jondueck&quot;&gt;Let me know on Twitter&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Jul 2019 11:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/2019/on-podcast-players/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2019/on-podcast-players/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2018 Albums of the Year</title>
+        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca&quot;&gt;Listeners Club&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Nils Frahm – &lt;em&gt;All Melody&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Forth Wanderers – &lt;em&gt;Forth Wanderers&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Bahamas – &lt;em&gt;Earthtones&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Snail Mail – &lt;em&gt;Lush&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Pinegrove – &lt;em&gt;Skylight&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Rolling Blackouts Coastal Fever – &lt;em&gt;Hope Downs&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Leon Vynehall – &lt;em&gt;Nothing Is Still&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;We Are The City – &lt;em&gt;At Night&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Jeremy Dutcher – &lt;em&gt;Wolastoqiyik Lintuwankonawa&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Vacations – &lt;em&gt;Changes&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 31 Dec 2018 22:30:00 -0600</pubDate>
+        <link>https://jondueck.ca/2018/2018-albums-of-the-year/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2018/2018-albums-of-the-year/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Day One in the life of</title>
+        <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Aug 2015 11:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/2015/state-of-collectif/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2015/state-of-collectif/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Five Design Questions</title>
+        <description>
+</description>
+        <pubDate>Sat, 25 Oct 2014 23:56:00 -0500</pubDate>
+        <link>https://jondueck.ca/2014/five-design-questions/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2014/five-design-questions/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Status Update</title>
+        <description>
+</description>
+        <pubDate>Wed, 09 Apr 2014 23:56:00 -0500</pubDate>
+        <link>https://jondueck.ca/2014/status-update/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2014/status-update/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Day One in the life of</title>
+        <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Mar 2014 22:56:00 -0600</pubDate>
+        <link>https://jondueck.ca/2014/a-day-one-in-the-life-of/</link>
+        <guid isPermaLink="true">https://jondueck.ca/2014/a-day-one-in-the-life-of/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

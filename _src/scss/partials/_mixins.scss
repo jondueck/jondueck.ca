@@ -1,0 +1,53 @@
+// partials/_mixins.scss
+
+// ------------------------------------------------------------
+// Omega Reset
+// ------------------------------------------------------------
+
+$fg-column: $column;
+$fg-gutter: $gutter;
+
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
+
+// ------------------------------------------------------------
+// Accessible Way to Hide Content
+// ------------------------------------------------------------
+
+@mixin visually-hidden($state: hidden) {
+
+    @if ($state == undo) {
+        position: static;
+        overflow: visible;
+        width:  auto;
+        height: auto;
+        margin: auto;
+        clip:   auto;
+    }
+
+    @else {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+}
+
+// ------------------------------------------------------------
+// The Classic Border Box Sizing Mixin
+// ------------------------------------------------------------
+
+@mixin border-box() {
+  -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	  -ms-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+		  box-sizing: border-box;
+}

@@ -1,0 +1,130 @@
+---
+title: Podcasts
+layout: post
+hidden: true
+permalink: /podcasts/
+updated: true
+categories:
+ - title: Design & Development
+   podcasts:
+    - name: Creative Pep Talk
+      description: Andy J Miller is an extremely encouraging host.
+      link: http://www.creativepeptalk.com
+    - name: Shop Talk
+      description: 'Chris Coyier and Dave Rupert host a show on front-end web development. Recorded live on most Thursdays.'
+      link: http://shoptalkshow.com
+    - name: Australian Design Radio
+      description: Try Episode 02, 32, 33
+      link: https://ausdesignradio.com/
+    - name:  Ask A Freelancer
+      description: A short-format podcast where Andy [J Miller] answers three submitted questions.
+      link: http://cushionapp.com/blog/ask-a-freelancer/
+
+ - title: Comedy
+   podcasts:
+    - name: Spontaneanation
+      description: Improv show hosted by Paul F Tompkins. Try Episodes 137, 156, 159
+      link: http://www.earwolf.com/show/spontaneanation-with-paul-f-tompkins/
+    - name: Comedy Bang! Bang!
+      description: Scott Aukerman interviews comedians and other strange characters.
+      link: http://www.earwolf.com/show/comedy-bang-bang/
+    - name: Threedom
+      description: Paul F Tompkins, Lauren Lapkus, and Scott Aukerman hang out.
+      link: https://www.earwolf.com/show/threedom/
+    - name: The Big Ones
+      description: Amanda Lund and Maria Blasucci – the best co-hosting duo in podcasts – tackle the big questions of life.
+      link: https://www.patreon.com/TheBigOnes
+    - name: Superego
+      description: Improvised sketches by Drs Matt Gourley, Jeremy Carter, and Paul F Tompkins.
+      link: http://www.gosuperego.com
+    - name: Your Kickstarter Sucks
+      description: Bad Kickstarter projects are pretty funny, but the hosts are even funnier.
+      link: https://www.patreon.com/yourkickstartersuck
+
+ - title: Stories
+   podcasts:
+     - name: Reply All
+       description: Stories about the internet, hosted by PJ Vogt and Alex Goldman. “It features stories about how people shape the internet, and the internet shapes people.” Try Episode 56.
+       link:
+     - name: Imaginary Worlds
+       description:
+       link:
+     - name: Mystery Show
+       description:
+       link:
+     - name: Heavyweight
+       description:
+       link:
+     - name: Revisionist History
+       description:
+       link:
+
+ - title: Canada
+   podcasts:
+    - name: 'CBC News: World Report'
+      description: Daily 10-min news show from the CBC.
+      link:
+    - name: Canadaland
+      description:
+      link:
+    - name: Front Burner
+      description: Kind of like The Daily, but for Canada. A deep dive on a current news story from the CBC.
+      link:
+    - name: Commons
+      description: The political side of *Canadaland*.
+      link:
+    - name: The Imposter
+      description: Canadian art show from *Canadaland*.
+      link:
+ - title: Information
+   podcasts:
+    - name: Function
+      description:
+      link:
+    - name: Today Explained
+      description:
+      link:
+    - name: Invisibilia
+      description:
+      link:
+
+ - title: Etc
+   podcasts:
+   - name: James Bonding
+     description: Matt Mira and Matt Gourley revisit every James Bond film with their comedy friends.
+   - name: Code Switch
+     description: “A team of journalists fascinated by the overlapping themes of race, ethnicity and culture, how they play out in our lives and communities, and how all of this is shifting.”
+   - name: Star Wars Minute
+     description: Two guys take on the almost impossible task of analyzing one single minute of the Star Wars series per podcast episode.
+   - name: Good Christian Fun
+     description:  and Caroline poke fun at Christian pop culture.
+   - name: Song Exploder
+     description: Musicians take apart their songs, and piece by piece, tell the story of how they were made.
+   - name: The Sporkful
+     description: The Sporkful isn’t for foodies, it’s for eaters.
+   - name: Dissect
+     description: Dissect is a serialized music podcast. Season 1 looks at Kendrick Lamar’s To Pimp a Butterfly.
+   - name: Switched On Pop
+     description: A songwriter and a musicologist break down how popular music works.
+   - name: Sunday Night in Canada
+   - name: Whatevertown
+     description: Okay, this one is mine.
+     link: https://whatevertown.com
+
+---
+
+{% for category in page.categories %}
+
+  <h2>{{ category.title }}</h2>
+  {% if category.podcasts %}
+    <ul>
+      {% for podcast in category.podcasts %}
+        <li>
+          <strong>{% if podcast.link %}<a href="{{podcast.link}}">{% endif %}{{ podcast.name }}{% if podcast.link %}</a>{% endif %}</strong>
+          {% if podcast.description %}– {{ podcast.description }}{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+{% endfor %}

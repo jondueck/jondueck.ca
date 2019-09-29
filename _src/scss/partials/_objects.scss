@@ -1,0 +1,60 @@
+#{$all-text-inputs} {
+  border: 1px solid $light-grey;
+  appearance: none;
+  color: $dark-grey;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.125rem;
+}
+
+textarea {
+  padding: #{($line-height-unitless/2)}rem;
+}
+
+#{$all-buttons},
+.btn {
+  background-color: $link-color;
+  color: $white;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: $line-height;
+  border: 1px solid $link-color;
+  border-radius: 0.125rem;
+  cursor: pointer;
+  &:hover {
+    background-color: tint($link-color, 10%);
+  }
+  &:active {
+    background-color: shade($link-color, 5%);
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid $light-grey;
+  &:last-of-type {
+    border-bottom: 0 none;
+  }
+}
+
+td {
+  padding: 0.125 * $line-height;
+
+  @media (min-width: 45rem) {
+    padding: 0.25 * $line-height;
+  }
+}
+
+main img {
+  // @media (prefers-color-scheme: dark) {
+  //   mix-blend-mode: screen;
+  // }
+}
+
+hr {
+  border: 0 none;
+  border-top: 1px solid $light-grey;
+  margin-bottom: $line-height;
+}

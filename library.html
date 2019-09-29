@@ -1,0 +1,58 @@
+---
+title: Library
+permalink: /library/
+layout: page
+description: Recommended books—design, fiction, etc.
+updated: true
+categories:
+ - title: Design
+   arbitrary: Value
+   nested-products:
+    - nested: The Shape of Design
+      sub-arbitrary: Frank Chimero
+      cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356713735l/13017981.jpg
+      link:
+      cover: https://shapeofdesignbook.com/img/cover.svg
+    - nested: Design as Art
+      sub-arbitrary: Bruno Munari
+      link:
+      cover: https://images-na.ssl-images-amazon.com/images/I/61C0IUq8ufL.jpg
+    - nested: The Medium is the Massage
+      sub-arbitrary: Marshall McLuhan & Quentin Fiore
+      link:
+      cover: https://images.gr-assets.com/books/1328051240l/5998892.jpg
+    - nested: Nicely Said
+      sub-arbitrary: "Nicole Fenton & Kate Kiefer Lee"
+      link:
+      cover: https://images.gr-assets.com/books/1400891575l/18847936.jpg
+    - nested: "Don't Call It That"
+      sub-arbitrary: Eli Altman
+      link:
+      cover: https://images-na.ssl-images-amazon.com/images/I/51xzuTsaNTL._SX343_BO1,204,203,200_.jpg
+ - title: Magazines
+   arbitrary: Value
+   nested-products:
+    - nested: Offscreen
+      sub-arbitrary: Two's nested's associate value
+    - nested: The Manual
+ - title: Etc
+   arbitrary: Value
+   nested-products:
+    - nested: Invisible Cities
+      sub-arbitrary: Italo Calvino
+---
+
+{% for category in page.categories %}
+
+  <h2>{{ category.title }}</h2>
+  {% if category.nested-products %}
+    <ul class="library-list">
+      {% for nestedproduct in category.nested-products %}
+        <li class="library-list__item">
+          {% if nestedproduct.cover %}<img src="{{ nestedproduct.cover }}" alt="Book cover of {{ nestedproduct.nested }}" class="library-list__cover">{% endif %}
+          <em>{{ nestedproduct.nested }}</em> <br> {{ nestedproduct.sub-arbitrary }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+{% endfor %}

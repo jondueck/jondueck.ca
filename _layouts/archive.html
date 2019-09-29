@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="page-intro">
+  {{ page.content }}
+</div>
+
+<br>
+
+<section class="post-archive">
+  {% for post in site.posts %}
+    <article id="post-{{ post.id }}" class="post-preview">
+
+      <h2 class="h-no-margin-bottom">
+        {% if post.categories.size > 0 %}
+          <span class="meta">{{ post.categories | sort | join: ", " }} – </span>
+        {% endif %}
+        <a href="{% if post.redirect %}{{post.redirect}}{% else %}{{post.url}}{% endif %}">{% if post.redirect %}↳ {% endif %}{{ post.title }}</a>
+      </h2>
+
+      <a href="{{post.url}}" class="meta">{{ post.date | date: '%B %d, %Y' }}</a>
+
+    </article>
+  {% endfor %}
+</section>

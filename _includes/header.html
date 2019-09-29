@@ -1,40 +1,30 @@
-<header class="site-header" role="banner">
-
-  <div class="wrap">
-    <div class="content">
-
-      <div class="site-brand">
-        <a href="/" class="site-title">Jon<span class="athan">athan</span> Dueck</a>
-      </div>
-      <nav class="site-nav" role="navigation">
-          <a href="/work/" class="site-nav__link">Work</a>
-          <a href="/writings/" class="site-nav__link">Writings</a>
-          <a href="/" class="site-nav__link">About</a>
-          <br>
-          <!-- <span class="social-links" class="site-nav__link">
-            <a href="http://twitter.com/{{site.meta.twitter}}" class="header__social-icon">
-              <svg role="img"><title>Twitter</title><use xlink:href="/assets/icons.svg#twitter-icon"></use></svg>
-            </a>
-            <a href="https://dribbble.com/{{site.meta.dribbble}}" class="header__social-icon">
-              <svg role="img"><title>Dribbble</title><use xlink:href="/assets/icons.svg#dribbble-icon"></use></svg>
-            </a>
-            <a href="http://instagram.com/{{site.meta.instagram}}" class="header__social-icon">
-              <svg role="img"><title>Instagram</title><use xlink:href="/assets/icons.svg#instagram-icon"></use></svg>
-            </a>
-            <a href="https://open.spotify.com/user/{{site.meta.spotify}}/" class="header__social-icon">
-              <svg role="img"><title>Spotify</title><use xlink:href="/assets/icons.svg#spotify-icon"></use></svg>
-            </a>
-          </span> -->
-          <span class="site-nav__social-links">
-          <a href="https://twitter.com/{{site.meta.twitter}}" class="site-nav__link">Twitter</a>
-          <a href="https://dribbble.com/{{site.meta.dribbble}}" class="site-nav__link">Dribbble</a>
-          <a href="http://instagram.com/{{site.meta.instagram}}" class="site-nav__link">Instagram</a>
-          <a href="https://open.spotify.com/user/{{site.meta.spotify}}/" class="site-nav__link">Spotify</a>
-          <a href="http://jondueck.vsco.co" class="site-nav__link">VSCO</a>
-        </span>
-      </nav>
-
+<div class="wrapper">
+  <header class="site-header" role="banner">
+    <div class="site-name">
+      <span class="site-name__name"><a href="/" rel="home">{{site.title}}</a></span>
+      <!-- <span style="color: #95a7b1;">Works End. Thank You.</span> -->
+      <span class="meta">Designer, Developer, etc</span>
     </div>
-  </div>
 
-</header>
+    <nav class="site-nav" role="navigation">
+      {% assign pages = site.html_pages | sort: 'order' %}
+
+      <ul>
+        {% for node in pages %}
+        {% if node.nav %}
+          <li class="menu-item{% if page.url contains node.url %} is-current{% endif %}"><a href="{{node.url}}">{{node.title}}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+      <ul class="social-nav">
+        <li><a href="https://twitter.com/jondueck" rel="noopener">Twitter</a></li>
+        <li><a href="https://dribbble.com/jondueck" rel="noopener">Dribbble</a></li>
+        <li><a href="https://vsco.co/jondueck" rel="noopener">VSCO</a></li>
+        <li><a href="https://instagram.com/jondueck" rel="noopener">Instagram</a></li>
+        <li><a href="https://open.spotify.com/user/dueckjon?si=n6ptDc5nRj2eJ7v2D70lzQ" rel="noopener">Spotify</a></li>
+      </ul>
+
+    </nav>
+  </header>
+</div>

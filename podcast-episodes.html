@@ -1,0 +1,17 @@
+---
+title: Favourite Podcast Episodes
+layout: post
+hidden: true
+permalink: /podcasts/episodes/
+updated: true
+episodes:
+ - title: The Starcourt Mall
+   podcast: 'Behind The Scenes: Stranger Things 3'
+   link: https://overcast.fm/+S1PuE1RZk
+---
+
+{% for episode in page.episodes %}
+  <li>
+    <a href="{{ episode.link }}">{{ episode.podcast }} – {{ episode.title }}</a>
+  </li>
+{% endfor %}

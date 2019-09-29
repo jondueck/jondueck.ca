@@ -1,48 +1,22 @@
-{% capture content %}
+---
+layout: default
+---
 
-	<article class="post-content" role="article">
-		<header class="post-header">
-			<h1 class="post-title">{{title}}</h1>
-			<p class="post-synopsis">{{ meta.synopsis }}</p>
-			<span class="post-meta">{{ current.date | date: '%-d %B %Y'}}</center>
-		</header>
+<article class="post">
 
-		{{ body }}
+	<div class="entry-content post-content">
 
-		<ul class="project_data">
-			{% for tag in taxonomy.tags %}
-				<li>
-					<a href="{{ tag.url }}">{{ tag.value }}</a>
-				</li>
-			{% endfor %}
-		</ul>
+		{{ content }}
+
+		<!-- add tags here -->
 
 		{% comment %}
-		{% if next or previous %}
-	    <div class="pagination">
-	      {% if previous %}
-	        <a href="{{ previous.url }}" class="older">Older</a>
-	      {% else %}
-	        <span class="inactive">Older</span>
-	      {% endif %}
+		{% webmentions %}
 
-	      <span>&middot;</span>
+		{% webmentions_count %}
 
-	      {% if next %}
-	        <a href="{{ next.url }}" class="newer">Newer</a>
-	      {% else %}
-	        <span class="inactive">Newer</span>
-	      {% endif %}
-	    </div>
-  	{% endif %}
 		{% endcomment %}
 
-		{% if parent %}
-			<p class="back-to"><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
-		{% endif %}
+	</div>
 
-	</article>
-
-{% endcapture %}
-
-{% include 'layouts/default' %}
+</article>
