@@ -19,7 +19,6 @@ collections:
   posts:
     title: Posts
     output: true
-    permalink: "/journal/:year/:title/"
     paginate: 8
     paginate_path: "/journal/page:num/"
     pagination:
