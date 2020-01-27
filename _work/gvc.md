@@ -1,11 +1,12 @@
 ---
 title: Garden Valley Collegiate
-date: 2015-03-01 00:00:00 Z
+date: 2015-02-28 18:00:00 -06:00
 layout: project
 author: Jon Dueck
 location: Collectif
-thumb:
+thumb: 
 hidden: true
 redirect_from: "/work/garden-valley-collegiate/"
 description: Branding design for Garden Valley Collegiate in Winkler, Manitoba.
 ---
+

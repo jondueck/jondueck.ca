@@ -1,6 +1,6 @@
 ---
 title: Tripp’s Tree Care
-date: 2015-08-01 00:00:00 Z
+date: 2015-07-31 19:00:00 -05:00
 layout: project
 author: Jon Dueck
 location: Collectif

@@ -1,10 +1,10 @@
 ---
 title: 2016 Albums of the Year
-date: 2016-12-31 10:30:00 Z
+date: 2016-12-31 04:30:00 -06:00
 layout: post
 author: Jon Dueck
-external:
-redirect:
+external: 
+redirect: 
 ---
 
 As originally posted on [Listeners Club](https://listenersclub.ca/2016/).

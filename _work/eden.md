@@ -1,6 +1,6 @@
 ---
 title: Eden Healthcare
-date: 2015-09-01 00:00:00 Z
+date: 2015-08-31 19:00:00 -05:00
 layout: project
 author: Jon Dueck
 location: Co-op@home

@@ -1,12 +1,13 @@
 ---
 title: Those Were the Days
-date: 2014-03-15 00:00:00 Z
+date: 2014-03-14 19:00:00 -05:00
 layout: project
 author: Jon Dueck
 location: Freelance
 thumb: "/uploads/tfgrun_thumb.jpg"
 hidden: true
-description: Concert photography for the Back 40 Folk Festival's 2014 Those Were the Days show.
+description: Concert photography for the Back 40 Folk Festival's 2014 Those Were the
+  Days show.
 ---
 
 Every year in spring, the Back 40 Folk Festival puts on a sixties-themed show, with a number of local bands covering period artists, as a fundraiser for the festival. In 2014, to celebrate their 25th anniversary, the show featured bands covering artists from 1970–1995. I was asked to shoot some photos for [their website](http://back40folkfest.com).

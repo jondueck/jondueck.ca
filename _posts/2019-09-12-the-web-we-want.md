@@ -1,6 +1,6 @@
 ---
 title: The Web We Want
-date: 2019-09-12 14:00:00 Z
+date: 2019-09-12 09:00:00 -05:00
 categories:
 - Highlighted
 layout: post

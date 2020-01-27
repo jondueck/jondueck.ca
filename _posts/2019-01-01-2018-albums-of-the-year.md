@@ -1,10 +1,10 @@
 ---
 title: 2018 Albums of the Year
-date: 2019-01-01 04:30:00 Z
+date: 2018-12-31 22:30:00 -06:00
 layout: post
 author: Jon Dueck
-external:
-redirect:
+external: 
+redirect: 
 ---
 
 As originally posted on [Listeners Club](https://listenersclub.ca/). I listened to 151 albums from this year.

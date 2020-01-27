@@ -1,6 +1,6 @@
 ---
 title: General Tso’s Tofu
-date: 2019-11-29 18:00:00 Z
+date: 2019-11-29 12:00:00 -06:00
 layout: post
 author: Jon Dueck
 thumb: "/uploads/cover.jpg"

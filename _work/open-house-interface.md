@@ -1,6 +1,6 @@
 ---
 title: Open House Interface
-date: 2014-04-01 00:00:00 Z
+date: 2014-03-31 19:00:00 -05:00
 layout: project
 author: Jon Dueck
 location: Red River College

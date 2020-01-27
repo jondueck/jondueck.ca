@@ -1,6 +1,6 @@
 ---
 title: Recommending Reading
-date: 2020-01-21 10:00:00 Z
+date: 2020-01-21 04:00:00 -06:00
 layout: post
 author: Jon Dueck
 ---

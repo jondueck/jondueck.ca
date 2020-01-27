@@ -1,6 +1,6 @@
 ---
 title: Five Design Questions
-date: 2014-10-26 04:56:00 Z
+date: 2014-10-25 23:56:00 -05:00
 layout: post
 author: Jon Dueck
 external: Medium
