@@ -5,5 +5,6 @@ layout: project
 author: Jon Dueck
 location: Collectif
 thumb: "/uploads/mbhof_thumb.jpg"
+hidden: true;
+description: Branding and web development for the Manitoba Baseball Hall of Fame in Morden, MB.
 ---
-

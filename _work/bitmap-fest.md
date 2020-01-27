@@ -13,3 +13,8 @@ Bitmap Fest is a fictional film festival “held” at Red River College. The as
 I decided to make a series of posters based on creating a pattern with the image. From a distance, the posters all look fairly similar, but up close the posters are made up of unique images.
 
 ![War Games, Scar Face, and Flashdance posters](/uploads/bitmap_all.png)
+
+![Flashdance poster](/uploads/bitmap_flashdance.jpg#half)
+![Scarface poster](/uploads/bitmap_scarface.jpg#half)
+
+![War Games poster](/uploads/bitmap_wargames.jpg)

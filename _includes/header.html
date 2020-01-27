@@ -1,30 +1,27 @@
-<div class="wrapper">
-  <header class="site-header" role="banner">
-    <div class="site-name">
-      <span class="site-name__name"><a href="/" rel="home">{{site.title}}</a></span>
-      <!-- <span style="color: #95a7b1;">Works End. Thank You.</span> -->
-      <span class="meta">Designer, Developer, etc</span>
-    </div>
+<header class="site-header wrapper" role="banner">
+  <div class="site-name">
+    <span class="site-name__name"><a href="/" rel="home">{{site.title}}</a></span>
+    <!-- <span style="color: #95a7b1;">Works End. Thank You.</span> -->
+    <span class="meta">Designer, Developer, etc</span>
+  </div>
 
-    <nav class="site-nav" role="navigation">
-      {% assign pages = site.html_pages | sort: 'order' %}
+  <nav class="site-nav" role="navigation">
+    {% assign pages = site.html_pages | sort: 'order' %}
 
-      <ul>
-        {% for node in pages %}
-        {% if node.nav %}
-          <li class="menu-item{% if page.url contains node.url %} is-current{% endif %}"><a href="{{node.url}}">{{node.title}}</a></li>
-        {% endif %}
-        {% endfor %}
-      </ul>
+    <ul>
+      {% for node in pages %}
+      {% if node.nav %}
+      <li class="menu-item{% if page.url contains node.url %} is-current{% endif %}"><a href="{{node.url}}">{{node.title}}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
 
-      <ul class="social-nav">
-        <li><a href="https://twitter.com/jondueck" rel="noopener">Twitter</a></li>
-        <li><a href="https://dribbble.com/jondueck" rel="noopener">Dribbble</a></li>
-        <li><a href="https://vsco.co/jondueck" rel="noopener">VSCO</a></li>
-        <li><a href="https://instagram.com/jondueck" rel="noopener">Instagram</a></li>
-        <li><a href="https://open.spotify.com/user/dueckjon?si=n6ptDc5nRj2eJ7v2D70lzQ" rel="noopener">Spotify</a></li>
-      </ul>
+    <ul class="social-nav">
+      <li><a href="https://twitter.com/jondueck" rel="noopener">Twitter</a></li>
+      <li><a href="https://dribbble.com/jondueck" rel="noopener">Dribbble</a></li>
+      <li><a href="https://instagram.com/jondueck" rel="noopener">Instagram</a></li>
+      <li><a href="https://open.spotify.com/user/dueckjon?si=n6ptDc5nRj2eJ7v2D70lzQ" rel="noopener">Spotify</a></li>
+    </ul>
 
-    </nav>
-  </header>
-</div>
+  </nav>
+</header>

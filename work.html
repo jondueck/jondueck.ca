@@ -3,13 +3,21 @@ title: Work
 layout: default
 nav: true
 order: 1
+description: Graphic design, brand design, and web development portfolio.
+etc_work:
+- image: Design
+  caption: Value
+- image: Design
+  caption: Value
+- image: Design
+  caption: Value
 ---
 
-<p>Selected pieces.</p>
+<p><del>Selected pieces.</del> I’m still selecting pieces. Check back in a bit.</p>
 
 <section class="work-archive">
 
-  {% assign work = (site.work | sort: 'date') | reverse %}
+  {% assign work = site.work | sort: 'date' | reverse %}
   {% for post in work %}
 
     {% if post.hidden %}
@@ -33,3 +41,19 @@ order: 1
   {% endfor %}
 
 </section>
+
+{% comment %}
+<h2>Additional Work</h2>
+
+<section class="work-archive">
+  {% for post in page.etc_work %}
+
+  <div class="project-preview">
+    {{ post.image }}
+    {{ post.caption }}
+  </div>
+
+  {% endfor %}
+
+</section>
+{% endcomment %}

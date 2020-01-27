@@ -7,14 +7,14 @@ updated: true
 
 ## Currently Playing
 - The Legend of Zelda: Ocarina of Time (N64)
-- Untitled Goose Game (Mac)
-- NHL 20 (PS4)
+- FIFA 20 (PS4)
 
 ## Favourites
 - Alto's Adventure (iOS)
 - Alto's Odyssey (iOS)
 - Monument Valley (iOS)
 - Monument Valley 2 (iOS)
+- Untitled Goose Game (Mac)
 - [Journey](https://thatgamecompany.com/journey/) (PS4)
 - Fez (Steam)
 - Space Age (MacOS)

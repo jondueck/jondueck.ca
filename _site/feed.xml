@@ -2,13 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jon Dueck</title>
-    <description>Brand designer and front-end web developer from Winkler, Manitoba. Partner at Collectif. Personal site, blog, and portfolio.
-</description>
+    <description>Brand designer and front-end web developer from Winkler, Manitoba. Partner at Collectif. Personal site, blog, and portfolio.</description>
     <link>https://jondueck.ca/</link>
     <atom:link href="https://jondueck.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Sep 2019 03:17:01 +0000</pubDate>
-    <lastBuildDate>Sun, 29 Sep 2019 03:17:01 +0000</lastBuildDate>
-    <generator>Jekyll v3.8.0</generator>
+    <pubDate>Sun, 26 Jan 2020 20:36:54 -0600</pubDate>
+    <lastBuildDate>Sun, 26 Jan 2020 20:36:54 -0600</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>2019 Albums of the Year</title>
+        <description>&lt;p&gt;This was a bit of an off year for me. I listened to 93 albums from this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://listenersclub.ca&quot;&gt;listenersclub.ca&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bon Iver – &lt;em&gt;i,i&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Meitei – &lt;em&gt;Komachi&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Local Natives – &lt;em&gt;Violet Street&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Said The Whale – &lt;em&gt;Cascadia&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Vampire Weekend – &lt;em&gt;Father of the Bride&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Big Thief – &lt;em&gt;Two Hands&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Pedro the Lion – &lt;em&gt;Phoenix&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Emily A. Sprague, Lightbath – full/new&lt;/li&gt;
+  &lt;li&gt;Oso Oso – &lt;em&gt;Basking in the Glow&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Wilco – &lt;em&gt;Ode to Joy&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;honourable-mentions&quot;&gt;Honourable Mentions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;American Football – &lt;em&gt;American Football (LP3)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Big Thief – &lt;em&gt;U.F.O.F&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Christian Scott aTunde Adjuah – &lt;em&gt;Ancestral Recall&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;duendita – &lt;em&gt;direct line to My Creator&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Jacques Greene – &lt;em&gt;Dawn Chorus&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Juan Waters – &lt;em&gt;La Onda de Juan Pablo&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Kings Kaleidoscope – &lt;em&gt;Zeal&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Mac DeMarco – &lt;em&gt;Here Comes the Cowboy&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Nilüfer Yanya – &lt;em&gt;Miss Universe&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Solange – &lt;em&gt;When I Get Home&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Whitney – &lt;em&gt;Forever Turned Around&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 31 Dec 2019 08:00:00 -0600</pubDate>
+        <link>https://jondueck.ca/journal/2019/2019-albums-of-the-year/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2019/2019-albums-of-the-year/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Web We Want</title>
@@ -24,36 +64,11 @@
   &lt;p&gt;Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
+&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot; class=&quot;u-like-of&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 12 Sep 2019 14:00:00 +0000</pubDate>
-        <link>https://jondueck.ca/2019/the-web-we-want/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/the-web-we-want/</guid>
-        
-        
-        <category>Highlighted</category>
-        
-      </item>
-    
-      <item>
-        <title>Fast Software, the Best Software</title>
-        <description>&lt;p&gt;I recently came across &lt;a href=&quot;https://webwewant.fyi&quot;&gt;webwewant.fyi&lt;/a&gt;, a website “to collect your feedback about the current state of the web and to give you a voice to help shape its future.” I think that’s a worthwhile mission. Sometimes the process of bringing new features to browsers feels a tad esoteric, and maybe this will be a way to start some discussions on features that developers would like to see.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you build websites, you inevitably run into problems. Maybe there’s no way to achieve an aspect of your design using CSS. Or maybe there’s a device feature you really wish you could tap into using JavaScript. Or perhaps the in-browser DevTools don’t give you a key insight you need to do your job. We want to hear about it!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Another thing I found interesting about this project is their approach to upvoting. Rather than a button on their site, they use webmentions, so suggestions receive “votes” based on how people are actually talking about them.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Sep 2019 14:00:00 +0000</pubDate>
-        <link>https://jondueck.ca/2019/fast-software/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/fast-software/</guid>
+        <pubDate>Thu, 12 Sep 2019 09:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/journal/2019/the-web-we-want/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2019/the-web-we-want/</guid>
         
         
         <category>Highlighted</category>
@@ -68,9 +83,9 @@
   &lt;p&gt;Instead we must start to see inaccessible and slow websites for what they are: a form of cruelty. And if we want to build a web that is truly a World Wide Web, a place for all and everyone, a web that is accessible and fast for as many people as possible, and one that will outlive us all, then first we must make our websites something else altogether; we must make them kind.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Wed, 21 Aug 2019 19:00:00 +0000</pubDate>
-        <link>https://jondueck.ca/2019/accessability-as-the-baseline/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/accessability-as-the-baseline/</guid>
+        <pubDate>Wed, 21 Aug 2019 14:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/journal/2019/accessability-as-the-baseline/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2019/accessability-as-the-baseline/</guid>
         
         
         <category>Highlighted</category>
@@ -78,40 +93,8 @@
       </item>
     
       <item>
-        <title>What I'm Looking For in a Podcatcher</title>
-        <description>&lt;!-- Even though ad breaks are numerous, and [a genre of joke to themselves](https://youtu.be/4YEmeXsknE4), podcasts are a realm that still comes across as more for the love than the money. --&gt;
-&lt;p&gt;I listen to a lot of &lt;a href=&quot;/podcasts/&quot;&gt;podcasts&lt;/a&gt; and so podcatchers are some of my most-used apps. I’ve tried a number of them in search of the right one, but each one I’ve tried has at least something missing. Currently I’m using &lt;a href=&quot;https://overcast.fm&quot;&gt;Overcast&lt;/a&gt;, but I’m also interested in &lt;a href=&quot;https://castro.fm&quot;&gt;Castro&lt;/a&gt;, &lt;a href=&quot;https://www.apple.com/ca/itunes/podcasts/&quot;&gt;Apple Podcasts&lt;/a&gt;, and Spotify.&lt;/p&gt;
-
-&lt;h2 id=&quot;mark-as-played&quot;&gt;Mark as Played&lt;/h2&gt;
-&lt;p&gt;With years of podcasts behind me, it’s important for me to be able to mark an episode as played without having to play through it in the podcatcher. This is an especially important feature when moving to a new podcatcher. Overcast has this, but it’s tough to see which episodes you’ve “Recommended”. This has been a bbig hindrance for me with trying Castro more. Losing my record of which episodes I have and haven’t listened to in a show’s back catalogue is too much of a hassle.&lt;/p&gt;
-
-&lt;h2 id=&quot;favourites&quot;&gt;Favourites&lt;/h2&gt;
-&lt;p&gt;Sometimes it’s nice to revisit favourite episode, or to be able to find an episode to recommend in a pinch. Overcast has “Recommendations”, but there’s no easy way to find them without going through each podcast and looking for a starred episode. Castro does this well with a playlist of all favourites. Breaker shows all “likes” on your profile page. Stitcher kind of has it.&lt;/p&gt;
-
-&lt;h2 id=&quot;light-social-features&quot;&gt;Light Social Features&lt;/h2&gt;
-&lt;p&gt;Like music, it’s nice to know what friends are listening to without them having to recommend it in person. I don’t need – and don’t want – to be able to see a live look at what they’re listening to, or all of their episodes, but it would be nice to see each others favourites/recommendations/etc. Breaker does too much of this, letting you see all episodes. Overcast lets you see recommendations from people you follow on Twitter, but only in a single feed, so you cant’t follow specific people, or see recommendations from specific people.&lt;/p&gt;
-
-&lt;h2 id=&quot;sharing-audio-clips&quot;&gt;Sharing Audio Clips&lt;/h2&gt;
-&lt;p&gt;This isn’t critical, but it is nice to be able to share a funny bit or interesting audio clip with a friend.&lt;/p&gt;
-
-&lt;h2 id=&quot;cross-platform&quot;&gt;Cross-platform&lt;/h2&gt;
-&lt;p&gt;Ideally, I can listen via iPhone, or on my Mac. Spotify and Apple Podcasts are strong here. Overcast sort of works with a web browser player, or using the unofficial app Fog, but episodes don’t get marked as played properly through these channels, and some of the smart speed and EQ features don’t work outside of the iOS app. Castro doesn’t have any Mac options.&lt;/p&gt;
-
-&lt;h2 id=&quot;other-features-i-like&quot;&gt;Other Features I like&lt;/h2&gt;
-&lt;p&gt;I really like Overcast’s Smart Speed feature which shortens silences. It’s more natural than just the ability to speed up the audio. Overcast claims to have saved me over 180 hours of listening thanks to the Smart Speed feature which is, frankly, frightening. Custom audio features per show is nice too.&lt;/p&gt;
-
-&lt;p&gt;Are there other features that are important to you that I should include? Or podcatchers that cover all of my requests? &lt;a href=&quot;https://twitter.com/jondueck&quot;&gt;Let me know on Twitter&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 03 Jul 2019 16:00:00 +0000</pubDate>
-        <link>https://jondueck.ca/2019/on-podcast-players/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/on-podcast-players/</guid>
-        
-        
-      </item>
-    
-      <item>
         <title>2018 Albums of the Year</title>
-        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca&quot;&gt;Listeners Club&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/&quot;&gt;Listeners Club&lt;/a&gt;. I listened to 151 albums from this year.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Nils Frahm – &lt;em&gt;All Melody&lt;/em&gt;&lt;/li&gt;
@@ -126,9 +109,57 @@
   &lt;li&gt;Vacations – &lt;em&gt;Changes&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Tue, 01 Jan 2019 04:30:00 +0000</pubDate>
-        <link>https://jondueck.ca/2019/2018-albums-of-the-year/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/2018-albums-of-the-year/</guid>
+        <pubDate>Mon, 31 Dec 2018 22:30:00 -0600</pubDate>
+        <link>https://jondueck.ca/journal/2018/2018-albums-of-the-year/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2018/2018-albums-of-the-year/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2017 Albums of the Year</title>
+        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/2017/&quot;&gt;Listeners Club&lt;/a&gt;. I listened to 144 albums from this year.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Broken Social Scene – &lt;em&gt;Hug of Thunder&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Kendrick Lamar – &lt;em&gt;DAMN.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Nick Hakim – &lt;em&gt;Green Twins&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;The War on Drugs – &lt;em&gt;A Deeper Understanding&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Gord Downie – &lt;em&gt;Introduce Yerself&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Big Thief – &lt;em&gt;Capacity&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Grizzly Bear – &lt;em&gt;Painted Ruins&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;(Sandy) Alex G – &lt;em&gt;Rocket&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Julie Byrne – &lt;em&gt;Not Even Happiness&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Fleet Foxes – &lt;em&gt;Crack-Up&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 31 Dec 2017 04:30:00 -0600</pubDate>
+        <link>https://jondueck.ca/journal/2017/2017-albums-of-the-year/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2017/2017-albums-of-the-year/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2016 Albums of the Year</title>
+        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/2016/&quot;&gt;Listeners Club&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Chance the Rapper – &lt;em&gt;Coloring Book&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Bon Iver – &lt;em&gt;22, A Milion&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Local Natives – &lt;em&gt;Sunlit Youth&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Frank Ocean – &lt;em&gt;Blonde&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Solange – &lt;em&gt;A Seat at the Table&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Childish Gambino – &lt;em&gt;“Awaken, My Love!”&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Whitney – &lt;em&gt;Light Upon the Lake&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Florist – &lt;em&gt;The Birds Outside Sang&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Noname – &lt;em&gt;Telefone&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Pinegrove – &lt;em&gt;Cardinal&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 31 Dec 2016 04:30:00 -0600</pubDate>
+        <link>https://jondueck.ca/journal/2016/2016-albums-of-the-year/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2016/2016-albums-of-the-year/</guid>
         
         
       </item>
@@ -137,20 +168,33 @@
         <title>A Day One in the life of</title>
         <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Aug 2015 16:00:00 +0000</pubDate>
-        <link>https://jondueck.ca/2015/state-of-collectif/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2015/state-of-collectif/</guid>
+        <pubDate>Thu, 13 Aug 2015 11:00:00 -0500</pubDate>
+        <link>https://jondueck.ca/journal/2015/state-of-collectif/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2015/state-of-collectif/</guid>
         
         
       </item>
     
       <item>
         <title>Five Design Questions</title>
-        <description>
+        <description>&lt;h2 id=&quot;1--tell-us-who-you-are-in-one-sentence&quot;&gt;1 – Tell us who you are in one sentence.&lt;/h2&gt;
+&lt;p&gt;I’m a graphic designer and front-end web developer working at Co-op@home during the day and building up my own design studio — Collectif — in my spare time with Josiah Wiebe.&lt;/p&gt;
+
+&lt;h2 id=&quot;2--if-you-werent-a-designer-what-would-you-do&quot;&gt;2 – If you weren’t a designer, what would you do?&lt;/h2&gt;
+&lt;p&gt;I think I’ve pursued because it’s the thing that I feel like I can do. Of course, I’d love to do more with music, but for now I’m content to play with my friends once a week. Perhaps I’d study architecture or history, or explore photography.&lt;/p&gt;
+
+&lt;h2 id=&quot;3--what-is-something-you-wished-you-designed-either-because-you-love-it-or-because-you-feel-you-could-have-done-it-better&quot;&gt;3 – What is something you wished you designed, either because you love it, or because you feel you could have done it better?&lt;/h2&gt;
+&lt;p&gt;At the moment I’m really inspired by everything coming out of SaturdayHill. The kind of stuff you wish you’d done.&lt;/p&gt;
+
+&lt;h2 id=&quot;4--what-was-your-biggest-design-mistake&quot;&gt;4 – What was your biggest design mistake?&lt;/h2&gt;
+&lt;p&gt;Scheduling either too little time, or too many projects at once. I’m still learning to say “no”.&lt;/p&gt;
+
+&lt;h2 id=&quot;5--what-advice-would-you-give-someone-entering-the-design-field&quot;&gt;5 – What advice would you give someone entering the design field?&lt;/h2&gt;
+&lt;p&gt;Talk to designers that you know, and follow those that you don’t on Twitter. Honestly, a lot of the new techniques and tools that I learn about are via Twitter. It’s a great way to see what they’re reading and who they’re inspired by. It’s also a great way to talk to them. Reach out. Ask questions, or thank them for building that tool that you enjoy.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 26 Oct 2014 04:56:00 +0000</pubDate>
-        <link>https://jondueck.ca/2014/five-design-questions/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2014/five-design-questions/</guid>
+        <pubDate>Sat, 25 Oct 2014 23:56:00 -0500</pubDate>
+        <link>https://jondueck.ca/journal/2014/five-design-questions/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2014/five-design-questions/</guid>
         
         
       </item>
@@ -159,9 +203,9 @@
         <title>Status Update</title>
         <description>
 </description>
-        <pubDate>Thu, 10 Apr 2014 04:56:00 +0000</pubDate>
-        <link>https://jondueck.ca/2014/status-update/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2014/status-update/</guid>
+        <pubDate>Wed, 09 Apr 2014 23:56:00 -0500</pubDate>
+        <link>https://jondueck.ca/journal/2014/status-update/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2014/status-update/</guid>
         
         
       </item>
@@ -170,9 +214,9 @@
         <title>A Day One in the life of</title>
         <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 04 Mar 2014 04:56:00 +0000</pubDate>
-        <link>https://jondueck.ca/2014/a-day-one-in-the-life-of/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2014/a-day-one-in-the-life-of/</guid>
+        <pubDate>Mon, 03 Mar 2014 22:56:00 -0600</pubDate>
+        <link>https://jondueck.ca/journal/2014/a-day-one-in-the-life-of/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2014/a-day-one-in-the-life-of/</guid>
         
         
       </item>

@@ -8,6 +8,7 @@ updated: true
 ## Watching
 - [Clark & Michael](https://www.youtube.com/watch?v=z6mvUkFFVJQ)
 - Bojack Horseman (Season 4)
+- Busted!
 
 ## [Playing](/video-games/)
 - [Dungeon World](https://dungeon-world.com) (Tabletop)

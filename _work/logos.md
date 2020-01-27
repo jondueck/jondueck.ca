@@ -4,25 +4,26 @@ date: 2012-05-01 00:00:00 Z
 layout: project
 author: Jon Dueck
 updated: true
-thumb: https://jondueck.ca/assets/misc-logos.svg
+thumb: /uploads/misc-logos.svg
+description: Various logos and marks designed over the years.
 ---
 
-Various logos and marks from over the years
+Various logos and marks from over the years.
 
-![](https://jondueck.ca/assets/misc-logo-the_hut-3.svg#half)
-![](https://jondueck.ca/assets/misc-logo-the_hut-2.svg#half)
+![EMMC The Hut Logo](/uploads/misc-logo-the_hut-3.svg#half)
+![EMMC The Hut Logo](/uploads/misc-logo-the_hut-2.svg#half)
 
-![Logo for Tyler James Photography](https://jondueck.ca/assets/misc-logo-tyler_james.svg#half)
-![Hive logo](https://jondueck.ca/assets/misc-logo-hive.svg#half)
+![Logo for Tyler James Photography](/uploads/misc-logo-tyler_james.svg#half)
+![Hive logo](/uploads/misc-logo-hive.svg#half)
 
-![Logo depicting trees in a forest](https://jondueck.ca/assets/misc-logo-forest.svg#half)
-![Logo depicting a droplet of water](https://jondueck.ca/assets/misc-logo-drop.svg#half)
+![Logo depicting trees in a forest](/uploads/misc-logo-forest.svg#half)
+![Logo depicting a droplet of water](/uploads/misc-logo-drop.svg#half)
 
-![](https://jondueck.ca/assets/misc-logo-globe.svg#half)
-![](https://jondueck.ca/assets/misc-logo-tcfp.svg#half)
+![Globe logo](/uploads/misc-logo-globe.svg#half)
+![TC Forest Products Logo](/uploads/misc-logo-tcfp.svg#half)
 
-![](https://jondueck.ca/assets/misc-logo-wifi.svg#half)
-![](https://jondueck.ca/assets/misc-logo-coffee.svg#half)
+![Wifi logo](/uploads/misc-logo-wifi.svg#half)
+![Coffee logo](/uploads/misc-logo-coffee.svg#half)
 
-![](https://jondueck.ca/assets/misc-logo-wdcc.svg#half)
-![](https://jondueck.ca/assets/misc-logo-manitoba.svg#half)
+![Chamber of Commerce Logo](/uploads/misc-logo-wdcc.svg#half)
+![Manitoba Logo](/uploads/misc-logo-manitoba.svg#half)

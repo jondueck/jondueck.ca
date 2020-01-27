@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
-  <body class="page_{{ page.title | slugify }}">
+  <body class="page_{{ page.title | slugify }}" {% if page.bg %}style="background-color:  {{page.bg}};" {% endif %}>
 
     {% include header.html %}
 
-    {% if page.title == 'About' %}
-      <div class="wrapper">
-        <img src="{{ page.hero }}" alt="Photo of Jon Dueck by {{ page.photo_credit }}" class="banner">
-      </div>
-    {% endif %}
+    <main class="wrapper grid-wrap row {% if page.layout == 'post' %}h-entry{% endif%}">
 
-    <main class="wrapper row">
+      {% if page.hero  %}
+        <img src="{{ page.hero }}" alt="Photo of Jon Dueck by {{ page.photo_credit }}" class="banner">
+      {% endif %}
 
       <header class="side-content">
 
@@ -23,33 +21,24 @@
           {% endif %}
         {% endif %}
 
-        {% comment %}
-        {% if page.categories contains "highlighted" or page.categories contains " highlighted " %}
-          <span class="h4 post-cat--highlighted">Highlighted</span>
-        {% endif %}
-        {% endcomment %}
-
         <h1 class="side-title">{{ page.title }}</h1>
 
-        <span class="meta">
+        <div class="meta">
           {% if page.collection == 'work' %}
-            {{ page.date | date: "%Y"}}
+            <time>{{ page.date | date: "%Y"}}</time><br>
+            <span>{{ page.location }}</span>
           {% else %}
-            {{ page.date | date: "%d %B %Y"}}
+            <time datetime="{{ page.date }}">{{ page.date | date: "%d %B %Y"}}</time>
           {% endif %}
-        </span>
+        </div>
 
         {% if page.updated %}
-          <br><em class="updated">Updated {{ page.last_modified_at | date: '%d %B %Y'}}</em>
+          <br><em class="updated">Updated <time datetime="{{ page.last_modified_at }}">{{ page.last_modified_at | date: '%d %B %Y'}}</time></em>
         {% endif %}
 
       </header>
 
       <div class="main-content">
-
-        <!-- {% if page.layout == 'post' or page.layout == 'project' %}
-          <h1>{{ page.title }}</h1>
-        {% endif %} -->
 
         {{ content }}
 

@@ -12,6 +12,9 @@ episodes:
 
 {% for episode in page.episodes %}
   <li>
-    <a href="{{ episode.link }}">{{ episode.podcast }} – {{ episode.title }}</a>
+    <a href="{{ episode.link }}">
+      <span>{{ episode.podcast }}</span><br>
+      <strong>{{ episode.title }}</strong>
+    </a>
   </li>
 {% endfor %}

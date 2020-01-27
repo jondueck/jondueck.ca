@@ -18,7 +18,7 @@ hidden: true
 * [Anvil](http://anvilformac.com) — Easy .test URLs for local development
 * [Slack](http://www.slackhq.com) — Necessary for any team communication.
 * [Day One](http://dayoneapp.com) – Simple journalling. Possibly the nicest Markdown editor.
-* [Sketch](http://bohemiancoding.com/sketch/) – If I do web mockups, it’s done in Sketch.
+* [Sketch](http://bohemiancoding.com/sketch/) – If I do web mockups, it’s done in an old copy of Sketch.
 
 ## Online Tools
 * [CodePen](http://codepen.io) – Great for testing bits of code.

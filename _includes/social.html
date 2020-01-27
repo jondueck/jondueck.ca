@@ -3,3 +3,5 @@
 {% if page.image %}<meta name="twitter:image" content="{{ page.image }}" />{% endif %}
 {% if layout == 'post' or layout == 'project' %}<meta property="og:type" content="article" />{% endif %}
 <link href="https://micro.blog/jondueck" rel="me" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{{ site.title }} – {{ page.title }}">

@@ -5,6 +5,7 @@ layout: project
 author: Jon Dueck
 location: Personal
 thumb: "/uploads/lc_thumb.jpg"
+hidden: true
 ---
 
 This is my first post. Edit or delete it to get started.

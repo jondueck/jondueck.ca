@@ -10,3 +10,7 @@ npm-debug.log
 assets/webfonts
 dist/webfonts
 _site
+keybase.txt
+_site/*
+Gemfile.lock
+package-lock.json

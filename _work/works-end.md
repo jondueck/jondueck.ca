@@ -3,9 +3,9 @@ title: Works End
 date: 2019-05-01 00:00:00 Z
 layout: project
 author: Jon Dueck
-location: Personal
+location: Personal Work
 thumb: "/uploads/wety-thumb.svg"
-hidden: false
+hidden: true
 ---
 
 Works End is an outlet for experiments.

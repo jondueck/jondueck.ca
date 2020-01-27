@@ -5,6 +5,7 @@ layout: project
 author: Jon Dueck
 location: Collectif
 thumb: "/uploads/tripps_thumb.svg"
+hidden: true
 ---
 
 In 2015, Phil Tripp approached us about his new business venture. After wrapping up his studies, he was about to start his own tree care company. We wanted to create a bold and modern identity that would attract young and new homeowners.

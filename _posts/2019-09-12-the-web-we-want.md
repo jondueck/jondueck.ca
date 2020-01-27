@@ -15,4 +15,4 @@ Another thing I found interesting about this project is their approach to upvoti
 
 > Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.
 
-For example, if I want to boost something that I would find valuable – [container queries](https://webwewant.fyi/wants/22/), for example – all I have to do is [share a link]((https://webwewant.fyi/wants/22/)) to the post, as I am doing here.
+For example, if I want to boost something that I would find valuable – [container queries](https://webwewant.fyi/wants/22/){: .u-like-of}, for example – all I have to do is [share a link]((https://webwewant.fyi/wants/22/)) to the post, as I am doing here.

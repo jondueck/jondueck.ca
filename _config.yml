@@ -20,6 +20,7 @@ collections:
     title: Posts
     output: true
     paginate: 8
+    permalink: "/journal/:year/:title/"
     paginate_path: "/journal/page:num/"
     pagination:
       enabled: true
@@ -53,7 +54,7 @@ defaults:
 email: hi@jondueck.ca
 description: Brand designer and front-end web developer from Winkler, Manitoba. Partner
   at Collectif. Personal site, blog, and portfolio.
-baseurl: 
+baseurl:
 url: https://jondueck.ca
 twitter: jondueck
 github: jondueck
@@ -66,10 +67,16 @@ exclude:
 - package.json
 - ".git"
 - README.md
-gems:
+- gemfile
+- Gemfile.lock
+- package-lock.json
+- sitemap.xml.liquid
+- config.ru
+- tmp
+plugins:
 - jekyll-last-modified-at
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-redirect-from
 markdown: kramdown
-theme: 
+theme:

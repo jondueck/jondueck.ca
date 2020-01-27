@@ -6,6 +6,7 @@ author: Jon Dueck
 location: Personal
 thumb: "/uploads/rw_thumb.jpg"
 hidden: false
+description: Graphic deisgn and branding for Roundnet Winkler, a spikeball league in Winkler, Manitoba.
 ---
 
 Roundnet Winkler is a loose organization that promotes the sport of Roundnet in the Winkler area by running pickup games and promoting other events. The brand needed to feel energetic, but approachable for beginners.

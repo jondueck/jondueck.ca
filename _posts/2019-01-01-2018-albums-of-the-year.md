@@ -3,11 +3,11 @@ title: 2018 Albums of the Year
 date: 2019-01-01 04:30:00 Z
 layout: post
 author: Jon Dueck
-external: 
-redirect: 
+external:
+redirect:
 ---
 
-As originally posted on [Listeners Club](https://listenersclub.ca).
+As originally posted on [Listeners Club](https://listenersclub.ca/). I listened to 151 albums from this year.
 
 1. Nils Frahm – *All Melody*
 2. Forth Wanderers – *Forth Wanderers*

@@ -1,4 +1,4 @@
-#{$all-text-inputs} {
+input {
   border: 1px solid $light-grey;
   appearance: none;
   color: $dark-grey;
@@ -10,7 +10,7 @@ textarea {
   padding: #{($line-height-unitless/2)}rem;
 }
 
-#{$all-buttons},
+button,
 .btn {
   background-color: $link-color;
   color: $white;
@@ -30,6 +30,8 @@ textarea {
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: $line-height;
+  font-size: $base-font-size-m;
 }
 
 tr {
@@ -39,12 +41,19 @@ tr {
   }
 }
 
-td {
+td,
+th {
   padding: 0.125 * $line-height;
 
   @media (min-width: 45rem) {
     padding: 0.25 * $line-height;
   }
+}
+
+thead {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px solid $light-grey;
 }
 
 main img {
@@ -58,3 +67,12 @@ hr {
   border-top: 1px solid $light-grey;
   margin-bottom: $line-height;
 }
+
+// img {
+//   @media (prefers-color-scheme: dark) {
+//     mix-blend-mode: luminosity;
+//     &:hover {
+//       mix-blend-mode: normal;
+//     }
+//   }
+// }

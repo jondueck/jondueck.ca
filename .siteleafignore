@@ -14,3 +14,4 @@ love/
 /node_modules/
 rrc/
 assets/scss/*.*
+/_site

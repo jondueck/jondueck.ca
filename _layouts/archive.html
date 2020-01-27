@@ -19,7 +19,7 @@ layout: default
         <a href="{% if post.redirect %}{{post.redirect}}{% else %}{{post.url}}{% endif %}">{% if post.redirect %}↳ {% endif %}{{ post.title }}</a>
       </h2>
 
-      <a href="{{post.url}}" class="meta">{{ post.date | date: '%B %d, %Y' }}</a>
+      <span class="meta">{{ post.date | date: '%B %d, %Y' }}</span>
 
     </article>
   {% endfor %}

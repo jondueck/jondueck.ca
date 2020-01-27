@@ -4,7 +4,8 @@ permalink: "/podcasts/"
 layout: post
 hidden: true
 updated: true
-categories:
+description: Recommended podcasts–design, information, and more.
+collections:
 - title: Design & Development
   podcasts:
   - name: Creative Pep Talk
@@ -50,48 +51,48 @@ categories:
     description: Stories about the internet, hosted by PJ Vogt and Alex Goldman. “It
       features stories about how people shape the internet, and the internet shapes
       people.” Try Episode 56.
-    link: 
+    link:
   - name: Imaginary Worlds
-    description: 
-    link: 
+    description:
+    link:
   - name: Mystery Show
-    description: 
-    link: 
+    description:
+    link:
   - name: Heavyweight
-    description: 
-    link: 
+    description:
+    link:
   - name: Revisionist History
-    description: 
-    link: 
+    description:
+    link:
 - title: Canada
   podcasts:
   - name: 'CBC News: World Report'
     description: Daily 10-min news show from the CBC.
-    link: 
+    link:
   - name: Canadaland
-    description: 
-    link: 
+    description:
+    link:
   - name: Front Burner
     description: Kind of like The Daily, but for Canada. A deep dive on a current
       news story from the CBC.
-    link: 
+    link:
   - name: Commons
     description: The political side of *Canadaland*.
-    link: 
+    link:
   - name: The Imposter
     description: Canadian art show from *Canadaland*.
-    link: 
+    link:
 - title: Information
   podcasts:
   - name: Function
-    description: 
-    link: 
+    description:
+    link:
   - name: Today Explained
-    description: 
-    link: 
+    description:
+    link:
   - name: Invisibilia
-    description: 
-    link: 
+    description:
+    link:
 - title: Etc
   podcasts:
   - name: James Bonding
@@ -122,12 +123,14 @@ categories:
     link: https://whatevertown.com
 ---
 
-{% for category in page.categories %}
+<p>I listen to a fair amount of podcasts. Here’s a few of my favourites, if you’re looking for a suggestion. I listen with <a href="https://overcast.fm/">Overcast</a>.</p>
 
-  <h2>{{ category.title }}</h2>
-  {% if category.podcasts %}
+{% for collection in page.collections %}
+
+  <h2>{{ collection.title }}</h2>
+  {% if collection.podcasts %}
     <ul>
-      {% for podcast in category.podcasts %}
+      {% for podcast in collection.podcasts %}
         <li>
           <strong>{% if podcast.link %}<a href="{{podcast.link}}">{% endif %}{{ podcast.name }}{% if podcast.link %}</a>{% endif %}</strong>
           {% if podcast.description %}– {{ podcast.description }}{% endif %}

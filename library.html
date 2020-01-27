@@ -2,54 +2,57 @@
 title: Library
 permalink: "/library/"
 layout: page
-description: Recommended books—design, fiction, etc.
+description: Recommended books – design, fiction, etc.
 updated: true
-categories:
-- title: Design
-  arbitrary: Value
-  nested-products:
+collections:
+- topic: Design
+  books:
   - nested: The Shape of Design
-    sub-arbitrary: Frank Chimero
+    author: Frank Chimero
     cover: https://shapeofdesignbook.com/img/cover.svg
-    link: 
+    link:
   - nested: Design as Art
-    sub-arbitrary: Bruno Munari
-    link: 
+    author: Bruno Munari
+    link:
     cover: https://images-na.ssl-images-amazon.com/images/I/61C0IUq8ufL.jpg
   - nested: The Medium is the Massage
-    sub-arbitrary: Marshall McLuhan & Quentin Fiore
-    link: 
+    author: Marshall McLuhan & Quentin Fiore
+    link:
     cover: https://images.gr-assets.com/books/1328051240l/5998892.jpg
   - nested: Nicely Said
-    sub-arbitrary: Nicole Fenton & Kate Kiefer Lee
-    link: 
+    author: Nicole Fenton & Kate Kiefer Lee
+    link:
     cover: https://images.gr-assets.com/books/1400891575l/18847936.jpg
   - nested: Don't Call It That
-    sub-arbitrary: Eli Altman
-    link: 
+    author: Eli Altman
+    link:
     cover: https://images-na.ssl-images-amazon.com/images/I/51xzuTsaNTL._SX343_BO1,204,203,200_.jpg
-- title: Magazines
-  arbitrary: Value
-  nested-products:
+- topic: Magazines
+  books:
   - nested: Offscreen
-    sub-arbitrary: Two's nested's associate value
+    author: Kai Brach
+    cover: https://media.magpile.com/covers/3/U8QpZXywdpHh7EVf_400x0.png
+    link: https://www.offscreenmag.com/
   - nested: The Manual
-- title: Etc
-  arbitrary: Value
-  nested-products:
+    cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340651966l/15722156.jpg
+- topic: Etc
+  books:
   - nested: Invisible Cities
-    sub-arbitrary: Italo Calvino
+    author: Italo Calvino
+    cover: https://images-na.ssl-images-amazon.com/images/I/31WiGsdx4%2BL._SX319_BO1,204,203,200_.jpg
 ---
 
-{% for category in page.categories %}
+<p>For more, <a href="https://www.goodreads.com/jondueck">find me on Goodreads</a>.</p>
 
-  <h2>{{ category.title }}</h2>
-  {% if category.nested-products %}
+{% for collection in page.collections %}
+
+  <h2>{{ collection.topic }}</h2>
+  {% if collection.books %}
     <ul class="library-list">
-      {% for nestedproduct in category.nested-products %}
+      {% for book in collection.books %}
         <li class="library-list__item">
-          {% if nestedproduct.cover %}<img src="{{ nestedproduct.cover }}" alt="Book cover of {{ nestedproduct.nested }}" class="library-list__cover">{% endif %}
-          <em>{{ nestedproduct.nested }}</em> <br> {{ nestedproduct.sub-arbitrary }}</li>
+          {% if book.cover %}<img src="{{ book.cover }}" alt="Book cover of {{ book.nested }}" class="library-list__cover">{% endif %}
+          <em>{{ book.nested }}</em> <br> {{ book.author }}</li>
       {% endfor %}
     </ul>
   {% endif %}
