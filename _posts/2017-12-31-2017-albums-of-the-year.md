@@ -1,10 +1,10 @@
 ---
 title: 2017 Albums of the Year
-date: 2017-12-31 10:30:00 Z
+date: 2017-12-31 04:30:00 -06:00
 layout: post
 author: Jon Dueck
-external:
-redirect:
+external: 
+redirect: 
 ---
 
 As originally posted on [Listeners Club](https://listenersclub.ca/2017/). I listened to 144 albums from this year.

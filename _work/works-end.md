@@ -1,6 +1,6 @@
 ---
 title: Works End
-date: 2019-05-01 00:00:00 Z
+date: 2019-04-30 19:00:00 -05:00
 layout: project
 author: Jon Dueck
 location: Personal Work

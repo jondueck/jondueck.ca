@@ -1,10 +1,10 @@
 ---
 title: Logos, Marks, etc
-date: 2012-05-01 00:00:00 Z
+date: 2012-04-30 19:00:00 -05:00
 layout: project
 author: Jon Dueck
 updated: true
-thumb: /uploads/misc-logos.svg
+thumb: "/uploads/misc-logos.svg"
 description: Various logos and marks designed over the years.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: What I'm Looking For in a Podcatcher
-date: 2019-07-03 16:00:00 Z
+date: 2019-07-03 11:00:00 -05:00
 layout: post
 author: Jon Dueck
 ---

@@ -1,6 +1,6 @@
 ---
 title: 2019 Albums of the Year
-date: 2019-12-31 14:00:00 Z
+date: 2019-12-31 08:00:00 -06:00
 layout: post
 author: Jon Dueck
 ---

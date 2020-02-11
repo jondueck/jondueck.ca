@@ -2,7 +2,8 @@
 title: Favourites
 permalink: "/favourites/"
 layout: page
-description: A list of my favourite records, books, TV shows, tabletop games, video games, and more.
+description: A list of my favourite records, books, TV shows, tabletop games, video
+  games, and more.
 updated: true
 ---
 
