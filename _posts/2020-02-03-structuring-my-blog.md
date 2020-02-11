@@ -1,10 +1,10 @@
 ---
 title: On Structuring My Blog
-date: 2020-02-03 20:00:00 Z
-layout: post
-author: Jon Dueck
+date: 2020-02-03 14:00:00 -06:00
 categories:
 - Meta
+layout: post
+author: Jon Dueck
 ---
 
 This is the first post since launching this version of my site, so this will be something of a meta-post. One of my main goals when rebuilding my site, was to use it as an opportunity to try writing more often. I've always appreciated thoughtful and honest writing on design.

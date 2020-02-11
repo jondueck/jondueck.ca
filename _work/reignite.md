@@ -1,6 +1,6 @@
 ---
 title: Reignite
-date: 2018-01-01 00:00:00 Z
+date: 2017-12-31 18:00:00 -06:00
 layout: project
 author: Jon Dueck
 location: Freelance
