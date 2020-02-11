@@ -1,6 +1,6 @@
 ---
 title: Jason & Alli Record
-date: 2013-09-25 17:57:00 Z
+date: 2013-09-25 12:57:00 -05:00
 layout: project
 author: Jon Dueck
 location: Freelance

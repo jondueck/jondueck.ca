@@ -1,6 +1,6 @@
 ---
 title: Design in Outer Wilds
-date: 2020-02-01 20:00:00 Z
+date: 2020-02-01 14:00:00 -06:00
 layout: post
 author: Jon Dueck
 ---
