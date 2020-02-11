@@ -5,9 +5,53 @@
     <description>Brand designer and front-end web developer from Winkler, Manitoba. Partner at Collectif. Personal site, blog, and portfolio.</description>
     <link>https://jondueck.ca/</link>
     <atom:link href="https://jondueck.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Jan 2020 20:36:54 -0600</pubDate>
-    <lastBuildDate>Sun, 26 Jan 2020 20:36:54 -0600</lastBuildDate>
+    <pubDate>Wed, 05 Feb 2020 10:16:04 -0600</pubDate>
+    <lastBuildDate>Wed, 05 Feb 2020 10:16:04 -0600</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>On Structuring My Blog</title>
+        <description>&lt;p&gt;This is the first post since launching this version of my site, so this will be something of a meta-post. One of my main goals when rebuilding my site, was to use it as an opportunity to try writing more often. I’ve always appreciated thoughtful and honest writing on design.&lt;/p&gt;
+
+&lt;p&gt;One of the blockers to launching this version of the website was how I would set up the written portion of the site. On the previous version, I had a section called “Writings”, but that title didn’t feel right.&lt;/p&gt;
+
+&lt;h3 id=&quot;blog-writings-journal-notes-all-of-the-above&quot;&gt;Blog? Writings? Journal? Notes? All of the Above?&lt;/h3&gt;
+
+&lt;p&gt;One of the blockers to launching this version of the website was how I would set up the written portion of the site. On the previous version, I had a section called “Writings”, but that title didn’t feel right.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Some footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 03 Feb 2020 14:00:00 -0600</pubDate>
+        <link>https://jondueck.ca/journal/2020/structuring-my-blog/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2020/structuring-my-blog/</guid>
+        
+        
+        <category>Meta</category>
+        
+      </item>
+    
+      <item>
+        <title>Design in Outer Wilds</title>
+        <description>&lt;p&gt;Recently I picked up &lt;em&gt;Outer Wilds&lt;/em&gt;, a space exploration game by Mobius Digital and published by Annapurna Interactive.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://steamcdn-a.akamaihd.net/steam/apps/753640/ss_ec95a283483f0438be40d033f08b9d956e748d54.1920x1080.jpg?t=1576800094&quot; alt=&quot;Screenshot from Outer Wilds of an aerial view of an observatory&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://freight.cargo.site/t/original/i/d55f6f392ace9f2dd35129c0e9790418465b756981157c5b361f91a27417d5b4/HMVR_1340_13407.png&quot; alt=&quot;Outer Wilds logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s start with the logo, designed by &lt;a href=&quot;https://coryschmitz.com/Game-Logos&quot;&gt;Cory Schmitz&lt;/a&gt; who contributed both logo design and 2D graphic design to the project. The logo is heavily-modified versions of ITC’s &lt;a href=&quot;https://www.myfonts.com/fonts/itc/avant-garde-gothic/&quot;&gt;Avant Garde&lt;/a&gt; for “Outer” in Medium weight and ITC’s &lt;a href=&quot;https://www.myfonts.com/fonts/itc/serif-gothic/&quot;&gt;Serif Gothic&lt;/a&gt; for “Wilds” in Roman weight.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2020 14:00:00 -0600</pubDate>
+        <link>https://jondueck.ca/journal/2020/design-in-outer-wilds/</link>
+        <guid isPermaLink="true">https://jondueck.ca/journal/2020/design-in-outer-wilds/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2019 Albums of the Year</title>
@@ -23,7 +67,7 @@
   &lt;li&gt;Vampire Weekend – &lt;em&gt;Father of the Bride&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Big Thief – &lt;em&gt;Two Hands&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Pedro the Lion – &lt;em&gt;Phoenix&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Emily A. Sprague, Lightbath – full/new&lt;/li&gt;
+  &lt;li&gt;Emily A. Sprague, Lightbath – &lt;em&gt;full/new&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Oso Oso – &lt;em&gt;Basking in the Glow&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Wilco – &lt;em&gt;Ode to Joy&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -38,9 +82,12 @@
   &lt;li&gt;Juan Waters – &lt;em&gt;La Onda de Juan Pablo&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Kings Kaleidoscope – &lt;em&gt;Zeal&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Mac DeMarco – &lt;em&gt;Here Comes the Cowboy&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;M83 – &lt;em&gt;DSVII&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Nilüfer Yanya – &lt;em&gt;Miss Universe&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;OCA - &lt;em&gt;Aging&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Solange – &lt;em&gt;When I Get Home&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Whitney – &lt;em&gt;Forever Turned Around&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;We Are The City – &lt;em&gt;AT NIGHT&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 31 Dec 2019 08:00:00 -0600</pubDate>

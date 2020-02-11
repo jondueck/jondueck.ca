@@ -185,12 +185,14 @@ code {
   margin-bottom: 0;
 }
 
-.post-cat--highlighted {
+.post-cat--highlighted,
+.post-cat--Highlighted  {
   position: relative;
   display: inline-block;
   color: $grey;
   overflow: visible;
   letter-spacing: 0.05em;
+  left: 0.5rem;
   &:after {
     height: 50%;
     bottom: 0.125rem;
@@ -202,5 +204,32 @@ code {
     overflow: hidden;
     content: '';
     opacity: 0.75;
+    @media (prefers-color-scheme: dark) {
+      opacity: 0.25;
+    }
   }
+}
+
+.post-cat--meta,
+.post-cat--Meta {
+}
+
+a.footnote,
+a.reversefootnote {
+  font-family: $sans;
+  font-size: 75%;
+  color: $link-color;
+  text-decoration: none;
+  .post &,
+  .project & {
+    border-bottom: 0 none;
+  }
+}
+
+sup {
+  line-height: 0;
+}
+
+cite {
+  font-style: normal;
 }

@@ -17,7 +17,7 @@
 
         {% if page.categories.size > 0 %}
           {% if page.layout == 'post' & page.collection == 'journal' %}
-            <span class="h4 post-cat--highlighted">{{ page.categories }}</span>
+            <span class="h4 post-cat--{{ page.categories }}">{{ page.categories }}</span>
           {% endif %}
         {% endif %}
 

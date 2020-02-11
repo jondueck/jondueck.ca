@@ -12,7 +12,7 @@ Still and motion graphics for a church event called Reignite.
 ![](https://cdn.dribbble.com/users/117659/screenshots/4303262/re004.png#half)
 ![](https://cdn.dribbble.com/users/117659/screenshots/3909354/re002-dribbble.png#half)
 
-![](/uploads/reignite_001-13.jpg)
+![The word "reignite" repeating](/uploads/reignite_001-13.jpg)
 ![](/uploads/reignite_001-17.jpg)
 
 ![](/uploads/reignite_001-15.jpg)

@@ -10,11 +10,11 @@ description: Logo, branding, and collateral for the podcast Whatevertown.
 
 [Whatevertown](https://whatevertown.com?viajondueckdotca) is a podcast I co-host with friends. It's a silly show, but it's pushed me creatively, not just on mic, but with accompanying art and music as well. I've been able to experiment with still graphics, motion graphics, and 3D rendering.
 
-![](/uploads/whatevertown_what.jpg#half)
-![](/uploads/whatevertown_gradient.jpg#half)
+![What](/uploads/whatevertown_what.jpg#half)
+![Whatevertown logo with a gradient trail](/uploads/whatevertown_gradient.jpg#half)
 
-![](/uploads/whatevertown_skate.jpg#half)
-![](/uploads/whatevertown_pillars.jpg#half)
+![Whatevertown in a circle](/uploads/whatevertown_skate.jpg#half)
+![Tall, circular Whatevertown](/uploads/whatevertown_pillars.jpg#half)
 
 ![A shirt that reads "whatevertown dot com"](/uploads/whatevertown_shirt_dotbold.jpg#half)
 ![A shirt that says "Hi, I'd like to add you to my professional network on whatevertown.com"](/uploads/whatevertown_shirt_network.jpg#half)

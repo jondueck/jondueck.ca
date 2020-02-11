@@ -8,4 +8,4 @@ thumb: "/uploads/lc_thumb.jpg"
 hidden: true
 ---
 
-This is my first post. Edit or delete it to get started.
+Listeners Club is a collaborative project between friends where we track the albums we listen together, and then at the end of the year we pick our top tens and publish them together on [ListenersClub.ca](https://listenersclub.ca).
