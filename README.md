@@ -1,4 +1,3 @@
-# jekyll-starter
-A starter Jekyll config with Bourbon, Neat, Sass, and Gulp. Made by [Collectif](http://collectif.co).
+# jondueck.ca
 
-[Blanc Wordpress Reset theme](https://github.com/collectifco/blanc-wp-reset)
+The personal site of Jon Dueck. Built on Jekyll to be used with Siteleaf. Blog, portfolio, and more.
