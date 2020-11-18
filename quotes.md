@@ -12,9 +12,11 @@ layout: post
 
 “Less, but better.” – <cite>Dieter Rams</cite>
 
-“If there's nothing new under the sun, let's head to the moon!” – Jay Argaèt at Circles Conference
+“Remember—typographic resistance to US pressure begins at home.” – Darren Stebeleski
 
-“We are continually faced with a series of great opportunites brilliantly disguised as insolvable problems.” – John W Gardner
+“If there's nothing new under the sun, let's head to the moon!” – [Jay Argaèt at Circles Conference](https://circlesco.com/conference/2017-on-demand/index.php?video=jay)
+
+“We are continually faced with a series of great opportunities brilliantly disguised as insolvable problems.” – John W Gardner
 
 “Make new things until all things are made new.” – [Alex Medina](https://twitter.com/mrmedina/status/612813321868185600)
 

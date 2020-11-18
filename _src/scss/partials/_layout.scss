@@ -2,7 +2,7 @@ body {
   background-color: $subdued-grey;
   background-color: #fafafa;
 
-  // grid-template-columns:1fr;
+  // *.scss-template-columns:1fr;
   // grid-template-areas:
   // "header"
   // "main"
@@ -217,4 +217,22 @@ img.half {
 .footnotes {
   border-top: 1px dashed $light-grey;
   padding-top: $line-height;
+}
+
+.page_cinema-jd {
+  background-color: $black;
+  color: $white;
+
+  a {
+    color: gold;
+  }
+}
+
+.home-work-lists {
+  display: grid;
+  grid-gap: $line-height;
+  grid-template-columns: repeat(1,1fr);
+  @media ($min-md) {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
