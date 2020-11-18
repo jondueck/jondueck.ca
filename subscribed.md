@@ -37,6 +37,8 @@ A weekly collection of apps, articles, and tools
 **[JFresh’s Newsletter](https://jfresh.substack.com)** – *JFresh*<br>
 About hockey analytics
 
+**[Toonie](https://toonie.substack.com)** – *Josh Ginter*
+
 ## RSS
 
 **[Waxy.org](https://waxy.org)** – *Andy Baio*<br>
@@ -61,3 +63,7 @@ About hockey analytics
 **[Dave Rupert](https://daverupert.com)**
 
 **[Robin Rendle](https://www.robinrendle.com)**
+
+---
+
+I’m also [subscribed to a few podcasts](/podcasts/).

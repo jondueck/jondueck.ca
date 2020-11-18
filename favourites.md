@@ -28,12 +28,12 @@ updated: true
 ## TV
 
 - Arrested Development
-- Master of None
-- Seinfeld
 - Community
 - Bojack Horseman
-- The Good Place
-- Podcasts
+- Master of None
+- Seinfeld
+
+## [Podcasts](/podcasts/)
 
 ## [Chick-Fil-A Sauces](/sauce/)
 
@@ -47,3 +47,5 @@ updated: true
 - Machi Koro
 
 ## [Video Games](/video-games/)
+
+## [Newsletters, Blogs, and RSS Feeds](/subscribed)
