@@ -14,3 +14,5 @@ keybase.txt
 _site/*
 Gemfile.lock
 package-lock.json
+.jekyll-cache/
+_site/
