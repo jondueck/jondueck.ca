@@ -1,30 +1,75 @@
 <!DOCTYPE html>
+<html lang="en">
 
-{% capture html %}
+  {% include head.html %}
 
-<!-- Made with much love by Jon Dueck of Collectif in the Great White North. -->
+  <body class="page_{{ page.title | slugify }}" {% if page.bg %}style="background-color:  {{page.bg}};" {% endif %}>
 
-<html lang="en-CA">
+    {% include header.html %}
 
-	<head>
-		{% include 'includes/head' %}
-	</head>
+    <main class="wrapper grid-wrap row {% if page.layout == 'post' %}h-entry{% endif%}">
 
-	<body>
+      {% if page.hero  %}
+        <img src="{{ page.hero }}" alt="Photo of Jon Dueck by {{ page.photo_credit }}" class="banner">
+      {% endif %}
 
-		{% include 'includes/header' %}
+      <header class="side-content">
 
-		<main class="wrap" role="main">
+        {% if page.categories.size > 0 %}
+          {% if page.layout == 'post' and page.collection == 'journal' %}
+            <span class="h4 post-cat--{{ page.categories }}">{{ page.categories }}</span>
+          {% endif %}
+        {% endif %}
 
-			{{ content }}
+        <h1 class="side-title">{{ page.title }}</h1>
 
-			{% include 'includes/comments' %}
+        <div class="meta">
+          {% if page.collection == 'work' %}
+            <time>{{ page.date | date: "%Y"}}</time><br>
+            <span>{{ page.location }}</span>
+          {% else %}
+            <time datetime="{{ page.date }}">{{ page.date | date: "%d %B %Y"}}</time>
+          {% endif %}
+        </div>
 
-		</main>
+        {% if page.updated %}
+          <br><em class="updated">Updated <time datetime="{{ page.last_modified_at }}">{{ page.last_modified_at | date: '%d %B %Y'}}</time></em>
+        {% endif %}
 
-		{% include 'includes/footer' %}
+      </header>
 
-	</body>
+      <div class="main-content">
+
+        {{ content }}
+
+        <!-- {% if page.title == 'About' %}
+          <div class="home-work-lists">
+            <div class="home-work-list">
+              <p>I've done</p>
+              <ul>
+                {% for item in page.work_done %}
+                <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="home-work-list">
+              <p>I want to do</p>
+              <ul>
+                {% for item in page.work_to_do %}
+                <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endif %} -->
+
+
+      </div>
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
 
 </html>
-{% endcapture %}{{ html | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}

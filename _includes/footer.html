@@ -1,77 +1,24 @@
-<div class="wrap">
-	<footer class="site-footer" role="contentinfo">
+<footer class="site-footer wrapper" class="source-org vcard copyright" role="contentinfo">
+  <div class="side-content">
+    &copy; 2014–{{ site.time | date: '%Y' }} Jon Dueck
+    <br><span class="meta"><a href="https://worksend.co">Works End. Thank You.</a></span>
+  </div>
+  <div class="site-nav">
+    <nav class="social-nav">
+      <a href="/colophon/" class="nav-item">Colophon</a>
+      <a href="/favourites/" class="nav-item">Favourites</a>
+      <a href="/library/" class="nav-item">Library</a>
+      <a href="/podcasts/" class="nav-item">Podcasts</a>
+      <a href="/subscribed/" class="nav-item">Subscribed</a>
+      <a href="/feed.xml" class="nav-item">Feed</a>
+    </nav>
+    <ul class="social-nav">
+      <li><a href="https://www.goodreads.com/jondueck" rel="noopener">Goodreads</a></li>
+      <li><a href="https://letterboxd.com/jondueck/" rel="noopener">Letterboxd</a></li>
+      <li><a href="https://vsco.co/jondueck" rel="noopener">VSCO</a></li>
+      <li><a href="https://www.are.na/jon-dueck" rel="noopener">Are.na</a></li>
+    </ul>
+  </div>
+</footer>
 
-		<div class="copyright">
-			<a href="/colophon/">
-				&copy; 2014&ndash;{{ site.time | date: '%Y' }} Jonathan Dueck
-			</a>
-		</div>
-
-		<div class="footer__social">
-			<span class="footer__social-links">
-				<a href="http://twitter.com/{{site.meta.twitter}}" class="footer__social-icon">
-					<svg role="img"><title>Twitter</title><use xlink:href="/assets/icons.svg#twitter-icon"></use></svg>
-				</a>
-				<a href="https://dribbble.com/{{site.meta.dribbble}}" class="footer__social-icon">
-					<svg role="img"><title>Dribbble</title><use xlink:href="/assets/icons.svg#dribbble-icon"></use></svg>
-				</a>
-				<a href="https://github.com/{{site.meta.github}}" class="footer__social-icon">
-					<svg role="img"><title>Github</title><use xlink:href="/assets/icons.svg#github-icon"></use></svg>
-				</a>
-				<a href="http://instagram.com/{{site.meta.instagram}}" class="footer__social-icon">
-					<svg role="img"><title>Instagram</title><use xlink:href="/assets/icons.svg#instagram-icon"></use></svg>
-				</a>
-				<a href="http://jondueck.vsco.co" class="footer__social-icon">
-					<svg role="img"><title>VSCO</title><use xlink:href="/assets/icons.svg#vsco-icon"></use></svg>
-				</a>
-				<a href="https://www.youtube.com/watch?v=AGMmmemkPPg" class="footer__social-icon">
-					<svg role="img"><title>RIP Rdio</title><use xlink:href="/assets/icons.svg#rdio-icon"></use></svg>
-				</a>
-				<a href="https://open.spotify.com/user/{{site.meta.spotify}}/" class="footer__social-icon">
-					<svg role="img"><title>Spotify</title><use xlink:href="/assets/icons.svg#spotify-icon"></use></svg>
-				</a>
-				<a href="https://www.pinterest.com/jondueck/" class="footer__social-icon">
-					<svg role="img"><title>Pinterest</title><use xlink:href="/assets/icons.svg#pinterest-icon"></use></svg>
-				</a>
-				<a href="https://ello.co/jondueck" class="footer__social-icon">
-					<svg role="img"><title>Ello</title><use xlink:href="/assets/icons.svg#ello-icon"></use></svg>
-				</a>
-				<!-- <a href="http://twitter.com/{{site.meta.twitter}}" class="ss-icon">Twitter</a> -->
-				<!-- <a href="http://dribbble.com/{{site.meta.dribbble}}" class="ss-icon">Dribbble</a> -->
-				<!-- <a href="https://github.com/{{site.meta.github}}" class="ss-icon">Github</a> -->
-				<!-- <a href="http://instagram.com/{{site.meta.instagram}}" class="ss-icon">Instagram</a> -->
-				<!-- <a href="https://www.youtube.com/watch?v=AGMmmemkPPg" class="ss-icon">Rdio</a> -->
-				<!-- <a href="https://open.spotify.com/user/{{site.meta.spotify}}/" class="ss-icon">Spotify</a> -->
-				<!-- <a href="http://jondueck.vsco.co" class="ss-icon">vscogrid</a> -->
-				<!-- <a href="https://ello.co/jondueck" class="ss-icon">Ello</a> -->
-				<!-- <a href="https://www.pinterest.com/jondueck/" class="ss-icon">Pinterest</a> -->
-			</span>
-		</div>
-
-	</footer>
-
-</div>
-
-<script>
-	(function(d) {
-		var config = {
-			kitId: '{{site.meta['TypekitId']}}',
-			scriptTimeout: 3000,
-			async: true
-		},
-		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+="wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-	})(document);
-</script>
-
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	ga('create', '{{ site.meta.google-analytics }}', 'jondueck.ca');
-	ga('require', 'displayfeatures');
-	ga('require', 'linkid', 'linkid.js');
-	ga('send', 'pageview');
-
-</script>
+<link rel="stylesheet" href="https://use.typekit.net/lxx1nqh.css">

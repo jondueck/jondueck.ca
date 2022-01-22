@@ -1,0 +1,91 @@
+---
+title: Jon Dueck
+timezone: America/Chicago
+collections:
+  eat:
+    title: Eat
+    output: true
+    permalink: "/eat/:path/"
+  music:
+    title: Music
+    output: true
+    permalink: "/music/:path/"
+  journal:
+    title: Journal
+    output: true
+    permalink: "/journal/:year/:title/"
+    paginate: 8
+    paginate_path: "/journal/page:num/"
+    pagination:
+      enabled: true
+      permalink: "/journal/page:num"
+      per_page: 10
+  posts:
+    title: Posts
+    output: true
+    paginate: 8
+    permalink: "/journal/:year/:title/"
+    paginate_path: "/journal/page:num/"
+    pagination:
+      enabled: true
+      permalink: "/journal/page:num"
+      per_page: 10
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+    permalink: "/work/:path/"
+defaults:
+- scope:
+    path: "/_posts/"
+    type: journal
+  values:
+    layout: post
+    author: Jon Dueck
+- scope:
+    path: "/_work/"
+    type: work
+  values:
+    author: Jon Dueck
+- scope:
+    path: "/_music/"
+    type: music
+  values:
+    author: Jon Dueck
+- scope:
+    path: "/_eat/"
+    type: eat
+  values:
+    layout: post
+    author: Jon Dueck
+email: hi@jondueck.ca
+description: Brand designer and front-end web developer from Winkler, Manitoba. Partner
+  at Collectif. Personal site, blog, and portfolio.
+baseurl:
+url: https://jondueck.ca
+twitter: jondueck
+github: jondueck
+permalink: "/:year/:title/"
+exclude:
+- "/node_modules/"
+- "**.sublime-project"
+- "**.sublime-workspace"
+- gulpfile.js
+- package.json
+- ".git"
+- README.md
+- gemfile
+- Gemfile.lock
+- package-lock.json
+- sitemap.xml.liquid
+- config.ru
+- tmp
+plugins:
+- jekyll-last-modified-at
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-redirect-from
+markdown: kramdown
+theme:

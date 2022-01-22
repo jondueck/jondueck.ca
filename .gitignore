@@ -8,3 +8,10 @@ default.css
 googlec1054c45aa2d18cb.html
 npm-debug.log
 assets/webfonts
+dist/webfonts
+_site
+keybase.txt
+_site/*
+Gemfile.lock
+.jekyll-cache/
+_site/

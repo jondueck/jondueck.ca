@@ -1,0 +1,238 @@
+body {
+  background-color: $subdued-grey;
+  background-color: #fafafa;
+
+  // *.scss-template-columns:1fr;
+  // grid-template-areas:
+  // "header"
+  // "main"
+  // "footer";
+  // grid-template-rows: 1rem 1fr 1rem;
+
+  // min-height: 100%;
+  // display: grid;
+  // grid-template-rows: auto 1fr auto;
+  // grid-template-columns: 100%;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $black;
+  }
+}
+
+.wrapper {
+  width: 90%;
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+  // @media(min-width: 60rem) {
+  //   max-width: 1400px;
+  // }
+}
+
+main {
+  grid-template-rows: auto 1fr auto;
+  // grid-area: main;
+}
+
+.banner {
+  margin-bottom: 2 * $gutter;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.work-archive {
+  display: flex;
+  flex-wrap: wrap;
+  // margin-left: -$line-height-half;
+  // margin-right: -$line-height-half;
+  // align-items: baseline;
+  display: grid;
+  grid-gap: $line-height;
+  grid-template-columns: repeat(1,1fr);
+  align-items: end;
+  @media ($min-md) {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+.project-preview {
+  margin-bottom: 0;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  &__thumb {
+    margin-bottom: $line-height-half;
+  }
+
+  img {
+    width: 100%;
+  }
+
+}
+
+// .row {
+//   padding-left: -$line-height-half;
+//   padding-right: -$line-height-half;
+// }
+
+.grid-wrap {
+  display: grid;
+  grid-gap: $gutter;
+  grid-template-columns: repeat(1,1fr);
+  @media ($min-md) {
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+// .main-content,
+// .side-content {
+//   margin-bottom: $line-height;
+// }
+
+.main-content {
+  grid-column: 1/4;
+  @media ($min-md) {
+    grid-column: 2/5;
+  }
+}
+
+.side-content {
+  margin-bottom: $line-height;
+  grid-column: 1/4;
+  @media ($min-md) {
+    grid-column: 1/1;
+  }
+}
+
+.row {
+  overflow: hidden;
+  clear: both;
+}
+
+[src$='#half'],
+img.half {
+  display: inline-block;
+  float: left;
+  margin-bottom: $line-height;
+  margin-right: $line-height;
+  width: calc(50% - #{0.5 * $line-height});
+
+  + [src$='#half']:nth-of-type(even),
+  + .half:nth-of-type(even) {
+    margin-right: 0;
+  }
+
+}
+
+.library-list {
+  list-style: none;
+  padding-left: 0;
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: baseline;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  font-size: 1rem;
+  display: grid;
+  grid-gap: $line-height;
+  align-items: end;
+  align-items: baseline;
+  grid-template-columns: repeat(2,1fr);
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  &__cover {
+    max-height: 25vh;
+    display: block;
+    margin-bottom: $line-height;
+  }
+
+  // li {
+  //   width: 31%;
+  //   // min-width: 31%;
+  //   float: left;
+  //   // margin-right: $gutter;
+  //   margin-bottom: $gutter;
+  //
+  //   &:nth-of-type(3n + 1) {
+  //     clear: both;
+  //   }
+  // }
+
+}
+
+.recipe-archive {
+  // @media (min-width: 30rem) {
+  //   display: flex;
+  //   flex-direction: row;
+  //   flex-wrap: wrap;
+  //   align-items: baseline;
+  // }
+  display: grid;
+  grid-gap: $line-height;
+  grid-template-columns: repeat(1,1fr);
+  align-items: end;
+  @media ($min-md) {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+.recipe-preview {
+//   margin-bottom: $line-height;
+//
+  &__image {
+    border-radius: 0.25rem;
+  }
+//
+//   @media (min-width: 30rem) {
+//     width: calc(50% - #{$line-height-half});
+//     margin-right: $line-height;
+//
+//     &:nth-of-type(2n) {
+//       margin-right: 0;
+//     }
+//   }
+}
+
+.note-preview {
+  margin-bottom: $gutter;
+  position: relative;
+}
+
+.post-preview {
+  margin-bottom: $gutter;
+}
+
+.footnotes {
+  border-top: 1px dashed $light-grey;
+  padding-top: $line-height;
+}
+
+.page_cinema-jd {
+  background-color: $black;
+  color: $white;
+
+  a {
+    color: gold;
+  }
+}
+
+.home-work-lists {
+  display: grid;
+  grid-gap: $line-height;
+  grid-template-columns: repeat(1,1fr);
+  @media ($min-md) {
+    grid-template-columns: repeat(2,1fr);
+  }
+}

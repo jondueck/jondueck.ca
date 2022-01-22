@@ -1,37 +1,68 @@
-var gulp = require('gulp');
-var autoprefixer = require('gulp-autoprefixer');
-var notify = require('gulp-notify');
-var sass = require('gulp-sass');
-var cssmin = require('gulp-cssmin');
-var watch = require('gulp-watch');
-var neat = require('node-neat').includePaths;
+const gulp = require('gulp')
+const cp = require('child_process')
+const sass = require('gulp-sass')(require('sass'))
+const autoprefixer = require('gulp-autoprefixer')
+const cssmin = require('gulp-cssmin')
+const neat = require('node-neat').includePaths
+const browserSync = require('browser-sync').create()
 
-var paths = {
-  scripts: 'js/',
-  scss: 'assets/scss/**/*.scss',
-  css: 'assets/css'
-};
+const paths = {
+  scss: '_src/scss/**/*.scss',
+  css: 'assets/css',
+  html: ['**/*.html', '**/*.md', '**/*.markdown', '!_site/**/*.*', '_posts/**/*.md']
+}
 
-gulp.task('watch', ['sass'], function() {
-  gulp.watch(paths.scss, ['sass']);
-});
+const buildJekyll = () => {
+  browserSync.notify('<span style="color: grey">Running:</span> $ jekyll build')
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build'], { stdio: 'inherit' })
+}
 
-gulp.task('sass', function() {
-  gulp.src('assets/scss/*.scss')
-    .pipe(sass({
-      includePaths: ['sass'].concat(neat)
-    }))
-    .on('error', function(err) {
-      console.log(err.message);
-      return notify().write(err); // send the error through Growl
-    })
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
-      cascade: false
-    }))
+const rebuildJekyll = () => gulp.series(buildJekyll, browserSyncReload)
+
+const buildSass = () => {
+  return gulp
+    .src(paths.scss)
+    .pipe(
+      sass({
+        includePaths: ['sass'].concat(neat),
+      }).on('error', sass.logError)
+    )
+    .pipe(
+      autoprefixer({
+        browsers: ['last 2 versions'],
+        cascade: false,
+      })
+    )
     .pipe(cssmin())
-    .pipe(gulp.dest('assets/css'))
-    .pipe(notify('Sass compiled successfully.'));
-});
+    .pipe(gulp.dest('./dist/css')) // specify the destination for the minified css created by sass
+    .pipe(gulp.dest('./_site/dist/css')) // also output to the _site directory for live injecting
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(browserSync.notify('<span style="color: grey">Compiled SCSS</span>'))
+}
 
-gulp.task('default', ['watch','sass']);
+const browserSyncServe = (done) => {
+  browserSync.init({
+    server: {
+      baseDir: './_site',
+    },
+    host: 'localhost',
+    port: 2323,
+  })
+  done()
+}
+
+const browserSyncReload = (done) => {
+  browserSync.reload()
+  done()
+}
+
+const build = gulp.parallel(buildSass, buildJekyll)
+
+const watch = () => {
+  build()
+  gulp.watch(paths.scss, buildSass)
+  gulp.watch(paths.html, rebuildJekyll)
+}
+
+exports.watch = gulp.parallel(browserSyncServe, watch)
+exports.build = build

@@ -1,0 +1,235 @@
+body {
+  font-size: $base-font-size;
+  font-family: $sans;
+  font-family: $serif;
+  font-weight: normal;
+  line-height: 1.6;
+  font-weight: 400;
+  color: $body-text-color;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (prefers-color-scheme: dark) {
+    color: $white;
+  }
+
+}
+
+.post {
+  font-family: $serif;
+}
+
+p {
+  margin-bottom: $line-height;
+}
+
+a {
+  color: $link-color;
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color;
+  }
+
+  // j.mp/webkit-tap-highlight-color
+  &:link {
+    -webkit-tap-highlight-color: $link-color;
+  }
+}
+
+.post,
+.project {
+  a {
+    border-bottom: 1px solid $light-grey;
+    &:hover {
+      border-bottom-color: $link-color;
+    }
+  }
+}
+
+h1,
+.h1 {
+  font-size: #{$font-size-variable * $base-font-size};
+  font-weight: normal;
+  margin-bottom: $line-height;
+  font-family: $sans;
+}
+
+h2,
+.h2 {
+  margin-bottom: $line-height;
+  font-weight: normal;
+  font-family: $sans;
+}
+
+h3,
+.h3 {
+  margin-bottom: $line-height;
+  font-family: $sans;
+  font-size: $b0;
+  color: $grey;
+}
+
+h4,
+.h4 {
+  font-family: $sans;
+  font-size: $b-1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  a {
+    color: inherit;
+  }
+}
+
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+.site-header,
+.site-footer {
+  font-family: $sans;
+}
+
+blockquote {
+  padding-left: $line-height;
+  font-style: italic;
+  hanging-punctuation: first;
+  border-left: 1px dashed $grey;
+  font-family: $serif;
+}
+
+aside {
+  color: $grey;
+}
+
+pre,
+code {
+  font-family: $monospace;
+  background: $light-grey;
+}
+
+code {
+  display: inline-block;
+}
+
+pre {
+  display: block;
+  white-space: pre-wrap; // CSS3
+  word-wrap: break-word;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+.site-name {
+  font-size: $base-font-size;
+  // font-weight: bold;
+  margin-bottom: 0;
+}
+
+.is-current {
+  text-decoration: line-through;
+}
+
+.description {
+  color: $grey;
+  font-style: italic;
+}
+
+.meta {
+  color: $grey;
+
+  a {
+    color: inherit;
+  }
+
+}
+
+ul,
+ol {
+  margin-bottom: $line-height;
+}
+
+.updated {
+  color: $grey;
+}
+
+code {
+  background: $white;
+  padding-left: 0.375 * $base-font-size;
+  padding-right: 0.375 * $base-font-size;
+}
+
+.h-no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.side-title {
+  font-size: inherit;
+  display: block;
+  margin-bottom: 0;
+}
+
+.post-cat--highlighted,
+.post-cat--Highlighted  {
+  position: relative;
+  display: inline-block;
+  color: $grey;
+  overflow: visible;
+  letter-spacing: 0.05em;
+  left: 0.5rem;
+  &:after {
+    height: 50%;
+    bottom: 0.125rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    position: absolute;
+    background: #f8fe7a;
+    z-index: -100;
+    overflow: hidden;
+    content: '';
+    opacity: 0.75;
+    @media (prefers-color-scheme: dark) {
+      opacity: 0.25;
+    }
+  }
+}
+
+.post-cat--meta,
+.post-cat--Meta {
+}
+
+a.footnote,
+a.reversefootnote {
+  font-family: $sans;
+  font-size: 75%;
+  color: $link-color;
+  text-decoration: none;
+  .post &,
+  .project & {
+    border-bottom: 0 none;
+  }
+}
+
+sup {
+  line-height: 0;
+}
+
+cite {
+  font-style: normal;
+}

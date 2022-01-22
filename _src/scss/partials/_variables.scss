@@ -1,0 +1,74 @@
+$base-font-size: 1.25rem;
+$base-font-size-m: 1.125rem;
+$line-height-unitless: 1.6;
+$line-height: #{($base-font-size*$line-height-unitless)};
+$line-height-2x: #{($base-font-size*$line-height-unitless)*2};
+$line-height-3x: #{($base-font-size*$line-height-unitless)*3};
+$line-height-4x: #{($base-font-size*$line-height-unitless)*4};
+$line-height-half: #{(0.5 * $base-font-size * $line-height-unitless)};
+$font-size-variable: 1.4;
+
+$b0: $base-font-size;
+$b-1: $base-font-size / $font-size-variable;
+
+// $primary-color: #b4dde9;
+// $primary-color: rgb(43, 83, 70);
+// $primary-color: #439159;
+// $secondary-color: #c00;
+// 72B8CA
+// 3473F6
+// 98C8C4
+// 2C6198
+// $primary-color: #72B8CA;
+// $secondary-color: #b4dde9;
+// $primary-color: #88B5BF;
+$secondary-color: #b4dde9;
+// $primary-color: #37A65E;
+// $primary-color: #42b169;
+// $primary-color: #064d53;
+$primary-color: mix(#42b169, #064d53, 50%);
+// $primary-color: darken(#a3d9c9, 15%);
+
+$subdued-grey: #fbfbfb;
+$light-grey: #cedbe2;
+$light-grey: #D9D8D7;
+$grey: #95a7b1;
+$dark-grey: #3f515d;
+$white: #fff;
+$black: #050708;
+
+// $dark-grey: #193236;
+// $subdued-grey: #e5e3d7;
+// $light-grey: #c5d0ec;
+// $link-color: #f8fe7a;
+
+$body-text-color: $dark-grey;
+$heading-text-color: $dark-grey;
+
+$background-color: $subdued-grey;
+
+$link-color: $primary-color;
+// $link-color: lighten($primary-color, 10%);
+
+// Fonts
+// A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack
+$sans: 'Post Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+$serif: 'Calluna', Georgia, serif;
+$mono: courier, monospace;
+
+$monospace: monospace;
+
+// Bourbon Config
+$grid-columns: 12;
+$gutter: $line-height;
+$max-width: 72rem;
+
+// Breakpoints
+$small: new-breakpoint(min-width 500px 4);
+$min-sm: 'min-width: 500px';
+$min-md: 'min-width: 700px';
+$min-lg: 'min-width: 1024px';
+$min-xl: 'min-width: 1200px';
+
+$gutter: $line-height;
+$gutter-sm: 0.75 * $line-height;

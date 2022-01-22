@@ -1,51 +1,18 @@
-<meta content="width=device-width, initial-scale=1" name="viewport">
-{% if current.url == '/' %}
-  <title>Jon Dueck – Designer and Developer</title>
-  <meta name="title" content="Jon Dueck – Designer and Developer">
-{% else %}
-  <title>{{title}} – {{site.title}}</title>
-  <meta name="title" content="{{site.title}} – {{title}}">
-{% endif %}
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}">
-<meta charset="UTF-8">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="description" content="{{ meta.description | fallback: current.body | strip_html | strip_newlines | truncate: 160 }}">
+  <title>{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines}}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Jon Dueck">
 
-<link rel="stylesheet" href="/assets/css/default.css" property="stylesheet">
+  <link rel="stylesheet" href="{{ "/dist/css/style.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
-<!-- <script async>
-  function getStylesheet() {
-    var currentTime = new Date().getHours();
-    if (0 <= currentTime&&currentTime < 6) {
-     document.write("<link rel='stylesheet' href='/assets/night.css' type='text/css'>");
-    }
-    if (21 <= currentTime&&currentTime <= 24) {
-     document.write("<link rel='stylesheet' href='/assets/night.css' type='text/css'>");
-    }
-  }
-  getStylesheet();
-</script> -->
+  {% include favicons.html %}
 
-<!--<noscript><link href="main.css" rel="stylesheet"></noscript>-->
-
-<!-- <link href="/assets/webfonts/ss-social.css" rel="stylesheet"> -->
-
-<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
-
-{% if current.meta.vimeo %}
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-{% endif %}
-
-{% if current.meta.vimeo %}
-  <script src="/js/jquery.fitvids.js"></script>
-  <script>
-    $(document).ready(function(){
-      $(".content").fitVids();
-    });
-  </script>
-{% endif %}
-
-{% include 'includes/social' %}
-
-{% include 'includes/favicons' %}
+  {% include social.html %}
+  {% comment %} {% webmentions_head %} {% endcomment %}
+</head>
