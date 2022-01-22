@@ -9,7 +9,7 @@ const browserSync = require('browser-sync').create()
 const paths = {
   scss: '_src/scss/**/*.scss',
   css: 'assets/css',
-  html: ['**/*.html', '**/*.md', '**/*.markdown', '!_site/**/*.*'],
+  html: ['**/*.html', '**/*.md', '**/*.markdown', '!_site/**/*.*', '_posts/**/*.md']
 }
 
 const buildJekyll = () => {

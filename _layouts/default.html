@@ -16,7 +16,7 @@
       <header class="side-content">
 
         {% if page.categories.size > 0 %}
-          {% if page.layout == 'post' & page.collection == 'journal' %}
+          {% if page.layout == 'post' and page.collection == 'journal' %}
             <span class="h4 post-cat--{{ page.categories }}">{{ page.categories }}</span>
           {% endif %}
         {% endif %}

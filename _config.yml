@@ -6,6 +6,10 @@ collections:
     title: Eat
     output: true
     permalink: "/eat/:path/"
+  music:
+    title: Music
+    output: true
+    permalink: "/music/:path/"
   journal:
     title: Journal
     output: true
@@ -20,6 +24,7 @@ collections:
     title: Posts
     output: true
     paginate: 8
+    permalink: "/journal/:year/:title/"
     paginate_path: "/journal/page:num/"
     pagination:
       enabled: true
@@ -45,6 +50,11 @@ defaults:
   values:
     author: Jon Dueck
 - scope:
+    path: "/_music/"
+    type: music
+  values:
+    author: Jon Dueck
+- scope:
     path: "/_eat/"
     type: eat
   values:
@@ -53,7 +63,7 @@ defaults:
 email: hi@jondueck.ca
 description: Brand designer and front-end web developer from Winkler, Manitoba. Partner
   at Collectif. Personal site, blog, and portfolio.
-baseurl: 
+baseurl:
 url: https://jondueck.ca
 twitter: jondueck
 github: jondueck
@@ -78,4 +88,4 @@ plugins:
 - jekyll-sitemap
 - jekyll-redirect-from
 markdown: kramdown
-theme: 
+theme:
