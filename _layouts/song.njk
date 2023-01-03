@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+
+<article class="wrap grid-wrap">
+    <header class="page-header">
+        <div class="page-header-content">
+        <h1 class="page-title">{{ title }}</h1>
+        {# <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> #}
+        <time datetime="{{ post.date }}" class="post-date">{{ page.date | readableDate }}</time>
+        </div>
+    </header>
+    <div class="page-content">
+
+        {% if audio %}
+            <audio controls style="width: 100%;">
+                <source src="{{ audio }}" type="audio/mpeg">
+            </audio>
+        {% endif %}
+
+        {{ content | safe }}
+    </div>
+</article>

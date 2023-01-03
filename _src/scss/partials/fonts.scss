@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Basier';
+    src: url('/src/fonts/basiercircle-regular-webfont.eot');
+    src: url('/src/fonts/basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/basiercircle-regular-webfont.woff2') format('woff2'),
+        url('/src/fonts/basiercircle-regular-webfont.woff') format('woff'),
+        url('/src/fonts/basiercircle-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier';
+    src: url('/src/fonts/basiercircle-regularitalic-webfont.eot');
+    src: url('/src/fonts/basiercircle-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/basiercircle-regularitalic-webfont.woff2') format('woff2'),
+        url('/src/fonts/basiercircle-regularitalic-webfont.woff') format('woff'),
+        url('/src/fonts/basiercircle-regularitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Basier';
+    src: url('/src/fonts/basiercircle-bold-webfont.eot');
+    src: url('/src/fonts/basiercircle-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/basiercircle-bold-webfont.woff2') format('woff2'),
+        url('/src/fonts/basiercircle-bold-webfont.woff') format('woff'),
+        url('/src/fonts/basiercircle-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}

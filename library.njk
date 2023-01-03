@@ -1,0 +1,19 @@
+---
+title: Library
+layout: page.njk
+date: Last Modified
+---
+
+{% for topic in library %}
+    <h2>{{ topic.title}}</h2>
+    <ul class="library-list">
+    {% for book in topic.books %}
+        <li>
+            <img src="{{ book.cover }}" alt="" class="library-cover">
+            <span class="library-title">{{ book.title }}</span><br>
+            <span class="library-author">{{ book.author }}</span>
+        </li>
+    {% endfor %}
+    </ul>
+
+{% endfor %}

@@ -1,19 +1,13 @@
 ---
 title: Colophon
-permalink: "/colophon/"
-layout: page
-description: About the site – typography, code, etc.
-updated: true
+layout: page.njk
 ---
 
-Designed, developed, and maintained by Jonathan Dueck.
+This is a website built and published by Jon Dueck, a graphic designer and front-end web developer in Manitoba, on Treaty 1 territory.
 
 ## Code
 
-Built on [Jekyll](https://jekyllrb.com/) ~~and published through [Siteleaf](http://siteleaf.com)~~. Code written in [Atom](https://atom.io).
+Built on [Eleventy](https://www.11ty.dev).
 
-[View the source on Github](https://github.com/jondueck/jondueck.ca).
-
-## Typography
-
-Text is set in [Calluna](http://www.exljbris.com/calluna.html) by exljbris and [Post Grotesk](https://vllg.com/incubator/post-grotesk) by Josh Finklea. Calluna is hosted by ~~Typekit~~ [Adobe Fonts](https://fonts.adobe.com/) and Post Grotesk is self-hosted.
+## Type
+This website is set in [Calluna by Exljbris](https://www.exljbris.com/calluna.html) and [Basier Rounded by Atipo](https://www.atipofoundry.com/fonts/basier).

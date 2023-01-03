@@ -1,0 +1,5 @@
+{
+    "layout": "post",
+    "permalink": "journal/{{date | readableYear}}/{{ title | slug }}/",
+    "author": "Jon Dueck"
+  }

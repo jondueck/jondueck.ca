@@ -1,0 +1,158 @@
+[
+    {
+        "title": "RSS",
+        "feeds": [
+            {
+                "title": "Brand New",
+                "link": "https://www.underconsideration.com/brandnew/",
+                "author": "Under Consideration",
+                "paid": true
+            },
+            {
+                "title": "Waxy.org",
+                "link": "https://waxy.org",
+                "author": "Andy Baio",
+                "description": "“A place for Andy Baio‘s writing, research, and explorations of the web”"
+            },
+            {
+                "title": "kottke.org",
+                "link": "https://kottke.org",
+                "author": "Jason Kottke +",
+                "description": "“Frequent topics of interest among the 26,000+ posts include art, technology, science, visual culture, design, music, cities, food, architecture, sports, endless nonsense, and carefully curated current events, all of it lightly contextualized.”"
+            },
+            {
+                "title": "Spoon & Tamago",
+                "link": "https://www.spoon-tamago.com",
+                "author": "Johnny Waldman",
+                "description": "“Japanese art, design, and culture.”"
+            },
+            {
+                "title": "Craig Mod",
+                "link": "https://craigmod.com",
+                "author": "",
+                "description": ""
+            },
+            {
+                "title": "Typewolf",
+                "link": "https://www.typewolf.com",
+                "description": "“What’s trending in type.”",
+                "author": "Jeremiah Shoaf"
+            },
+            {
+                "title": "Frank Chimero",
+                "link": "https://frankchimero.com"
+            },
+            {
+                "title": "Adactio",
+                "link": "https://adactio.com",
+                "author": "Jeremy Keith"
+            },
+            {
+                "title": "Dave Rupert",
+                "link": "https://daverupert.com"
+            },
+            {
+                "title": "Robin Rendle",
+                "link": "https://www.robinrendle.com"
+            },
+            {
+                "title": "Jim Nielsen",
+                "link": "https://blog.jim-nielsen.com/"
+            },
+            {
+                "title": "xkcd",
+                "link": "https://xkcd.com/"
+            },
+            {
+                "title": "Anil Dash",
+                "link": "https://anildash.com/"
+            },
+            {
+                "title": "Shady Characters",
+                "link": "https://shadycharacters.co.uk/",
+                "author": "Keith Houston"
+            },
+            {
+                "title": "Ethan Marcotte",
+                "link": "https://ethanmarcotte.com/"
+            },
+            {
+                "title": "Reagan Ray",
+                "link": "https://reaganray.com/blog/"
+            },
+            {
+                "title": "Brand, Packaging, and Opionion",
+                "author": "Richard Baird",
+                "link": "https://bpando.org"
+            }
+        ]
+    },
+    {
+        "title": "Newsletters",
+        "feeds": [
+            {
+                "title": "Adventures in Typography",
+                "author": "Robin Rendle",
+                "description": "“All about typefaces and fonts (and what those words mean). It’s for book nerds, typographers, neon light enthusiasts, and for people who have no interest in typography whatsoever.”",
+                "link": "https://www.robinrendle.com/adventures/"
+            },
+            {
+                "title": "Dense Discovery",
+                "author": "Kai Brach",
+                "description": "A weekly collection of apps, articles, and tools",
+                "link": "https://www.densediscovery.com"
+            },
+            {
+                "title": "Design Harder",
+                "link": "https://designharder.substack.com/",
+                "author": "Erik Carter"
+            },
+            {
+                "title": "The History of the Web",
+                "link": "https://thehistoryoftheweb.com",
+                "author": "Jay Hoffmann",
+                "description": "“A semi-weekly dose of the best stories rom the web’s history”"
+            },
+            {
+                "title": "Casual Archivist",
+                "link": "http://elizabethgoodspeed.com/newsletter",
+                "author": "Elizabeth Goodspeed",
+                "description": "“Found imagery & ephemera”"
+            },
+            {
+                "title": "Platformer",
+                "link": "https://www.platformer.news",
+                "author": "Casey Newton",
+                "description": "“Your daily guide to understanding social networks and their relationships with the world”"
+            },
+            {
+                "title": "Garbage Day",
+                "link": "https://www.garbageday.email",
+                "author": "Ryan Broderick"
+            },
+            {
+                "title": "JFresh’s Newsletter",
+                "link": "https://jfresh.substack.com",
+                "author": "JFresh",
+                "description": "About hockey analytics"
+            },
+            {
+                "title": "Winning The Internet",
+                "link": "https://tinyletter.com/codenberg/",
+                "author": "Russell Goldenberg",
+                "description": "“A data-driven newsletter of links in other newsletters.”"
+            },
+            {
+                "title": "Toonie",
+                "link": "https://toonie.substack.com",
+                "author": "Josh Ginter",
+                "description": "“Personal finance thoughts for Canadians.”"
+            },
+            {
+                "title": "Insight",
+                "link": "https://www.theinsight.org/",
+                "author": "Zeynep Tufecki"
+            }
+        ]
+    }
+]

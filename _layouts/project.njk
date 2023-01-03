@@ -1,0 +1,21 @@
+---
+layout: base.njk
+---
+
+{# {% if banner %}
+<img src="{{ banner }}" alt="" class="post-banner wrap">
+{% endif %} #}
+
+<article class="wrap grid-wrap">
+    <header class="page-header">
+        <div class="page-header-content">
+        <h1 class="page-title">{{ title }}</h1>
+        {# <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> #}
+        <time datetime="{{ post.date }}" class="post-date">{{ page.date | readableYear }}</time>
+        {% if location %}<br><span class="meta-text">{{ location }}</span>{% endif %}
+        </div>
+    </header>
+    <div class="page-content">
+        {{ content | safe }}
+    </div>
+</article>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ description or metadata.description }}">
+  <link rel="stylesheet" href="/src/css/style.css">
+  {% include 'social.njk' %}
+  {% include 'favicons.njk' %}
+</head>
+
+<body>
+
+  {% include 'header.njk' %}
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer class="wrap grid-wrap site-footer">
+    <span>&copy; 2014–{{ helpers.currentYear() }}</span>
+    <nav>
+      <menu aria-label="Secondary Navigation">
+        <li><a href="/colophon/">Colophon</a></li>
+        <li><a href="/library/">Library</a></li>
+        <li><a href="/feed.xml">RSS Feed</a></li>
+      </menu>
+      {# <menu aria-label="Social Media Accounts">
+        <li>Twitter</li>
+        <li>Mastodon</li>
+      </menu> #}
+    </nav>
+    <link rel="stylesheet" href="https://use.typekit.net/lxx1nqh.css">
+    <link href="https://github.com/jondueck" rel="me">
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  </footer>
+
+</body>
+
+</html>
