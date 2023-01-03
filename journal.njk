@@ -1,0 +1,21 @@
+---
+layout: page.njk
+title: Journal
+description: Not often, but sometimes.
+subtitle: Or weblog.
+redirect_from: blog
+---
+
+<ul reversed class="archive journal-list">
+{% for post in collections.journal | reverse %}
+  <li>
+    {% if post.data.redirect %}
+    <a href="{{ post.data.redirect | url }}" class="journal-list-title">↳ 
+    {% else %}
+    <a href="{{ post.url | url }}" class="journal-list-title">
+    {% endif %}
+    {{ post.data.title }}</a>
+    <time datetime="{{ post.date.toUTCString() }}"  class="journal-list-date">{{ post.date | readableDate}}</time>
+  </li>
+{% endfor %}
+</ul>

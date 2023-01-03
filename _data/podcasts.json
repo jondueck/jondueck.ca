@@ -1,0 +1,193 @@
+[
+    {
+        "title": "Design & Development",
+        "podcasts": [
+            {
+                "title": "Creative Pep Talk",
+                "description": "Andy J Miller is an extremely encouraging host.",
+                "link": "http://www.creativepeptalk.com"
+            },
+            {
+                "title": "Shop Talk",
+                "description": "Chris Coyier and Dave Rupert host a show on front-end web development.",
+                "link": "http://shoptalkshow.com"
+            },
+            {
+                "title": "Australian Design Radio",
+                "description": "Try Episode 02, 32, 33",
+                "link": "https://ausdesignradio.com/"
+            },
+            {
+                "title": "Ask A Freelancer",
+                "description": "A short-format podcast where Andy [J Miller] answers three submitted questions.",
+                "link": "http://cushionapp.com/blog/ask-a-freelancer/"
+            }
+        ]
+    },
+    {
+        "title": "Comedy",
+        "podcasts": [
+            {
+                "title": "Spontaneanation",
+                "description": "Improv show hosted by Paul F Tompkins. Try Episodes 137, 156, 159",
+                "link": "http://www.earwolf.com/show/spontaneanation-with-paul-f-tompkins/"
+            },
+            {
+                "title": "Comedy Bang! Bang!",
+                "description": "Scott Aukerman interviews comedians and other strange characters.",
+                "link": "http://www.earwolf.com/show/comedy-bang-bang/"
+            },
+            {
+                "title": "Threedom",
+                "description": "Paul F Tompkins, Lauren Lapkus, and Scott Aukerman hang out.",
+                "link": "https://www.earwolf.com/show/threedom/"
+            },
+            {
+                "title": "Stay F Homekins",
+                "description": "Paul F Tompkins and Janie Haddad Tompkins stay home during a global pandemic",
+                "link": "https://stayfhomekins.buzzsprout.com"
+            },
+            {
+                "title": "The Big Ones",
+                "description": "Amanda Lund and Maria Blasucci – the best co-hosting duo in podcasts – tackle the big questions of life.",
+                "link": "https://www.patreon.com/TheBigOnes"
+            },
+            {
+                "title": "Superego",
+                "description": "Improvised sketches by Drs Matt Gourley, Jeremy Carter, and Paul F Tompkins.",
+                "link": "http://www.gosuperego.com"
+            }
+        ]
+    },
+    {
+        "title": "Stories",
+        "podcasts": [
+            {
+                "title": "Reply All",
+                "description": "Stories about the internet, hosted by PJ Vogt and Alex Goldman. “It features stories about how people shape the internet, and the internet shapes people.” Try Episode 56.",
+                "link": ""
+            },
+            {
+                "title": "Imaginary Worlds"
+            },
+            {
+                "title": "Mystery Show"
+            },
+            {
+                "title": "Heavyweight"
+            }
+        ]
+    },
+    {
+        "title": "Canada",
+        "podcasts": [
+            {
+                "title": "Front Burner",
+                "description": "A deep dive on a current news story from the CBC.",
+                "link": ""
+            },
+            {
+                "title": "CBC News: World Report",
+                "description": "Daily 10-min news show from the CBC."
+            },
+            {
+                "title": "Canadaland"
+            },
+            {
+                "title": "Commons",
+                "description": "The political side of *Canadaland*."
+            },
+            {
+                "title": "The Imposter",
+                "description": "Canadian art show from *Canadaland*."
+            }
+        ]
+    },
+    {
+        "title": "Information",
+        "podcasts": [
+            {
+                "title": "Function",
+                "link": "https://podcasts.voxmedia.com/show/function-with-anil-dash"
+            },
+            {
+                "title": "Today Explained"
+            },
+            {
+                "title": "Invisibilia"
+            }
+        ]
+    },
+    {
+        "title": "Media",
+        "podcasts": [
+            {
+                "title": "Song Exploder",
+                "description": "Musicians take apart their songs, and piece by piece, tell the story of how they were made."
+            },
+            {
+                "title": "Cinema of Meaning",
+                "author": "Thomas Flight and Tom van der Linden"
+            },
+            {
+                "title": "Oeuvre Busters",
+                "author": "Liam Billingham and George Fragopoulos"
+            },
+            {
+                "title": "The Insert Credit Show",
+                "description": "Several games industry professionals, including Tim Rogers, talk about video games. Loose enough to be fun, structured enough to keep momentum."
+            },
+            {
+                "title": "Young Adult Movie Ministry",
+                "author": "Alissa Wilkinson and Sam Thielman"
+            },
+            {
+                "title": "James Bonding",
+                "description": "Matt Mira and Matt Gourley revisit every James Bond film with their comedy friends.",
+                "link": "https://www.earwolf.com/show/james-bonding/"
+            },
+            {
+                "title": "Good Christian Fun",
+                "description": "Kevin and Caroline poke fun at Christian pop culture."
+            },
+            {
+                "title": "Dissect",
+                "description": "Dissect is a serialized music podcast. Season 1 looks at Kendrick Lamar’s To Pimp a Butterfly."
+            }
+        ]
+    },
+    {
+        "title": "Etc",
+        "podcasts": [
+            {
+                "title": "Panic Podcast",
+                "description": "The sidequests, subplots, and accidents of history that round out the software development and game publisher, Panic. The stories behind Untitled Goose Game, Pantscast, and more.",
+                "link": "https://podcast.panic.com/"
+            },
+            {
+                "title": "Code Switch",
+                "description": "“A team of journalists fascinated by the overlapping themes of race, ethnicity and culture, how they play out in our lives and communities, and how all of this is shifting.”"
+            },
+            {
+                "title": "The Sporkful",
+                "description": "The Sporkful isn’t for foodies, it’s for eaters."
+            },
+            {
+                "title": "Switched On Pop",
+                "description": "A songwriter and a musicologist break down how popular music works."
+            },
+            {
+                "title": "Sunday Night in Canada"
+            },
+            {
+                "title": "Whatevertown",
+                "description": "Okay, this one is mine.",
+                "link": "https://whatevertown.com"
+            },
+            {
+                "title": "Whatevertales",
+                "link": "https://whatevertales.com"
+            }
+        ]
+    }
+]

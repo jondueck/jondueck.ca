@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+
+<div class="wrap grid-wrap">
+    <header class="page-header">
+        <h1 class="page-title">{{ title }}</h1>
+        {% if subtitle %}
+            <span class="meta-text">{{ subtitle }}
+        {% endif %}
+        {% if date %}
+            <span class="meta-text">Updated {{ page.date | readableDate }}
+        {% endif %}
+    </header>
+
+    <div class="page-content">
+        {{ content | safe }}
+    </div>
+
+</div>

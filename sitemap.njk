@@ -1,0 +1,14 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for post in collections.all | reverse %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(site.url) %}
+    <url>
+      <loc>{{ absolutePostUrl }}</loc>
+      <lastmod>{{ post.date.toISOString() }}</lastmod>
+    </url>
+  {%- endfor %}
+</urlset>

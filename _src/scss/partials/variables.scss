@@ -1,0 +1,49 @@
+// $black : #050708;
+$black: #313f48;
+$white: #fafafa;
+$grey: mix($black, $white);
+$dark-grey: mix($grey, $black);
+$primary: #1e69d9;
+$primary: #247f5e;
+$light-grey: mix(#f0eff4, #313f48, 66%);
+
+$base-font-size: 1.25rem;
+$base-line-height: 1.6; 
+$line: $base-line-height * $base-font-size;
+
+:root {
+    color-scheme: light dark;
+    --black: #{$black};
+    --white: #{$white};
+    --light-grey: #{$light-grey};
+    --dark-grey: #{$dark-grey};
+    --body-color: #313f48;
+    --grey: #{$grey};
+    --sans: Basier, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --serif: Calluna, Georgia, serif;
+    --mono: ui-monospace, SFMono-Regular, monospace;
+    --primary-color: #{$primary};
+    --base-font-size: #{$base-font-size};
+    --base-line-height: #{$base-line-height};
+    --line: calc(var(--base-font-size) * var(--base-line-height));
+    --line-2: calc(var(--base-font-size) * var(--base-line-height) * 2);
+    --secondary-text: #{$grey};
+    --background: var(--white);
+    --body-color: var(--black);
+    --underline: var(--light-grey);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--body-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #{mix($black, black, 33%)};
+        // --background: Canvas;
+        --body-color: var(--white);
+        // --body-color: CanvasText;
+        --underline: var(--grey);
+    }
+}

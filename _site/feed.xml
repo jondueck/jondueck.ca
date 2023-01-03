@@ -1,272 +1,687 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Jon Dueck</title>
-    <description>Brand designer and front-end web developer from Winkler, Manitoba. Partner at Collectif. Personal site, blog, and portfolio.</description>
-    <link>https://jondueck.ca/</link>
-    <atom:link href="https://jondueck.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Feb 2020 22:00:16 -0600</pubDate>
-    <lastBuildDate>Mon, 10 Feb 2020 22:00:16 -0600</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
-    
-      <item>
-        <title>On Structuring My Blog</title>
-        <description>&lt;p&gt;This is the first post since launching this version of my site, so this will be something of a meta-post. One of my main goals when rebuilding my site, was to use it as an opportunity to try writing more often. I’ve always appreciated thoughtful and honest writing on design.&lt;/p&gt;
-
-&lt;p&gt;One of the blockers to launching this version of the website was how I would set up the written portion of the site. On the previous version, I had a section called “Writings”, but that title didn’t feel right.&lt;/p&gt;
-
-&lt;h3 id=&quot;blog-writings-journal-notes-all-of-the-above&quot;&gt;Blog? Writings? Journal? Notes? All of the Above?&lt;/h3&gt;
-
-&lt;p&gt;One of the blockers to launching this version of the website was how I would set up the written portion of the site. On the previous version, I had a section called “Writings”, but that title didn’t feel right.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Some footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 03 Feb 2020 14:00:00 -0600</pubDate>
-        <link>https://jondueck.ca/2020/structuring-my-blog/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2020/structuring-my-blog/</guid>
-        
-        
-        <category>Meta</category>
-        
-      </item>
-    
-      <item>
-        <title>Design in Outer Wilds</title>
-        <description>&lt;p&gt;Recently I picked up &lt;em&gt;Outer Wilds&lt;/em&gt;, a space exploration game by Mobius Digital and published by Annapurna Interactive.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://steamcdn-a.akamaihd.net/steam/apps/753640/ss_ec95a283483f0438be40d033f08b9d956e748d54.1920x1080.jpg?t=1576800094&quot; alt=&quot;Screenshot from Outer Wilds of an aerial view of an observatory&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://freight.cargo.site/t/original/i/d55f6f392ace9f2dd35129c0e9790418465b756981157c5b361f91a27417d5b4/HMVR_1340_13407.png&quot; alt=&quot;Outer Wilds logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s start with the logo, designed by &lt;a href=&quot;https://coryschmitz.com/Game-Logos&quot;&gt;Cory Schmitz&lt;/a&gt; who contributed both logo design and 2D graphic design to the project. The logo is heavily-modified versions of ITC’s &lt;a href=&quot;https://www.myfonts.com/fonts/itc/avant-garde-gothic/&quot;&gt;Avant Garde&lt;/a&gt; for “Outer” in Medium weight and ITC’s &lt;a href=&quot;https://www.myfonts.com/fonts/itc/serif-gothic/&quot;&gt;Serif Gothic&lt;/a&gt; for “Wilds” in Roman weight.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Feb 2020 14:00:00 -0600</pubDate>
-        <link>https://jondueck.ca/2020/design-in-outer-wilds/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2020/design-in-outer-wilds/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>2019 Albums of the Year</title>
-        <description>&lt;p&gt;This was a bit of an off year for me. I listened to 93 albums from this year.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://listenersclub.ca&quot;&gt;listenersclub.ca&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Bon Iver – &lt;em&gt;i,i&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Meitei – &lt;em&gt;Komachi&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Local Natives – &lt;em&gt;Violet Street&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Said The Whale – &lt;em&gt;Cascadia&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Vampire Weekend – &lt;em&gt;Father of the Bride&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Big Thief – &lt;em&gt;Two Hands&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Pedro the Lion – &lt;em&gt;Phoenix&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Emily A. Sprague, Lightbath – &lt;em&gt;full/new&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Oso Oso – &lt;em&gt;Basking in the Glow&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Wilco – &lt;em&gt;Ode to Joy&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;honourable-mentions&quot;&gt;Honourable Mentions&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;American Football – &lt;em&gt;American Football (LP3)&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Big Thief – &lt;em&gt;U.F.O.F&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Christian Scott aTunde Adjuah – &lt;em&gt;Ancestral Recall&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;duendita – &lt;em&gt;direct line to My Creator&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Jacques Greene – &lt;em&gt;Dawn Chorus&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Juan Waters – &lt;em&gt;La Onda de Juan Pablo&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Kings Kaleidoscope – &lt;em&gt;Zeal&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Mac DeMarco – &lt;em&gt;Here Comes the Cowboy&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;M83 – &lt;em&gt;DSVII&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Nilüfer Yanya – &lt;em&gt;Miss Universe&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;OCA - &lt;em&gt;Aging&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Solange – &lt;em&gt;When I Get Home&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Whitney – &lt;em&gt;Forever Turned Around&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;We Are The City – &lt;em&gt;AT NIGHT&lt;/em&gt;&lt;/li&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://jondueck.ca">
+  <title>Jon Dueck</title>
+  <subtitle>A website.</subtitle>
+  <link href="https://jondueck.ca/feed.xml" rel="self"/>
+  <link href="https://jondueck.ca"/>
+  <updated>2023-01-07T16:00:00Z</updated>
+  <id>https://jondueck.ca</id>
+  <author>
+    <name>Jon Dueck</name>
+    <email>jon@jondueck.ca</email>
+  </author>
+  <entry>
+    <title>Image Layout in Markdown</title>
+    <link href="https://jondueck.ca/journal/2023/image-layout-in-markdown/"/>
+    <updated>2023-01-07T16:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2023/image-layout-in-markdown/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;&lt;code&gt;[/img/image.jpg](alt text)&lt;/code&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>TK</title>
+    <link href="https://jondueck.ca/journal/Invalid%20DateTime/tk/"/>
+    <updated>2023-01-03T00:12:29Z</updated>
+    <id>https://jondueck.ca/journal/Invalid%20DateTime/tk/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;What I Want To Do With This Websites&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>What I Read While Building This Website</title>
+    <link href="https://jondueck.ca/journal/2023/what-i-read-while-building-this-website/"/>
+    <updated>2023-01-01T16:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2023/what-i-read-while-building-this-website/</id>
+    <content xml:lang="site.language" type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs&quot;&gt;How to Favicon in 2022: Six files that fit most needs&lt;/a&gt; by Andrey Sitnik&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://css-tricks.com/making-my-netlify-build-run-sass/&quot;&gt;Making My Netlify Build Run Sass&lt;/a&gt; by Chris Coyier&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sia.codes/posts/lite-youtube-embed-eleventy/&quot;&gt;Faster YouTube embeds in Eleventy&lt;/a&gt; by Sia Karamalegos&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://24ways.org/2018/turn-jekyll-up-to-eleventy/&quot;&gt;Turn Jekyll up to Eleventy&lt;/a&gt; by Paul Lloyd&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://11ty.recipes/recipes/add-a-sitemap/&quot;&gt;Add a Sitemap&lt;/a&gt; by Akbarsait&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        <pubDate>Tue, 31 Dec 2019 08:00:00 -0600</pubDate>
-        <link>https://jondueck.ca/2019/2019-albums-of-the-year/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/2019-albums-of-the-year/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Web We Want</title>
-        <description>&lt;p&gt;I recently came across &lt;a href=&quot;https://webwewant.fyi&quot;&gt;webwewant.fyi&lt;/a&gt;, a website “to collect your feedback about the current state of the web and to give you a voice to help shape its future.” I think that’s a worthwhile mission. Sometimes the process of bringing new features to browsers feels a tad esoteric, and maybe this will be a way to start some discussions on features that developers would like to see.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you build websites, you inevitably run into problems. Maybe there’s no way to achieve an aspect of your design using CSS. Or maybe there’s a device feature you really wish you could tap into using JavaScript. Or perhaps the in-browser DevTools don’t give you a key insight you need to do your job. We want to hear about it!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Another thing I found interesting about this project is their approach to upvoting. Rather than a button on their site, they use webmentions, so suggestions receive “votes” based on how people are actually talking about them.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Our voting system is a little different because we respect your privacy. We don’t want to require you to have an account on this site because (frankly) we have no interest in your personal information. We also want you to own your vote, so we opted to use webmentions as our voting system. Votes are tallied from webmention “bookmarks” and “likes” of each want’s page. These could be hand-crafted webmentions sent from your own site or shares and likes on social media.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For example, if I want to boost something that I would find valuable – &lt;a href=&quot;https://webwewant.fyi/wants/22/&quot; class=&quot;u-like-of&quot;&gt;container queries&lt;/a&gt;, for example – all I have to do is &lt;a href=&quot;(https://webwewant.fyi/wants/22/)&quot;&gt;share a link&lt;/a&gt; to the post, as I am doing here.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Sep 2019 09:00:00 -0500</pubDate>
-        <link>https://jondueck.ca/2019/the-web-we-want/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/the-web-we-want/</guid>
-        
-        
-        <category>Highlighted</category>
-        
-      </item>
-    
-      <item>
-        <title>“Accessibility and web performance are not features, they’re the baseline”</title>
-        <description>&lt;p&gt;Some sharp writing from &lt;a href=&quot;https://www.robinrendle.com&quot;&gt;Robin Rendle&lt;/a&gt; for &lt;a href=&quot;https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/&quot;&gt;CSS-Tricks&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Instead we must start to see inaccessible and slow websites for what they are: a form of cruelty. And if we want to build a web that is truly a World Wide Web, a place for all and everyone, a web that is accessible and fast for as many people as possible, and one that will outlive us all, then first we must make our websites something else altogether; we must make them kind.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 21 Aug 2019 14:00:00 -0500</pubDate>
-        <link>https://jondueck.ca/2019/accessability-as-the-baseline/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2019/accessability-as-the-baseline/</guid>
-        
-        
-        <category>Highlighted</category>
-        
-      </item>
-    
-      <item>
-        <title>2018 Albums of the Year</title>
-        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/&quot;&gt;Listeners Club&lt;/a&gt;. I listened to 151 albums from this year.&lt;/p&gt;
-
+</content>
+  </entry>
+  <entry>
+    <title>On Nicholas Britell’s Opening Titles for Andor</title>
+    <link href="https://jondueck.ca/journal/2022/on-nicholas-britell&#39;s-opening-titles-for-andor/"/>
+    <updated>2022-12-31T16:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/on-nicholas-britell&#39;s-opening-titles-for-andor/</id>
+    <content xml:lang="site.language" type="html">&lt;h2&gt;Episode 1 (Arc 1)&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/73fQOkfHk8Q&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;mark&gt;Vestibulum id ligula porta felis&lt;/mark&gt; euismod semper. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+&lt;h2&gt;Episode 2 (Arc 1)&lt;/h2&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.&lt;/p&gt;
+&lt;h2&gt;Episode 3 (Arc 1)&lt;/h2&gt;
+&lt;h2&gt;Episode 4 (Arc 2)&lt;/h2&gt;
+&lt;h2&gt;Episode 5 (Arc 2)&lt;/h2&gt;
+&lt;h2&gt;Episode 6 (Arc 2)&lt;/h2&gt;
+&lt;h2&gt;Episode 7&lt;/h2&gt;
+&lt;h2&gt;Episode 8 (Arc 3)&lt;/h2&gt;
+&lt;h2&gt;Episode 9 (Arc 3)&lt;/h2&gt;
+&lt;h2&gt;Episode 10 (Arc 3)&lt;/h2&gt;
+&lt;h2&gt;Episode 11 (Arc 4)&lt;/h2&gt;
+&lt;h2&gt;Episode 12 (Arc 4)&lt;/h2&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Bests of 2022</title>
+    <link href="https://jondueck.ca/journal/2022/bests-of-2022/"/>
+    <updated>2022-12-31T16:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/bests-of-2022/</id>
+    <content xml:lang="site.language" type="html">&lt;h2&gt;Albums of the Year&lt;/h2&gt;
+&lt;p&gt;I only &lt;a href=&quot;https://www.last.fm/user/dueckjon/listening-report/year&quot;&gt;listened to 52 albums this year&lt;/a&gt;. I’m not sure why my total was so low this year. This list is probably the least settled of any that I’ve ever published here. For more detailed listening statistics from this year, see my &lt;a href=&quot;https://jondueck.ca/journal/2022/listening-stats/&quot;&gt;2022 Listening Stats post&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 42px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=2669156137/size=small/bgcol=ffffff/linkcol=0687f5/track=2628480891/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;https://alvvays.bandcamp.com/album/blue-rev&quot;&gt;Blue Rev by Alvvays&lt;/a&gt;&lt;/iframe&gt;
 &lt;ol&gt;
-  &lt;li&gt;Nils Frahm – &lt;em&gt;All Melody&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Forth Wanderers – &lt;em&gt;Forth Wanderers&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Bahamas – &lt;em&gt;Earthtones&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Snail Mail – &lt;em&gt;Lush&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Pinegrove – &lt;em&gt;Skylight&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Rolling Blackouts Coastal Fever – &lt;em&gt;Hope Downs&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Leon Vynehall – &lt;em&gt;Nothing Is Still&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;We Are The City – &lt;em&gt;At Night&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Jeremy Dutcher – &lt;em&gt;Wolastoqiyik Lintuwankonawa&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Vacations – &lt;em&gt;Changes&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://alvvays.bandcamp.com/album/blue-rev&quot;&gt;&lt;em&gt;Blue Rev&lt;/em&gt;&lt;/a&gt; by Alvvays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bigthief.bandcamp.com/album/dragon-new-warm-mountain-i-believe-in-you&quot;&gt;&lt;em&gt;Dragon New Warm Mountain I Believe In You&lt;/em&gt;&lt;/a&gt; by Big Thief&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pinegrove.bandcamp.com/album/11-11&quot;&gt;&lt;em&gt;11:11&lt;/em&gt;&lt;/a&gt; by Pinegrove&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Mr. Morale &amp;amp; The Big Steppers&lt;/em&gt; by Kendrick Lamar&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://whitneychicago.bandcamp.com/album/spark&quot;&gt;&lt;em&gt;Spark&lt;/em&gt;&lt;/a&gt; by Whitney&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sandy.bandcamp.com/album/god-save-the-animals&quot;&gt;&lt;em&gt;God Save the Animals&lt;/em&gt;&lt;/a&gt; by Alex G&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://iamjohnvandeusen.bandcamp.com/album/i-am-origami-pt-4-marathon-daze&quot;&gt;&lt;em&gt;(I Am) Origami Pt. 4 Marathon Daze&lt;/em&gt;&lt;/a&gt; by John Van Deusen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blackcountrynewroad.bandcamp.com/album/ants-from-up-there&quot;&gt;&lt;em&gt;Ants From Up There&lt;/em&gt;&lt;/a&gt; by Black Country, New Road&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://barrie.bandcamp.com/album/barbara&quot;&gt;&lt;em&gt;Barbara&lt;/em&gt;&lt;/a&gt; by Barrie&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://samgendel.bandcamp.com/album/blueblue&quot;&gt;&lt;em&gt;blueblue&lt;/em&gt;&lt;/a&gt; by Sam Gendel&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-        <pubDate>Mon, 31 Dec 2018 22:30:00 -0600</pubDate>
-        <link>https://jondueck.ca/2018/2018-albums-of-the-year/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2018/2018-albums-of-the-year/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>2017 Albums of the Year</title>
-        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/2017/&quot;&gt;Listeners Club&lt;/a&gt;. I listened to 144 albums from this year.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Favourite Lyric&lt;/strong&gt;: &lt;br /&gt;“Light years away and you’ve got so much life to offer in you” – &lt;a href=&quot;https://youtu.be/I2DFWOkioy4?t=41&quot;&gt;&lt;em&gt;Many Mirrors&lt;/em&gt;&lt;/a&gt; by Alvvays&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Favourite Album Art&lt;/strong&gt;: &lt;br /&gt;&lt;a href=&quot;https://dawnrichard.bandcamp.com/album/pigments&quot;&gt;&lt;em&gt;Pigments&lt;/em&gt; by Dawn Richard and Spencer Zahn&lt;/a&gt;, cover photography by Monty Marsh&lt;/p&gt;
+&lt;h2&gt;Podcasts of the Year&lt;/h2&gt;
+&lt;p&gt;Based on episodes released in the year 2022.&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Broken Social Scene – &lt;em&gt;Hug of Thunder&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Kendrick Lamar – &lt;em&gt;DAMN.&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Nick Hakim – &lt;em&gt;Green Twins&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;The War on Drugs – &lt;em&gt;A Deeper Understanding&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Gord Downie – &lt;em&gt;Introduce Yerself&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Big Thief – &lt;em&gt;Capacity&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Grizzly Bear – &lt;em&gt;Painted Ruins&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;(Sandy) Alex G – &lt;em&gt;Rocket&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Julie Byrne – &lt;em&gt;Not Even Happiness&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Fleet Foxes – &lt;em&gt;Crack-Up&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.earwolf.com/show/comedy-bang-bang/&quot;&gt;Comedy Bang! Bang!&lt;/a&gt;&lt;/em&gt; by Scott Aukerman&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://podcast.play.date/&quot;&gt;Playdate Podcast&lt;/a&gt;&lt;/em&gt; by Panic&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.earwolf.com/show/threedom/&quot;&gt;Threedom&lt;/a&gt;&lt;/em&gt; by Lauren Lapkus, Paul F Tompkins, and Scott Aukerman&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.cbc.ca/listen/cbc-podcasts/209-front-burner&quot;&gt;Front Burner&lt;/a&gt;&lt;/em&gt; by the CBC, hosted by Jayme Poisson&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.earwolf.com/show/the-neighborhood-listen/&quot;&gt;The Neighbourhood Listen&lt;/a&gt;&lt;/em&gt; by Paul F Tompkins and Nicole Parker&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-        <pubDate>Sun, 31 Dec 2017 04:30:00 -0600</pubDate>
-        <link>https://jondueck.ca/2017/2017-albums-of-the-year/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2017/2017-albums-of-the-year/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>2016 Albums of the Year</title>
-        <description>&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/2016/&quot;&gt;Listeners Club&lt;/a&gt;.&lt;/p&gt;
-
+&lt;h2&gt;Movies of the Year&lt;/h2&gt;
+&lt;p&gt;I watched &lt;a href=&quot;https://letterboxd.com/jondueck/films/year/2022/&quot;&gt;11 films from 2022&lt;/a&gt; in 2022. &lt;a href=&quot;https://letterboxd.com/jondueck/films/diary/for/2022/year/2022/&quot;&gt;Most of those were in the final week of the year&lt;/a&gt;, so this ranking was hastily assembled and very subject to change.&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Chance the Rapper – &lt;em&gt;Coloring Book&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Bon Iver – &lt;em&gt;22, A Milion&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Local Natives – &lt;em&gt;Sunlit Youth&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Frank Ocean – &lt;em&gt;Blonde&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Solange – &lt;em&gt;A Seat at the Table&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Childish Gambino – &lt;em&gt;“Awaken, My Love!”&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Whitney – &lt;em&gt;Light Upon the Lake&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Florist – &lt;em&gt;The Birds Outside Sang&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Noname – &lt;em&gt;Telefone&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Pinegrove – &lt;em&gt;Cardinal&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/after-yang/&quot;&gt;After Yang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/tar-2022/&quot;&gt;Tár&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/aftersun/&quot;&gt;Aftersun&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/everything-everywhere-all-at-once/&quot;&gt;Everything Everywhere All At Once&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/decision-to-leave/&quot;&gt;Decision to Leave&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/the-banshees-of-inisherin/&quot;&gt;The Banshees of Inisherin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/glass-onion-a-knives-out-mystery/&quot;&gt;Glass Onion&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-        <pubDate>Sat, 31 Dec 2016 04:30:00 -0600</pubDate>
-        <link>https://jondueck.ca/2016/2016-albums-of-the-year/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2016/2016-albums-of-the-year/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Day One in the life of</title>
-        <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Aug 2015 11:00:00 -0500</pubDate>
-        <link>https://jondueck.ca/2015/state-of-collectif/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2015/state-of-collectif/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Five Design Questions</title>
-        <description>&lt;h2 id=&quot;1--tell-us-who-you-are-in-one-sentence&quot;&gt;1 – Tell us who you are in one sentence.&lt;/h2&gt;
+&lt;!-- **Favourite Score**:  --&gt;
+&lt;h2&gt;TV of the Year&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Severance (Apple TV+)&lt;/li&gt;
+&lt;li&gt;The Rehearsal (HBO)&lt;/li&gt;
+&lt;li&gt;Andor (Disney+)&lt;/li&gt;
+&lt;li&gt;The Lord of the Rings: The Rings of Power (Amazon Prime)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Favourite TV Scores&lt;/strong&gt;:&lt;br /&gt; &lt;em&gt;The Rings of Power&lt;/em&gt; by Bear McCready and &lt;em&gt;Andor&lt;/em&gt; by Nicholas Britell&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Favourite Title Sequence&lt;/strong&gt;: &lt;em&gt;Severance&lt;/em&gt; by &lt;a href=&quot;https://www.extraweg.com/severance&quot;&gt;extraweg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Favourite Theme Song&lt;/strong&gt;: &lt;em&gt;The White Lotus: Season 2&lt;/em&gt; – &lt;a href=&quot;https://youtu.be/q8Ea2tysrrc&quot;&gt;Renaissance (Main Title Theme)&lt;/a&gt; by Cristobal Tapia de Veer (I didn’t watch this season in time, so that’s why it didn’t make the list)&lt;/p&gt;
+&lt;h2&gt;Videos of the Year&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/779coR-XPTw&quot;&gt;Action Button Reviews: Boku no Natsuyasumi&lt;/a&gt;&lt;/em&gt; by Tim Rogers&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/YQ_xWvX1n9g&quot;&gt;Line Goes Up – The Problem with NFTs&lt;/a&gt;&lt;/em&gt; by Folding Ideas&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/vjqt8T3tJIE&quot;&gt;Did People Used To Look Older?&lt;/a&gt;&lt;/em&gt; by Vsauce&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/pQRKDBpZ_5g&quot;&gt;How Real is The Rehearsal&lt;/a&gt;&lt;/em&gt; by Thomas Flight&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/N73GXN_pb7g&quot;&gt;The Complete Philosophy of The Lord of the Rings&lt;/a&gt;&lt;/em&gt; by Like Stories of Old&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Books Read this Year&lt;/h2&gt;
+&lt;p&gt;I read &lt;a href=&quot;https://www.goodreads.com/user/year_in_books/2022/5173121&quot;&gt;26 books&lt;/a&gt; this year. Here are a few of my favourites that I read this year, in no particular order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/35710862-pilgrim-at-tinker-creek&quot;&gt;&lt;em&gt;Pilgrim at Tinker Creek&lt;/em&gt;&lt;/a&gt; by Annie Dillard (1974)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/55298333-jesus-and-john-wayne&quot;&gt;&lt;em&gt;Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation&lt;/em&gt;&lt;/a&gt; by Kristen du Mez (2020)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/59060680-the-anthropocene-reviewed&quot;&gt;&lt;em&gt;The Anthropocene Reviewed&lt;/em&gt;&lt;/a&gt; by John Green (2021)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/35630309-beren-and-l-thien&quot;&gt;&lt;em&gt;Beren and Lúthien&lt;/em&gt;&lt;/a&gt; by JRR Tolkien, edited by Christopher Tolkien (2017)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/25053132-h-is-for-hawk&quot;&gt;&lt;em&gt;H is for Hawk&lt;/em&gt;&lt;/a&gt; by Helen Macdonald (2014)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Video Games Played this Year&lt;/h2&gt;
+&lt;p&gt;Started and/or completed in 2022.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Legend of Zelda: Breath of the Wild&lt;/em&gt; (2017) – Nintendo Switch&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Disco Elysium&lt;/em&gt; (2019) - MacOS&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;FAR: Lone Sails&lt;/em&gt; (2019) – Nintendo Switch&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A Short Hike&lt;/em&gt; (2019) – Nintendo Switch&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Olli Olli World&lt;/em&gt; (2022) – Nintendo Switch&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2022 Listening Stats</title>
+    <link href="https://jondueck.ca/journal/2022/listening-stats/"/>
+    <updated>2022-12-30T18:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/listening-stats/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;I primarily listen to music via Spotify (even when I own the music), but this year I trialled Apple Music for a bit as well. That meant that my Spotify Wrapped wasn’t quite right. Thanks to &lt;a href=&quot;https://www.theverge.com/2022/11/22/23473358/lastfm-discord-bot-neil-young-spotify&quot;&gt;Last.fm (which just turned 20)&lt;/a&gt;, I’ve compiled my own version.&lt;/p&gt;
+&lt;p&gt;I listened to &lt;a href=&quot;https://www.last.fm/user/dueckjon/library/artists?from=2022-01-01&amp;amp;to=2022-12-31&quot;&gt;431 different artists&lt;/a&gt;, 672 different albums, and &lt;a href=&quot;https://www.last.fm/user/dueckjon/library/tracks?from=2022-01-01&amp;amp;to=2022-12-31&quot;&gt;2089 different songs&lt;/a&gt; for a total of &lt;a href=&quot;https://www.last.fm/user/dueckjon/library?from=2022-01-01&amp;amp;to=2022-12-31&quot;&gt;4471 plays&lt;/a&gt;, &lt;a href=&quot;https://www.last.fm/user/dueckjon/listening-report/year&quot;&gt;down 33% from last year&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’ve ordered my most-played lists by playtime. I think is the same way that Spotify orders their lists, and probably a better weighting than pure track plays. A big thanks to Patrick McDonough’s &lt;a href=&quot;https://pmcdonough8133.github.io/last.timer/&quot;&gt;last.timer&lt;/a&gt; tool for helping me to easily compile these lists. Time shown is in hours.&lt;/p&gt;
+&lt;h2&gt;Most-Played Artists&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Whitney – 11:09&lt;/li&gt;
+&lt;li&gt;Sam Gendel – 11:03&lt;/li&gt;
+&lt;li&gt;Sufjan Stevens – 8:54&lt;/li&gt;
+&lt;li&gt;John Van Deusen – 7:57&lt;/li&gt;
+&lt;li&gt;Big Thief – 5:53&lt;/li&gt;
+&lt;li&gt;Alvvays – 5:40&lt;/li&gt;
+&lt;li&gt;Pinegrove – 5:28&lt;/li&gt;
+&lt;li&gt;Kendrick Lamar – 5:02&lt;/li&gt;
+&lt;li&gt;Nala Sinephro – 4:47&lt;/li&gt;
+&lt;li&gt;Land of Talk – 4:18&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Most-Played Songs&lt;/h2&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 42px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=1229969833/size=small/bgcol=ffffff/linkcol=0687f5/track=1760119530/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://whitneychicago.bandcamp.com/track/twirl&quot;&gt;&lt;em&gt;Twirl&lt;/em&gt; by Whitney&lt;/a&gt; – 2:20, 31 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pinegrove.bandcamp.com/track/habitat&quot;&gt;&lt;em&gt;Habitat&lt;/em&gt; by Pinegrove&lt;/a&gt; – 2:11, 11 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nalasinephro.bandcamp.com/track/space-8&quot;&gt;&lt;em&gt;Space 8&lt;/em&gt; by Nala Sinephro&lt;/a&gt; – 1:45, 6 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bigthief.bandcamp.com/track/wake-me-up-to-drive&quot;&gt;&lt;em&gt;Wake Me Up to Drive&lt;/em&gt;&lt;/a&gt; by Big Thief – 1:36, 26 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://whitneychicago.bandcamp.com/track/county-lines&quot;&gt;&lt;em&gt;County Lines&lt;/em&gt; by Whitney&lt;/a&gt; – 1:27, 26 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://intlanthem.bandcamp.com/track/resavoir&quot;&gt;&lt;em&gt;Resavoir&lt;/em&gt; by Resavoir&lt;/a&gt; – 1:26, 15 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://alvvays.bandcamp.com/track/tom-verlaine&quot;&gt;&lt;em&gt;Tom Verlaine&lt;/em&gt; by Alvvays&lt;/a&gt; – 1:18, 23 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://iamjohnvandeusen.bandcamp.com/track/oh-sweetest-name&quot;&gt;&lt;em&gt;Oh Sweetest Name&lt;/em&gt; by John Van Deusen&lt;/a&gt; – 1:18, 26 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nalasinephro.bandcamp.com/track/space-4&quot;&gt;&lt;em&gt;Space 4&lt;/em&gt; by Nala Sinephro&lt;/a&gt; – 1:15, 12 Plays&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://iamjohnvandeusen.bandcamp.com/track/uninspired-blowing-smoke&quot;&gt;&lt;em&gt;Uninspired, Blowing Smoke&lt;/em&gt;&lt;/a&gt; by John Van Deusen – 1:14, 21 Plays&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;I’ll publish my favourite albums as a part of my &lt;a href=&quot;https://jondueck.ca/journal/2022/bests-of-2022/&quot;&gt;Bests of 2022&lt;/a&gt; post, tomorrow.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Essential Christmas Songs</title>
+    <link href="https://jondueck.ca/journal/2022/canonizing/"/>
+    <updated>2022-12-24T00:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/canonizing/</id>
+    <content xml:lang="site.language" type="html">&lt;blockquote&gt;
+&lt;p&gt;“What are five songs where it Just Isn’t Christmas if you haven’t heard them?”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This was a question that &lt;a href=&quot;https://blog.interestingtimes.ca/2022/12/15/canonizing/&quot;&gt;Nathan&lt;/a&gt; asked me, and &lt;a href=&quot;https://blog.interestingtimes.ca/2022/12/15/canonizing/&quot;&gt;asked himself on his blog&lt;/a&gt;. He gave me a secondary challenge of limiting my list to only one Sufjan Stevens song, knowing that the list would only be one artist otherwise.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;“Christmas in the Room” or “Only At Christmas Time” by Sufjan Stevens&lt;/h2&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 42px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=3123296626/size=small/linkcol=0687f5/track=59852439/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;https://music.sufjan.com/album/silver-gold&quot;&gt;Silver &amp;amp; Gold by Sufjan Stevens&lt;/a&gt;&lt;/iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 42px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=798104856/size=small/bgcol=ffffff/linkcol=0687f5/track=3750621659/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;https://music.sufjan.com/album/songs-for-christmas&quot;&gt;Songs for Christmas by Sufjan Stevens&lt;/a&gt;&lt;/iframe&gt;
+&lt;p&gt;From the beginning, I’m cheating, but it’s very hard to pick &lt;em&gt;just one&lt;/em&gt; Sufjan Stevens Christmas song. Across his two official collections, he’s published 100 Christmas songs that span every emotion of the season.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sufjanstevens.bandcamp.com/track/christmas-in-the-room-2&quot;&gt;&lt;em&gt;Christmas in the Room&lt;/em&gt;&lt;/a&gt; is always the first of his tracks that I put on when I decide that it is indeed Christmas Music Season. &lt;a href=&quot;https://sufjanstevens.bandcamp.com/track/only-at-christmas-time&quot;&gt;&lt;em&gt;Only at Christmas Time&lt;/em&gt;&lt;/a&gt; is more spiritual – written in a way that feels understandable as a whole, but becomes mysterious when examined line-by-line.&lt;/p&gt;
+&lt;p&gt;Maybe I’ll write more one day about Stevens’ role in my Chrsitmas canon but &lt;a href=&quot;https://tylerhuckabee.substack.com/p/ill-have-a-bad-christmas-thats-certain&quot;&gt;Tyler Huckabee recently wrote about how his music captures an authentic Christmas spirit&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Other artists treat Christmas schmaltziness as an obstacle to overcome, but Sufjan embraces it. (…) Slapdash orchestras, one-take singalongs and grand yuletide symphonies with the seams showing. (…) This is, to me, as close to the spirit of Christmas as humans are likely to get.
+&lt;cite&gt;Clusterhuck&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;“Christmastime is Here” by Vince Guaraldi Trio&lt;/h2&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 42px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=807688521/size=small/linkcol=0687f5/track=1478098172/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;https://vinceguaraldi.bandcamp.com/album/a-charlie-brown-christmas-remastered-expanded-edition&quot;&gt;A Charlie Brown 
+Christmas: Remastered &amp;amp; Expanded Edition by Vince Guaraldi Trio&lt;/a&gt;&lt;/iframe&gt;
+&lt;p&gt;Vince Guaraldi has a Bandcamp page? &lt;em&gt;A Charlie Brown Christmas&lt;/em&gt; has long been my go-to Christmas movie. The whole record is great, but &lt;a href=&quot;https://vinceguaraldi.bandcamp.com/track/christmas-time-is-here-instrumental&quot;&gt;this track&lt;/a&gt; especially suspends you in Christmas spirit.&lt;/p&gt;
+&lt;p&gt;I’m glad to see &lt;a href=&quot;https://blog.interestingtimes.ca/2022/12/15/canonizing/&quot;&gt;this made Nathan’s list&lt;/a&gt; as well.&lt;/p&gt;
+&lt;h2&gt;“Xmas Curtain” by My Morning Jacket&lt;/h2&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 42px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=1534053455/size=small/linkcol=0687f5/track=1217300565/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;https://mmorningjacket.bandcamp.com/album/my-morning-jacket-does-xmas-fiasco-style&quot;&gt;My Morning Jacket Does Xmas Fiasco Style by My Morning Jacket&lt;/a&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://mmorningjacket.bandcamp.com/track/xmas-curtain&quot;&gt;Their version from &lt;em&gt;My Morning Jacket Does Xmas Fiasco Style&lt;/em&gt;&lt;/a&gt;, specifically. The first three tracks of their Christmas record have such an easy-going melancholy style.&lt;/p&gt;
+&lt;h2&gt;“In the Bleak Midwinter” by Bombay Bicycle Club&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/ZTkW09o7a9c?t=4&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One of my favourite classic Christmas carols. This was the first Christmas song that I listened to this year. In Manitoba, midwinter is indeed bleak. Bombay Bicycle’s version with Liz Lawrence for BBC Radio 1 is perfectly tender with some beautiful breathy horns.&lt;/p&gt;
+&lt;p&gt;I do wish we could hear Jack Steadman’s delivery of the line “Our God, Heaven cannot hold Him” with the scotch snaps in the middle, but that verse didn’t make the cut.&lt;/p&gt;
+&lt;h2&gt;“The Christmas Waltz” by Sleeping At Last&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://open.spotify.com/track/5UhLEgHEH7njjDMWEPoktS?si=0e6b3a2362304c1c&quot;&gt;Spotify&lt;/a&gt; / &lt;a href=&quot;https://music.apple.com/ca/album/the-christmas-waltz/1298273516?i=1298275170%5D&quot;&gt;Apple Music&lt;/a&gt; / &lt;a href=&quot;https://youtu.be/tssdnou08Dg&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My 20&lt;sup&gt;th&lt;/sup&gt; century classic pick for this list. This cover, specifically, is gentle, lonely, sweet, and hopeful.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Honourable Mentions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;“Alone on Christmas Day” by The Beach Boys &lt;br /&gt; An unreleased song written in 1977 and not &lt;em&gt;really&lt;/em&gt; available online. &lt;a href=&quot;https://youtu.be/ZHkcl2ub9G0&quot;&gt;A cover by Phoenix appeared in Bill Murray’s Netflix Christmas special&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saidthewhale.bandcamp.com/track/the-weight-of-the-season&quot;&gt;“The Weight of the Season” by Said The Whale&lt;/a&gt; &lt;br /&gt; “Oh bleak December, oh holy night”&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/E8gmARGvPlI&quot;&gt;“Last Christmas” by Wham!&lt;/a&gt; &lt;br /&gt; My favourite pop Christmas song of the past few decades&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sufjanstevens.bandcamp.com/track/were-goin-to-the-country&quot;&gt;“We’re Going to the Country” by Sufjan Stevens&lt;/a&gt;&lt;br /&gt;Can I have one more Sufjan song?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://open.spotify.com/playlist/6Sr1H84VsqnlonGfHb87ey?si=2cc57b188c374dc0&quot;&gt;Here’s a Spotify playlist&lt;/a&gt;, if you’re cramming to get into the Christmas spirit.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Further Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.vulture.com/2022/11/sufjan-stevens-christmas-music-interview.html&quot;&gt;’Tis the Season for Sufjan: The singer-songwriter reflects on what he’s learned about the holidays after releasing 100 Christmas songs&lt;/a&gt; by Craig Jenkins, 2022&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Paprika Wrapped 2022</title>
+    <link href="https://jondueck.ca/journal/2022/recipes-wrapped/"/>
+    <updated>2022-12-09T00:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/recipes-wrapped/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;After seeing friends sharing their Spotify Wrappeds, and Apple Music Replays, I joked on Twitter:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’d like to see Paprika Wrapped. I want to know which recipes my friends have been cooking most this year.
+&lt;cite&gt;&lt;a href=&quot;https://twitter.com/jondueck/status/1598134799138447360&quot;&gt;@jondueck on Twitter&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.paprikaapp.com/&quot;&gt;Paprika&lt;/a&gt;, here, is the recipe management app that I use on MacOS and iOS. I think it’s a little funny to imagine their take on Spotify Wrapped, but I also sincerely think that it would be interesting to see which dishes my friends are making the most often.&lt;/p&gt;
+&lt;p&gt;I have no real way of knowing which recipes were my most frequently-cooked, but here are a few of my regulars that I went for in the kitchen this year.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-2-hour-weeknight-pizza&quot;&gt;Two-Hour Weeknight Pizza&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Recipe by Ethan Chlebowski&lt;/p&gt;
+&lt;p&gt;While this recipe has started to be replaced by &lt;a href=&quot;https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect&quot;&gt;Ooni’s &lt;em&gt;Classic Pizza Dough&lt;/em&gt;&lt;/a&gt;, Ethan’s recipe was the recipe I used for most of the year.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://cooking.nytimes.com/recipes/1022131-sheet-pan-bibimbap&quot;&gt;Sheet Pan Bibimbap&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Recipe by Eric Kim for the New York Times&lt;/p&gt;
+&lt;p&gt;Easy and flexible. I often made this after grocery shopping – putting away the groceries while the vegetables roasted.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.ethanchlebowski.com/cooking-techniques-recipes/grilled-chicken-club-sando&quot;&gt;Grilled Chicken Club Sandwich&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Recipe by Ethan Chlebowski&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.epicurious.com/recipes/food/views/masa-pancakes-alan-delgado&quot;&gt;Masa Pancakes&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Recipe by Alan Delgado of Xilonen for Epicurious&lt;/p&gt;
+&lt;p&gt;A great twist on pancakes. The masa adds a nice bit of floral freshness. I liked getting the masa started first thing in the morning, going for a walk around the neighbourhood, and then coming back to make the pancakes.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies&quot;&gt;BA’s Best Chocolate Chip Cookies&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Recipe by Chris Morocco for Bon Appétit&lt;/p&gt;
+&lt;p&gt;My go-to cookie the last two or three years. Takes a bit of extra time with browning the butter, but really not too much work. A big hit with my friends.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;If you’re reading this, I’d love to know what your regular recipes were this year.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Some Lines from Pilgrim at Tinker Creek</title>
+    <link href="https://jondueck.ca/journal/2022/some-lines-from-pilgrim-at-tinker-creek/"/>
+    <updated>2022-11-15T23:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/some-lines-from-pilgrim-at-tinker-creek/</id>
+    <content xml:lang="site.language" type="html">&lt;blockquote&gt;
+&lt;p&gt;It’s a good place to live; there’s a lot to think about.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If the day is fine, any walk will do; it all looks good.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The answer must be, I think, that beauty and grace are performed whether or not we will or sense them. The least we can do is try to be there.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I like the slants of light; I’m a collector. That’s a good one, I say, that bit of bank there, the snakeskin and the aquarium, that patch of light from the creek on bark.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The season changed two hours ago. Will my life change as well?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Beauty is real. I would never deny it; the appalling thing is that I forget it.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Photos from British Columbia</title>
+    <link href="https://jondueck.ca/journal/2022/photos-from-british-columbia/"/>
+    <updated>2022-11-11T18:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/photos-from-british-columbia/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;Two friends and I took a short trip to Port Moody and Vancouver, BC in October. It was my first trip out of the province since 2019, and my first time visiting BC since 2004. BC is far too nice of a place to stay away for that long.&lt;/p&gt;
+&lt;p&gt;Here are a few photos from Lynn Canyon, Vancouver, and Stanley Park.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jondueck.ca/src/img/bc2022/JDSR3088.jpg#half&quot; alt=&quot;wooden stairs in a forest&quot; /&gt;
+&lt;img src=&quot;https://jondueck.ca/src/img/bc2022/JDSR3106.jpg#half&quot; alt=&quot;forest floor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jondueck.ca/src/img/bc2022/JDSR3024.jpg&quot; alt=&quot;light filters through the forest&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jondueck.ca/src/img/bc2022/JDSR3094.jpg&quot; alt=&quot;a women looks off in the distance, light leaks in&quot; /&gt;&lt;/p&gt;
+&lt;!-- ![a woman looks up into the distance amongst trees](/src/img/bc2022/JDSR3047.jpg) --&gt;
+&lt;p&gt;&lt;img src=&quot;https://jondueck.ca/src/img/bc2022/JDSR3040.jpg#half&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://jondueck.ca/src/img/bc2022/JDSR3063.jpg#half&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The H*cksite</title>
+    <link href="https://jondueck.ca/journal/2022/the-h*cksite/"/>
+    <updated>2022-11-04T23:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/the-h*cksite/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;Since the early 2010s, Twitter has been my favourite social media website.&lt;/p&gt;
+&lt;p&gt;In early 2009, I became the 21,456,280&lt;sup&gt;th&lt;/sup&gt; user, but it wasn’t until 2012 that I really got into it as I became interested in graphic design and web development. Facebook and Instagram were where my friends were. Twitter was a way to see to the world – designers and developers I was inspired by. Much of what I learned in my early days, and even now, I’ve learned from Twitter.&lt;/p&gt;
+&lt;p&gt;Then, there was &lt;a href=&quot;https://www.buzzfeednews.com/article/jwherrman/weird-twitter-the-oral-history&quot;&gt;Weird Twitter&lt;/a&gt;. I could curate a stream of joke writers, and I enjoyed sharing them with my Twitter-using friends. For a time, I co-wrote an anonymous account with a friend. It was great fun trying to make each other laugh. I’ll leave that account anonymous.&lt;/p&gt;
+&lt;p&gt;I write as though Twitter has gone away. It hasn’t. But, it does feel like some part of it has already slipped away, and other parts are fading.&lt;/p&gt;
+&lt;p&gt;Elon Musk’s arrival as owner and sole director has altered at least the timbre of the site, if not much of the actual product just yet. It seemsh telling that &lt;a href=&quot;https://www.theverge.com/2022/11/1/23435092/elon-musk-twitter-blue-verification-cost-ads-search&quot;&gt;the first product change was to take what was once a symbol of trust for users&lt;/a&gt; and commodify it – then to mock those who thought that verification had a utility beyond status.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can only monetize the parts of this service everyone already hates. You&#39;re optimizing for noise and bankrupting the signal.
+&lt;cite&gt;&lt;a href=&quot;https://twitter.com/David_Rudnick/status/1587004248931311622&quot;&gt;David Rudnick, @David_Rudnick&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In Nilay Patel’s essay for The Verge, &lt;em&gt;&lt;a href=&quot;https://www.theverge.com/2022/10/28/23428132/elon-musk-twitter-acquisition-problems-speech-moderation&quot;&gt;Welcome to [h*ck], Elon&lt;/a&gt;&lt;/em&gt;, TK TK TK&lt;/p&gt;
+&lt;!-- Sure, there were a lot of issues with Twitter. It was affectionately known as [a h*cksite](https://en.wiktionary.org/wiki/hellsite). --&gt;
+&lt;p&gt;In the past year, &lt;a href=&quot;https://jondueck.ca/subscribed&quot;&gt;RSS&lt;/a&gt; has grown as a way that I consume the internet. It’s the calmest way to digest the web. My time spent in Reeder is more enjoyable than even Tweetbot can be. I expect that this will inspire me to write more for RSS as a way to diversify from Twitter, but there’s no direct replacement for what I’d miss from Twitter. Of all the social networks, Twitter was the one for words and thoughts.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For those of us who are word people, this was once our place. […] TikTok may be exciting and engaging, but it’s not about words.
+&lt;cite&gt;&lt;a href=&quot;https://twitter.com/alexismadrigal/status/1588031749342183424&quot;&gt;Alexis C. Madrigal, @alexismadrigal&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Twitter has never been where most of my close friends are. For the most part, that’s been Instagram, but that too seems to be fading.&lt;/p&gt;
+&lt;p&gt;Twitter is the place that I can post photos I take, short thoughts, links to my blog posts, links to others’s media, and natively re-post others’ content. There’s no direct replacement for that.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Whatever they choose, it seems increasingly clear that Twitter will never be the same.
+&lt;cite&gt;&lt;a href=&quot;https://www.theverge.com/2022/11/7/23446262/elon-musk-twitter-paywall-possible&quot;&gt;Casey Newton for The Verge&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’ll miss Twitter. I already miss Twitter.&lt;/p&gt;
+&lt;!-- ---
+
+Further reading
+
+- [*Welcome to Hell, Elon* by Nilay Patel for The Verge](https://www.theverge.com/2022/10/28/23428132/elon-musk-twitter-acquisition-problems-speech-moderation) --&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Fall 2022 Playlist</title>
+    <link href="https://jondueck.ca/journal/2022/fall-playlist/"/>
+    <updated>2022-10-12T13:15:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/fall-playlist/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;It’s hard to admit that it’s time to start on a fall playlist. We’ve had an unusually gentle transition to autumn here.&lt;/p&gt;
+&lt;p&gt;New records from Alvvays (&lt;em&gt;&lt;a href=&quot;https://alvvays.bandcamp.com/album/blue-rev&quot;&gt;Blue Rev&lt;/a&gt;&lt;/em&gt;) and Alex G (&lt;em&gt;&lt;a href=&quot;https://sandy.bandcamp.com/album/god-save-the-animals&quot;&gt;God Save The Animals&lt;/a&gt;&lt;/em&gt;) seem perfectly timed for inclusion in this season. Earlier releases, like Big Thief’s &lt;em&gt;&lt;a href=&quot;https://bigthief.bandcamp.com/album/dragon-new-warm-mountain-i-believe-in-you&quot;&gt;Dragon New Warm Mountain I Believe In You&lt;/a&gt;&lt;/em&gt; from February and Kaitlyn Aurelia Smith &amp;amp; Emile Mosseri’s &lt;em&gt;&lt;a href=&quot;https://kaitlynaureliasmith.bandcamp.com/album/i-could-be-your-dog-i-could-be-your-moon&quot;&gt;I Could Be Your Dog/I Could Be Your Moon&lt;/a&gt;&lt;/em&gt; from May, may be even better in this season.&lt;/p&gt;
+&lt;p&gt;I’ve tried to make selections that still maintain a little hope through the cooling weather, a little warmth for comfort, and some cooler tunes.&lt;/p&gt;
+&lt;p&gt;The playlist is still in progress, but you can listen to it on &lt;a href=&quot;https://music.apple.com/ca/playlist/fall-2022-wip/pl.u-XkEJU4Y5PvP&quot;&gt;Apple Music&lt;/a&gt; or &lt;a href=&quot;https://open.spotify.com/album/5WO3XC0JXnH9PmFNQTHPpL?si=TOotoG32Q1ukPsoeSvACuw&quot;&gt;Spotify&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/jondueck&quot;&gt;Tweet at me&lt;/a&gt; if you have any other suggestions.&lt;/p&gt;
+&lt;p&gt;I shot the cover photo in September around Lake Minnewasta on iPhone X.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jondueck.ca/src/img/fall-2022.jpg&quot; alt=&quot;sunlight breaks through trees in green, yellow, and red leaves&quot; /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Making a Twitter Bot</title>
+    <link href="https://jondueck.ca/journal/2022/botdueck/"/>
+    <updated>2022-05-14T03:30:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/botdueck/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;I’ve wanted to make a Twitter bot that tweets horse_ebooks-esque nonsense based on my personal tweets for a while. It took six years from the creation of the account until I had a working bot. &lt;a href=&quot;https://twitter.com/botdueck&quot;&gt;@botdueck&lt;/a&gt; is finally live.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trying to find out what Design Twitter is upset about.
+&lt;cite&gt;&lt;a href=&quot;https://twitter.com/botdueck/status/1523150774314110976&quot;&gt;@botdueck, 7 May 2022&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The bot takes the content of my previous personal tweets and remixes them into new posts, via &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators&quot;&gt;Markov chains&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This was my first time making anything of this sort and it’s all thanks to &lt;a href=&quot;https://github.com/tommeagher/heroku_ebooks&quot;&gt;Tom Meagher’s heroku_ebooks&lt;/a&gt; repo. With Tom’s guide and a lot of trial and error, I was able to get the Twitter API working, and set up a worker on heroku to automatically post every now and then.&lt;/p&gt;
+&lt;p&gt;Follow, if you’d like. I can’t guarantee the quality.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I make this cup of coffee long.
+&lt;cite&gt;&lt;a href=&quot;https://twitter.com/botdueck/status/1524071966365433859&quot;&gt;@botdueck, 10 May 2022&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+  <entry>
+    <title>To CSS-Tricks</title>
+    <link href="https://jondueck.ca/journal/2022/to-css-tricks/"/>
+    <updated>2022-03-16T01:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2022/to-css-tricks/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;Today, &lt;a href=&quot;https://css-tricks.com/css-tricks-is-joining-digitalocean/&quot;&gt;Chris Coyier announced that CSS-Tricks&lt;/a&gt; has been acquired by DigitalOcean. It’s hard to describe how valuable CSS-Tricks has been for me, and probably anyone else who has written any amount of front-end code.&lt;/p&gt;
+&lt;p&gt;CSS-Tricks was a constant source of learning when I was starting with CSS, HTML, and Wordpress, but it has remained a constant resource to this very day. The writing was always clear for a beginner to understand, concise enough to refer back to, and written with enough character to always make it an enjoyable read. To me, it represents the very best of the web.&lt;/p&gt;
+&lt;p&gt;As &lt;a href=&quot;https://www.robinrendle.com/notes/an-ode-to-css-tricks/&quot;&gt;Robin Rendle put it in &lt;em&gt;An Ode to CSS-Tricks&lt;/em&gt;&lt;/a&gt;,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Whenever I’ve been stuck on a front-end problem or whenever I hit a snag with something, there is an almost 100% chance that Chris would’ve already written about the problem and the 18 different solutions to it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After 15 years of running the site, Chris deserves to pass it off. I’m generally sceptical when publically-traded tech companies acquire small indie companies, especially those that have always been so close to their community, but I trust that Christ would leave it in good hands.&lt;/p&gt;
+&lt;p&gt;I wish Chris and the team all the best.&lt;/p&gt;
+&lt;p&gt;(CSS-Tricks is so important to me that I’ve revived the blog portion of my website.)&lt;/p&gt;
+&lt;!-- [Envato did a lovely video about Chris in 2015](https://youtu.be/kRmbVOI6oIM) that captures his passion well – at least to this stranger. --&gt;
+&lt;hr /&gt;
+&lt;p&gt;Further listening: &lt;a href=&quot;https://shoptalkshow.com/508/&quot;&gt;ShopTalk Show, “508: Sold Any Blogs Lately?”&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Bests of 2021</title>
+    <link href="https://jondueck.ca/journal/2021/bests-of-2021/"/>
+    <updated>2022-01-01T05:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2021/bests-of-2021/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;It’s been a h*ck of another year.&lt;/p&gt;
+&lt;h2&gt;Albums of the Year&lt;/h2&gt;
+&lt;p&gt;I &lt;a href=&quot;https://www.last.fm/user/dueckjon/listening-report/year&quot;&gt;listened to 112 albums this year&lt;/a&gt;. These were my favourites. The top two are the top two, but the rest of the order is a little less clear.&lt;/p&gt;
+&lt;ol start=&quot;0&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://floatingpoints.bandcamp.com/album/promises&quot;&gt;&lt;em&gt;Promises&lt;/em&gt;&lt;/a&gt; by Floating Points, Pharoah Sanders, London Symphony Orchestra&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nalasinephro.bandcamp.com/album/space-18&quot;&gt;&lt;em&gt;Space 1.8&lt;/em&gt;&lt;/a&gt; by Nala Sinephro&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sufjanstevens.bandcamp.com/album/a-beginners-mind&quot;&gt;&lt;em&gt;A Beginner’s Mind&lt;/em&gt;&lt;/a&gt; by Sufjan Stevens &amp;amp; Angelo De Augustine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wearetyphoon.bandcamp.com/album/sympathetic-magic&quot;&gt;&lt;em&gt;Sympathetic Magic&lt;/em&gt;&lt;/a&gt; by Typhoon&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://anothermichael.bandcamp.com/album/new-music-and-big-pop&quot;&gt;&lt;em&gt;New Music and Big Pop&lt;/em&gt;&lt;/a&gt; by Another Michael&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://agreatbigpileofleaves.bandcamp.com/album/pono&quot;&gt;&lt;em&gt;Pono&lt;/em&gt;&lt;/a&gt; by A Great Big Pile of Leaves&lt;!--&lt;br&gt;I’m sure that this album could have ranked higher, but unfortunately it was recommended to me after summer. This feels like a good summer album.--&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fayewebster.bandcamp.com/album/i-know-im-funny-haha&quot;&gt;&lt;em&gt;I Know I’m Funny haha&lt;/em&gt;&lt;/a&gt; by Faye Webster&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nataliebergman.bandcamp.com/album/mercy&quot;&gt;&lt;em&gt;Mercy&lt;/em&gt;&lt;/a&gt; by Natalie Bergman&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lotalker.bandcamp.com/album/a-comedy-of-errors-2&quot;&gt;&lt;em&gt;A Comedy of Errors&lt;/em&gt;&lt;/a&gt; by Lo Talker&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kiwijr.bandcamp.com/album/cooler-returns&quot;&gt;&lt;em&gt;Cooler Returns&lt;/em&gt;&lt;/a&gt; by Kiwi jr&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Honourable Mentions&lt;/h3&gt;
+&lt;p&gt;BADBADNOTGOOD, Jaubi, Portico Quartet, Sam Gendel, Sungazer, The War on Drugs&lt;/p&gt;
+&lt;h3&gt;Other Categories&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Favourite Song&lt;/strong&gt;: &lt;em&gt;&lt;a href=&quot;https://lotalker.bandcamp.com/track/unknown-transmission-arrives&quot;&gt;Unknown Transmission Arrives&lt;/a&gt;&lt;/em&gt; by Lo Talker, from A Comedy of Errors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Favourite Lyric&lt;/strong&gt;: “Love me for an abstract length of time” – &lt;em&gt;&lt;a href=&quot;https://lotalker.bandcamp.com/track/unknown-transmission-arrives&quot;&gt;Unknown Transmission Arrives&lt;/a&gt;&lt;/em&gt; by Lo Talker, from A Comedy of Errors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Favourite Album Title&lt;/strong&gt;: &lt;em&gt;&lt;a href=&quot;https://justicecow.bandcamp.com/album/open-the-phone-and-talk-on-the-phone-with-you&quot;&gt;Open the Phone and Talk on the Phone with You&lt;/a&gt;&lt;/em&gt; by Ben Levin &amp;amp; Justice Cow&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Favourite Album Art&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://nalasinephro.bandcamp.com/album/space-18&quot;&gt;&lt;em&gt;Space 1.8&lt;/em&gt;&lt;/a&gt; by Nala Sinephro, Design by Maziyar Pahlevan, Painting by Daniela Yohannes &lt;em&gt;or&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fayewebster.bandcamp.com/album/i-know-im-funny-haha&quot;&gt;&lt;em&gt;I Know I’m Funny haha&lt;/em&gt;&lt;/a&gt; by Faye Webster, Artwork by Luke Webster, Photography by Eat Humans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Podcasts of the Year&lt;/h2&gt;
+&lt;p&gt;Based on episodes released in the year 2021.&lt;/p&gt;
+&lt;ol start=&quot;0&quot;&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.earwolf.com/show/comedy-bang-bang/&quot;&gt;Comedy Bang! Bang!&lt;/a&gt;&lt;/em&gt; by Scott Aukerman&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.earwolf.com/show/threedom/&quot;&gt;Threedom&lt;/a&gt;&lt;/em&gt; by Lauren Lapkus, Paul F Tompkins, and Scott Aukerman&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.cbc.ca/listen/cbc-podcasts/209-front-burner&quot;&gt;Front Burner&lt;/a&gt;&lt;/em&gt; by the CBC, hosted by Jayme Poisson&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://stayfhomekins.buzzsprout.com/&quot;&gt;Stay F. Homekins&lt;/a&gt;&lt;/em&gt; by Paul F Tompkins and Janie Haddad Tompkins&lt;br /&gt;&lt;!--My Podcast of 2020 drops mainly because they moved to one episode per month. Still nice to listen to.--&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://maximumfun.org/podcasts/triple-click/&quot;&gt;Triple Click&lt;/a&gt;&lt;/em&gt; by Kirk Hamilton, Maddy Myers, and Jason Schreier&lt;!--&lt;br&gt;As a person who is interested in games but is not qualified to be _a gamer_, their “What’s the Deal With…” episodes were helpful.--&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://shows.acast.com/oeuvre-busters&quot;&gt;Ouevre Busters&lt;/a&gt;&lt;/em&gt; by Liam Billingham and George Fragopoulos&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://ohnotype.co/info/ohno-radio&quot;&gt;Ohno Radio&lt;/a&gt;&lt;/em&gt; by James Edmondson of Ohno Type Co&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- Honourable 2021 discovery: Blank Check --&gt;
+&lt;h2&gt;Video Games of the Year*&lt;/h2&gt;
+&lt;p&gt;I only played two games released in 2021, so these are my favourite games that I played this year. I made an effort to finish more games this year. I still left &lt;em&gt;Breath of the Wild&lt;/em&gt;, &lt;em&gt;Outer Wilds&lt;/em&gt;, and &lt;em&gt;Ghost of Tsushima&lt;/em&gt; unfinished, so you can probably expect to see those titles on this list next year.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Legend of Zelda: Breath of the Wild&lt;/em&gt; (2017) – Nintendo Switch&lt;br /&gt;My friends convinced me to start going after bosses and trying to b&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Gardens In Between&lt;/em&gt; (2018) – Nintendo Switch&lt;br /&gt;Lovely little puzzle game. The ideal game to play before bed, and I mean that in the best way possible.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Stardew Valley&lt;/em&gt; (2016) – Steam&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Donut County&lt;/em&gt; (2018) – Nintendo Switch&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;For the King&lt;/em&gt; (2017) - Nintendo Switch, Steam&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Florence&lt;/em&gt; (2020) – Nintendo Switch&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://everydaylouie.itch.io/windsor-road&quot;&gt;Windsor Road&lt;/a&gt;&lt;/em&gt; (2021) – GB Rom/Itch.io&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Picross S2&lt;/em&gt; (2018) – Nintendo Switch&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Knockout City&lt;/em&gt; (2021) – Nintendo Switch/PS4&lt;br /&gt;Enjoyed this game with friends. You can play for quite a while for free. I enjoyed it enough to purchase a year of EA Play, but eventually my friends levelled up beyond the free limit and I ran out of teammates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other Categories&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Favourite Game Score of 2021&lt;/strong&gt;: &lt;em&gt;Sable&lt;/em&gt; by Japanese Breakfast&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Favourite Art Direction of 2021&lt;/strong&gt;: &lt;em&gt;Sable&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Books of the Year*&lt;/h2&gt;
+&lt;p&gt;I read &lt;a href=&quot;https://www.goodreads.com/user/year_in_books/2021/5173121&quot;&gt;34 books&lt;/a&gt;. Here are a few of my favourites that I read this year, in no particular order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Lord of the Rings&lt;/em&gt; (1954–55) [Trilogy] by JRR Tolkien&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Policing Black Lives&lt;/em&gt; (2017) by Robin Maynard&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;How To Do Nothing&lt;/em&gt; (2019) by Jenny Odell&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ways of Seeing&lt;/em&gt; (1972) by John Berger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Movies of the Year&lt;/h2&gt;
+&lt;p&gt;I only watched &lt;a href=&quot;https://letterboxd.com/jondueck/films/year/2021/&quot;&gt;five films from 2021&lt;/a&gt; in 2021.&lt;/p&gt;
+&lt;ol start=&quot;0&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/dune-2021/&quot;&gt;&lt;em&gt;Dune&lt;/em&gt;&lt;/a&gt;, directed by Denis Villeneuve&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/minari/&quot;&gt;&lt;em&gt;Minari&lt;/em&gt;&lt;/a&gt;[^minari], directed by Lee Isaac Chung&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/ActionButton/videos&quot;&gt;Action Button Reviews Cyberpunk 2077&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://letterboxd.com/film/the-green-knight/crew/&quot;&gt;The Green Knight&lt;/a&gt;&lt;/em&gt;, directed by David Lowery&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://letterboxd.com/film/bo-burnham-inside/&quot;&gt;&lt;em&gt;Inside&lt;/em&gt;&lt;/a&gt; by Bo Burnham&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Favourite Score&lt;/strong&gt;: &lt;em&gt;Minari&lt;/em&gt; by Emile Mosseri&lt;/p&gt;
+&lt;h2&gt;TV of the Year&lt;/h2&gt;
+&lt;p&gt;I watched seven shows from 2021 and liked six[^lasso] of them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Beatles: Get Back&lt;/li&gt;
+&lt;li&gt;WandaVision&lt;/li&gt;
+&lt;li&gt;Loki&lt;/li&gt;
+&lt;li&gt;Busted (범인은 바로 너!)&lt;/li&gt;
+&lt;li&gt;New World (신세계로부터)&lt;/li&gt;
+&lt;li&gt;Squid Game (오징어 게임)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Videos of the Year&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.youtube.com/c/ActionButton/videos&quot;&gt;Action Button Reviews Cyberpunk 2077&lt;/a&gt;&lt;/em&gt; by Tim Rogers, and the 5 other videos that make up Action Button Reviews Season 1&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/Qfi9JpgMc2U&quot;&gt;9/21/21&lt;/a&gt;&lt;/em&gt; by Demi Adejuyigbe &lt;br /&gt;End of an era.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/3MhwGnq4N9o&quot;&gt;The Great Myth of the Medievel Tritone Ban&lt;/a&gt;&lt;/em&gt; by Adam Neely&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/3MhwGnq4N9o&quot;&gt;The Rise and Fall of the McElroy Fandom&lt;/a&gt;&lt;/em&gt; by Sarah Z&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/Cr_rb_pitHk&quot;&gt;An Exhaustive History of Ralph Bakshi’s Lord of the Rings&lt;/a&gt;&lt;/em&gt; by Folding Ideas&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://youtu.be/DuLuxNfeCn4&quot;&gt;A Tool With No Blood On It&lt;/a&gt;&lt;/em&gt; by Hank Green&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[^minari]: Technically a 2020 release, but only wide released in 2021.
+[^lasso]: Everybody else likes that show, though.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Bests of 2020</title>
+    <link href="https://jondueck.ca/journal/2020/bests-of-2020/"/>
+    <updated>2020-12-31T16:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2020/bests-of-2020/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;It’s been a h*ck of a year, but there was some nice media to help me get through it.&lt;/p&gt;
+&lt;h2&gt;Albums of the Year&lt;/h2&gt;
+&lt;p&gt;While I had my most song plays since 2014, I only tracked 79 albums from 2020. In rough order:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://fleetfoxes.bandcamp.com/album/shore&quot;&gt;Shore&lt;/a&gt;&lt;/em&gt; by Fleet Foxes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://pinegrove.bandcamp.com/album/marigold&quot;&gt;Marigold&lt;/a&gt;&lt;/em&gt; by Pinegrove&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://andyshauf.bandcamp.com/album/the-neon-skyline&quot;&gt;Neon Skyline&lt;/a&gt;&lt;/em&gt; by Andy Shauf&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Women in Music Pt. III&lt;/em&gt; by Haim&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://sufjanstevens.bandcamp.com/album/the-ascension&quot;&gt;The Ascension&lt;/a&gt;&lt;/em&gt; by Sufjan Stevens&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://adriannelenker.bandcamp.com/album/songs&quot;&gt;Songs&lt;/a&gt;&lt;/em&gt; by Adrienne Lenker&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://bombaybicycle.bandcamp.com/album/everything-else-has-gone-wrong&quot;&gt;Everything Else Has Gone Wrong&lt;/a&gt;&lt;/em&gt; by Bombay Bicycle Club&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://diners.bandcamp.com/album/leisure-world-2&quot;&gt;Leisure World&lt;/a&gt;&lt;/em&gt; by Diners&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://bonnylighthorseman.bandcamp.com/album/bonny-light-horseman&quot;&gt;Bonny Light Horseman&lt;/a&gt;&lt;/em&gt; by Bonny Light Horseman&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://tracemountains.bandcamp.com/album/lost-in-the-country&quot;&gt;Lost In The Country&lt;/a&gt;&lt;/em&gt; by Trace Mountains&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://whitneychicago.bandcamp.com/album/candid&quot;&gt;Candid&lt;/a&gt;&lt;/em&gt; by Whitney&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://lomelda.bandcamp.com/album/hannah&quot;&gt;Hannah&lt;/a&gt;&lt;/em&gt; by Lomelda&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://phoebebridgers.bandcamp.com/album/punisher&quot;&gt;Punisher&lt;/a&gt;&lt;/em&gt; by Phoebe Bridgers&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://sufjanstevens.bandcamp.com/album/aporia&quot;&gt;Aporia&lt;/a&gt;&lt;/em&gt; by Sufjan &amp;amp; Lowell&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://specific.bandcamp.com/album/lovetheism&quot;&gt;LOVETHEISM&lt;/a&gt;&lt;/em&gt; by Haru Nemuri&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Podcasts of the Year&lt;/h2&gt;
+&lt;p&gt;Based on episodes released in the year 2020.&lt;/p&gt;
+&lt;ol start=&quot;0&quot;&gt;
+&lt;li&gt;&lt;em&gt;Stay F. Homekins&lt;/em&gt; – Paul F Tompkins &amp;amp; Janie Haddad Tompkins&lt;br /&gt;A welcome companion through this year. I guess it&#39;s a good thing that this show might end sometime this coming year, but it&#39;s kind of sad too.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Reply All&lt;/em&gt; – PJ Vogt &amp;amp; Alex Goldman&lt;br /&gt;From QAn*n to trying to find a song that you heard in the grocery store, Reply All is still the best at understanding the internet.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Front Burner&lt;/em&gt; – CBC&lt;br /&gt;In a year of quick-moving news, Front Burner was a handy, digestible way to stay informed without getting to caught up in it all.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Comedy Bang! Bang!&lt;/em&gt; – Scott Aukerman (+ Cal Solomon, August Lindt, Darren Matichek, Max Keeper, etc)&lt;br /&gt;Despite the challenges of producing this kind of show remotely, it was as funny as ever. As proof, listen to the &lt;em&gt;Best of 2020&lt;/em&gt; Episodes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Young Adult Movie Ministry&lt;/em&gt; – Alissa Wilkinson &amp;amp; Sam Thielman&lt;br /&gt;It&#39;s kind of like &lt;em&gt;Good Christian Fun&lt;/em&gt; but a tad more serious?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Video Games of the Year&lt;/h2&gt;
+&lt;p&gt;2020 was the year that I finally bought a Nintendo Switch. I had been wanting to play &lt;em&gt;Breath of the Wild&lt;/em&gt; since it came out, but it took Public Health telling me to stay at home before I actually bought a Switch. I only played 2 games from 2020, so this list is 2020 games first, followed by other games I started this year – in no particular order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Animal Crossing: New Horizons&lt;/em&gt; (2020) – Nintendo Switch&lt;br /&gt;The first game I bought for my Switch. The perfect game for this year.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ghost of Tsushima&lt;/em&gt; (2020) – PS4&lt;br /&gt;The first AAA RPG I’ve played on PS4. This game has beautiful lighting.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Outer Wilds&lt;/em&gt; (2019) – PS4&lt;br /&gt;The first game that I got into during the early days of staying at home. Quirky and enjoyable.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Legend of Zelda: Breath of the Wild&lt;/em&gt; (2017) – Nintendo Switch&lt;br /&gt;Late to this one. Not the first to say this one is great.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;FIFA 21&lt;/em&gt; (2020) – PS4&lt;br /&gt;I just like playing FIFA, ok?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Books of the Year&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/user/year_in_books/2020/5173121&quot;&gt;I read 23 books&lt;/a&gt; in 2020. One short of my goal of 24. I read a few books from 2019, but only two books from 2020 – &lt;em&gt;The Skin We&#39;re In&lt;/em&gt; by Desmond Cole and &lt;em&gt;Why We&#39;re Polarized&lt;/em&gt; by Ezra Klein.&lt;/p&gt;
+&lt;!-- - *The Skin We’re In* (2020) by Desmond Cole
+- *Why We’re Polarized* (2020) by Ezra Klein
+- *Trick Mirror* (2019) by Jia Tolentino
+- *The Mezzanine* (1988) by Nicholson Baker
+- *The Hobbit* (1937) by JRR Tolkien
+- *Recursion* (2019) by Blake Crouch
+- *The Lathe of Heaven* (1971) by Ursula K Le Guin
+- *Dune* (1965) by Frank Herbert --&gt;
+&lt;h2&gt;Movies of the Year&lt;/h2&gt;
+&lt;p&gt;I tracked &lt;a href=&quot;https://letterboxd.com/jondueck/films/year/2020/&quot;&gt;4 films from 2020&lt;/a&gt;: one musical and two standup specials. So I don&#39;t think I’ll rank them. &lt;a href=&quot;https://letterboxd.com/film/palm-springs-2020/&quot;&gt;&lt;em&gt;Palm Springs&lt;/em&gt;&lt;/a&gt; ends up in first place by default. I’ll try to do better next year.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2019 Albums of the Year</title>
+    <link href="https://jondueck.ca/journal/2019/2019-albums-of-the-year/"/>
+    <updated>2019-12-31T14:00:00Z</updated>
+    <id>https://jondueck.ca/journal/2019/2019-albums-of-the-year/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;This was a bit of an off year for me. I listened to 93 albums from this year.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://listenersclub.ca/&quot;&gt;listenersclub.ca&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bon Iver – &lt;em&gt;i,i&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meitei – &lt;em&gt;Komachi&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Local Natives – &lt;em&gt;Violet Street&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Said The Whale – &lt;em&gt;Cascadia&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Vampire Weekend – &lt;em&gt;Father of the Bride&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Big Thief – &lt;em&gt;Two Hands&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Pedro the Lion – &lt;em&gt;Phoenix&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Emily A. Sprague, Lightbath – &lt;em&gt;full/new&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Oso Oso – &lt;em&gt;Basking in the Glow&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Wilco – &lt;em&gt;Ode to Joy&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Honourable Mentions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;American Football – &lt;em&gt;American Football (LP3)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Big Thief – &lt;em&gt;U.F.O.F&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Christian Scott aTunde Adjuah – &lt;em&gt;Ancestral Recall&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;duendita – &lt;em&gt;direct line to My Creator&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jacques Greene – &lt;em&gt;Dawn Chorus&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Juan Waters – &lt;em&gt;La Onda de Juan Pablo&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kings Kaleidoscope – &lt;em&gt;Zeal&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mac DeMarco – &lt;em&gt;Here Comes the Cowboy&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;M83 – &lt;em&gt;DSVII&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nilüfer Yanya – &lt;em&gt;Miss Universe&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OCA - &lt;em&gt;Aging&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Solange – &lt;em&gt;When I Get Home&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Whitney – &lt;em&gt;Forever Turned Around&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;We Are The City – &lt;em&gt;AT NIGHT&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2018 Albums of the Year</title>
+    <link href="https://jondueck.ca/journal/2018/2018-albums-of-the-year/"/>
+    <updated>2019-01-01T04:30:00Z</updated>
+    <id>https://jondueck.ca/journal/2018/2018-albums-of-the-year/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/&quot;&gt;Listeners Club&lt;/a&gt;. I listened to 151 albums from this year.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Nils Frahm – &lt;em&gt;All Melody&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Forth Wanderers – &lt;em&gt;Forth Wanderers&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Bahamas – &lt;em&gt;Earthtones&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Snail Mail – &lt;em&gt;Lush&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Pinegrove – &lt;em&gt;Skylight&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rolling Blackouts Coastal Fever – &lt;em&gt;Hope Downs&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Leon Vynehall – &lt;em&gt;Nothing Is Still&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;We Are The City – &lt;em&gt;At Night&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jeremy Dutcher – &lt;em&gt;Wolastoqiyik Lintuwankonawa&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Vacations – &lt;em&gt;Changes&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2017 Albums of the Year</title>
+    <link href="https://jondueck.ca/journal/2017/2017-albums-of-the-year/"/>
+    <updated>2017-12-31T10:30:00Z</updated>
+    <id>https://jondueck.ca/journal/2017/2017-albums-of-the-year/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/2017/&quot;&gt;Listeners Club&lt;/a&gt;. I listened to 144 albums from this year.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Broken Social Scene – &lt;em&gt;Hug of Thunder&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kendrick Lamar – &lt;em&gt;DAMN.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nick Hakim – &lt;em&gt;Green Twins&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The War on Drugs – &lt;em&gt;A Deeper Understanding&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gord Downie – &lt;em&gt;Introduce Yerself&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Big Thief – &lt;em&gt;Capacity&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Grizzly Bear – &lt;em&gt;Painted Ruins&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;(Sandy) Alex G – &lt;em&gt;Rocket&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Julie Byrne – &lt;em&gt;Not Even Happiness&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Fleet Foxes – &lt;em&gt;Crack-Up&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2016 Albums of the Year</title>
+    <link href="https://jondueck.ca/journal/2016/2016-albums-of-the-year/"/>
+    <updated>2016-12-31T10:30:00Z</updated>
+    <id>https://jondueck.ca/journal/2016/2016-albums-of-the-year/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;As originally posted on &lt;a href=&quot;https://listenersclub.ca/2016/&quot;&gt;Listeners Club&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Chance the Rapper – &lt;em&gt;Coloring Book&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Bon Iver – &lt;a href=&quot;https://boniver.bandcamp.com/album/22-a-million&quot;&gt;&lt;em&gt;22, A Milion&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Local Natives – &lt;a href=&quot;https://localnativesmusic.bandcamp.com/album/sunlit-youth&quot;&gt;&lt;em&gt;Sunlit Youth&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Frank Ocean – &lt;em&gt;Blonde&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Solange – &lt;em&gt;A Seat at the Table&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Childish Gambino – &lt;em&gt;&amp;quot;Awaken, My Love!&amp;quot;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Whitney – &lt;em&gt;Light Upon the Lake&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Florist – &lt;em&gt;The Birds Outside Sang&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Noname – &lt;em&gt;Telefone&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Pinegrove – &lt;em&gt;Cardinal&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Five Design Questions</title>
+    <link href="https://jondueck.ca/journal/2014/five-design-questions/"/>
+    <updated>2014-10-26T04:56:00Z</updated>
+    <id>https://jondueck.ca/journal/2014/five-design-questions/</id>
+    <content xml:lang="site.language" type="html">&lt;h2&gt;1 – Tell us who you are in one sentence.&lt;/h2&gt;
 &lt;p&gt;I’m a graphic designer and front-end web developer working at Co-op@home during the day and building up my own design studio — Collectif — in my spare time with Josiah Wiebe.&lt;/p&gt;
-
-&lt;h2 id=&quot;2--if-you-werent-a-designer-what-would-you-do&quot;&gt;2 – If you weren’t a designer, what would you do?&lt;/h2&gt;
+&lt;h2&gt;2 – If you weren’t a designer, what would you do?&lt;/h2&gt;
 &lt;p&gt;I think I’ve pursued because it’s the thing that I feel like I can do. Of course, I’d love to do more with music, but for now I’m content to play with my friends once a week. Perhaps I’d study architecture or history, or explore photography.&lt;/p&gt;
-
-&lt;h2 id=&quot;3--what-is-something-you-wished-you-designed-either-because-you-love-it-or-because-you-feel-you-could-have-done-it-better&quot;&gt;3 – What is something you wished you designed, either because you love it, or because you feel you could have done it better?&lt;/h2&gt;
+&lt;h2&gt;3 – What is something you wished you designed, either because you love it, or because you feel you could have done it better?&lt;/h2&gt;
 &lt;p&gt;At the moment I’m really inspired by everything coming out of SaturdayHill. The kind of stuff you wish you’d done.&lt;/p&gt;
-
-&lt;h2 id=&quot;4--what-was-your-biggest-design-mistake&quot;&gt;4 – What was your biggest design mistake?&lt;/h2&gt;
+&lt;h2&gt;4 – What was your biggest design mistake?&lt;/h2&gt;
 &lt;p&gt;Scheduling either too little time, or too many projects at once. I’m still learning to say “no”.&lt;/p&gt;
-
-&lt;h2 id=&quot;5--what-advice-would-you-give-someone-entering-the-design-field&quot;&gt;5 – What advice would you give someone entering the design field?&lt;/h2&gt;
+&lt;h2&gt;5 – What advice would you give someone entering the design field?&lt;/h2&gt;
 &lt;p&gt;Talk to designers that you know, and follow those that you don’t on Twitter. Honestly, a lot of the new techniques and tools that I learn about are via Twitter. It’s a great way to see what they’re reading and who they’re inspired by. It’s also a great way to talk to them. Reach out. Ask questions, or thank them for building that tool that you enjoy.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 25 Oct 2014 23:56:00 -0500</pubDate>
-        <link>https://jondueck.ca/2014/five-design-questions/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2014/five-design-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Status Update</title>
-        <description>
-</description>
-        <pubDate>Wed, 09 Apr 2014 23:56:00 -0500</pubDate>
-        <link>https://jondueck.ca/2014/status-update/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2014/status-update/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Day One in the life of</title>
-        <description>&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Mar 2014 22:56:00 -0600</pubDate>
-        <link>https://jondueck.ca/2014/a-day-one-in-the-life-of/</link>
-        <guid isPermaLink="true">https://jondueck.ca/2014/a-day-one-in-the-life-of/</guid>
-        
-        
-      </item>
-    
-  </channel>
-</rss>
+</content>
+  </entry>
+  <entry>
+    <title>Status Update</title>
+    <link href="https://jondueck.ca/journal/2014/status-update/"/>
+    <updated>2014-04-10T04:56:00Z</updated>
+    <id>https://jondueck.ca/journal/2014/status-update/</id>
+    <content xml:lang="site.language" type="html"></content>
+  </entry>
+  <entry>
+    <title>A Day One in the life of</title>
+    <link href="https://jondueck.ca/journal/2014/a-day-one-in-the-life-of/"/>
+    <updated>2014-03-04T04:56:00Z</updated>
+    <id>https://jondueck.ca/journal/2014/a-day-one-in-the-life-of/</id>
+    <content xml:lang="site.language" type="html">&lt;p&gt;I wrote an entry on Day One &lt;em&gt;Publish&lt;/em&gt; outlining one of my favourite ways to journal. &lt;a href=&quot;http://dayone.me/1Tqz4W&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>

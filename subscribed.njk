@@ -1,0 +1,33 @@
+---
+title: Blogs, RSS Feeds, and Newsletters I Subscribe To
+layout: page.njk
+date: Last Modified
+updated: true
+redirect_from:
+- "/subscriptions/"
+- "/newsletters/"
+- "/following/"
+---
+
+<p>What I'm subscribed to. I use <a href="https://reederapp.com">Reeder</a> (via Feedly) for RSS subscriptions. If newsletters are on Substack, I still sign up via email, but then I read them via their RSS feed instead.</p>
+<p>Am I missing any good feeds? Am I missing yours? <a href="https://twitter.com/jondueck">Let me know.</a></p>
+
+{% for topic in subscribed %}
+    <h2>{{ topic.title}}</h2>
+    <ul class="">
+    {% for feed in topic.feeds %}
+        <li>
+            {% if feed.link %}<a href="{{ feed.link }}">{% endif %}
+            <strong class="">{{ feed.title }}</strong>
+            {% if feed.link %}</a>{% endif %}
+            {% if feed.paid == true %}<sup>$</sup>{% endif %}
+            {% if feed.author %}<span class="">&nbsp;by {{ feed.author }}</span>{% endif %}
+            {% if feed.description %}<br><span class="">{{ feed.description }}</span>{% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+
+{% endfor %}
+<hr>
+
+<p>I’m also <a href="/podcasts/">subscribed to a few podcasts</a>.</p>

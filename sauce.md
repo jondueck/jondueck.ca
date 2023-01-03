@@ -1,9 +1,9 @@
 ---
-title: Sauce
+title: Chick-Fil-A Sauces
 permalink: "/sauce/"
 layout: page
-description: Jon Dueck's guide to the best Chick-Fil-A sauces.
-updated: true
+description: Jon Dueck’s guide to the best Chick-Fil-A sauces.
+eleventyExcludeFromCollections: true
 ---
 
 ## Conventional

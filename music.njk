@@ -1,0 +1,22 @@
+---
+layout: page.njk
+title: Music
+description: Demos and jams. I wish Twitter allowed audio uploads.
+subtitle: Demos, and the like.
+---
+
+<ul reversed class="journal-list">
+{% for song in collections.music | reverse %}
+  <li>
+    <div>
+      <a href="{{ song.url | url }}" class="postlist-link">{{ song.data.title }}</a>
+    </div>
+    <time datetime="{{ song.date.toUTCString() }}">{{ song.date | readableDate}}</time>
+    {# {% if song.data.audio %}
+      <audio controls style="width: 100%;">
+        <source src="{{ song.data.audio }}" type="audio/mpeg">
+      </audio>
+    {% endif %} #}
+  </li>
+{% endfor %}
+</ul>

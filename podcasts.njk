@@ -1,0 +1,21 @@
+---
+title: Podcasts
+layout: page.njk
+date: Last Modified
+---
+{% for topic in podcasts %}
+    <h2>{{ topic.title}}</h2>
+    <ul class="">
+    {% for podcast in topic.podcasts %}
+        <li>
+            {% if podcast.link %}<a href="{{ podcast.link }}">{% endif %}
+            <strong class="">{{ podcast.title }}</strong>
+            {% if podcast.link %}</a>{% endif %}
+            {% if podcast.paid == true %}<sup>$</sup>{% endif %}
+            {% if podcast.author %} <span class="">by {{ podcast.author }}</span>{% endif %}
+            {% if podcast.description %}<br><span class="">{{ podcast.description }}</span>{% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+
+{% endfor %}

@@ -1,0 +1,18 @@
+{
+    "title": "Jon Dueck",
+    "tagline": "A site under construction.",
+    "url": "https://jondueck.ca",
+    "language": "en",
+    "description": "Designer & Developer",
+    "feed": {
+      "subtitle": "A website.",
+      "filename": "feed.xml",
+      "path": "/feed.xml",
+      "id": "https://jondueck.ca"
+    },
+    "author": {
+      "name": "Jon Dueck",
+      "email": "jon@jondueck.ca",
+      "url": "https://jondueck.ca/about"
+    }
+  }
