@@ -12,10 +12,10 @@ Whitecap is a specialty coffee shop in Winkler, MB. At [Collectif](https://colle
 
 ![Whitecap tea menu](/src/img/whitecap_tea.jpg)
 
-![black tee with Whitecap logo](/src/img/whitecap_shirt_logo.jpg){:.half}
-![white tee with Whitecap wordmark](/src/img/whitecap_shirt_wordmark.jpg){:.half}
+![black tee with Whitecap logo](/src/img/whitecap_shirt_logo.jpg#half)
+![white tee with Whitecap wordmark](/src/img/whitecap_shirt_wordmark.jpg)
 
-![white tee that says "riding the third wave" in warped text](/src/img/whitecap_shirt_riding.jpg){:.half}
-![white tee that says "drinking coffee"](/src/img/whitecap_shirt_drinking-coffee.jpg){:.half}
+![white tee that says "riding the third wave" in warped text](/src/img/whitecap_shirt_riding.jpg#half)
+![white tee that says "drinking coffee"](/src/img/whitecap_shirt_drinking-coffee.jpg#half)
 
 ![](/src/img/whitecap_window.jpg#half)
