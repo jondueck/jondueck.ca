@@ -5,6 +5,7 @@ layout: post.njk
 author: Jon Dueck
 external: 
 redirect: 
+tags: music
 ---
 
 As originally posted on [Listeners Club](https://listenersclub.ca/2017/). I listened to 144 albums from this year.

@@ -2,6 +2,7 @@
 date: 2022-12-30 12:00:00 -06:00
 title: 2022 Listening Stats
 permalink: /journal/2022/listening-stats/
+tag: music
 ---
 
 I primarily listen to music via Spotify (even when I own the music), but this year I trialled Apple Music for a bit as well. That meant that my Spotify Wrapped wasn’t quite right. Thanks to [Last.fm (which just turned 20)](https://www.theverge.com/2022/11/22/23473358/lastfm-discord-bot-neil-young-spotify), I’ve compiled my own version.

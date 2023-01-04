@@ -3,7 +3,7 @@ title: Essential Christmas Songs
 layout: post.njk
 permalink: '/journal/2022/canonizing/'
 emoji: 🎄
-tags: christmas
+tags: [christmas, music]
 ---
 
 > “What are five songs where it Just Isn’t Christmas if you haven’t heard them?”

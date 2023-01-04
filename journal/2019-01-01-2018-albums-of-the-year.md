@@ -6,6 +6,7 @@ author: Jon Dueck
 external: 
 redirect: 
 permalink: /journal/2018/2018-albums-of-the-year/
+tags: music
 ---
 
 As originally posted on [Listeners Club](https://listenersclub.ca/). I listened to 151 albums from this year.

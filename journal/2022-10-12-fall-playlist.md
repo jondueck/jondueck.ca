@@ -6,6 +6,7 @@ author: Jon Dueck
 image: /src/img/fall-2022.jpg
 permalink: /journal/2022/fall-playlist/
 banner: /src/img/fall-2022.jpg
+tags: music
 ---
 
 It’s hard to admit that it’s time to start on a fall playlist. We’ve had an unusually gentle transition to autumn here.

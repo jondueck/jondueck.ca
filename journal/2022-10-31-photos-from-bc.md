@@ -5,7 +5,7 @@ layout: post.njk
 author: Jon Dueck
 ---
 
-Two friends and I took a short trip to Port Moody and Vancouver, BC in October. It was my first trip out of the province since 2019, and my first time visiting BC since 2004. BC is far too nice of a place to stay away for that long.
+In October, two friends and I took a short trip to Port Moody and Vancouver, British Columbia. It was my first trip out of the province since 2019, and my first time visiting BC since 2004. BC is far too nice of a place to stay away for that long.
 
 Here are a few photos from Lynn Canyon, Vancouver, and Stanley Park.
 

@@ -3,6 +3,7 @@ title: 2019 Albums of the Year
 date: 2019-12-31 08:00:00 -06:00
 layout: post.njk
 author: Jon Dueck
+tags: music
 ---
 
 This was a bit of an off year for me. I listened to 93 albums from this year.
