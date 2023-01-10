@@ -81,9 +81,22 @@
                 "link": "https://reaganray.com/blog/"
             },
             {
+                "title": "Austin Kleon",
+                "link": "https://austinkleon.com/"
+            },
+            {
                 "title": "Brand, Packaging, and Opionion",
                 "author": "Richard Baird",
                 "link": "https://bpando.org"
+            },
+            {
+                "title": "Alissa Wilkinson @ Vox",
+                "link": "https://www.vox.com/authors/alissa-wilkinson"
+            },
+            {
+                "title": "The Newsprint",
+                "author": "Josh Ginter",
+                "link": "https://thenewsprint.co/"
             }
         ]
     },
@@ -107,6 +120,7 @@
                 "link": "https://designharder.substack.com/",
                 "author": "Erik Carter"
             },
+            
             {
                 "title": "The History of the Web",
                 "link": "https://thehistoryoftheweb.com",
@@ -129,6 +143,11 @@
                 "title": "Garbage Day",
                 "link": "https://www.garbageday.email",
                 "author": "Ryan Broderick"
+            },
+            {
+                "title": "Clusterhuck",
+                "author": "Tyler Huckabee",
+                "link": "https://tylerhuckabee.substack.com/"
             },
             {
                 "title": "JFresh’s Newsletter",
