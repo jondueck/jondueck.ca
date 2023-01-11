@@ -6,7 +6,7 @@ tags: ['meta', 'Bring Back Blogging', 'reblog']
 
 *Post 2/3 as a part of [Bring Back Blogging](https://bringback.blog).*
 
-Yesterday, [Noah Jacobus started his new blog](https://noahjacob.us/words/writing-in-the-open). [It’s called *Some Yay*, because he’s an icon *sommelier*](https://twitter.com/Jabronus/status/1612841704414920710). For his opening post, he revealed some “potential” posts he’s working on. I’m looking forward to reading these when they’re published, but I found it interesting just to see kinds of posts he’s thinking about.
+Yesterday, [Noah Jacobus started his new blog](https://noahjacob.us/words/writing-in-the-open). [It’s called *Small Yay*, because he’s an icon *sommelier*](https://twitter.com/Jabronus/status/1612841704414920710). For his opening post, he revealed some “potential” posts he’s working on. I’m looking forward to reading these when they’re published, but I found it interesting just to see kinds of posts he’s thinking about.
 
 Borrowing that idea, here are the working titles for a few drafts in my folder: 
 
