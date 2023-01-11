@@ -2,6 +2,8 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const { DateTime } = require("luxon");
 
+const footnotes = require('eleventy-plugin-footnotes');
+
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
@@ -19,6 +21,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('page', 'page.njk');
 
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(footnotes);
 
   eleventyConfig.addCollection("journal", function (collection) {
     return collection.getFilteredByGlob("journal/*.md");
@@ -42,13 +45,13 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
+    return DateTime.fromJSDate(dateObj, { zone: "utc-6" }).toFormat(
+      "d LLL yyyy"
     );
   });
 
   eleventyConfig.addFilter("readableYear", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+    return DateTime.fromJSDate(dateObj, { zone: "utc-6" }).toFormat(
       "yyyy"
     );
   });
