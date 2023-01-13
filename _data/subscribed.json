@@ -97,6 +97,11 @@
                 "title": "The Newsprint",
                 "author": "Josh Ginter",
                 "link": "https://thenewsprint.co/"
+            },
+            {
+                "title": "Small Yay",
+                "author": "Noah Jacobus",
+                "link": "https://noahjacob.us/words/writing-in-the-open"
             }
         ]
     },
@@ -171,6 +176,11 @@
                 "title": "Insight",
                 "link": "https://www.theinsight.org/",
                 "author": "Zeynep Tufecki"
+            },
+            {
+                "title": "Commonplace Book",
+                "link": "https://wilkinson.substack.com/",
+                "author": "Alissa Wilkinson"
             }
         ]
     }
