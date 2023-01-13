@@ -10,7 +10,7 @@ Yesterday, [Noah Jacobus started his new blog](https://noahjacob.us/words/writin
 
 Borrowing that idea, here are the working titles for a few drafts in my folder: 
 
-- **“2.5 Design”** – On a small 3D graphic design trend I noticed, or at least connected
+- **“2.5D Design”** – On a small 3D graphic design trend I noticed, or at least connected
 - **“What I Want in a Music Streaming Service”** – On how I listen to music, testing Spotify and Apple Music, and probably just a love letter to Rdio
 - **“Publishing a Podcast”** – On my setup for my (old?) podcast, from recording to publishing
 - **“Wordlelikes”** – On Wordle, and similar small games
