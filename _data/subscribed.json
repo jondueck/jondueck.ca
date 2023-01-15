@@ -102,6 +102,19 @@
                 "title": "Small Yay",
                 "author": "Noah Jacobus",
                 "link": "https://noahjacob.us/words/writing-in-the-open"
+            },
+            {
+                "title": "The Science of Fiction",
+                "link": "https://www.sciof.fi",
+                "rss": "https://www.sciof.fi/rss/",
+                "description": "“How science shapes stories about the future and how stories about the future shape science.”"
+            },
+            {
+                "title": "Sentiers",
+                "link": "https://sentiers.media/",
+                "rss": "https://sentiers.media/feed.xml",
+                "author": "Patrick Tanguay",
+                "description": "“A carefully curated selection of articles with thoughtful commentary on technology, society, culture, and potential futures.”"
             }
         ]
     },
