@@ -184,3 +184,11 @@ tr {
     }
   }
   
+
+.placeholder {
+    background-color: var(--grey);
+    opacity: 0.5;
+    content: '';
+    display: block;
+    aspect-ratio: 1;
+}
