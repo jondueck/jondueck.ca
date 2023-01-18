@@ -1,0 +1,20 @@
+---
+title: Tabletop Games Library
+layout: page.njk
+date: Last Modified
+description: My collection of board games. Let’s play.
+---
+
+<ul class="library-list">
+    {% for game in tabletop %}
+        <li>
+            <img src="{{ game.cover }}" alt="" class="library-cover">
+            <strong style="font-family: var(--sans);">{{ game.title }}</strong>
+            {% if game.publisher %}<br><span class="library-author">By {{ game.publisher }}</span>{% endif %}
+            {% if game.players %}<br><span>{{ game.players }} Players</span>{% endif %}
+            {% if game.expansions %}<br><span class="meta-text">+ {{ game.expansions }}</span>{% endif %}
+
+        </li>
+    {% endfor %}
+
+</ul>
