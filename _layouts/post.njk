@@ -10,6 +10,9 @@ layout: base.njk
     <header class="post-header">
         <div class="post-header-content">
             <h1 class="post-title">{{ title }}</h1>
+            {% if subtitle %}
+                <span class="meta-text post-subtitle">{{ subtitle }}</span><br><br>
+            {% endif %}
             <time datetime="{{ page.date }}" class="post-date">{{ page.date | readableDate }}</time>            
         </div>
     </header>
