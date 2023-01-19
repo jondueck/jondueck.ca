@@ -9,7 +9,7 @@ description: My collection of board games. Let’s play.
     {% for game in tabletop %}
         <li>
             {% if game.cover %}
-                <img src="{{ game.cover }}" alt="" class="library-cover" style="border-radius: 0.25ch;">
+                <img src="{{ game.cover }}" alt="" class="library-cover">
             {% else %}
                 <div class="library-cover placeholder" style="aspect-ratio: 1;"></div>
             {% endif %}

@@ -18,6 +18,7 @@ main {
 
 .site-footer {
     grid-area: footer;
+    color: var(--secondary-text);
 }
 
 .wrap {
@@ -143,6 +144,7 @@ img.half,
 
 .library-cover {
     margin-bottom: var(--line);
+    width: 100%;
     max-width: 10rem;
     max-height: 25rem;
 }
