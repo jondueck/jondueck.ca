@@ -1,5 +1,12 @@
 <link rel="me" href="https://mastodon.social/@jondueck">
+<meta name="twitter:site" content="@jondueck">
 <link rel="me" href="https://twitter.com/jondueck">
 <link rel="me" href="https://micro.blog/jondueck">
 <link href="https://github.com/jondueck" rel="me">
 <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+{% if layout == 'post.njk' %}<meta property="og:type" content="article" />{% endif %}
+<meta property="og:site_name" content="{{ site.title }}">
+{% if image %}
+<meta property="og:image" content="{{ image }}" />
+<meta name="twitter:image" content="{{ image }}" />
+{% endif %}
