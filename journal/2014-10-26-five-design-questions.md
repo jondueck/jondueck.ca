@@ -8,8 +8,10 @@ redirect: https://medium.com/@jondueck/five-design-answers-82c4e6a45354
 redirect_from: "/writings/five-design-questions/"
 ---
 
+A response to [@dustin’s Five Design Questions](https://medium.com/5-design-questions/five-design-questions-3d0e130b905a).
+
 ## 1 – Tell us who you are in one sentence.
-I’m a graphic designer and front-end web developer working at Co-op@home during the day and building up my own design studio — Collectif — in my spare time with Josiah Wiebe.
+I’m a graphic designer and front-end web developer working at Co-op@home during the day and building up my own design studio — [Collectif](https://collectif.co) — in my spare time with [Josiah Wiebe](https://jwie.be).
 
 ## 2 – If you weren’t a designer, what would you do?
 I think I’ve pursued because it’s the thing that I feel like I can do. Of course, I’d love to do more with music, but for now I’m content to play with my friends once a week. Perhaps I’d study architecture or history, or explore photography.
