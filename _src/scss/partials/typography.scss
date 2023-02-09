@@ -14,22 +14,26 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--sans);
 }
 
-h1 {
+h1,
+.h1 {
     font-size: calc(1.5 * var(--base-font-size));
 }
 
-h2 {
+h2,
+.h2 {
     font-size: var(--base-font-size);
     font-weight: bold;
 }
 
-h3 {
+h3,
+.h3 {
     font-size: var(--base-font-size);
     font-weight: bold;
     color: var(--secondary-text);
 }
 
-h4 {
+h4,
+.h4 {
     font-size: 0.75em;
 }
 
@@ -88,7 +92,7 @@ cite {
 }
 
 .post-title {
-    font-family: var(--serif);
+    // font-family: var(--serif);
     font-weight: bold;
     font-size: var(--base-font-size);
     font-weight: 900;
@@ -166,4 +170,9 @@ summary::-webkit-details-marker {
 
 mark {
     background: linear-gradient(45deg, rgba(223,252,57,1) 0%, rgba(223,252,57,0.25) 100%)
+}
+
+li ul,
+li ol {
+    margin-bottom: 0;
 }
