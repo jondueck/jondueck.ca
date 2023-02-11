@@ -115,6 +115,10 @@
                 "rss": "https://sentiers.media/feed.xml",
                 "author": "Patrick Tanguay",
                 "description": "“A carefully curated selection of articles with thoughtful commentary on technology, society, culture, and potential futures.”"
+            },
+            {
+                "title": "Yannick Schutz",
+                "link": "https://yannickschutz.com"
             }
         ]
     },
@@ -194,6 +198,12 @@
                 "title": "Commonplace Book",
                 "link": "https://wilkinson.substack.com/",
                 "author": "Alissa Wilkinson"
+            },
+            {
+                "title": "The Art of Cover Art",
+                "link": "https://theartofcoverart.substack.com/",
+                "author": "Rachel Cabitt",
+                "rss": "https://theartofcoverart.substack.com/feed/"
             }
         ]
     }
