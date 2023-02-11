@@ -6,10 +6,10 @@ layout: base.njk
     <header class="page-header">
         <h1 class="page-title">{{ title }}</h1>
         {% if subtitle %}
-            <span class="meta-text">{{ subtitle }}
+            <span class="page-subtitle meta-text">{{ subtitle }}</span>
         {% endif %}
         {% if date %}
-            <span class="meta-text">Updated {{ page.date | readableDate }}
+            <time datetime="{{ page.date }}" class="meta-text">Updated {{ page.date | readableDate }}</time>
         {% endif %}
     </header>
 

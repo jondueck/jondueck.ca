@@ -49,6 +49,13 @@ sup {
 .site-header,
 .site-footer {
     font-family: var(--sans);
+    line-height: 1.2;
+}
+
+.page-subtitle,
+.post-subtitle {
+    display: block;
+    margin-bottom: var(--line);
 }
 
 .site-name {
@@ -134,9 +141,6 @@ ul {
 
 header,
 footer {
-
-    line-height: 1.2;
-
     a {
         text-decoration: none;
     }
