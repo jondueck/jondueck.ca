@@ -27,5 +27,5 @@ If you’re local, you can support the [South Central Regional Library](https://
 
 ![a badge that says 'South Central Regional Library: Library Lover.'](/src/img/library-lover.svg#half)
 ![a badge that says 'Toronto Public Libraries: Library Lover.'](/src/img/library-lover-tpl.jpg#half)
-<figcaption>A recreation of a Toronto Public Libraries pin I saw [Alvvays wearing in a live video](https://youtu.be/II01bcPwOkw). I haven’t been able to track down any more information about the pin.</figcaption>
+<figcaption>A recreation of a Toronto Public Libraries pin I saw <a href="https://youtu.be/II01bcPwOkw">Alvvays wearing in a live video</a>. I haven’t been able to track down any more information about the pin.</figcaption>
 </figure>
