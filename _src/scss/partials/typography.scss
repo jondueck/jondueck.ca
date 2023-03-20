@@ -107,11 +107,13 @@ figcaption {
 }
 
 figcaption {
-    padding-inline: var(--line);
-    text-align: center;
-    width: 55ch;
-    max-width: 100%;
+    // text-align: center;
+    // max-width: 55ch;
+    // width: 100%;
     margin-inline: auto;
+    @media (min-width: 35rem) {
+    padding-inline: var(--line);
+    }
 }
 
 .post-title {
