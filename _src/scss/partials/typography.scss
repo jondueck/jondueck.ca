@@ -67,7 +67,7 @@ blockquote {
     font-style: italic;
     border-left: 1px solid var(--underline);
     margin-left: 0;
-    padding-left: 2ch;
+    padding-inline-start: 2ch;
     padding-top: 0.5ch;
     padding-bottom: 0.5ch;
     margin-bottom: var(--line);
@@ -87,6 +87,8 @@ blockquote {
 
     li & {
         margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     
 }
@@ -95,11 +97,21 @@ blockquote {
     margin-top: -0.5ch;
 }
 
-cite {
+cite,
+figcaption {
     font-size: 0.75em;
     font-family: var(--sans);
     font-style: normal;
     display: block;
+    color: var(--secondary-text);
+}
+
+figcaption {
+    padding-inline: var(--line);
+    text-align: center;
+    width: 55ch;
+    max-width: 100%;
+    margin-inline: auto;
 }
 
 .post-title {

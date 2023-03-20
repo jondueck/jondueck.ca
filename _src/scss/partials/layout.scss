@@ -118,8 +118,8 @@ hr {
 img.half,
 .half { 
     float: left;
-    width: calc(50% - calc(0.5 * var(--line)));
-    margin-right: var(--line);
+    width: calc(50% - calc(1ch));
+    margin-right: 2ch;
 
   + [src$='#half']:nth-of-type(even),
   + .half:nth-of-type(even) {
@@ -193,4 +193,12 @@ tr {
     content: '';
     display: block;
     aspect-ratio: 1;
+}
+
+archive li a {
+    text-decoration: none;
+}
+
+figure {
+    margin-bottom: var(--line);
 }
