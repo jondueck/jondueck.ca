@@ -1,7 +1,7 @@
 ---
 title: Our Library
 date: 2023-03-20 14:00:00 -06:00
-image: '/src/img/library-lover.svg'
+image: '/src/img/library-lover-og.jpg'
 ---
 
 I was at my local library just over a week ago to return my copy of [_Ducks_ by Kate Beaton](https://www.goodreads.com/book/show/59069071-ducks) and I’ll be back as soon as my hold on [Jenny Odell’s *Saving Time*](https://www.goodreads.com/book/show/61358639-saving-time) is ready to pick up. In the mean time, I  listened to the audiobook, [_All Quiet on the Western Front_](https://www.goodreads.com/book/show/58613775-all-quiet-on-the-western-front). Six of the eight books that I’ve read this year came from the library. It was 14 out of 22 last year.
