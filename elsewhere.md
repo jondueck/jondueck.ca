@@ -18,4 +18,5 @@ redirect_from: social
 | Dribbble | [jondueck](https://dribbble.com/jondueck) |
 | VSCO | [jondueck](https://vsco.co/jondueck) |
 | Bluesky | [@jondueck.bsky.social](https://bsky.app/profile/jondueck.bsky.social) |
+| Pinterest | [@jondueck](https://www.pinterest.ca/jondueck/) |
 

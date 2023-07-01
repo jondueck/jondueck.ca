@@ -1,8 +1,8 @@
 ---
-layout: page.njk
+layout: base.njk
 title: Work
 description: A portfolio of sorts.
-subtitle: Coming back soon.
+subtitle: Case studies…someday?
 ---
 
 {# <ul reversed class="work-archive">
@@ -14,3 +14,16 @@ subtitle: Coming back soon.
   </li>
 {% endfor %}
 </ul> #}
+
+<div class="wrap">
+  <h1 class="page-title">Work</h1>
+  <p>More, someday. Contact <a href="https://collectif.co">Collectif</a> to make some more.</p>
+</div>
+
+<section class="workboard">
+  {% for piece in work %}
+    <img src="{{ piece.img }}" alt="{{piece.alt}}" class="workboard-item">
+  {% endfor %}
+</section>
+
+{# <img src="/src/img/wety.svg" style="width: 100%;" alt="works end, thank you"> #}

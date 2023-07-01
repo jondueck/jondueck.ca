@@ -162,6 +162,7 @@ table {
     font-family: var(--sans);
     border-collapse: collapse;
     max-width: 100%;
+    min-width: 50%;
 }
 
 td {
@@ -202,4 +203,35 @@ archive li a {
 figure {
     margin-bottom: var(--line);
     max-width: 100%;
+}
+
+.workboard {
+    columns: 2;
+    column-gap: var(--line);
+    padding: var(--line);
+    margin-inline: auto;
+    max-width: 150rem;
+
+    @media (min-width: 45rem) {
+        columns: 3;
+    }
+
+    @media (min-width: 60rem) {
+        columns: 4;
+    }
+
+    @media (min-width: 90rem) {
+        columns: 5;
+    }
+
+    @media (min-width: 120rem) {
+        columns: 6;
+    }
+}
+
+.workboard-item {
+    border-radius: 1ch;
+    margin-bottom: var(--line);
+    width: 100%;
+    background: white;
 }
