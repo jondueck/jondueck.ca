@@ -1,11 +1,13 @@
 [
     {
         "img": "/src/img/lc.svg",
-        "alt": "Listeners Club"
+        "alt": "Listeners Club",
+        "title": "Listeners Club logo"
     },
     {
         "img": "/src/img/caribou-grove.svg",
-        "alt": "Caribou Grove"
+        "alt": "Caribou Grove",
+        "title": "Caribou Grove"
     },
     {
         "img": "/src/img/untitled.svg",
@@ -19,18 +21,22 @@
     },
     {
         "img": "/src/img/whitecap.svg",
-        "alt": ""
+        "alt": "",
+        "title": "Whitecap Coffee identity"
     },
     {
         "img": "/src/img/library-lover-wb.svg",
-        "alt": "South Central Regional Library Lover"
+        "alt": "South Central Regional Library Lover",
+        "link": "/journal/2023/our-library/"
     },
     {
         "img": "/src/img/rw_thumb.jpg",
-        "alt": ""
+        "alt": "",
+        "title": "Roundnet Winkler identity"
     },
     {
-        "img": "/src/img/whitecap-wordmark.svg"
+        "img": "/src/img/whitecap-wordmark.svg",
+        "title": "Whitecap Coffee logo"
     },
     {
         "img": "/src/img/ted-charity-open-logo.svg"
@@ -41,10 +47,20 @@
     },
     {
         "img": "/src/img/tripps_thumb.svg",
-        "alt": "Tripp’s Tree Care"
+        "alt": "Tripp’s Tree Care logo",
+        "title": "Tripp’s Tree Care logo"
     },
     {
         "img": "/src/img/whatevertown.svg"
+    },
+    {
+        "img": "/src/img/cascade-island.svg",
+        "alt": ""
+    },
+    {
+        "img": "/src/img/cascade-island-acnh.jpg",
+        "alt": "screenshot of a custom designed flag in Animal Crossing: New Horizons",
+        "title": "Cascade Island flag in Animal Crossing: New Horizons"
     },
     {
         "img": "/src/img/roundnet-winkler_pins.svg",
@@ -96,13 +112,13 @@
         "img": "/src/img/misc-logo-manitoba.svg"
     },
     {
-        "img": "https://cdn.dribbble.com/users/117659/screenshots/4303262/media/f506a3eb6ed14cef9076637eedcc25dc.png"
+        "img": "/src/img/untitled.png"
     },
     { 
         "img": "/src/img/aesthletico.png"
     },
     {
-        "img": "/src/img/gvc_thumb.svg"
+        "img": "/src/img/zodiacs-red-on-black.svg"
     }
     
 ]
