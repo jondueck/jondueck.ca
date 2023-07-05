@@ -39,11 +39,13 @@
         "title": "Whitecap Coffee logo"
     },
     {
-        "img": "/src/img/ted-charity-open-logo.svg"
+        "img": "/src/img/ted-charity-open-logo.svg",
+        "title": "Triple E Developments Charity Open"
     },
     {
         "img": "/src/img/tcfp_thumb.svg",
-        "alt": "TC Forest Products"
+        "alt": "TC Forest Products",
+        "title": "TC Forest Products"
     },
     {
         "img": "/src/img/tripps_thumb.svg",
@@ -51,7 +53,8 @@
         "title": "Tripp’s Tree Care logo"
     },
     {
-        "img": "/src/img/whatevertown.svg"
+        "img": "/src/img/whatevertown.svg",
+        "title": "Whatevertown"
     },
     {
         "img": "/src/img/cascade-island.svg",
@@ -68,11 +71,11 @@
     },
     {
         "img": "/src/img/whatevertown_pillars.jpg",
-        "alt": ""
+        "alt": "",
+        "title": "Whatevertown"
     },
     {
-        "img": "/src/img/misc-logo-globe.svg",
-        "alt": "TC Forest Products"
+        "img": "/src/img/misc-logo-globe.svg"
     },
     {
         "img": "/src/img/whitecap_shirt_drinking-coffee.jpg",
@@ -88,19 +91,23 @@
     },
     {
         "img": "/src/img/works-end.svg",
-        "alt": ""
+        "alt": "",
+        "title": "Works End"
     },
     {
         "img": "/src/img/misc-logo-coffee.svg"
     },
     {
-        "img": "/src/img/whitecap_tea.jpg"
+        "img": "/src/img/whitecap_tea.jpg",
+        "title": "Whitecap Coffee menu"
     },
     {
-        "img": "/src/img/ccl.png"
+        "img": "/src/img/ccl.png",
+        "title": "Country Club Lane"
     },
     {
-        "img": "/src/img/mtg.svg"
+        "img": "/src/img/mtg.svg",
+        "title": "Mend the Gap"
     },
     {
         "img": "/src/img/misc-logo-forest.svg"
@@ -118,7 +125,8 @@
         "img": "/src/img/aesthletico.png"
     },
     {
-        "img": "/src/img/zodiacs-red-on-black.svg"
+        "img": "/src/img/zodiacs-red-on-black.svg",
+        "title": "Zodiacs"
     }
     
 ]
