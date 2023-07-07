@@ -16,7 +16,7 @@ redirect_from: social
 | Goodreads | [jondueck](https://www.goodreads.com/jondueck) |
 | Letterboxd | [jondueck](https://letterboxd.com/jondueck) |
 | Dribbble | [jondueck](https://dribbble.com/jondueck) |
+| Pinterest | [@jondueck](https://www.pinterest.ca/jondueck/) |
 | VSCO | [jondueck](https://vsco.co/jondueck) |
 | Bluesky | [@jondueck.bsky.social](https://bsky.app/profile/jondueck.bsky.social) |
-| Pinterest | [@jondueck](https://www.pinterest.ca/jondueck/) |
-
+| Threads | [@jondueck](https://www.threads.net/@jondueck) |
