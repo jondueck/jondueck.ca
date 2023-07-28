@@ -1,0 +1,132 @@
+---
+layout: base.njk
+---
+
+<style>
+    :root {
+    --primary-color: #D90404;
+    --body-color: #D90404;
+    }
+    .site-header menu,
+    .site-name {
+        display: none;
+    }
+    .ingredients {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-bottom: 1em;
+    }
+    .ingredients li {
+        margin: 0;
+        padding: 1ch 0;
+        border-bottom: 1px dotted currentColor;
+    }
+    .ingredients li:last-of-type {
+        border-bottom: 0;
+    }
+    .ingredients small {
+        opacity: 0.75;
+        font-style: italic;
+        margin-left: 1ch;
+    }
+    .ingredients[aria-label]:before{
+        content:attr(aria-label);
+        font-family: var(--sans);
+        font-weight:bold;
+        border-bottom: 1px solid;
+        width: 100%;
+        display: block;
+    }
+    body:before {
+        content: '';
+        height: 1rem;
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        background-image: url(/src/img/checker.svg);
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .ingredients br+small {
+        margin-left: 0;
+    }
+    @media (min-width: 720px) {
+        .menu {
+            margin-inline: auto;
+            width: 50ch;
+        }
+    }
+    .site-footer > * {
+        display: none;
+    }
+    @media (prefers-color-scheme: dark) {
+        :root {
+        --background: #320101;
+        --body-color: var(--white);
+        }
+    }
+</style>
+
+<div class="wrap">
+    {# <span>Townsend</span> #}
+    <section class="menu">
+        <h2>Ingredients</h2><br>
+
+        <ul class="ingredients" aria-label="Dough">
+            <li><a href="https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect">Classic Dough</a> <small>Flour, Yeast, Salt, Water</small></li>
+            <li><a href="https://ca.ooni.com/blogs/recipes/gluten-free-pizza-dough">Gluten-Free* Dough</a> <small>Gluten-Free Flour, Yeast, Salt, Water, Olive Oil</small></li>
+        </ul>
+
+        <ul class="ingredients" aria-label="Sauce">
+            <li>De Luca’s Tomato Sauce</li>
+        </ul>
+        <ul class="ingredients" aria-label="Cheese">
+            <li>Mozzarella</li>
+            <li>Feta</li>
+        </ul>
+        <ul class="ingredients" aria-label="Meat">
+            <li>Pepperoni</li>
+            <li>Bacon</li>
+            <li>Chicken</li>
+            <li><em>Tocino?</em></li>
+            <li><em>Something with gochujang?</em></li>
+        </ul>
+        <ul class="ingredients" aria-label="Veg">
+            <li>Green Bell Peppers</li>
+            <li>Red Onion</li>
+            <li>Roasted Red Peppers</li>
+            <li>Sun-Dried Tomatoes</li>
+            <li><em>Homegrown</em> Spinach</li>
+            <li><em>Homegrown</em> Basil</li>
+            <li>Mushrooms</li>
+            <li>Pineapple?</li>
+        </ul>
+
+        <ul class="ingredients" aria-label="Miscellanea">
+            <li>Barbecue Sauce</li>
+            <li>Gochujang</li>
+            <li>Dried Herbs</li>
+        </ul>
+
+        <hr style="background-image: url('/src/img/checker.svg'); height: 1em; background-repeat: repeat-x; background-size: contain; border: 0 none;">
+
+        <h2>Pizzas</h2>
+        <ul class="ingredients">
+            <li>
+                <details>
+                <summary>Margherita</summary>
+                <small>Tomato Sauce, Mozzarella, Basil</small>
+            </details>
+            </li>
+            <li>Pepperoni</li>
+            <li><details><summary>Barbecue Chicken</summary><small>Tomato Sauce/Barbecue Sauce, Mozzarella, Chicken, Red Onions, Sun-Dried Tomatoes</small></details></li>
+            <li><details><summary>Bacon & Spinach</summary><small>Tomato Sauce, Mozarella, Bacon, Spinach, Feta</small></details></li>
+            <li>More!</li>
+
+        </ul>
+
+    </section>
+
+</div>
+
