@@ -28,7 +28,6 @@ layout: base.njk
     .ingredients small {
         opacity: 0.75;
         font-style: italic;
-        margin-left: 1ch;
     }
     .ingredients[aria-label]:before{
         content:attr(aria-label);
@@ -48,9 +47,6 @@ layout: base.njk
         background-size: contain;
         background-repeat: repeat;
     }
-    .ingredients br+small {
-        margin-left: 0;
-    }
     @media (min-width: 720px) {
         .menu {
             margin-inline: auto;
@@ -66,16 +62,42 @@ layout: base.njk
         --body-color: var(--white);
         }
     }
+    h1 {
+        font-style: italic;
+        text-transform: uppercase;
+        letter-spacing: -0.1em;
+        font-family: script;
+    }
 </style>
 
+
 <div class="wrap">
+
     {# <span>Townsend</span> #}
     <section class="menu">
+        <div style="text-align: center; font-family: var(--sans); text-transform: uppercase;">
+            <span>Saturday</span><br>
+            <span>&#9662;</span><br>
+            <span>6:00</span><br>
+            <span>&#9662; &#9662;</span><br>
+            <span>Townsend Dr</span>
+        </div>
+        <br><br>
+
+
         <h2>Ingredients</h2><br>
 
         <ul class="ingredients" aria-label="Dough">
-            <li><a href="https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect">Classic Dough</a> <small>Flour, Yeast, Salt, Water</small></li>
-            <li><a href="https://ca.ooni.com/blogs/recipes/gluten-free-pizza-dough">Gluten-Free* Dough</a> <small>Gluten-Free Flour, Yeast, Salt, Water, Olive Oil</small></li>
+            <li><details>
+                <summary>Classic Dough</summary>
+                <a href="https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect">Link</a>
+                <small>Flour, Yeast, Salt, Water</small>
+            </details></li>
+            <li><details>
+                <summary>Gluten-Free* Dough</summary>
+                <a href="https://ca.ooni.com/blogs/recipes/gluten-free-pizza-dough">Link</a>
+                <small>Gluten-Free Flour, Yeast, Salt, Water, Olive Oil</small>
+            </details></li>
         </ul>
 
         <ul class="ingredients" aria-label="Sauce">
