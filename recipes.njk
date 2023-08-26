@@ -1,0 +1,19 @@
+---
+title: My Favourite Recipes
+layout: page.njk
+date: Last Modified
+updated: true
+---
+
+<ul>
+    {% for recipe in recipes %}
+    
+        <li>
+            <a href="{{ recipe.url }}">
+            <strong>{{ recipe.title }}</strong>
+            </a>
+            {% if recipe.author %}By {{ recipe.author }} {% if recipe.publisher %} for {% endif %}{% endif %} 
+            {% if recipe.publisher %}{{ recipe.publisher }}{% endif %}
+        </li>
+    {% endfor %}
+</ul>
