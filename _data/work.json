@@ -7,7 +7,8 @@
     {
         "img": "/src/img/caribou-grove.svg",
         "alt": "Caribou Grove",
-        "title": "Caribou Grove"
+        "title": "Caribou Grove",
+        "year": "2022"
     },
     {
         "img": "/src/img/untitled.svg",
@@ -22,7 +23,8 @@
     {
         "img": "/src/img/whitecap.svg",
         "alt": "",
-        "title": "Whitecap Coffee identity"
+        "title": "Whitecap Coffee identity",
+        "year": "2015"
     },
     {
         "img": "/src/img/library-lover-wb.svg",
@@ -120,6 +122,10 @@
     },
     {
         "img": "/src/img/untitled.png"
+    },
+    {
+        "img": "/src/img/untitled_2018-05-29.png",
+        "year": "2018"
     },
     { 
         "img": "/src/img/aesthletico.png"

@@ -7,6 +7,15 @@ thumb: "/src/img/tfgrun_thumb.jpg"
 hidden: true
 ---
 
-The *Thanks for Giving Run* is an annual charity run. The run raises up to fifty percent of the local food cupboard’s annual budget.
+The *Thanks for Giving Run* is an annual charity run. The run raises up to fifty percent of the local food cupboard’s annual budget. At Co-op@home, I designed the logo and identity system for their tenth year.
 
-![Turkey icon](https://cdn.dribbble.com/users/117659/screenshots/2265958/turkey_dribbble_2-01.png)
+![A cirlce with a graphic turkey running, and the title “Thanks For Giving Run” and the slogan “10 Years Running”](/src/img/tfgrun_10-years.svg)
+
+![](/src/img/tfgrun_social.svg#half)
+![](/src/img/tfgrun_social2.svg#half)
+
+![](/src/img/tfgrun_banners.svg)
+
+![](/src/img/tfgrun_words.svg)
+
+![Turkey icon](/src/img/tfgrun_logo.svg)

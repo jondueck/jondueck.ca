@@ -8,3 +8,4 @@ hidden: true;
 description: Branding and web development for the Manitoba Baseball Hall of Fame in Morden, MB.
 ---
 
+![](/src/img/mbhof_thumb.jpg)
