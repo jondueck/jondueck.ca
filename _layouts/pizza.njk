@@ -63,27 +63,64 @@ layout: base.njk
         }
     }
     h1 {
-        font-style: italic;
         text-transform: uppercase;
         letter-spacing: -0.1em;
-        font-family: script;
     }
+    .stats-box {
+        display: grid;
+        grid-gap: 1ch;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .stat-feature {
+        display: block;
+        font-size: 3em;
+        letter-spacing: -0.03em;
+    }
+    main {
+        display: flex;
+        align-items: center;
+    }
+    .homegrown {
+        border: 1px solid;
+        padding: 0.5ch 1ch;
+        border-radius: 50%;
+        font-style: normal;
+        font-size: 60%;
+        text-transform: uppercase;
+        font-family: var(--sans);
+        font-style: italic;
+    }
+
 </style>
 
-
 <div class="wrap">
+    <img src="/src/img/pizza peel.png" alt="" height="300" style="margin-inline: auto; position: absolute; top: 0; left: 0; right: 0; ">
+
 
     {# <span>Townsend</span> #}
     <section class="menu">
         <div style="text-align: center; font-family: var(--sans); text-transform: uppercase;">
-            <span>Saturday</span><br>
+            <span style="height: 200px; display: block">&nbsp;</span>
+            <span>Saturday, 16 September</span><br>
             <span>&#9662;</span><br>
             <span>6:00</span><br>
-            <span>&#9662; &#9662;</span><br>
+            <span>&#9662;&#9662;</span><br>
             <span>Townsend Dr</span>
         </div>
         <br><br>
 
+        <div class="stats-box">
+            <div class="stat">
+                <span class="stat-feature">30</span>
+                <span>Pizzas This Year</span>
+            </div>
+            <div class="stat">
+                <span class="stat-feature">11</span>
+                <span>Pizzas Last Party</span>
+            </div>
+        </div>
+        <br><br>
 
         <h2>Ingredients</h2><br>
 
@@ -101,11 +138,11 @@ layout: base.njk
         </ul>
 
         <ul class="ingredients" aria-label="Sauce">
-            <li>De Luca’s Tomato Sauce</li>
+            <li><a href="https://www.delucaswinnipeg.ca/tomato-sauces-purees/de-luca-s-pizza-sauce-12-375ml-sc3550">De Luca’s Tomato Sauce</a></li>
         </ul>
         <ul class="ingredients" aria-label="Cheese">
             <li>Mozzarella</li>
-            <li>Feta</li>
+            {# <li>Feta</li> #}
         </ul>
         <ul class="ingredients" aria-label="Meat">
             <li>Pepperoni</li>
@@ -119,10 +156,10 @@ layout: base.njk
             <li>Red Onion</li>
             <li>Roasted Red Peppers</li>
             <li>Sun-Dried Tomatoes</li>
-            <li><em>Homegrown</em> Spinach</li>
-            <li><em>Homegrown</em> Basil</li>
+            {# <li><em>Homegrown</em> Spinach</li> #}
+            <li><em class="homegrown">Home-grown</em> Basil</li>
             <li>Mushrooms</li>
-            <li>Pineapple?</li>
+            {# <li>Pineapple?</li> #}
         </ul>
 
         <ul class="ingredients" aria-label="Miscellanea">
