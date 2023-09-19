@@ -4,6 +4,8 @@ const { DateTime } = require("luxon");
 
 const footnotes = require('eleventy-plugin-footnotes');
 
+const markdownIt = require("markdown-it");
+
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
