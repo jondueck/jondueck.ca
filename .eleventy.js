@@ -56,6 +56,14 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(options));
+
   module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.setBrowserSyncConfig({
