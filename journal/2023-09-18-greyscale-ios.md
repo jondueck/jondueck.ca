@@ -1,6 +1,7 @@
 ---
 title: Automated Greyscale with iOS Shortcuts
 date: 2023-09-18 20:30:00 -06:00
+redirect_from: journal/2023/automated-greyscale-with-ios-shortcuts/
 ---
 
 > Decided to set an automation to turn my phone to grayscale later in the evening and I can’t describe the relief it gave my brain
