@@ -2,6 +2,7 @@ a {
     color: inherit;
     text-decoration-color: var(--underline);
     text-decoration-thickness: 1px;
+    cursor: pointer;
 
     &:hover {
         color: var(--primary-color);
@@ -17,4 +18,4 @@ a {
 }
 
 
-@import 'partials/variables', 'partials/reset', 'partials/fonts', 'partials/typography', 'partials/layout', 'modules/work';
+@import 'partials/variables', 'partials/reset', 'partials/fonts', 'partials/typography', 'partials/layout', 'modules/work', 'modules/pizza';
