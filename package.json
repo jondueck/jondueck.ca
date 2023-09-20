@@ -8,7 +8,7 @@
     "check-links": "npx check-html-links _site",
     "start": "npm run watch",
     "build": "npm-run-all build:css build:html",
-    "build:css": "node-sass _src/scss/style.scss _src/css/style.css",
+    "build:css": "node-sass _src/scss/style.scss _site/src/css/style.css",
     "build:html": "eleventy",
     "watch": "npm-run-all --parallel watch:css watch:html",
     "watch:css": "node-sass --watch _src/scss/style.scss _site/src/css/style.css",
