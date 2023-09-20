@@ -9,7 +9,7 @@ const markdownIt = require("markdown-it");
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
-		"_src/css/": "src/css/",
+    "_src/css/": "src/css/",
     "_src/img/": "src/img/",
     "_src/fonts/": "src/fonts/",
     "_src/js/": "src/js/",
@@ -69,7 +69,7 @@ module.exports = function (eleventyConfig) {
   module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.setBrowserSyncConfig({
-      files: './_site/_src/css/**/*.css'
+      files: ('./_site/src/css/*.css', './_src/scss/*.scss')
     });
     eleventyConfig.addLayoutAlias('post', '_layouts/post.njk');
   };

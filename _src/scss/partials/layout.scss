@@ -212,7 +212,13 @@ figure {
     margin-inline: auto;
     max-width: 150rem;
 
-    @media (min-width: 45rem) {
+    &.photography {
+        @media (max-width: 45rem) {
+        columns: 1;
+        }
+    }
+
+    @media (min-width: 40rem) {
         columns: 3;
     }
 
@@ -230,8 +236,12 @@ figure {
 }
 
 .workboard-item {
-    border-radius: 1ch;
     margin-bottom: var(--line);
     width: 100%;
-    background: white;
+    overflow: hidden;
+
+    img {
+        border-radius: 0.5ch;
+    }
+
 }
