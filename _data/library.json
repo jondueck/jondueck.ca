@@ -30,7 +30,7 @@
             {
                 "title": "The Politics of Design",
                 "author": "Ruben Pater",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461083242l/27150875.jpg"
+                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1461083242i/27150875.jpg"
             },
             {
                 "title": "In Praise of Shadows",
@@ -59,6 +59,10 @@
             {
                 "title": "A Profound Waste of Time",
                 "cover": "https://stack-magazines.imgix.net/uploads/a-profound-waste-of-time-magazine-issue-1.png?auto=compress%2Cformat&fit=scale&h=500&ixlib=php-3.3.0&w=394&wpsize=thumbnail&s=51b27fb3c326ce26f8d5360007b00ea6"
+            },
+            {
+                "title": "Beside",
+                "cover": "https://cdn.shopify.com/s/files/1/1230/9376/products/BSD-B02-FR_7ENo_20Color_e689e83e-8e18-4043-bfa6-2277bc594952_480x565.jpg?v=1544333768"
             }
         ]
     },
@@ -99,6 +103,11 @@
                 "title": "A Short History of Nearly Everything",
                 "author": "Bill Bryson",
                 "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1269917920l/5602347.jpg"
+            },
+            {
+                "title": "American Prometheus",
+                "author": "Kai Bird & Martin J Sherman",
+                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389419305i/905418._SX300_.jpg"
             }
         ]
     }

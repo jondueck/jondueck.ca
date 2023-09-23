@@ -42,6 +42,11 @@
         "title": "Whitecap Coffee logo"
     },
     {
+        "img": "/src/img/trip-planner.svg",
+        "title": "Leisure Travel Vans Trip Planner",
+        "year": "2023"
+    },
+    {
         "img": "/src/img/ted-charity-open-logo.svg",
         "title": "Triple E Developments Charity Open"
     },
@@ -62,12 +67,15 @@
     },
     {
         "img": "/src/img/cascade-island.svg",
-        "alt": ""
+        "alt": "",
+        "title": "Cascade Island",
+        "year": "2020"
     },
     {
         "img": "/src/img/cascade-island-acnh.jpg",
         "alt": "screenshot of a custom designed flag in Animal Crossing: New Horizons",
-        "title": "Cascade Island flag in Animal Crossing: New Horizons"
+        "title": "Cascade Island flag in Animal Crossing: New Horizons",
+        "year": "2020"
     },
     {
         "img": "/src/img/roundnet-winkler_pins.svg",
