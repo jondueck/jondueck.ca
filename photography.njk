@@ -1,20 +1,10 @@
 ---
 layout: base.njk
-title: Work
-description: A portfolio of sorts.
-subtitle: Case studies…someday?
+title: Photography
+description: Selected photos.
+subtitle: 
 redirect_from: "/photos"
 ---
-
-{# <ul reversed class="work-archive">
-{% for post in collections.work | reverse %}
-  <li>
-    <img src="{{ post.data.thumb }}" alt="">
-    <a href="{{ post.url | url }}" class="postlist-link">{{ post.data.title }}</a>
-    <time datetime="{{ post.date.toUTCString() }}">{{ post.date | readableYear}}</time>
-  </li>
-{% endfor %}
-</ul> #}
 
 <div class="wrap">
   <h1 class="page-title">Photography</h1>
@@ -29,5 +19,3 @@ redirect_from: "/photos"
     </div>
   {% endfor %}
 </section>
-
-{# <img src="/src/img/wety.svg" style="width: 100%;" alt="works end, thank you"> #}
