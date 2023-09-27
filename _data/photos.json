@@ -4,34 +4,43 @@
         "alt": "wooden stairs in a forest",
         "title": "Lynn Canyon, British Columbia, 2022",
         "date": "2022-10-22",
-        "link": "https://flickr.com/photos/55347122@N07/53187778129/in/datetaken/"
+        "link": "https://flickr.com/photos/55347122@N07/53187778129/in/datetaken/",
+        "camera": "Fujifilm X-T2"
     },
     {
         "img": "/src/img/bc2022/JDSR3024.jpg",
         "alt": "forest floor",
         "title": "Lynn Canyon, British Columbia, 2022",
         "date": "2022-10-22",
-        "link": "https://flickr.com/photos/55347122@N07/53161827970/in/datetaken/"
+        "link": "https://flickr.com/photos/55347122@N07/53161827970/in/datetaken/",
+        "camera": "Fujifilm X-T2"
     },
     {
-        "img": "/src/img/bc2022/JDSR3040.jpg",
-        "date": "2022-10-22"
+        "img": "https://live.staticflickr.com/65535/53214366757_69433d4b6b_b.jpg",
+        "date": "2022-10-22",
+        "link": "https://www.flickr.com/photos/55347122@N07/53214366757/in/datetaken/",
+        "camera": "Fujifilm X-T2"
     },
     {
         "img": "/src/img/bc2022/JDSR3063.jpg",
-        "date": "2022-10-22"
+        "date": "2022-10-22",
+        "camera": "Fujifilm X-T2"
     },
     {
         "img": "https://live.staticflickr.com/65535/53187911840_d794510da2_b.jpg",
-        "title": "Stanley Park, 2022"
+        "title": "Stanley Park, 2022",
+        "camera": "Fujifilm X-T2"
     },
     {
         "img": "https://live.staticflickr.com/65535/53187911750_2167928cea_b.jpg",
-        "title": "Stanley Park, 2022"
+        "link": "https://www.flickr.com/photos/55347122@N07/53187911750/in/datetaken/",
+        "title": "Stanley Park, 2022",
+        "camera": "Fujifilm X-T2"
     },
     {
         "img": "https://live.staticflickr.com/65535/53186994747_9fcd4fbd91_b.jpg",
-        "date": "2022-10-22"
+        "date": "2022-10-22",
+        "camera": "Fujifilm X-T2"
     },
     {
        "img": "https://live.staticflickr.com/65535/53187696376_f147ac1f66_h.jpg",
@@ -66,10 +75,11 @@
     },
     {
         "link": "https://www.flickr.com/photos/55347122@N07/53201401700/in/datetaken/",
-        "img": "https://live.staticflickr.com/65535/53201401700_54c3519d4b_b.jpg",
+        "img": "https://live.staticflickr.com/65535/53201401700_275b022e42_b.jpg",
         "title": "Wairēinga/Bridal Veil Falls",
         "alt": "Wairēinga/Bridal Veil Falls",
-        "date": "2018-01-02"
+        "date": "2018-01-02",
+        "aspect_ratio": "1365/2048"
     },
     {
         "img": "https://live.staticflickr.com/65535/53164997524_503171a2b1_h.jpg"
@@ -86,9 +96,18 @@
         "date": "2018-01-08"
     },
     {
+        "link": "https://www.instagram.com/p/BdhFj9SA894/",
+        "img": "https://live.staticflickr.com/65535/53215154937_d703dc4ab7_b.jpg",
+        "aspect_ratio": "0.75"
+    },
+    {
         "link": "https://www.flickr.com/photos/55347122@N07/53199430292/in/datetaken/",
         "img": "https://live.staticflickr.com/65535/53199430292_d243efc7b5_b.jpg",
         "date": "2022-09-25"
+    },
+    {
+        "link": "https://www.flickr.com/photos/55347122@N07/53216080954/in/datetaken/",
+        "img": "https://live.staticflickr.com/65535/53216080954_544e36832c_b.jpg"
     },
     {
         "link": "https://www.flickr.com/photos/55347122@N07/53201024226/in/datetaken/",
