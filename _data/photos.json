@@ -16,15 +16,20 @@
         "camera": "Fujifilm X-T2"
     },
     {
+        "link": "https://www.flickr.com/photos/55347122@N07/53200812684/in/datetaken/",
+        "img": "https://live.staticflickr.com/65535/53200812684_4deee57457_b.jpg",
+        "width": "683", 
+        "height": "1024",
+        "title": "Lynn Canyon, British Columbia, 2022",
+        "camera": "Fujifilm X-T2",
+        "aspectRatio": "683 / 1024"
+    },
+    {
         "img": "https://live.staticflickr.com/65535/53214366757_69433d4b6b_b.jpg",
         "date": "2022-10-22",
         "link": "https://www.flickr.com/photos/55347122@N07/53214366757/in/datetaken/",
-        "camera": "Fujifilm X-T2"
-    },
-    {
-        "img": "/src/img/bc2022/JDSR3063.jpg",
-        "date": "2022-10-22",
-        "camera": "Fujifilm X-T2"
+        "camera": "Fujifilm X-T2",
+        "title": "Lynn Canyon, British Columbia, 2022"
     },
     {
         "img": "https://live.staticflickr.com/65535/53187911840_d794510da2_b.jpg",
@@ -39,8 +44,19 @@
     },
     {
         "img": "https://live.staticflickr.com/65535/53186994747_9fcd4fbd91_b.jpg",
+        "link": "https://flickr.com/photos/55347122@N07/53186994747/in/datetaken/",
         "date": "2022-10-22",
-        "camera": "Fujifilm X-T2"
+        "camera": "Fujifilm X-T2",
+        "title": "Lynn Canyon, British Columbia, 2022"
+    },
+    {
+        "link": "https://www.flickr.com/photos/55347122@N07/53230400283/in/datetaken/",
+        "img": "https://live.staticflickr.com/65535/53230400283_b961e26f4a_b.jpg",
+        "width": "683",
+        "height": "1024",
+        "title": "Lynn Canyon, British Columbia, 2022",
+        "camera": "Fujifilm X-T2",
+        "aspectRatio": "683 / 1024"
     },
     {
        "img": "https://live.staticflickr.com/65535/53187696376_f147ac1f66_h.jpg",
@@ -50,22 +66,26 @@
     {
         "img": "https://live.staticflickr.com/65535/53195866987_e2dad3977f_h.jpg",
         "date": "2020-07-03",
-        "link": "https://flickr.com/photos/55347122@N07/53195866987/in/datetaken/"
+        "link": "https://flickr.com/photos/55347122@N07/53195866987/in/datetaken/",
+        "title": "Manitoba, 2020"
     },
     {
         "img": "https://live.staticflickr.com/65535/53196318756_4257223e6c_h.jpg",
         "date": "2020-07-03",
-        "link": "https://flickr.com/photos/55347122@N07/53196318756/in/datetaken/"
+        "link": "https://flickr.com/photos/55347122@N07/53196318756/in/datetaken/",
+        "title": "Grand Beach, Manitoba, 2020"
     },
     {
         "link": "https://www.flickr.com/photos/55347122@N07/53200591337/in/datetaken/",
         "img": "https://live.staticflickr.com/65535/53200591337_260255f2ce_b.jpg",
-        "date": "2020-07-03"
+        "date": "2020-07-03",
+        "title": "Grand Beach, Manitoba, 2020"
     },
     {
         "img": "https://live.staticflickr.com/65535/53189649943_68a080f9ae_b.jpg",
         "date": "2019-04-19",
-        "link": "https://flickr.com/photos/55347122@N07/53189649943/in/datetaken/"
+        "link": "https://flickr.com/photos/55347122@N07/53189649943/in/datetaken/",
+        "title": "Sunset over Wānaka Ward, New Zealand, 2019"
     },
     {
         "img": "https://live.staticflickr.com/65535/53187339020_6be5142329_b.jpg",
@@ -77,41 +97,66 @@
         "link": "https://www.flickr.com/photos/55347122@N07/53201401700/in/datetaken/",
         "img": "https://live.staticflickr.com/65535/53201401700_275b022e42_b.jpg",
         "title": "Wairēinga/Bridal Veil Falls",
-        "alt": "Wairēinga/Bridal Veil Falls",
+        "alt": "Wairēinga/Bridal Veil Falls, 2018",
         "date": "2018-01-02",
-        "aspect_ratio": "1365/2048"
+        "aspectRatio": "1365/2048"
     },
     {
-        "img": "https://live.staticflickr.com/65535/53164997524_503171a2b1_h.jpg"
+        "img": "https://live.staticflickr.com/65535/53164997524_503171a2b1_h.jpg",
+        "link": "https://www.flickr.com/photos/55347122@N07/53164997524/in/datetaken/",
+        "date": "2018-01-01",
+        "title": "Whakarewarewa Forest, Rotorua, New Zealand, 2018"
     },
     {
-        "img": "https://live.staticflickr.com/65535/53187543143_894fcd63e9_b.jpg",
-        "title": "Cathedral Cove, 2018",
+        "img": "https://live.staticflickr.com/65535/53187543143_4fe5f3f474_b.jpg",
+        "title": "Cathedral Cove/Te Whanganui-A-Hei, 2018",
         "date": "2018-01-10",
         "link": "https://flickr.com/photos/55347122@N07/53187543143/in/datetaken/"
     },
     {
         "link": "https://www.flickr.com/photos/55347122@N07/53201065461/in/datetaken/",
         "img": "https://live.staticflickr.com/65535/53201065461_a805b168bf_b.jpg",
-        "date": "2018-01-08"
+        "date": "2018-01-08",
+        "title": "Mount Maunganui, 2018"
     },
     {
         "link": "https://www.instagram.com/p/BdhFj9SA894/",
         "img": "https://live.staticflickr.com/65535/53215154937_d703dc4ab7_b.jpg",
-        "aspect_ratio": "0.75"
+        "aspectRatio": "0.75",
+        "date": "2018-01-01",
+        "title": "Whakarewarewa Forest, Rotorua, New Zealand, 2018",
+        "camera": "iPhone X"
+    },
+    {
+        "img": "https://live.staticflickr.com/65535/53219716891_ef62a2383d_b.jpg",
+        "link": "https://www.instagram.com/p/BejeusfhHS1/",
+        "title": "Wairēinga/Bridal Veil Falls, 2018",
+        "camera": "iPhone X",
+        "date": "2018-01-03"
+    },
+    {
+        "link": "https://www.flickr.com/photos/55347122@N07/53228249702/in/datetaken/",
+        "img": "https://live.staticflickr.com/65535/53228249702_4fb2f9cfdf_b.jpg",
+        "width": "1024", 
+        "height": "683",
+        "date": "2018-01-01",
+        "title": "Bay of Plenty, 2018"
     },
     {
         "link": "https://www.flickr.com/photos/55347122@N07/53199430292/in/datetaken/",
         "img": "https://live.staticflickr.com/65535/53199430292_d243efc7b5_b.jpg",
-        "date": "2022-09-25"
+        "date": "2022-09-25",
+        "title": "Assiniboine Park Zoo, Kodak Gold 200, 2022"
     },
     {
         "link": "https://www.flickr.com/photos/55347122@N07/53216080954/in/datetaken/",
-        "img": "https://live.staticflickr.com/65535/53216080954_544e36832c_b.jpg"
+        "img": "https://live.staticflickr.com/65535/53216080954_544e36832c_b.jpg",
+        "title": "Southern Manitoba Sky, Kodak Gold 200, 2022"
     },
     {
         "link": "https://www.flickr.com/photos/55347122@N07/53201024226/in/datetaken/",
         "img": "https://live.staticflickr.com/65535/53201024226_2b8589259b_b.jpg",
-        "date": "2022-08-11"
+        "date": "2022-08-11",
+        "title": "Lake Winnipeg, 2022"
     }
 ]

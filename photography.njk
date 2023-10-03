@@ -14,7 +14,7 @@ redirect_from: "/photos"
   {% for piece in photos %}
   <div class="workboard-item">
     {% if piece.link %}<a href="{{ piece.link }}">{% endif %}
-      <img src="{{ piece.img }}" alt="{{piece.alt}}" {% if piece.title %}title="{{piece.title}}"{%endif%}>
+      <img src="{{ piece.img }}" alt="{{piece.alt}}" {% if piece.title %}title="{{piece.title}}"{%endif%} {% if piece.aspectRatio %} data-ratio="{{piece.aspectRatio}}"{%endif%} loading="lazy">
     {% if piece.link %}</a>{% endif %}
     </div>
   {% endfor %}
