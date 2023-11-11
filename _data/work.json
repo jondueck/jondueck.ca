@@ -28,6 +28,10 @@
         "year": "2015"
     },
     {
+        "img": "/src/img/60.svg",
+        "title": "60th Anniversary, killed"
+    },
+    {
         "img": "/src/img/library-lover-wb.svg",
         "alt": "South Central Regional Library Lover",
         "link": "/journal/2023/our-library/"
@@ -45,6 +49,9 @@
         "img": "/src/img/trip-planner.svg",
         "title": "Leisure Travel Vans Trip Planner",
         "year": "2023"
+    },
+    {
+        "img": "/src/img/blurred.jpg"
     },
     {
         "img": "/src/img/ted-charity-open-logo.svg",
