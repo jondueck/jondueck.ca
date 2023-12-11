@@ -26,6 +26,9 @@ Here’s February 2023:
 - [*Norm* by Andy Shauf](https://andyshauf.bandcamp.com/album/norm) – In typical fashion, Andy crafts another story told over the course of the whole album. [CanCon](https://en.wikipedia.org/wiki/Canadian_content)!
 - [*Let’s-a Go!*](https://louiezong.bandcamp.com/album/lets-a-go) by Louie Zong – a silly reworking of Mario tracks as Italo disco
 
+## Videos
+- [Thomas Flight on *The Banshees of Inisherin*](https://youtu.be/yBd1eH6DAAY)
+
 ## Podcasts
 - Maia (of [Broey Deschanel](https://www.youtube.com/@BroeyDeschanel/videos)) and Hannah Raine [look at the evolution of the term “gaslight” on Rehash](https://overcast.fm/+92JClFJfs)
 - Cinema of Meaning discusses [*Tár*](https://overcast.fm/+31EIs6l0U) and [*The Banshees of Inisherin*](https://overcast.fm/+31EKIcwGk), two of my [favourites from last year](/journal/2022/bests-of-2022/).

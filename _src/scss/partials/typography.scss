@@ -90,6 +90,12 @@ blockquote {
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    // &.tweet {
+    //     border: 1px solid var(--underline);
+    //     padding: 1ch 2ch;
+    //     border-radius: 1ch;
+    // }
     
 }
 
@@ -155,6 +161,11 @@ figcaption {
 ol,
 ul {
     margin-bottom: var(--line);
+    padding-left: 1.1em;
+}
+
+li::marker {
+    color: var(--underline);
 }
 
 header,

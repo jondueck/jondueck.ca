@@ -4,7 +4,7 @@ date: 2023-01-31 17:30:00 -06:00
 description: My selection of blog posts, music, and videos from the past month on the web.
 ---
 
-I’m still trying to figure the best way to share links with this blog. [Josh Ginter’s The Newsprint has a separate “Fresh Links” section](https://thenewsprint.co/fresh-links/) dedicated to this. [kottke.org](https://kottke.org) has links mixed in with other posts. [Noah Jacobus has his “Enjoyment Roundup” series](https://noahjacob.us/words/roundup-002.html), first started on Twitter, where he posts a regular format “whenever [he has] experienced enough different things across various media that pique [his] interest.” 
+I’m still trying to figure the best way to share links with this blog. [Josh Ginter’s The Newsprint has a separate “Fresh Links” section](https://thenewsprint.co/fresh-links/) dedicated to this. [kottke.org](https://kottke.org) has links mixed in with other posts. [Alissa Wilkinson posts a set of links every weekend.](https://wilkinson.substack.com/p/weekend-links-february-4) [Noah Jacobus has his “Enjoyment Roundup” series](https://noahjacob.us/words/roundup-002.html), first started on Twitter, where he posts a regular format “whenever [he has] experienced enough different things across various media that pique [his] interest.” 
 
 Do I include these links in the main RSS feed, or an optional second feed?
 
