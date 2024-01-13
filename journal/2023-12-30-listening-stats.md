@@ -8,7 +8,7 @@ status: draft
 Once again, this year’s listening was a mix of Apple Music (the app), Apple Music (the service), and Spotify. As my own alternative to Spotify Wrapped/Apple Music Replay, here’s my listening data from all services, via [Last.fm](https://www.last.fm/user/dueckjon/).
 
 
-I listened to approximately [612 different artists](https://www.last.fm/user/dueckjon/library/artists?from=2023-01-01&to=2023-12-31), [902 different albums](https://www.last.fm/user/dueckjon/library/albums?from=2023-01-01&to=2023-12-31), and [3032 different songs](https://www.last.fm/user/dueckjon/library/tracks?from=2023-01-01&to=2023-12-31) for a total of [5921 plays](https://www.last.fm/user/dueckjon/library?from=2023-01-01&to=2023-12-31), [up 32% from last year](https://www.last.fm/user/dueckjon/listening-report/year). That’s about 259 hours of listening.
+I listened to approximately [612 different artists](https://www.last.fm/user/dueckjon/library/artists?from=2023-01-01&to=2023-12-31), [902 different albums](https://www.last.fm/user/dueckjon/library/albums?from=2023-01-01&to=2023-12-31), and [3032 different songs](https://www.last.fm/user/dueckjon/library/tracks?from=2023-01-01&to=2023-12-31) for a total of [5921 plays](https://www.last.fm/user/dueckjon/library?from=2023-01-01&to=2023-12-31), [up 32% from last year](https://www.last.fm/user/dueckjon/listening-report/year). That’s about 15 days and 8 hours of listening.
 
 Like last year, I’m ordering these lists by playtime. I belive it’s the way that Spotify orders their lists, and I think that it’s a more accurate feel for my listening that ordering by playcount. I’ve used [Patrick McDonough’s last.timer tool](https://pmcdonough8133.github.io/last.timer/) to analyze my most-played artists and songs by playtime. ([@undefinist’s lasttime tool](https://undefinist.com/lasttime/) looked promising, but when I tested against some manually-calculated data it had a few errors.) A goal for next year is to build on these two tools to create a new version that will do both of these for me using Last.fm scrobbles and MusicBrainz duration data.
 
@@ -35,16 +35,16 @@ Like last year, I’m ordering these lists by playtime. I belive it’s the way 
 ## Most-Played Songs by Playtime
 <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ca/album/love-is-everywhere/1460410035?i=1460410041"></iframe>
 
-1. *Love Is Everywhere* by Pharoah Sanders – 224 minutes, 12 Plays
-2. *So You Are Tired* by Sufjan Stevens – 106 minutes, 22 Plays
+1. [*Love Is Everywhere*](https://youtu.be/yQvpDIE70wk) by Pharoah Sanders – 224 minutes, 12 Plays
+2. [*So You Are Tired*](https://sufjanstevens.bandcamp.com/track/so-you-are-tired) by Sufjan Stevens – 106 minutes, 22 Plays
 3. *Tom Verlaine* by Alvvays – 103 minutes, 30 Plays
-4. _Sh*t Talk_ by Sufjan Stevens – 102 minutes, 12 Plays
+4. [_Sh*t Talk_](https://sufjanstevens.bandcamp.com/track/shit-talk) by Sufjan Stevens – 102 minutes, 12 Plays
 5. *Winter Solstice* by Phoenix – 94 minutes, 24 Plays
 6. *I swear, I Really Wanted To Make A "Rap" Album But This Is Literally The Way The Wind Blew Me This Time* by André 3000 – 86 minutes, 7 Plays
 7. *Belinda Says* by Alvvays – 85 minutes, 31 Plays
-8. *Oh God Where Are You Now? (In Pickerel Lake? Pigeon? Marquette? Mackinaw?)* by Sufjan Stevens – 84 minutes, 9 Plays
+8. [*Oh God Where Are You Now? (In Pickerel Lake? Pigeon? Marquette? Mackinaw?)*](https://sufjanstevens.bandcamp.com/track/oh-god-where-are-you-now-in-pickeral-lake-pigeon-marquette-mackinaw) by Sufjan Stevens – 84 minutes, 9 Plays
 9. *Call You Out* by Miel – 79 minutes, 28 Plays
-10. *Everything That Rises* by Sufjan Stevens – 75 minutes, 15 Plays
+10. [*Everything That Rises*](https://sufjanstevens.bandcamp.com/track/everything-that-rises) by Sufjan Stevens – 75 minutes, 15 Plays
 
 ## Most-Played Songs by Plays
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2669156137/size=small/bgcol=ffffff/linkcol=0687f5/track=1056646713/transparent=true/" seamless><a href="https://alvvays.bandcamp.com/album/blue-rev">Blue Rev by Alvvays</a></iframe>

@@ -25,6 +25,17 @@ h2,
     font-weight: bold;
 }
 
+.post-content h2,
+.post-content .h2 {
+    margin-top: calc(2 * var(--line));
+    margin-bottom: var(--line);
+}
+
+.post-content hr+h2,
+.post-content hr+.h2 {
+    margin-top: var(--line);
+}
+
 h3,
 .h3 {
     font-size: var(--base-font-size);
@@ -151,12 +162,11 @@ figcaption {
     color: var(--secondary-text);
 }
 
-// code {
-//     background: #fff;
-//     padding: 1ch;
-//     border-radius: 1ch;
-//     border: 1px solid #ddd;
-// }
+code {
+    background: black;
+    padding: 0.5ch;
+    border-radius: 0.5ch;
+}
 
 ol,
 ul {
@@ -165,7 +175,7 @@ ul {
 }
 
 li::marker {
-    color: var(--underline);
+    color: var(--secondary-text);
 }
 
 header,
@@ -208,4 +218,30 @@ mark {
 li ul,
 li ol {
     margin-bottom: 0;
+}
+
+ol, ul {
+    hr {
+        margin-bottom: 0;
+        border-top-style: dotted;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration-color: var(--underline);
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--primary-color);
+        text-decoration-color: currentColor;
+    }
+
+    &[href^="http"] {
+        &:hover {
+            color: #1e69d9;
+        }
+    }
+
 }
