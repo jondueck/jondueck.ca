@@ -12,6 +12,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--sans);
+    text-wrap: pretty;
 }
 
 h1,
@@ -139,11 +140,13 @@ figcaption {
     font-size: var(--base-font-size);
     font-weight: 900;
     font-feature-settings: lnum;
+    text-wrap: balance;
 }
 
 .page-title {
     font-size: var(--base-font-size);
     font-feature-settings: lnum;
+    text-wrap: balance;
 }
 
 .page-header {
