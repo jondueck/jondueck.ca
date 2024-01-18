@@ -3,6 +3,7 @@ title: 2023 Listening Stats
 date: 2023-12-30 19:00:00 -06:00
 layout: post.njk
 status: draft
+image: '/src/img/2023og_light.jpg'
 ---
 
 Once again, this year’s listening was a mix of Apple Music (the app), Apple Music (the service), and Spotify. As my own alternative to Spotify Wrapped/Apple Music Replay, here’s my listening data from all services, via [Last.fm](https://www.last.fm/user/dueckjon/).
