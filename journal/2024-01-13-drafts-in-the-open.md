@@ -3,7 +3,7 @@ title: Drafts in the Open, Again
 date: 2024-01-13 12:30:00 -06:00
 ---
 
-Last year, [Noah Jacobus wrote about his drafts](https://noahjacob.us/words/writing-in-the-open) to share what he was thinking about while starting his blog. I borrowed that idea for [my own post](http://localhost:8080/journal/2023/potential-posts/) about unfinished drafts. Unfortunately, I went 0/8 on publishing them – some lost their timeliness, others I forgot about.
+Last year, [Noah Jacobus wrote about his drafts](https://noahjacob.us/words/writing-in-the-open) to share what he was thinking about while starting his blog. I borrowed that idea for [my own post](/journal/2023/potential-posts/) about unfinished drafts. Unfortunately, I went 0/8 on publishing them – some lost their timeliness, others I forgot about.
 
 Here are five unfinished drafts from the past year. If I can publish one of these it will be an improvement over last year.
 
