@@ -10,8 +10,9 @@ $secondary: #1e69d9;
 $light-grey: mix(#f0eff4, #313f48, 66%);
 
 $base-font-size: 1.25rem;
+$base-font-size: clamp(1.125rem, calc(1.1rem + 0.2vw), 1.25rem);
 $base-line-height: 1.6; 
-$line: $base-line-height * $base-font-size;
+$line: 2rem;
 
 :root {
     color-scheme: light dark;
@@ -25,6 +26,7 @@ $line: $base-line-height * $base-font-size;
     --serif: Calluna, Georgia, serif;
     --mono: ui-monospace, SFMono-Regular, monospace;
     --primary-color: #{$primary};
+    --secondary-color: #{$secondary};
     --base-font-size: #{$base-font-size};
     --base-line-height: #{$base-line-height};
     --line: calc(var(--base-font-size) * var(--base-line-height));
