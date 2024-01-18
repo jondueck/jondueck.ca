@@ -10,6 +10,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
+    "_src/css/": "src/css/",
     "_src/img/": "src/img/",
     "_src/fonts/": "src/fonts/",
     "_src/js/": "src/js/",
@@ -74,6 +75,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   module.exports = function (eleventyConfig) {
+    eleventyConfig.setServerOptions({
+      // Whether the live reload snippet is used
+      liveReload: true,
+    });
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.setBrowserSyncConfig({
       files: ('./_site/src/css/*.css', './_src/scss/*.scss')
