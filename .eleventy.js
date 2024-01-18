@@ -5,11 +5,11 @@ const { DateTime } = require("luxon");
 const footnotes = require('eleventy-plugin-footnotes');
 
 const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
-    "_src/css/": "src/css/",
     "_src/img/": "src/img/",
     "_src/fonts/": "src/fonts/",
     "_src/js/": "src/js/",
@@ -64,7 +64,14 @@ module.exports = function (eleventyConfig) {
     linkify: true
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(options));
+  let markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true,
+  }).use(markdownItAnchor, {
+    slugify: eleventyConfig.getFilter("slug"),
+  });
+  eleventyConfig.setLibrary("md", markdownLibrary);
 
   module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
