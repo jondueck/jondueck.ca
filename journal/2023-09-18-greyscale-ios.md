@@ -7,7 +7,7 @@ redirect_from: journal/2023/automated-greyscale-with-ios-shortcuts/
 > Decided to set an automation to turn my phone to grayscale later in the evening and I can’t describe the relief it gave my brain
 > <cite><a href="https://www.threads.net/@thetimmywall/post/Cv-YFMPxZzt">@thetimmywall on Threads</a>
 
-My friend Tim taught me a neat iOS trick. I’ve been interested in using iOS’ colour filters to set my iPhone to greyscale, but I didn’t want to do it permanently. [Tim’s Threads post](https://www.threads.net/@thetimmywall/post/Cv-YFMPxZzt) taught me that it could be automated with iOS Shortcuts. 
+[My friend Tim](https://timmyis.online) taught me a neat iOS 17 trick. I’ve been interested in using iOS’ colour filters to set my iPhone to greyscale, but I didn’t want to do it permanently. [Tim’s Threads post](https://www.threads.net/@thetimmywall/post/Cv-YFMPxZzt) taught me that it could be automated with iOS Shortcuts. 
 
 I now have my phone switch to greyscale when my pre-set “Wind Down” time begins. When I stop my wake up alarm the next morning, the colour returns. As bed time approaches, my phone becomes less tempting to look at. It’s great!
 
