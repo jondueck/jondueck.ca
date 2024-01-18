@@ -248,3 +248,8 @@ a {
     }
 
 }
+
+::selection {
+    background: var(--secondary-color);
+    color: var(--body-color);
+}

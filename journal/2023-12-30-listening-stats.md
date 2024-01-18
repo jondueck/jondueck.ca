@@ -13,6 +13,8 @@ I listened to approximately [612 different artists](https://www.last.fm/user/due
 Like last year, I’m ordering these lists by playtime. I belive it’s the way that Spotify orders their lists, and I think that it’s a more accurate feel for my listening that ordering by playcount. I’ve used [Patrick McDonough’s last.timer tool](https://pmcdonough8133.github.io/last.timer/) to analyze my most-played artists and songs by playtime. ([@undefinist’s lasttime tool](https://undefinist.com/lasttime/) looked promising, but when I tested against some manually-calculated data it had a few errors.) A goal for next year is to build on these two tools to create a new version that will do both of these for me using Last.fm scrobbles and MusicBrainz duration data.
 
 
+![graph of scrobbles by month](/src/img/2023-scrobbles.svg)
+
 ## Most-Played Artists
 <iframe style="border: 0; width: 100%; height: 42px; background: none;" src="https://bandcamp.com/EmbeddedPlayer/album=2802390187/size=small/bgcol=ffffff/linkcol=0687f5/track=4190356499/transparent=true/" seamless><a href="https://music.sufjan.com/album/javelin">Javelin by Sufjan Stevens</a></iframe>
 

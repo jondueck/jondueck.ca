@@ -4,6 +4,7 @@ date: 2023-12-31 09:00:00 -06:00
 layout: post.njk
 status: draft
 redirect_from: '/2023/'
+image: '/src/img/2023og.jpg'
 ---
 
 2023 was a year of celebration and sorrow. Yet, here are my favourite pieces of art and media from the year. This year I’ve added a few new categories, with the help of friends.
@@ -68,6 +69,7 @@ This was a big year for me for movies. I watched [fourteen feature-length films 
 
 ### Bonus Round
 - **Honourable Mention**: My friend, Stephen Gray, directed the documentary [_After Death_](https://letterboxd.com/film/after-death-2023/) which played in over 2000 cinemas across North America.
+- **Favourite Short Film**: _Poison_ directed by Wes Anderson
 - **Favourite Score**: *Oppenheimer* by Ludwig Göransson and *The Boy and the Heron* by Joe Hisaishi
 - **Favourite Editing**: *Oppenheimer* by Jennifer Lame
 - **Favourite Actors**: Cillian Murphy (Oppenheimer), Lily Gladstone (Killers of the Flower Moon)
