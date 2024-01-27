@@ -186,7 +186,6 @@ tr {
       filter: blur(0);
     }
   }
-  
 
 .placeholder {
     background-color: var(--grey);
@@ -242,6 +241,12 @@ figure {
 
     img {
         border-radius: 0.5ch;
+        &[data-ratio] {
+            aspect-ratio: attr(data-ratio integer, auto);
+            &:after {
+                content: attr(data-ratio string);
+            }
+        }
     }
 
 }

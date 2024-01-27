@@ -1,21 +1,7 @@
-a {
-    color: inherit;
-    text-decoration-color: var(--underline);
-    text-decoration-thickness: 1px;
-    cursor: pointer;
-
-    &:hover {
-        color: var(--primary-color);
-        text-decoration-color: currentColor;
-    }
-
-    &[href^="http"] {
-        &:hover {
-            color: #1e69d9;
-        }
-    }
-
-}
-
-
-@import 'partials/variables', 'partials/reset', 'partials/fonts', 'partials/typography', 'partials/layout', 'modules/work', 'modules/pizza';
+@import 'partials/_variables'; 
+@import 'partials/_reset'; 
+@import 'partials/_fonts'; 
+@import 'partials/_typography'; 
+@import 'partials/_layout'; 
+@import 'modules/_work'; 
+@import 'modules/_pizza';

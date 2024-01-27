@@ -24,17 +24,17 @@ h2,
 .h2 {
     font-size: var(--base-font-size);
     font-weight: bold;
-}
 
-.post-content h2,
-.post-content .h2 {
-    margin-top: calc(2 * var(--line));
-    margin-bottom: var(--line);
-}
+    .post-content &,
+    .post-content & {
+        // margin-top: calc(2 * var(--line));
+        margin-bottom: var(--line);
+    }
 
-.post-content hr+h2,
-.post-content hr+.h2 {
-    margin-top: var(--line);
+    .post-content hr + &,
+    .post-content hr + & {
+        margin-top: var(--line);
+    }
 }
 
 h3,

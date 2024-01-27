@@ -6,11 +6,23 @@ const footnotes = require('eleventy-plugin-footnotes');
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const eleventySass = require("eleventy-sass");
 
 module.exports = function (eleventyConfig) {
 
+  eleventyConfig.addPlugin(eleventySass, {
+    compileOptions: {
+      permalink: function(contents, inputPath) {
+        return (data) => data.page.filePathStem.replace("/_src/scss", "/src/css") + ".css";
+      }
+    },
+    sass: {
+      style: "compressed",
+      sourceMap: true
+    },
+	});
+
   eleventyConfig.addPassthroughCopy({
-    "_src/css/": "src/css/",
     "_src/img/": "src/img/",
     "_src/fonts/": "src/fonts/",
     "_src/js/": "src/js/",
@@ -59,6 +71,7 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+
   let options = {
     html: true,
     breaks: true,
@@ -81,7 +94,7 @@ module.exports = function (eleventyConfig) {
     });
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.setBrowserSyncConfig({
-      files: ('./_site/src/css/*.css', './_src/scss/*.scss')
+      files: ('./_site/src/css/*.css', './_src/scss/**/*.scss')
     });
     eleventyConfig.addLayoutAlias('post', '_layouts/post.njk');
   };
