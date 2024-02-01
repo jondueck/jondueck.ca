@@ -6,6 +6,7 @@ const footnotes = require('eleventy-plugin-footnotes');
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require('markdown-it-attrs');
 const eleventySass = require("eleventy-sass");
 
 module.exports = function (eleventyConfig) {
@@ -84,6 +85,7 @@ module.exports = function (eleventyConfig) {
     linkify: true,
   }).use(markdownItAnchor, {
     slugify: eleventyConfig.getFilter("slug"),
+  }).use(markdownItAttrs, {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 

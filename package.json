@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "eleventy-sass": "^2.2.4",
-    "markdown-it-anchor": "^8.6.7"
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-attrs": "^4.1.6"
   }
 }

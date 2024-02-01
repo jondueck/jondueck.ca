@@ -11,11 +11,11 @@ image: '/src/img/2023og.jpg'
 
 ---
 
-Skip to: [Music](#music), [Movies](#movies), [Podcasts](#podcasts), [TV](#tv), [Videos](), [Books](#books), [Miscellanea](#misc)
+Skip to: [Music](#albums-of-the-year), [Movies](#movies-of-the-year), [Podcasts](#podcasts-of-the-year), [TV](#tv-of-the-year), [Videos](#videos-of-the-year), [Books](#books-read-this-year), [Miscellanea](#miscellanea) {.post-nav}
 
 ---
 
-<h2 id="music">Albums of the Year</h2>
+## Albums of the Year
 
 I [listened to 79 albums from this year](https://www.last.fm/user/dueckjon/listening-report/year). This collection of top ten albums may be my least settled that I’ve ever published. For more detailed listening statistics from this year, see my [2023 Listening Stats post](/journal/2023/listening-stats/).
 
@@ -45,7 +45,7 @@ Any of these could move up with another listen: [*Wishes to Fulfill*](https://an
 - **Song of the Summer**: [*Danger*](https://oliviadean.bandcamp.com/track/danger) by Olvia Dean
 - **2022 Album I Missed Last Year**: *How It Ends* by Toledo or *Meeting with a Judas Tree* by Duval Timothy
 
-<h2 id="movies">Movies of the Year</h2>
+## Movies of the Year
 
 <!-- ![](https://scenebygreen.files.wordpress.com/2023/09/vs-youtube-pastlivesofficialtrailerhda24-126.png) -->
 
@@ -78,7 +78,7 @@ This was a big year for me for movies. I watched [fourteen feature-length films 
 - **Favourite Original Song**: [Dear Alien (Who Art In Heaven)](https://youtu.be/rW2GJMI4heI) from _Asteroid City_ – Lyrics by Wes Anderson, music by  Jarvis Cocker, Richard Hawley, lead vocals by Preston George Mota
 - **Favourite Interview About A Movie**: [Ethan and Maya Hawke with Bishop Robert Barron for _Wildcat_](https://youtu.be/y5syAnrbYC0)
  
-<h2 id="podcasts">Podcasts of the Year</h2>
+## Podcasts of the Year
 
 Based on episodes released in the year 2023.
 
@@ -88,7 +88,7 @@ Based on episodes released in the year 2023.
 4. [*Something Rotten*](https://nebula.tv/somethingrotten/) by Jacob Geller and Blake Hester <br>The Silent Hill 2 & 3 series made me consider Silent Hill 2 to be one of my favourites, even though I don’t know that I ever want to play it.
 5. [*Rehash*](https://podcasters.spotify.com/pod/show/rehashpodcast) by Maia (Broey Deschanel) and Hannah Raine
 
-<h2 id="tv">TV of the Year</h2>
+## TV of the Year
 
 I didn’t watch a lot of television this year, only getting through five seasons of shows from this year. I started _Scavengers Reign_ too late in the year to finish it, but it would probably be near the top of this list.
 
@@ -96,7 +96,7 @@ I didn’t watch a lot of television this year, only getting through five season
 2. _Paul T. Goldman_
 3. _The Other Two_ (Season 3)
 
-<h2 id="videos">Videos of the Year</h2>
+## Videos of the Year
 This category celebrates my favourite video essays, and other videos released this year.
 
 - [*Four-Byte Burger*](https://youtu.be/i4EFkspO5p4?si=lykPQaQN0rzvznUz) by Ahoy
@@ -111,7 +111,7 @@ Hank Green’s vlogging of his cancer was very good for someone, like me, who wa
 
 ---
 
-<h2 id="books">Books Read this Year</h2>
+## Books Read this Year
 
 I read [30 books](https://www.goodreads.com/user/year_in_books/2023/5173121) this year, including audiobooks. Here are a few of my favourites that I read this year, in no particular order.
 - [*American Prometheus*](https://www.goodreads.com/book/show/189134479-american-prometheus) by Kai Bird and Martin J. Sherwin (2005)
@@ -142,7 +142,7 @@ These games were started and/or completed in 2023:
 
 ---
 
-<h2 id="misc">Miscellanea</h2>
+## Miscellanea
 
 - **Favourite Coffee** (asked by Tim): I drank a lot of [Other Brother’s natural Ethiopian coffee from Uraga, Guji](https://www.otherbrotherroasters.com/collections/filter-drip-roast/products/ethiopia-uraga) – hot, iced, espresso, V60, Chemex. I’m drinking it as I write this.
 - **“Favourite group of friends to play video games with on some Thursdays”** (asked by Tim): [Johnnie, Tim, and Ty](https://twitter.com/html5head/status/1433805227858153473/photo/1)
