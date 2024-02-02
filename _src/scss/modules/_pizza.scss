@@ -1,0 +1,119 @@
+#pizza {
+    --primary-color: #D90404;
+    --body-color: #D90404;
+    --peel: calc(25vh + 5vw);
+
+    @media (prefers-color-scheme: dark) {
+        --background: #320101;
+        --body-color: var(--white);
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+    }
+
+    .site-header,
+    .site-name,
+    .site-footer {
+        display: none;
+    }
+
+    .ingredients {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-bottom: 1em;
+
+        li {
+            margin: 0;
+            padding: 1ch 0;
+            border-bottom: 1px dotted currentColor;
+        }
+
+        small {
+            opacity: 0.75;
+            font-style: italic;
+        }
+    }
+
+    .ingredients li:last-of-type {
+        border-bottom: 0;
+    }
+
+    .ingredients[aria-label]:before {
+        content: attr(aria-label);
+        font-family: var(--sans);
+        font-weight: bold;
+        border-bottom: 1px solid;
+        width: 100%;
+        display: block;
+    }
+
+    &:before {
+        content: '';
+        height: 1rem;
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        background-image: url(/src/img/checker.svg);
+        background-size: contain;
+        background-repeat: repeat;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: -0.1em;
+    }
+
+    .stats-box {
+        display: grid;
+        grid-gap: 1ch;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .stat-feature {
+        display: block;
+        font-size: 3em;
+        letter-spacing: -0.03em;
+    }
+
+    .homegrown {
+        border: 1px solid;
+        padding: 0.5ch 1ch;
+        border-radius: 50%;
+        font-style: normal;
+        font-size: 60%;
+        text-transform: uppercase;
+        font-family: var(--sans);
+        font-style: italic;
+    }
+
+    .ingredients-section {
+        display: none;
+    }
+
+    .menu {
+        padding: var(--peel) 0;
+        margin-top: var(--line-2);
+        display: flex;
+        flex-direction: column;
+        gap: var(--line-2);
+
+        @media (min-width: 720px) {
+            margin-inline: auto;
+            width: 50ch;
+        }
+    }
+
+    .peel {
+        margin-inline: auto; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0;
+        height: var(--peel);
+    }
+
+}

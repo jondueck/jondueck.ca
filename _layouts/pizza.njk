@@ -2,129 +2,35 @@
 layout: base.njk
 ---
 
-<style>
-    :root {
-    --primary-color: #D90404;
-    --body-color: #D90404;
-    }
-    .site-header menu,
-    .site-name {
-        display: none;
-    }
-    .ingredients {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        margin-bottom: 1em;
-    }
-    .ingredients li {
-        margin: 0;
-        padding: 1ch 0;
-        border-bottom: 1px dotted currentColor;
-    }
-    .ingredients li:last-of-type {
-        border-bottom: 0;
-    }
-    .ingredients small {
-        opacity: 0.75;
-        font-style: italic;
-    }
-    .ingredients[aria-label]:before{
-        content:attr(aria-label);
-        font-family: var(--sans);
-        font-weight:bold;
-        border-bottom: 1px solid;
-        width: 100%;
-        display: block;
-    }
-    body:before {
-        content: '';
-        height: 1rem;
-        width: 100%;
-        position: fixed;
-        overflow: hidden;
-        background-image: url(/src/img/checker.svg);
-        background-size: contain;
-        background-repeat: repeat;
-    }
-    @media (min-width: 720px) {
-        .menu {
-            margin-inline: auto;
-            width: 50ch;
-        }
-    }
-    .site-footer > * {
-        display: none;
-    }
-    @media (prefers-color-scheme: dark) {
-        :root {
-        --background: #320101;
-        --body-color: var(--white);
-        }
-    }
-    h1 {
-        text-transform: uppercase;
-        letter-spacing: -0.1em;
-    }
-    .stats-box {
-        display: grid;
-        grid-gap: 1ch;
-        grid-template-columns: 1fr 1fr;
-        text-align: center;
-    }
-    .stat-feature {
-        display: block;
-        font-size: 3em;
-        letter-spacing: -0.03em;
-    }
-    main {
-        display: flex;
-        align-items: center;
-    }
-    .homegrown {
-        border: 1px solid;
-        padding: 0.5ch 1ch;
-        border-radius: 50%;
-        font-style: normal;
-        font-size: 60%;
-        text-transform: uppercase;
-        font-family: var(--sans);
-        font-style: italic;
-    }
-
-    .ingredients-section {
-        display: none;
-    }
-
-</style>
-
 <div class="wrap">
-    <img src="/src/img/pizza peel.png" alt="" height="300" class="peel" style="margin-inline: auto; position: absolute; top: 0; left: 0; right: 0; ">
+    <img src="/src/img/pizza peel.png" alt="" height="300" class="peel">
 
 
     {# <span>Townsend</span> #}
     <section class="menu">
-        <div style="text-align: center; font-family: var(--sans); text-transform: uppercase;">
-            <span style="height: 200px; display: block">&nbsp;</span>
-            <span>Next Pizza</span><br>
-            <span>&#9662;</span><br>
-            <span>TBA</span><br>
-            {# <span>&#9662;&#9662;</span><br>
-            <span>Townsend Dr</span> #}
-        </div>
-        <br><br>
 
         <div class="stats-box">
             <div class="stat">
-                <span class="stat-feature">40</span>
+                <span class="stat-feature">{{ pizza_year }}</span>
                 <span>Pizzas This Year</span>
             </div>
             <div class="stat">
                 <span class="stat-feature">10</span>
                 <span>Pizzas Last Party</span>
             </div>
+            <div class="stat">
+                <span class="stat-feature">{{ pizza_last_year }}</span>
+                <span>Pizzas Last Year</span>
+            </div>
         </div>
-        <br><br>
+
+        <div style="text-align: center; font-family: var(--sans); text-transform: uppercase;">
+            <span>Next Pizza</span><br>
+            <span>&#9662;</span><br>
+            <span>TBA</span><br>
+            {# <span>&#9662;&#9662;</span><br>
+            <span>Townsend Dr</span> #}
+        </div>
 
         <section class="ingredients-section">
 
