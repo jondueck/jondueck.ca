@@ -4,14 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} | {{ site.title }}</title>
+  {%- if layout == "home.njk" -%}
+  <title>{{ site.title }} | {{ title or metadata.title }}</title>
+  {%- else -%}
+  <title>{{ title or metadata.title }} | {{ site.title }}</title>
+  {%- endif -%}
   <meta name="description" content="{{ description or metadata.description }}">
   <link rel="stylesheet" href="/src/css/style.css">
   {% include 'social.njk' %}
   {% include 'favicons.njk' %}
 </head>
 
-<body>
+<body id="{{ page.fileSlug }}">
 
   {% include 'header.njk' %}
 
