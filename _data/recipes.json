@@ -12,6 +12,11 @@
         "publisher": "Ooni"
     },
     {
+        "title": "2-Hour Weeknight Pizza",
+        "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-2-hour-weeknight-pizza",
+        "author": "Ethan Chlebowski"
+    },
+    {
         "title": "Masa Pancakes",
         "url": "https://www.epicurious.com/recipes/food/views/masa-pancakes-alan-delgado",
         "author": "Alan Delgado",
@@ -39,5 +44,23 @@
         "url": "https://cooking.nytimes.com/recipes/1022131-sheet-pan-bibimbap",
         "author": "Eric Kim",
         "publisher": "New York Times Cooking"
-    }   
+    },
+    {
+        "title": "Easy Blueberry Cream Scones",
+        "url": "https://www.bonappetit.com/recipe/easy-blueberry-cream-scones",
+        "author": "Claire Saffitz",
+        "publisher": "Bon Appetit Basically"
+    },
+    {
+        "title": "Caramelized Shallot Pasta",
+        "url": "https://cooking.nytimes.com/recipes/1020830-caramelized-shallot-pasta",
+        "author": "Alison Roman",
+        "publisher": "New York Times Cooking"
+    },
+    {
+        "title": "Smashed Chili Crunch Cucumber Salad",
+        "url": "https://canadashop.momofuku.com/blogs/recipes/smashed-chili-crunch-cucumber-salad",
+        "author": "Momofuku",
+        "img": "https://canadashop.momofuku.com/cdn/shop/articles/Smashed_Chili_Crunch_Cucumbers_5_AJB_1_2560x.jpg"
+    }      
 ]

@@ -10,9 +10,10 @@ updated: true
     
         <li>
             <a href="{{ recipe.url }}">
+                {# {% if recipe.img %}<img src="{{ recipe.img }}" alt="" loading="lazy">{% endif %} #}
             <strong>{{ recipe.title }}</strong>
-            </a>
-            {% if recipe.author %}By {{ recipe.author }} {% if recipe.publisher %} for {% endif %}{% endif %} 
+            </a> 
+            {% if recipe.author %} by {{ recipe.author }} {% if recipe.publisher %} for {% endif %}{% endif %} 
             {% if recipe.publisher %}{{ recipe.publisher }}{% endif %}
         </li>
     {% endfor %}
