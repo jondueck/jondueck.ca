@@ -31,7 +31,7 @@
     {
         "title": "Small-Batch Blueberry Muffins",
         "url": "https://cooking.nytimes.com/recipes/1021868-small-batch-blueberry-muffins",
-        "author": "Michelle Lopez Adapted by Erin Jeanne McDowell",
+        "author": "Michelle Lopez, Adapted by Erin Jeanne McDowell",
         "publisher": "Bon Appétit"
     },
     {
@@ -49,7 +49,7 @@
         "title": "Easy Blueberry Cream Scones",
         "url": "https://www.bonappetit.com/recipe/easy-blueberry-cream-scones",
         "author": "Claire Saffitz",
-        "publisher": "Bon Appetit Basically"
+        "publisher": "Bon Appétit Basically"
     },
     {
         "title": "Caramelized Shallot Pasta",
@@ -62,5 +62,10 @@
         "url": "https://canadashop.momofuku.com/blogs/recipes/smashed-chili-crunch-cucumber-salad",
         "author": "Momofuku",
         "img": "https://canadashop.momofuku.com/cdn/shop/articles/Smashed_Chili_Crunch_Cucumbers_5_AJB_1_2560x.jpg"
-    }      
+    },
+    {
+        "title": "Gochujang Beef Bowl",
+        "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/gochujang-beef-bowl",
+        "author": "Ethan Chlebowski"    
+    }
 ]
