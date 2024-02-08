@@ -2,6 +2,9 @@
     --primary-color: #D90404;
     --body-color: #D90404;
     --peel: calc(25vh + 5vw);
+    --sans: Futura-PT, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    // --serif: var(--sans);
 
     @media (prefers-color-scheme: dark) {
         --background: #320101;
@@ -69,14 +72,20 @@
     .stats-box {
         display: grid;
         grid-gap: 1ch;
-        grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
+        text-wrap: balance;
+        grid-template-columns: repeat(1, 1fr);
+        @media (min-width: 480px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
     }
 
     .stat-feature {
         display: block;
         font-size: 3em;
         letter-spacing: -0.03em;
+        font-family: var(--sans);
+        font-weight: 400;
     }
 
     .homegrown {
@@ -116,4 +125,38 @@
         height: var(--peel);
     }
 
+    .h1 {
+        font-weight: 600;
+    }
+
+}
+
+.arc-curve {
+    fill: transparent;
+}
+
+.arc-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--sans);
+    fill: currentColor;
+}
+
+.arc {
+    width: 100%;
+    max-width: 12rem;
+    color: currentColor;
+    margin-inline: auto;
+    margin-bottom: -1em;
+}
+
+.next-party {
+    padding: 1.5em;
+    text-align: center;
+    font-family: var(--sans);
+    border: 4px double;
+    border-radius: 100%;
+    margin-inline: auto;
+    margin-top: 2em;
+    transform: rotate(10deg);
 }
