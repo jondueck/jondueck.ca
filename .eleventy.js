@@ -32,6 +32,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("manifest.webmanifest");
+  eleventyConfig.addPassthroughCopy("robots.txt");
   
   eleventyConfig.addLayoutAlias('post', 'post.njk');
   eleventyConfig.addLayoutAlias('page', 'page.njk');
