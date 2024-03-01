@@ -1,0 +1,18 @@
+---
+layout: page.njk
+title: Hyperlinks
+description: Monthly links to the World Wide Web
+subtitle: Click around
+---
+
+<ul reversed class="archive journal-list hyperlink-list">
+{% for post in collections.journal | reverse %}
+  {% if post.data.tags == "hyperlinks" %}
+  <li>
+    <a href="{{ post.url | url }}" class="journal-list-title">
+    {{ post.data.title }}</a>
+    <time datetime="{{ post.date.toUTCString() }}"  class="journal-list-date">{{ post.date | readableDate}}</time>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>

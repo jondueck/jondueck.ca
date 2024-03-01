@@ -24,5 +24,6 @@ A new year, already a month old. I’m going to try to bring by my short-lived _
 
 ## Etc
 - [Cook Well](https://www.cookwell.com) is a new cooking website from [Ethan Chlebowski](https://www.ethanchlebowski.com) that looks useful.
+- [David Ehrlich counts down his 25 favourite films of the year with a masterful montage](https://vimeo.com/900680873).
 - [Dumping the ROM of a GBA game by crashing it](https://youtu.be/0-7PSmYYHF0) by TheZZAZZGlitch
 - [Anatomy of a Fall](https://www.justwatch.com/ca/movie/anatomie-dune-chute) missed the cutoff for consideration for my 2023 Favourites, but if I had seen it in time, it would have been in my Top 6 at least. Now available digitally.

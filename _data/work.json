@@ -1,5 +1,11 @@
 [
     {
+        "img": "/src/img/whitecap.svg",
+        "alt": "",
+        "title": "Whitecap Coffee identity",
+        "year": "2015"
+    },
+    {
         "img": "/src/img/lc.svg",
         "alt": "Listeners Club",
         "title": "Listeners Club logo",
@@ -19,13 +25,17 @@
         "img": "/src/img/martimes-caravan-circle.svg"
     },
     {
+        "img": "/src/img/tc.svg",
+        "alt": "",
+        "year": "2024"
+    },
+    {
         "img": "/src/img/going-east-going-fast.svg"
     },
     {
-        "img": "/src/img/whitecap.svg",
+        "img": "/src/img/23w.svg",
         "alt": "",
-        "title": "Whitecap Coffee identity",
-        "year": "2015"
+        "year": "2024"
     },
     {
         "img": "/src/img/60.svg",
