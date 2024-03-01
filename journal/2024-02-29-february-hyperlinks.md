@@ -10,6 +10,7 @@ tags: hyperlinks
 - [An anoymyous blogger from Antarctica with the delightful URL brr.fyi](https://brr.fyi/)
 - [XKCD forecasts](https://xkcd.com/2892/) the longevity of [“It’s one banana, Michael. What could it cost? $10?”](https://youtu.be/Nl_Qyk9DSUw)
 - *“They believed that the internet was a good place, filled with good people, who above all wanted the internet to be a good thing. In that world, and on that internet, explaining your wishes in a text file was governance enough.”* –  [The Rise and Fall of robots.txt](https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders) by David Pierce for The Verge
+- [Where I’m at on the whole CSS-Tricks thing](https://chriscoyier.net/2024/02/28/where-im-at-on-the-whole-css-tricks-thing/) by Chris Coyier
 
 ## Listen (Music)
 - [*The Pilgrim, Their God and The King Of My Decrepit Mountain*](https://tapir-exclamation-mark.bandcamp.com/album/the-pilgrim-their-god-and-the-king-of-my-decrepit-mountain) by Tapir!
