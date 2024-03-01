@@ -6,7 +6,7 @@ tags: hyperlinks
 ---
 
 ## Read
-- Bryan Manio wrote about [*How to quickly add RSS links with Raycast*](https://bryanmanio.com/blog/quickly-add-rss-links-raycast/) and Feedly. I use Reeder, which has an extension for grabbing feeds, but this looks useful if you use those tools. And there’s a screenshot of *this very website* in the post‽ I’m charmed by the way that
+- Bryan Manio wrote about [*How to quickly add RSS links with Raycast*](https://bryanmanio.com/blog/quickly-add-rss-links-raycast/) and Feedly. I use Reeder, which has an extension for grabbing feeds, but this looks useful if you use those tools. And there’s a screenshot of *this very website* in the post‽ I’m charmed by the way these connections happen through blogging.
 - [An anoymyous blogger from Antarctica with the delightful URL brr.fyi](https://brr.fyi/)
 - [XKCD forecasts](https://xkcd.com/2892/) the longevity of [“It’s one banana, Michael. What could it cost? $10?”](https://youtu.be/Nl_Qyk9DSUw)
 - *“They believed that the internet was a good place, filled with good people, who above all wanted the internet to be a good thing. In that world, and on that internet, explaining your wishes in a text file was governance enough.”* –  [The Rise and Fall of robots.txt](https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders) by David Pierce for The Verge
