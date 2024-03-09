@@ -4,73 +4,101 @@
         "url": "https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies",
         "author": "Chris Morroco",
         "publisher": "Bon Appétit",
-        "img": "https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/2:1/w_1000,c_limit/chocolate-chip-cookie.jpg"
+        "img": "https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/2:1/w_1000,c_limit/chocolate-chip-cookie.jpg",
+        "emoji": "🍪"
     },
     {
         "title": "Classic Pizza Dough",
         "url": "https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect",
-        "publisher": "Ooni"
+        "publisher": "Ooni",
+        "tags": "Pizza",
+        "emoji": "🍕"
     },
     {
         "title": "2-Hour Weeknight Pizza",
         "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-2-hour-weeknight-pizza",
-        "author": "Ethan Chlebowski"
+        "author": "Ethan Chlebowski",
+        "tags": "Pizza",
+        "emoji": "🍕"
     },
     {
         "title": "Masa Pancakes",
         "url": "https://www.epicurious.com/recipes/food/views/masa-pancakes-alan-delgado",
         "author": "Alan Delgado",
-        "publisher": "Epicurious"
+        "publisher": "Epicurious",
+        "emoji": "🥞"
     },
     {
         "title": "Healthyish Breakfast Sandwich",
         "url": "https://www.bonappetit.com/recipe/breakfast-sandwiches-onion-bacon",
         "author": "Chris Morroco",
-        "publisher": "Bon Appétit"
+        "publisher": "Bon Appétit",
+        "emoji": "🍳"
     },
     {
         "title": "Small-Batch Blueberry Muffins",
         "url": "https://cooking.nytimes.com/recipes/1021868-small-batch-blueberry-muffins",
         "author": "Michelle Lopez, Adapted by Erin Jeanne McDowell",
-        "publisher": "Bon Appétit"
+        "publisher": "Bon Appétit",
+        "emoji": "🫐"
     },
     {
         "title": "Pakistani Chicken Karahi",
         "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/pakistani-chicken-karahi",
-        "author": "Ethan Chlebowski"
+        "author": "Ethan Chlebowski",
+        "emoji": "🍗"
     },
     {
         "title": "Sheet-Pan Bibimbap",
         "url": "https://cooking.nytimes.com/recipes/1022131-sheet-pan-bibimbap",
         "author": "Eric Kim",
-        "publisher": "New York Times Cooking"
+        "publisher": "New York Times Cooking",
+        "emoji": "🍚"
     },
     {
         "title": "Easy Blueberry Cream Scones",
         "url": "https://www.bonappetit.com/recipe/easy-blueberry-cream-scones",
         "author": "Claire Saffitz",
-        "publisher": "Bon Appétit Basically"
+        "publisher": "Bon Appétit Basically",
+        "emoji": "🫐"
     },
     {
         "title": "Caramelized Shallot Pasta",
         "url": "https://cooking.nytimes.com/recipes/1020830-caramelized-shallot-pasta",
         "author": "Alison Roman",
-        "publisher": "New York Times Cooking"
+        "publisher": "New York Times Cooking",
+        "emoji": "🍝"
     },
     {
         "title": "Smashed Chili Crunch Cucumber Salad",
         "url": "https://canadashop.momofuku.com/blogs/recipes/smashed-chili-crunch-cucumber-salad",
         "author": "Momofuku",
-        "img": "https://canadashop.momofuku.com/cdn/shop/articles/Smashed_Chili_Crunch_Cucumbers_5_AJB_1_2560x.jpg"
+        "img": "https://canadashop.momofuku.com/cdn/shop/articles/Smashed_Chili_Crunch_Cucumbers_5_AJB_1_2560x.jpg",
+        "emoji": "🥒"
     },
     {
         "title": "Gochujang Beef Bowl",
         "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/gochujang-beef-bowl",
-        "author": "Ethan Chlebowski"    
+        "author": "Ethan Chlebowski",
+        "tags": "Quick",
+        "emoji": "🍚"    
     },
     {
         "title": "Grilled Chicken Club Sandwich",
         "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/grilled-chicken-club-sando",
-        "author": "Ethan Chlebowski"
+        "author": "Ethan Chlebowski",
+        "emoji": "🍔"
+    },
+    {
+        "title": "Spaghetti all’Assassina",
+        "url": "https://www.nytimes.com/2023/10/06/dining/spaghetti-allassassina.html",
+        "emoji": "🍝"
+    },
+    {
+        "title": "Chile Crisp Fettuccine Alfredo With Spinach",
+        "url": "https://cooking.nytimes.com/recipes/1023609-chile-crisp-fettuccine-alfredo-with-spinach",
+        "author": "Genevieve Ko",
+        "publisher": "New York Times Cooking",
+        "emoji": "🍝"
     }
 ]
