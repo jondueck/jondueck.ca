@@ -117,6 +117,16 @@
         "alt": "Tripp’s Tree Care"
     },
     {
+        "img": "/src/img/u.svg",
+        "title": "Unused",
+        "year": "2020"
+    },
+    {
+        "img": "/src/img/unfold_arc.svg",
+        "title": "Unfold Conference",
+        "year": "2020"
+    },
+    {
         "img": "/src/img/reignite.svg",
         "alt": ""
     },
@@ -128,6 +138,9 @@
         "img": "/src/img/works-end.svg",
         "alt": "",
         "title": "Works End"
+    },{
+        "img": "/src/img/aurora.svg",
+        "title": "Aurora"    
     },
     {
         "img": "/src/img/misc-logo-coffee.svg"
