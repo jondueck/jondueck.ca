@@ -23,6 +23,8 @@ My counsellor also recommended that I look to grief in music and movies, so here
 - The music of Sufjan Stevens, especially songs like [*Casimir Pulaski Day*](https://sufjanstevens.bandcamp.com/track/casimir-pulaski-day) or the albums [Carrie & Lowell](https://sufjanstevens.bandcamp.com/album/carrie-lowell) or [Javelin](https://sufjanstevens.bandcamp.com/album/javelin)
 - The album, [*My Dad Died* by Justice Cow](https://justicecow.bandcamp.com/album/my-dad-died)
 - The album [*12* by Ryuichi Sakamoto](https://youtube.com/playlist?list=PLvsYXqtYjMYcOGI0hU-hzJfnxmfs-UqqV), written while he had cancer
+- [*If Blue Could Be Happiness*](https://florist.bandcamp.com/album/if-blue-could-be-happiness) by Florist
+- The songs [*Motion and Thought*](https://wearetyphoon.bandcamp.com/track/motion-and-thought) and [*Room Within the Room*](https://wearetyphoon.bandcamp.com/track/room-within-the-room) from Typhoon’s [*Sympathetic Magic*](https://wearetyphoon.bandcamp.com/album/sympathetic-magic)
 - The film, [*How Do You Live?*/*The Boy and The Heron*](https://letterboxd.com/film/the-boy-and-the-heron/)
 - The film, [*Asteroid City*](https://letterboxd.com/film/asteroid-city/)
 
