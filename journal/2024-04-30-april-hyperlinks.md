@@ -1,6 +1,8 @@
 ---
 title: April 2024 Hyperlinks
-date: 2024-04-30 09:00:00 -06:00
+date: 2024-04-30 21:00:00 -06:00
+image: /src/img/hyperlinks_og.jpg
+tags: hyperlinks
 ---
 
 ## Read
