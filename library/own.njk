@@ -1,0 +1,40 @@
+---
+title: Books in My Personal Library
+layout: page.njk
+date: Last Modified
+description: A collection of my favourite books on design, fiction, and non-fiction.
+---
+
+<nav class="filter-list">
+Filter: 
+<a href="/library/" class="pill">Favourites</a>
+<a href="/library/own" class="pill">Library</a>
+<a href="/library/read" class="pill">Read</a>
+</nav>
+
+<ul class="library-list">
+{% for book in books %}
+{% if book.own %}
+
+        <li>
+            {% if book.cover %}
+                <img src="{{ book.cover }}" alt="" class="library-cover" loading="lazy">
+            {% else %}
+                <img style="width: 100%; aspect-ratio: 1 / 1.25; display: block; background-color: var(--underline); opacity: 0.25;"></img>
+            {% endif %}
+            <span class="library-title">{{ book.title }}</span><br>
+            <span class="library-author">{{ book.author }}</span>
+            <br>
+            {% if book.own %}<span class="h4">IN LIBRARY</span><br>{% endif %}
+            <span class="icons">
+            {% if book.favourite %}⭐️{% endif %} 
+            {% if book.read %}✅{% endif %}
+            </span>
+            {% if book.review %}<br><a href="{{book.review}}">Review</a>{% endif %}
+        </li>
+{% endif %}
+{% endfor %}
+ </ul>
+
+
+<p><a href="https://www.goodreads.com/user/show/5173121-jon-dueck" rel="me">Find me on Goodreads.</a></p>

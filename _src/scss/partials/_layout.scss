@@ -289,3 +289,24 @@ figure {
         margin-inline-end: 1ch;
     }
 }
+
+.filter-list {
+    font-family: var(--sans);
+    border-block-end: 1px solid var(--underline);
+    padding-block-end: var(--line);
+    a {
+        margin-inline: 1ch;
+    }
+    margin-block-end: var(--line);
+}
+
+span.icons {
+    position: absolute;
+    top: 1ch;
+    left: 1ch;
+    z-index: 100;
+}
+
+.library-list li {
+    position: relative;
+}
