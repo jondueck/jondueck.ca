@@ -16,21 +16,21 @@ Filter:
 {% for book in books %}
 {% if book.own %}
 
-        <li>
+        <li itemscope="" itemtype="https://schema.org/Book">
             {% if book.cover %}
-                <img src="{{ book.cover }}" alt="" class="library-cover" loading="lazy">
+                <img src="{{ book.cover }}" alt="" class="library-cover" loading="lazy" itemprop="image">
             {% else %}
-                <img style="width: 100%; aspect-ratio: 1 / 1.25; display: block; background-color: var(--underline); opacity: 0.25;"></img>
+                <img alt="" class="library-cover-placeholder"></img>
             {% endif %}
-            <span class="library-title">{{ book.title }}</span><br>
-            <span class="library-author">{{ book.author }}</span>
-            <br>
-            {% if book.own %}<span class="h4">IN LIBRARY</span><br>{% endif %}
+            <span class="library-title" itemprop="name">{{ book.title }}</span><br>
+            {% if book.author %}<span class="library-author" itemprop="author">{{ book.author }}</span><br>{% endif %}
+            {% if book.isbn %}<span style="font-family: monospace; font-size: small;" itemprop="isbn">{{ book.isbn}} </span><br>{% endif %}
+            {% if book.own %}<a href="/library/own" class="h4"> IN LIBRARY</a><br>{% endif %}
             <span class="icons">
             {% if book.favourite %}⭐️{% endif %} 
             {% if book.read %}✅{% endif %}
             </span>
-            {% if book.review %}<br><a href="{{book.review}}">Review</a>{% endif %}
+            {% if book.review %}<a href="{{book.review}}">Review</a>{% endif %}
         </li>
 {% endif %}
 {% endfor %}

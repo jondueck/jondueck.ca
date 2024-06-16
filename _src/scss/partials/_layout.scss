@@ -149,6 +149,14 @@ img.half,
     max-height: 25rem;
 }
 
+.library-cover-placeholder {
+    width: 100%; 
+    aspect-ratio: 1 / 1.25; 
+    display: block; 
+    background-color: var(--underline); 
+    opacity: 0.25;
+}
+
 .site-tagline {
     color: var(--secondary-text);
     display: block;
