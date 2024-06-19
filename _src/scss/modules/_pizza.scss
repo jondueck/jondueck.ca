@@ -1,19 +1,25 @@
 #pizza {
-    --primary-color: #D90404;
-    --body-color: #D90404;
+    // --primary-color: #D90404;
+    --primary-color: var(--secondary-color);
+    --body-color: var(--primary-color);
     --peel: calc(25vh + 5vw);
     --sans: Futura-PT, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --cursive: "rizado-script", cursive;
     
     // --serif: var(--sans);
 
     @media (prefers-color-scheme: dark) {
         --background: #320101;
+        --background: black;
         --body-color: var(--white);
     }
+
 
     main {
         display: flex;
         align-items: center;
+        flex-direction: column;
+        gap: var(--line-2);
     }
 
     .site-header,
@@ -26,12 +32,12 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        margin-bottom: 1em;
+        margin-block-end: 1em;
 
         li {
             margin: 0;
             padding: 1ch 0;
-            border-bottom: 1px dotted currentColor;
+            border-block-end: 1px dotted currentColor;
         }
 
         small {
@@ -41,14 +47,14 @@
     }
 
     .ingredients li:last-of-type {
-        border-bottom: 0;
+        border-block-end: 0;
     }
 
     .ingredients[aria-label]:before {
         content: attr(aria-label);
         font-family: var(--sans);
         font-weight: bold;
-        border-bottom: 1px solid;
+        border-block-end: 1px solid;
         width: 100%;
         display: block;
     }
@@ -67,6 +73,10 @@
     h1 {
         text-transform: uppercase;
         letter-spacing: -0.1em;
+    }
+
+    h3 {
+        color: inherit;
     }
 
     .stats-box {
@@ -99,13 +109,12 @@
         font-style: italic;
     }
 
-    .ingredients-section {
-        display: none;
+    main {
+        margin-block-start: var(--peel);
+        padding: var(--line-2) 0;
     }
 
-    .menu {
-        padding: var(--peel) 0;
-        margin-top: var(--line-2);
+    main .wrap {
         display: flex;
         flex-direction: column;
         gap: var(--line-2);
@@ -131,6 +140,21 @@
 
 }
 
+.slogan {
+    text-align: center;
+    font-size: 3em;
+    // letter-spacing: -0.02em;
+    font-family: var(--cursive);
+    line-height: 1;
+    text-wrap: balance;
+    max-width: 90vw;
+}
+
+a:hover {
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: none;
+}
+
 .arc-curve {
     fill: transparent;
 }
@@ -147,7 +171,7 @@
     max-width: 12rem;
     color: currentColor;
     margin-inline: auto;
-    margin-bottom: -1em;
+    margin-block-end: -1em;
 }
 
 .next-party {
@@ -159,4 +183,49 @@
     margin-inline: auto;
     margin-top: 2em;
     transform: rotate(10deg);
+    display: inline-block;
+    transition-duration: 0.5s;
+    &:hover {
+        transform: rotate(0deg);
+    }
+}
+
+.pizzas {
+    width: 100%;
+    padding-inline: var(--line);
+    max-width: 100%;
+
+    > ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: var(--line);
+        @media (min-width: 600px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (min-width: 1000px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+.pizza-item {
+    text-align: center;
+    h3 {
+        color: inherit;
+        font-family: var(--cursive);
+        font-size: 1.25em;
+        line-height: 1;
+        padding-block-end: 1ch;
+    }
+    border: 3px double;
+    padding: var(--line);
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        border-block-start: 1px dotted;
+    }
 }

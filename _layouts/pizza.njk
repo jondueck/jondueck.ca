@@ -6,112 +6,134 @@ layout: base.njk
     <img src="/src/img/pizza peel.png" alt="" height="300" class="peel">
 
 
-    {# <span>Townsend</span> #}
-    <section class="menu">
+    {# <center>
+        <span class="homegrown">“Since 2023”</span>
+    </center> #}
 
-        <center>
-            <span class="homegrown">“Since 2023”</span>
-        </center>
+    <div class="next-party">
+        
+        <svg viewBox="0 0 500 150" class="arc">
+            <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" class="arc-curve"/>
+            <text width="500">
+            <textPath xlink:href="#curve" class="arc-text" style="font-size: 2.75em;">
+                Next Pizza Party
+            </textPath>
+            </text>
+        </svg>
 
-        <div class="stats-box">
-            <div class="stat">
-                <span class="stat-feature">{{ pizza_year }}</span>
-                <span>Pizzas This Year</span>
-            </div>
-            <div class="stat">
-                <span class="stat-feature">10</span>
-                <span>Pizzas Last Party</span>
-            </div>
-            <div class="stat">
-                <span class="stat-feature">{{ pizza_last_year }}</span>
-                <span>Pizzas Last Year</span>
-            </div>
-        </div>
+        <span>&#9662;</span><br>
+        <span class="h1">{{ next_party }}</span><br>
+        {# <span>&#9662;&#9662;</span><br>
+        <span>Townsend Dr</span> #}
+    </div>
 
-        <div class="next-party">
-            
-            <svg viewBox="0 0 500 150" class="arc">
-                <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" class="arc-curve"/>
-                <text width="500">
-                <textPath xlink:href="#curve" class="arc-text" style="font-size: 2.75em;">
-                    Next Pizza Party
-                </textPath>
-                </text>
-            </svg>
+    <div class="slogan">
+        <p>“Feel <a href="https://youtu.be/NQ9TSeCesW0?t=92">the colour of the longest day</a>” </p>
+    </div>        
+</div>
+{% if pizzas %}
+    <section class="pizzas">
+        {# <h2>Featured Pizzas</h2> #}
+        <ul>
+            {% for pizza in pizzas %}
+            <li class="pizza-item">
+                <h3>“{{ pizza.name }}”</h3>
+                <ul class="pizza-item-ingredients">
+                {% for ingredient in pizza.ingredients %}
+                    <li>{{ ingredient }}</li>
+                {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}
 
-            <span>&#9662;</span><br>
-            <span class="h1">{{ next_party }}</span><br>
-            {# <span>&#9662;&#9662;</span><br>
-            <span>Townsend Dr</span> #}
-        </div>
-
-        <section class="ingredients-section">
+<div class="wrap">
+    <section class="ingredients-section">
 
         <h2>Ingredients</h2><br>
 
-        <ul class="ingredients" aria-label="Dough">
-            <li><details>
-                <summary>Classic Dough</summary>
-                <a href="https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect">Link</a>
-                <small>Flour, Yeast, Salt, Water</small>
-            </details></li>
-            <li><details>
-                <summary>Gluten-Free* Dough</summary>
-                <a href="https://ca.ooni.com/blogs/recipes/gluten-free-pizza-dough">Link</a>
-                <small>Gluten-Free Flour, Yeast, Salt, Water, Olive Oil</small>
-            </details></li>
-        </ul>
+        <details>
+            <summary><h3>Dough</h3></summary>
+            <ul class="ingredients" [aria-label="Dough"]>
+                <li><details>
+                    <summary>Classic Dough</summary>
+                    <a href="https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect">Link</a>
+                    <small>Flour, Yeast, Salt, Water</small>
+                </details></li>
+                <li><details>
+                    <summary>Gluten-Free* Dough</summary>
+                    <a href="https://ca.ooni.com/blogs/recipes/gluten-free-pizza-dough">Link</a>
+                    <small>Gluten-Free Flour, Yeast, Salt, Water, Olive Oil</small>
+                </details></li>
+            </ul>
+        </details>
 
-        <ul class="ingredients" aria-label="Sauce">
-            <li><a href="https://www.delucaswinnipeg.ca/tomato-sauces-purees/de-luca-s-pizza-sauce-12-375ml-sc3550">De Luca’s Tomato Sauce</a></li>
-        </ul>
-        <ul class="ingredients" aria-label="Cheese">
-            <li>Mozzarella</li>
-            {# <li>Feta</li> #}
-        </ul>
-        <ul class="ingredients" aria-label="Meat">
+        <details>
+            <summary><h3>Sauce</h3></summary>
+                <ul class="ingredients" [aria-label="Sauce"]>
+                    <li><a href="https://www.delucaswinnipeg.ca/tomato-sauces-purees/de-luca-s-pizza-sauce-12-375ml-sc3550">De Luca’s Tomato Sauce</a></li>
+            </ul>
+        </details>
+        <details>
+            <summary><h3>Cheese</h3></summary>
+            <ul class="ingredients" [aria-label="Cheese"]>
+                <li>Mozzarella</li>
+                <li>Ricotta</li>
+                {# <li>Feta</li> #}
+            </ul>
+        </details>
+        <details>
+            <summary><h3>Meat</h3></summary>
+        <ul class="ingredients" [aria-label="Meat"]>
             <li>Pepperoni</li>
             <li>Bacon</li>
-            <li>Chicken</li>
-            <li><em>Tocino?</em></li>
-            <li><em>Something with gochujang?</em></li>
+            <li>Prosciutto</li>
         </ul>
-        <ul class="ingredients" aria-label="Veg">
-            <li>Green Bell Peppers</li>
-            <li>Red Onion</li>
-            <li>Roasted Red Peppers</li>
-            <li>Sun-Dried Tomatoes</li>
-            {# <li><em>Homegrown</em> Spinach</li> #}
-            <li><em class="homegrown">Home-grown</em> Basil</li>
-            <li>Mushrooms</li>
-            {# <li>Pineapple?</li> #}
-        </ul>
+        </details>
+        <details>
+            <summary><h3>Veg</h3></summary>
+            <ul class="ingredients" [aria-label="Veg"]>
+                <li>Green Bell Peppers</li>
+                <li>Red Onion</li>
+                <li>Roasted Red Peppers</li>
+                <li>Sun-Dried Tomatoes</li>
+                {# <li><em>Homegrown</em> Spinach</li> #}
+                <li><em class="homegrown">Home-grown</em> Basil</li>
+                <li>Sautéed Mushrooms</li>
+                {# <li>Pineapple?</li> #}
+            </ul>
+        </details>
+        <details>
+            <summary><h3>Topping Sauces</h3></summary>
+            <ul class="ingredients" [aria-label="Sauces"]>
+                <li>Honey</li>
+                <li>Gochujang</li>
+                <li>Chili Oil</li>
+                <li>Sweet Chili Sauce</li>
+                <li>Balsamic Glaze</li>
+                <li>Honey Dill</li>
+            </ul>
+        </details>
 
-        <ul class="ingredients" aria-label="Miscellanea">
-            <li>Barbecue Sauce</li>
-            <li>Gochujang</li>
-            <li>Dried Herbs</li>
-        </ul>
-
-        <hr style="background-image: url('/src/img/checker.svg'); height: 1em; background-repeat: repeat-x; background-size: contain; border: 0 none;">
-
-        <h2>Pizzas</h2>
-        <ul class="ingredients">
-            <li>
-                <details>
-                <summary>Margherita</summary>
-                <small>Tomato Sauce, Mozzarella, Basil</small>
-            </details>
-            </li>
-            <li>Pepperoni</li>
-            <li><details><summary>Barbecue Chicken</summary><small>Tomato Sauce/Barbecue Sauce, Mozzarella, Chicken, Red Onions, Sun-Dried Tomatoes</small></details></li>
-            <li><details><summary>Bacon & Spinach</summary><small>Tomato Sauce, Mozarella, Bacon, Spinach, Feta</small></details></li>
-            <li>More!</li>
-
-        </ul>
         </section>
 
-    </section>
+        <dl class="stats-box">
+            <div class="stat">
+                <dd class="stat-feature">{{ pizza_year }}</dd>
+                <dt>Pizzas This Year</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">10</dd>
+                <dt>Pizzas Last Party</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">{{ pizza_last_year }}</dd>
+                <dt>Pizzas Last Year</dt>
+            </div>
+        </dl>
+    </div>
 
 </div>
 
