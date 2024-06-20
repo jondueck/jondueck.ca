@@ -11,6 +11,7 @@
     @media (prefers-color-scheme: dark) {
         --background: #320101;
         --background: black;
+        --background: hsl(215.9 75.71% 10%);
         --body-color: var(--white);
     }
 
@@ -70,9 +71,18 @@
         background-repeat: repeat;
     }
 
-    h1 {
+    h1,
+    .h1 {
         text-transform: uppercase;
-        letter-spacing: -0.1em;
+        // letter-spacing: -0.1em;
+        font-family: var(--sans);
+    }
+
+    .date-title {
+        font-size: 5rem;
+        font-weight: 700;
+        display: block;
+        letter-spacing: -0.05em;
     }
 
     h3 {
