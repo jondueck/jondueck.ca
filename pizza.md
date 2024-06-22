@@ -3,8 +3,9 @@ title: Pizza
 date: Last Modified
 layout: pizza.njk
 emoji: 🍕
-pizza_year: 4
-pizza_party: 0
+pizza_year: 19
+pizza_party: 15
+pizza_party_date: 21 June 2024
 pizza_last_year: 40
 next_party: 21 June
 pizzas:
