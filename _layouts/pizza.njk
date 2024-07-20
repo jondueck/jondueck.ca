@@ -11,19 +11,21 @@ layout: base.njk
     </center> #}
 
     <center>
-        <span>2024 №1</span>
+        <span>2024 №2</span>
         <span class="h1 date-title">Pizza Night</span>
-        <p>Co-Hosted with Ryan & Sarah</p>
-        <p>21 June at 6:00 pm</p>
-        <p>Bring a side, if you’d like</p>
+        {# <p>Co-Hosted with Ryan & Sarah</p> #}
+        <p>27 July 2024</p>
+        <p>Afternoon activities to be announced.</p>
+        <p>Pizza menu to be announced.</p>
+        <p>Bring a side, if you’d like.</p>
     </center>
 
-    <div class="slogan">
-        <p>“Feel <a href="https://youtu.be/NQ9TSeCesW0?t=92">the colour of the longest day</a>” </p>
-    </div>        
+    {# <div class="slogan">
+        <p>“Thirty years of hurt never stopped me dreaming.” </p>
+    </div>         #}
 </div>
 {% if pizzas %}
-    <section class="pizzas">
+    <section class="pizzas" style="display: none;">
         {# <h2>Featured Pizzas</h2> #}
         <ul>
             {% for pizza in pizzas %}
@@ -41,7 +43,7 @@ layout: base.njk
 {% endif %}
 
 <div class="wrap">
-    <section class="ingredients-section">
+    <section class="ingredients-section" style="display: none;">
 
         <h2>Ingredients</h2><br>
 
@@ -128,7 +130,7 @@ layout: base.njk
 
 </div>
 
-<div class="next-party">
+<div class="next-party" style="display: none;">
         
         <svg viewBox="0 0 500 150" class="arc">
             <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" class="arc-curve"/>
