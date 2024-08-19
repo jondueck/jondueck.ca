@@ -38,6 +38,11 @@
         "year": "2024"
     },
     {
+        "img": "/src/img/work/60th.jpg",
+        "year": "2022",
+        "title": "Triple E 60th Anniversary"
+    },
+    {
         "img": "/src/img/fli23.svg",
         "alt": "Falcon Lake Invitational",
         "year": "2023"
@@ -110,6 +115,9 @@
         "link": "https://whatevertown.com"
     },
     {
+        "img": "/src/img/graveyard/moai.svg"
+    },
+    {
         "img": "/src/img/misc-logo-globe.svg"
     },
     {
@@ -156,6 +164,12 @@
     {
         "img": "/src/img/mtg.svg",
         "title": "Mend the Gap"
+    },
+    {
+        "img": "/src/img/graveyard/moai.svg"
+    },
+    {
+        "img": "/src/img/graveyard/poppies.svg"
     },
     {
         "img": "/src/img/misc-logo-forest.svg"
