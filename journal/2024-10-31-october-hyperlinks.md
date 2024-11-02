@@ -5,8 +5,6 @@ image: /src/img/hyperlinks_og.jpg
 tags: hyperlinks
 ---
 
-A handful of links I came across in October:
-
 ## Visit
 
 - A hanful of former Pitchfork writers started a new, independant music publication: [Hearing Things](https://www.hearingthings.co). F[Their profile of a “Spotify vandalist”](https://www.hearingthings.co/confessions-of-a-spotify-vandal/) feels more like [Reply All](https://gimletmedia.com/shows/reply-all/o2h8bx) than Pitchfork.
