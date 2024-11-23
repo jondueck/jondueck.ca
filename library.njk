@@ -11,7 +11,7 @@ description: A collection of my favourite books on design, fiction, and non-fict
     <ul class="library-list">
     {% for book in topic.books %}
         <li>
-            <img src="{{ book.cover }}" alt="" class="library-cover">
+            <img src="{{ book.cover }}" alt="" class="library-cover" loading="lazy">
             <span class="library-title">{{ book.title }}</span><br>
             <span class="library-author">{{ book.author }}</span>
         </li>
