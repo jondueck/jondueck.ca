@@ -4,7 +4,7 @@ layout: page.njk
 date: Git Last Modified
 ---
 
-This is a website built and published by Jon Dueck, a graphic designer and front-end web developer in Manitoba, on Treaty 1 territory.
+This is a website written, designed, and built by Jon Dueck, a graphic designer and front-end web developer in Manitoba, on Treaty 1 territory.
 
 ## Technology
 
