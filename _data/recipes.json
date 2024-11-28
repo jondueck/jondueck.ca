@@ -70,6 +70,12 @@
         "emoji": "🫐"
     },
     {
+        "title": "Fruit Crumble",
+        "url": "https://cooking.nytimes.com/recipes/1025182-fruit-crumble",
+        "author": "Genevieve Ko", 
+        "publisher": "New York Times Cooking"
+    },
+    {
         "title": "Caramelized Shallot Pasta",
         "url": "https://cooking.nytimes.com/recipes/1020830-caramelized-shallot-pasta",
         "author": "Alison Roman",
@@ -119,5 +125,16 @@
         "title": "Granola",
         "url": "https://youtu.be/tThxzBXhAxM",
         "author": "Internet Shaquille"
+    },
+    {
+        "title": "Easy Vegan Pumpkin Pie",
+        "author": "Sam Turnbull",
+        "url": "https://itdoesnttastelikechicken.com/easy-vegan-pumpkin-pie/"
+    },
+    {
+        "title": "Lentil Tomato Soup",
+        "author": "Carolina Gelen",
+        "url": "https://cooking.nytimes.com/recipes/1025225-lentil-tomato-soup",
+        "publisher": "New York Times"
     }
 ]
