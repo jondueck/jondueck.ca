@@ -2,6 +2,10 @@
     color-scheme: light dark;
 }
 
+@view-transition {
+    navigation: auto;
+}
+
 body {
     grid-template-areas: "header " "main" "footer";
     display: grid;
@@ -318,3 +322,11 @@ span.icons {
 .library-list li {
     position: relative;
 }
+
+@media not (prefers-reduced-motion: reduce) {
+	.journal-list-title,
+    .post-title { 
+        view-transition-name: title
+    }
+}
+
