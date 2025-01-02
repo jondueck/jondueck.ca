@@ -4,7 +4,9 @@ date: 2024-12-31 18:00:00 -06:00
 redirect_from: '/2024/'
 ---
 
-## Music
+Skip to: [Music](#music), [Movies](#movies), [Books](#books)
+
+## Favourite Music{#music}
 
 ### Albums of the Year
 
@@ -38,7 +40,7 @@ Listen to my [2024 Songs of the Year playlist](https://music.apple.com/ca/playli
 - [Josh Terry, No Expectations](https://www.noexpectations.fyi/p/the-60-best-albums-of-2024)
 - [Matt Goold](https://mattgoold.medium.com/favorite-albums-of-2024-813573f47689)
 
-## Favourite Movies
+## Favourite Movies{#movies}
 This year, I watched about [18 movies from 2024](https://letterboxd.com/jondueck/films/diary/for/2024/decade/2020s/), based on wide release dates in Canada.
 
 1. *The Zone of Interest* directed by Jonathan Glazer
@@ -60,14 +62,14 @@ This year, I watched about [18 movies from 2024](https://letterboxd.com/jondueck
 - **Favourite Original Screenplay**: *A Different Man*
 - **Favourite Opening Scene**: *The Beast*
 
-## Videos of the Year
+## Videos of the Year{#videos}
 - [REFORM!](https://youtu.be/NqqaW1LrMTY) by Secret Base
 - [Yoko and The Beatles](https://youtu.be/SMOABV_zgrk) by Lindsay Ellis
 - [The Bizarre World of Fake Video Games](https://youtu.be/Q8GnM5xD1k4) by Super Eyepatch Wolf
 
 ---
 
-## Favourite Books Read in 2024
+## Favourite Books Read in 2024{#books}
 - [*A Canticle for Leibowitz*](https://www.goodreads.com/book/show/25469159-a-canticle-for-leibowitz) by Walter M. Miller Jr, 1959
 - [*The End of the Affair*](https://www.goodreads.com/book/show/45183698-the-end-of-the-affair) by Graham Greene, 1951
 - [*It’s OK That You’re Not OK*](https://www.goodreads.com/book/show/34303824-it-s-ok-that-you-re-not-ok) by Megan Devine, 2017
