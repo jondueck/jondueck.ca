@@ -31,14 +31,9 @@ I [listened to 79 albums from this year](https://www.last.fm/user/dueckjon/liste
 10. [*One Wayne G*](https://macdemarco.bandcamp.com/album/one-wayne-g) by Mac Demarco
 
 ### Honourable Mentions
-Any of these could move up with another listen: [*Wishes to Fulfill*](https://anothermichael.bandcamp.com/album/wishes-to-fulfill) by Another Michael, [*Internal Affairs*](https://buzzylee.bandcamp.com/album/internal-affairs) by Buzzy Lee, [*Heaven is a Junkyard*](https://youthlagoon.bandcamp.com/album/heaven-is-a-junkyard) by Youth Lagoon, [*Cookup*](https://samgendel.bandcamp.com/album/cookup) by Sam Gendel, [*Time Will Wait For No One*](https://localnativesmusic.bandcamp.com/album/time-will-wait-for-no-one) by Local Natives, [*Toil And Trouble*](https://angelodeaugustine.bandcamp.com/album/toil-and-trouble) by Angelo De Augustine, [*The Greater Wings*](https://juliembyrne.bandcamp.com/album/the-greater-wings) by Julie Byrne, *12* by Ryuichi Sakamoto, [*Mess*](https://oliviadean.bandcamp.com/album/messy) by Olivia Dean, _Drop Cherries_ by Billie Marten.
+Any of these could move up with another listen: [*Wishes to Fulfill*](https://anothermichael.bandcamp.com/album/wishes-to-fulfill) by Another Michael, [*Internal Affairs*](https://buzzylee.bandcamp.com/album/internal-affairs) by Buzzy Lee, [*Heaven is a Junkyard*](https://youthlagoon.bandcamp.com/album/heaven-is-a-junkyard) by Youth Lagoon, [*Cookup*](https://samgendel.bandcamp.com/album/cookup) by Sam Gendel, [*Time Will Wait For No One*](https://localnativesmusic.bandcamp.com/album/time-will-wait-for-no-one) by Local Natives, [*Toil And Trouble*](https://angelodeaugustine.bandcamp.com/album/toil-and-trouble) by Angelo De Augustine, [*The Greater Wings*](https://juliembyrne.bandcamp.com/album/the-greater-wings) by Julie Byrne, *12* by Ryuichi Sakamoto, [*Messy*](https://oliviadean.bandcamp.com/album/messy) by Olivia Dean, _Drop Cherries_ by Billie Marten.
 
 ### Bonus Round
-<!-- - **Favourite Songs**: 
-  1. *Call You Out* by Miel
-  2. *Some Kind of Sting* by Emile Mosseri, from *Heaven Hunters*
-  3. 
-- **Favourite Lyric**:  -->
 - **Favourite Vocal Delivery**: [“You know I lo-<sup>e</sup>-o-<sup>e</sup>-ove you”](https://www.youtube.com/watch?v=7q6EHqYM2Zw&t=176s) from *Goodbye Evergreen* by Sufjan Stevens, additional vocals by Megan Lui & Hannah Cohen
 - **Favourite Album Art** (asked by Lucas): [*Heaven Hunters* by Emile Mosseri](https://emilemosseri.bandcamp.com/album/heaven-hunters). Artwork by Adam Newport-Berra and Joe Talbot.
 - **Favourite Album Title**: [*Grog*](https://heyitsfrog.bandcamp.com/album/grog) by Frog

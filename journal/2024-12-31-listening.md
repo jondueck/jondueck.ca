@@ -8,6 +8,7 @@ I listened to approximately [1033 different artists](https://www.last.fm/user/du
 ![Chart of listens by month](/src/img/2024-scrobbles.svg)
 
 ## Top Artists by Playtime
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=991285642/size=small/bgcol=ffffff/linkcol=0687f5/track=1016785596/transparent=true/" seamless><a href="https://loscampesinos.bandcamp.com/album/all-hell">All Hell by Los Campesinos!</a></iframe>
 1. Los Campesinos! – 15:25 – 259 Plays
 2. Sufjan Stevens – 12:24 – 198 Plays
 3. Vampire Weekend – 7:51 – 105 Plays
@@ -18,6 +19,7 @@ I listened to approximately [1033 different artists](https://www.last.fm/user/du
 1. Youth Lagoon – 6:01 – 127 Plays <br> Nala Sinephro – 6:01 – 77 Plays
 
 ## Top Songs by Playtime
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4069772668/size=small/bgcol=ffffff/linkcol=0687f5/track=3468919963/transparent=true/" seamless><a href="https://littlekid.bandcamp.com/album/a-million-easy-payments">A Million Easy Payments by Little Kid</a></iframe>
 1. *Bad Energy* by Little Kid – 2:30 – 20 Plays
 1. *Colombia* by Local Natives – 2:20 – 25 Plays (Studio + Demo Versions)
 1. *Water Street* by Matthew Halsall – 1:39 – 12 Plays
@@ -25,7 +27,7 @@ I listened to approximately [1033 different artists](https://www.last.fm/user/du
 1. *When It’s Happening* by Scott McMicken and The Ever-Expanding – 1:23 – 13 Plays
 
 ## Top Songs by Plays
-1. *Tell Your Friends* by Dr. Dog – 25 Plays
+1. [*Tell Your Friends* by Dr. Dog](https://youtu.be/uvL8c0tKMJ4) – 25 Plays
 1. *Colombia by Local Natives – 25 Plays (Studio + Demo Versions)
 1. *Bad Energy by Little Kid – 20 Plays
 1. *Love Me Like I’m Gone. by Jaws of Love. – 17 Plays
