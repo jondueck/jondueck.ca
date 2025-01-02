@@ -9,36 +9,42 @@ I listened to approximately [1033 different artists](https://www.last.fm/user/du
 
 ## Top Artists by Playtime
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=991285642/size=small/bgcol=ffffff/linkcol=0687f5/track=1016785596/transparent=true/" seamless><a href="https://loscampesinos.bandcamp.com/album/all-hell">All Hell by Los Campesinos!</a></iframe>
+
 1. Los Campesinos! – 15:25 – 259 Plays
 2. Sufjan Stevens – 12:24 – 198 Plays
 3. Vampire Weekend – 7:51 – 105 Plays
 4. Little Kid – 7:17 – 83 Plays
-1. Dr. Dog – 6:44 – 103 Plays
-1. Matthew Halsall – 6:12 – 74 Plays
-1. Joni Mitchell – 6:05 – 98 Plays
-1. Youth Lagoon – 6:01 – 127 Plays <br> Nala Sinephro – 6:01 – 77 Plays
+5. Dr. Dog – 6:44 – 103 Plays
+6. Matthew Halsall – 6:12 – 74 Plays
+7. Joni Mitchell – 6:05 – 98 Plays
+8. Youth Lagoon – 6:01 – 127 Plays <br> Nala Sinephro – 6:01 – 77 Plays
+
+![World map highlighting countries of artists I listened to](/src/img/2024-lastfm-map.svg)
 
 ## Top Songs by Playtime
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4069772668/size=small/bgcol=ffffff/linkcol=0687f5/track=3468919963/transparent=true/" seamless><a href="https://littlekid.bandcamp.com/album/a-million-easy-payments">A Million Easy Payments by Little Kid</a></iframe>
+
 1. *Bad Energy* by Little Kid – 2:30 – 20 Plays
-1. *Colombia* by Local Natives – 2:20 – 25 Plays (Studio + Demo Versions)
-1. *Water Street* by Matthew Halsall – 1:39 – 12 Plays
-1. *Inner-connectednesses...* by Surya Botofasina, Nate Mercereau & Carlos Niño – 1:33 – 5 Plays
-1. *When It’s Happening* by Scott McMicken and The Ever-Expanding – 1:23 – 13 Plays
+2. *Colombia* by Local Natives – 2:20 – 25 Plays (Studio + Demo Versions)
+3. *Water Street* by Matthew Halsall – 1:39 – 12 Plays
+4. *Inner-connectednesses...* by Surya Botofasina, Nate Mercereau & Carlos Niño – 1:33 – 5 Plays
+5. *When It’s Happening* by Scott McMicken and The Ever-Expanding – 1:23 – 13 Plays
 
 ## Top Songs by Plays
 1. [*Tell Your Friends* by Dr. Dog](https://youtu.be/uvL8c0tKMJ4) – 25 Plays
-1. *Colombia by Local Natives – 25 Plays (Studio + Demo Versions)
-1. *Bad Energy by Little Kid – 20 Plays
-1. *Love Me Like I’m Gone. by Jaws of Love. – 17 Plays
-1. *Mary Boone by Vampire Weekend – 17 Plays
+2. *Colombia* by Local Natives – 25 Plays (Studio + Demo Versions)
+3. *Bad Energy* by Little Kid – 20 Plays
+4. *Love Me Like I’m Gone.* by Jaws of Love. – 17 Plays
+5. *Mary Boone* by Vampire Weekend – 17 Plays
 
 ## Top Albums by Playtime
 1. *All Hell* by Los Campesinos! – 11:01 Played
-1. *Only God Was Above Us* by Vampire Weekend – 7:03 Played
-1. *A Million Easy Payments* by Little Kid – 6:24 Played
-1. *An Ever Changing View* by Matthew Halsall – 5:49 Played
-1. *Endlessness* by Nala Sinephro – 4:57 Played
+2. *Only God Was Above Us* by Vampire Weekend – 7:03 Played
+3. *A Million Easy Payments* by Little Kid – 6:24 Played
+4. *An Ever Changing View* by Matthew Halsall – 5:49 Played
+5. *Endlessness* by Nala Sinephro – 4:57 Played
+
+You can also check out my [Last.fm report](https://www.last.fm/user/dueckjon/listening-report/year).
 
 ---
 Next up: My [Favourites of 2024 post](/journal/2024/favourites)
