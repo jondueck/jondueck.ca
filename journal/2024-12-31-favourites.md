@@ -1,6 +1,7 @@
 ---
 title: My Favourites of 2024
 date: 2024-12-31 18:00:00 -06:00
+redirect_from: '/2024/'
 ---
 
 ## Music
