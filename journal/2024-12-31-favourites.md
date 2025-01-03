@@ -14,7 +14,7 @@ Skip to: [Music](#music), [Movies](#movies), [Books](#books) {.sub-nav}
 I [listened to 209 albums from this year](https://record.club/jd/releases/albums?year=2024). For more detailed listening statistics from this year, see my [2024 Listening Stats post](/journal/2024/listening/). [Here’s my shortlist](https://record.club/jd/lists/2024-shortlist) of favourite albums.
 
 1. [*All Hell* by Los Campesinos!](https://loscampesinos.bandcamp.com/album/all-hell)
-2.[*Portraits* by Bada-Bada](https://bada-bada.bandcamp.com/album/portraits)
+2. [*Portraits* by Bada-Bada](https://bada-bada.bandcamp.com/album/portraits)
 3. [*Bright Future* by Adrianne Lenker](https://adriannelenker.bandcamp.com/album/bright-future)
 4. [*The Pilgrim, Their God and the King of My Decrepit Mountain* by Tapir!](https://tapir-exclamation-mark.bandcamp.com/album/the-pilgrim-their-god-and-the-king-of-my-decrepit-mountain)
 5. *Only God Was Above Us* by Vampire Weekend
@@ -59,11 +59,12 @@ This year, I watched about [18 movies from 2024](https://letterboxd.com/jondueck
 ### 
 - **Favourite Acting**: Mikey Madison (*Anora*), Léa Seydoux (*The Beast*)
 - **Favourite Child Performance**: Zoe Ziegler (*Janet Planet*)
-- **Favourite Supporting Acting**: Adam Pearson (*A Different Man*), Denzel Washington ([*Gladiator II*](https://letterboxd.com/film/gladiator-ii/))
+- **Favourite Supporting Acting**: Adam Pearson (*A Different Man*), Javier Barden (*Dune: Part Two*), Denzel Washington ([*Gladiator II*](https://letterboxd.com/film/gladiator-ii/))
 - **Favourite Score**: *A Different Man*, *Conclave*
 - **Favourite Sound**: *The Zone of Interest*
 - **Favourite Original Screenplay**: *A Different Man*
 - **Favourite Opening Scene**: [*The Beast*](https://letterboxd.com/film/the-beast-2023-1/)
+- **Favourite Line Read**: [“My friend got burned.”](https://x.com/saladmonkeyy/status/1831103567404704197), Josh Hartnett, *Trap*
 
 ## Videos of the Year{#videos}
 - [REFORM!](https://youtu.be/NqqaW1LrMTY) by Secret Base
