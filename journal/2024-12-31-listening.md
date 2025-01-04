@@ -6,6 +6,8 @@ image: '/src/img/2024og-stats.jpg'
 
 I listened to approximately [1033 different artists](https://www.last.fm/user/dueckjon/library/artists?from=2024-01-01&to=2024-12-31), [1491 different albums](https://www.last.fm/user/dueckjon/library/albums?from=2024-01-01&to=2024-12-31), and [6359 different songs](https://www.last.fm/user/dueckjon/library/tracks?from=2024-01-01&to=2024-12-31) for a total of [10,968 plays](https://www.last.fm/user/dueckjon/library?from=2024-01-01&to=2024-12-31), [up 85% from last year](https://www.last.fm/user/dueckjon/listening-report/year). That’s about 538 hours of listening. I did a lot of my listening while at my desk working.
 
+I track my listening through [Last.fm](https://www.last.fm/user/dueckjon). This year’s lists were calculated using a custom fork of [@undefinist’s Last Time](https://undefinist.com/lasttime/) web app, passing my Last.fm listening data through MusicBrainz for track durations. I had hoped to build my own tool this year, but it was a bigger task than I had time for. There were some issues with missing data with the original version of the tool, so I also used my previous pick, [Patrick McDonough’s last.timer](https://pmcdonough8133.github.io/last.timer/) as cross-reference. In the end, it still involved a lot of verification by hand. By the end of *next* year, I hope to have built a new tool to run these stats for me.
+
 ![Chart of listens by month](/src/img/2024-scrobbles.svg)
 
 ## Top Artists by Playtime

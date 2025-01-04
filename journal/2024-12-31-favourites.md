@@ -23,12 +23,12 @@ I [listened to 209 albums from this year](https://record.club/jd/releases/albums
 8. [*Endlessness* by Nala Sinephro](https://nalasinephro.bandcamp.com/album/endlessness)
 9. [*Funeral for Justice* by Mdou Moctar](https://mdoumoctar.bandcamp.com/album/funeral-for-justice)
 10. [*Call for Winter II: Resonance* by Daniel Herskedal](https://danielherskedal.bandcamp.com/album/call-for-winter-ii-resonance)
-11. [*Lived Here for a While* by Good Looks](https://goodlooksband.bandcamp.com/album/lived-here-for-a-while)
-12. [*Any Light* by Loving](https://loving.bandcamp.com/album/any-light)
-13. [*Rising* by Jasmine Myra](https://jasminemyra.bandcamp.com/album/rising)
-14. [*The Accident* by Good Morning](https://goodmorningisaband.bandcamp.com/album/the-accident)
-15. [*Harm’s Way* by Ducks Ltd.](https://ducksltdband.bandcamp.com/album/harms-way)
-16. [*Lamplight* by Lamplight]()
+11. [*Any Light* by Loving](https://loving.bandcamp.com/album/any-light)
+12. [*The Accident* by Good Morning](https://goodmorningisaband.bandcamp.com/album/the-accident)
+13. [*Harm’s Way* by Ducks Ltd.](https://ducksltdband.bandcamp.com/album/harms-way)
+14. [*Hovvdy* by Hovvdy](https://hovvdy.bandcamp.com/album/hovvdy)
+15. [*Lamplight* by Lamplight](https://lamplight-the-band.bandcamp.com/album/lamplight)
+
 
 Listen to my [2024 Songs of the Year playlist](https://music.apple.com/ca/playlist/2024-songs-of-the-year-so-far/pl.u-rloGt9kBXvX).
 
@@ -50,7 +50,7 @@ This year, I watched about [18 movies from 2024](https://letterboxd.com/jondueck
 3. [*Conclave*](https://letterboxd.com/film/conclave/) directed by Edward Berger
 4. [*A Different Man*](https://letterboxd.com/film/a-different-man/) directed by Aaron Schimberg
 5. [*Janet Planet*](https://letterboxd.com/film/janet-planet/) directed by Annie Baker
-6. [*Perfect Days*](https://letterboxd.com/film/perfect-days-2023/directed by Wim Wenders
+6. [*Perfect Days*](https://letterboxd.com/film/perfect-days-2023/) directed by Wim Wenders
 7. [*We Live in Time*](https://letterboxd.com/film/we-live-in-time/) directed by John Crowley
 8. [*Juror #2*](https://letterboxd.com/film/juror-2/) directed by Clint Eastwood
 9. [*Anora*](https://letterboxd.com/film/anora/) directed by Aaron Schimberg
