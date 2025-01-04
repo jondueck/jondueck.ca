@@ -29,6 +29,9 @@ I [listened to 209 albums from this year](https://record.club/jd/releases/albums
 14. [*Harm’s Way* by Ducks Ltd.](https://ducksltdband.bandcamp.com/album/harms-way)
 15. [*Hovvdy* by Hovvdy](https://hovvdy.bandcamp.com/album/hovvdy)
 16. [*Lamplight* by Lamplight](https://lamplight-the-band.bandcamp.com/album/lamplight)
+17. [*Tear Your Heart Out* by villagerrr](https://villagerrr.bandcamp.com/album/tear-your-heart-out-2)
+18. [*Lived Here for a While* by Good Looks](https://goodlooksband.bandcamp.com/album/lived-here-for-a-while)
+19. [*Different Type Time* Cavalier](https://cavaliervmc.bandcamp.com/album/different-type-time-2)
 
 
 Listen to my [2024 Songs of the Year playlist](https://music.apple.com/ca/playlist/2024-songs-of-the-year-so-far/pl.u-rloGt9kBXvX).
