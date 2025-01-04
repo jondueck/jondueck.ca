@@ -41,11 +41,16 @@ I track my listening through [Last.fm](https://www.last.fm/user/dueckjon). This 
 5. *Mary Boone* by Vampire Weekend – 17 Plays
 
 ## Top Albums by Playtime
-1. [*All Hell* by Los Campesinos!](https://loscampesinos.bandcamp.com/album/all-hell) – 11:01 Played
-2. *Only God Was Above Us* by Vampire Weekend – 7:03 Played
-3. *A Million Easy Payments* by Little Kid – 6:24 Played
-4. *An Ever Changing View* by Matthew Halsall – 5:49 Played
-5. *Endlessness* by Nala Sinephro – 4:57 Played
+1. [*All Hell* by Los Campesinos!](https://loscampesinos.bandcamp.com/album/all-hell) – 11:01 Played (2024)
+2. *Only God Was Above Us* by Vampire Weekend – 7:03 Played (2024)
+3. *A Million Easy Payments* by Little Kid – 6:24 Played (2024)
+4. *An Ever Changing View* by Matthew Halsall – 5:49 Played (2023)
+5. *Endlessness* by Nala Sinephro – 4:57 Played (2024)
+6. *Portraits* by Bada-Bada (2024)
+7. *Tear Your Heart Out* by Villagerrr (2024)
+8. *Subtle Movements* by Surya Botofasina, Nate Mercereau & Carlos Niño (2024)
+9. *Bright Future* by Adrianne Lenker (2024)
+10. *Heaven is a Junkyard* by Youth Lagoon (2023)
 
 You can also check out my [Last.fm report](https://www.last.fm/user/dueckjon/listening-report/year).
 
