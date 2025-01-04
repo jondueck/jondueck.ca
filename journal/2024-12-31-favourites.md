@@ -23,11 +23,12 @@ I [listened to 209 albums from this year](https://record.club/jd/releases/albums
 8. [*Endlessness* by Nala Sinephro](https://nalasinephro.bandcamp.com/album/endlessness)
 9. [*Funeral for Justice* by Mdou Moctar](https://mdoumoctar.bandcamp.com/album/funeral-for-justice)
 10. [*Call for Winter II: Resonance* by Daniel Herskedal](https://danielherskedal.bandcamp.com/album/call-for-winter-ii-resonance)
-11. [*Any Light* by Loving](https://loving.bandcamp.com/album/any-light)
-12. [*The Accident* by Good Morning](https://goodmorningisaband.bandcamp.com/album/the-accident)
-13. [*Harm’s Way* by Ducks Ltd.](https://ducksltdband.bandcamp.com/album/harms-way)
-14. [*Hovvdy* by Hovvdy](https://hovvdy.bandcamp.com/album/hovvdy)
-15. [*Lamplight* by Lamplight](https://lamplight-the-band.bandcamp.com/album/lamplight)
+11. [*Rising* by Jasmine Myra](https://jasminemyra.bandcamp.com/album/rising)
+12. [*Any Light* by Loving](https://loving.bandcamp.com/album/any-light)
+13. [*The Accident* by Good Morning](https://goodmorningisaband.bandcamp.com/album/the-accident)
+14. [*Harm’s Way* by Ducks Ltd.](https://ducksltdband.bandcamp.com/album/harms-way)
+15. [*Hovvdy* by Hovvdy](https://hovvdy.bandcamp.com/album/hovvdy)
+16. [*Lamplight* by Lamplight](https://lamplight-the-band.bandcamp.com/album/lamplight)
 
 
 Listen to my [2024 Songs of the Year playlist](https://music.apple.com/ca/playlist/2024-songs-of-the-year-so-far/pl.u-rloGt9kBXvX).
