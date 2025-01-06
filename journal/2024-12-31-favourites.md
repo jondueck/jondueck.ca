@@ -68,7 +68,10 @@ This year, I watched about [18 movies from 2024](https://letterboxd.com/jondueck
 - **Favourite Sound**: *The Zone of Interest*
 - **Favourite Original Screenplay**: *A Different Man*
 - **Favourite Opening Scene**: [*The Beast*](https://letterboxd.com/film/the-beast-2023-1/)
-- **Favourite Line Read**: [“My friend got burned.”](https://x.com/saladmonkeyy/status/1831103567404704197), Josh Hartnett, *Trap*
+- **Favourite Line Read**: [“A friend got burned.”](https://x.com/saladmonkeyy/status/1831103567404704197), Josh Hartnett, *Trap*
+
+## Television
+No list, as I only watched two full seasons of TV from 2024: season three of *The Bear* and season two*The Lord of the Rings: The Rings of Power*. *The Bear* was good, *The Rings of Power* has improved to “fine”.
 
 ## Videos of the Year{#videos}
 - [REFORM!](https://youtu.be/NqqaW1LrMTY) by Secret Base
