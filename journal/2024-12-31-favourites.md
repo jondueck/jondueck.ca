@@ -63,10 +63,10 @@ This year, I watched about [18 movies from 2024](https://letterboxd.com/jondueck
 ### 
 - **Favourite Acting**: Mikey Madison (*Anora*), Léa Seydoux (*The Beast*)
 - **Favourite Child Performance**: Zoe Ziegler (*Janet Planet*)
-- **Favourite Supporting Acting**: Adam Pearson (*A Different Man*), Javier Barden (*Dune: Part Two*), Denzel Washington ([*Gladiator II*](https://letterboxd.com/film/gladiator-ii/))
-- **Favourite Score**: *A Different Man*, *Conclave*
+- **Favourite Supporting Acting**: Adam Pearson (*A Different Man*), Javier Bardem (*Dune: Part Two*), Denzel Washington ([*Gladiator II*](https://letterboxd.com/film/gladiator-ii/))
+- **Favourite Score**: *A Different Man* by Umberto Smerilli; *Conclave* by Volker Bertelmann
 - **Favourite Sound**: *The Zone of Interest*
-- **Favourite Original Screenplay**: *A Different Man*
+- **Favourite Original Screenplay**: [*A Different Man*](https://letterboxd.com/film/a-different-man/crew/) by Aaron Schimberg
 - **Favourite Opening Scene**: [*The Beast*](https://letterboxd.com/film/the-beast-2023-1/)
 - **Favourite Line Read**: [“A friend got burned.”](https://x.com/saladmonkeyy/status/1831103567404704197), Josh Hartnett, *Trap*
 
