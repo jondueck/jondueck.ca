@@ -7,9 +7,7 @@ image: '/src/img/2024og.jpg'
 
 Skip to: [Music](#music), [Movies](#movies), [Books](#books) {.sub-nav}
 
-## Music{#music}
-
-### Albums of the Year
+## Music of the Year{#music}
 
 I [listened to 209 albums from this year](https://record.club/jd/releases/albums?year=2024). For more detailed listening statistics from this year, see my [2024 Listening Stats post](/journal/2024/listening/). [Here’s my shortlist](https://record.club/jd/lists/2024-shortlist) of favourite albums.
 
@@ -32,7 +30,6 @@ I [listened to 209 albums from this year](https://record.club/jd/releases/albums
 17. [*Tear Your Heart Out* by villagerrr](https://villagerrr.bandcamp.com/album/tear-your-heart-out-2)
 18. [*Lived Here for a While* by Good Looks](https://goodlooksband.bandcamp.com/album/lived-here-for-a-while)
 19. [*Different Type Time* Cavalier](https://cavaliervmc.bandcamp.com/album/different-type-time-2)
-
 
 Listen to my [2024 Songs of the Year playlist](https://music.apple.com/ca/playlist/2024-songs-of-the-year-so-far/pl.u-rloGt9kBXvX).
 
@@ -70,16 +67,21 @@ This year, I watched about [18 movies from 2024](https://letterboxd.com/jondueck
 - **Favourite Opening Scene**: [*The Beast*](https://letterboxd.com/film/the-beast-2023-1/)
 - **Favourite Line Read**: [“A friend got burned.”](https://x.com/saladmonkeyy/status/1831103567404704197), Josh Hartnett, *Trap*
 
-## Television
+## Television of the Year{#tv}
 No list, as I only watched two full seasons of TV from 2024: season three of *The Bear* and season two*The Lord of the Rings: The Rings of Power*. *The Bear* was good, *The Rings of Power* has improved to “fine”.
 
 ## Videos of the Year{#videos}
-- [REFORM!](https://youtu.be/NqqaW1LrMTY) by Secret Base
+- [REFORM!](https://youtu.be/NqqaW1LrMTY) or [The History of Slipping On Banana Peels](https://youtu.be/p8W5GCnqT_M)by Secret Base
 - [Yoko and The Beatles](https://youtu.be/SMOABV_zgrk) by Lindsay Ellis
 - [The Bizarre World of Fake Video Games](https://youtu.be/Q8GnM5xD1k4) by Super Eyepatch Wolf
 
 ## New Website of the Year
 [Record Club](https://record.club)
+
+## Podcasts of the Year
+- Comedy Bang! Bang!
+- Threedom
+- [Next Best Picture](https://nextbestpicture.com/category/podcast/)
 
 ---
 
