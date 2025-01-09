@@ -8,7 +8,7 @@ redirect_from: blog
 
 <ul reversed class="archive journal-list">
 {% for post in collections.journal | reverse %}
-  <li>
+  <li style="view-transition-name: {{post.fileSlug}}">
     {% if post.data.redirect %}
     <a href="{{ post.data.redirect | url }}" class="journal-list-title">↳ 
     {% else %}

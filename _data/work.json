@@ -9,7 +9,8 @@
         "img": "/src/img/lc.svg",
         "alt": "Listeners Club",
         "title": "Listeners Club logo",
-        "link": "https://listenersclub.ca"
+        "link": "https://listenersclub.ca",
+        "year": "2017"
     },
     {
         "img": "/src/img/caribou-grove.svg",
@@ -22,7 +23,8 @@
         "alt": ""
     },
     {
-        "img": "/src/img/martimes-caravan-circle.svg"
+        "img": "/src/img/martimes-caravan-circle.svg",
+        "year": "2023"
     },
     {
         "img": "/src/img/tc.svg",
@@ -30,7 +32,12 @@
         "year": "2024"
     },
     {
-        "img": "/src/img/going-east-going-fast.svg"
+        "img": "/src/img/work/scp001.svg",
+        "year": "2024"
+    },
+    {
+        "img": "/src/img/going-east-going-fast.svg",
+        "year": "2023"
     },
     {
         "img": "/src/img/23w.svg",
@@ -59,7 +66,8 @@
     {
         "img": "/src/img/rw_thumb.jpg",
         "alt": "",
-        "title": "Roundnet Winkler identity"
+        "title": "Roundnet Winkler identity",
+        "year": "2019"
     },
     {
         "img": "/src/img/whitecap-wordmark.svg",
@@ -80,7 +88,8 @@
     {
         "img": "/src/img/tcfp_thumb.svg",
         "alt": "TC Forest Products",
-        "title": "TC Forest Products"
+        "title": "TC Forest Products",
+        "year": "2014"
     },
     {
         "img": "/src/img/tripps_thumb.svg",
@@ -107,6 +116,10 @@
     {
         "img": "/src/img/roundnet-winkler_pins.svg",
         "alt": ""
+    },
+    {
+        "img": "/src/img/work/lk40.jpg",
+        "year": "2020"
     },
     {
         "img": "/src/img/whatevertown_pillars.jpg",
@@ -163,7 +176,8 @@
     },
     {
         "img": "/src/img/mtg.svg",
-        "title": "Mend the Gap"
+        "title": "Mend the Gap",
+        "year": "2018"
     },
     {
         "img": "/src/img/graveyard/moai.svg"
@@ -178,7 +192,8 @@
         "img": "/src/img/whitecap_whit3cap.jpg"
     },
     {
-        "img": "/src/img/misc-logo-manitoba.svg"
+        "img": "/src/img/misc-logo-manitoba.svg",
+        "year": "2016"
     },
     {
         "img": "/src/img/untitled.png"
@@ -188,10 +203,22 @@
         "year": "2018"
     },
     { 
-        "img": "/src/img/aesthletico.png"
+        "img": "/src/img/aesthletico.png",
+        "year": "2015"
     },
     {
-        "img": "/src/img/alliance.svg"
+        "img": "/src/img/alliance.svg",
+        "year": "2018"
+    },
+    {
+        "img": "/src/img/work/alliance_A.svg",
+        "year": "2018"
+    },
+    {
+        "img": "/src/img/misc-logo-tyler_james.svg",
+        "title": "Tyler James Photography",
+        "year": "2013"
+
     },
     {
         "img": "/src/img/zodiacs-red-on-black.svg",

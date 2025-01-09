@@ -22,12 +22,17 @@ subtitle: Case studies…someday?
 
 <section class="workboard">
   {% for piece in work %}
-    <div class="workboard-item">
+    <figure class="workboard-item">
     {% if piece.link %}<a href="{{ piece.link }}">{% endif %}
-      <img src="{{ piece.img }}" alt="{{piece.alt}}" {% if piece.title %}title="{{piece.title}}"{%endif%} loading="lazy">
+      <img src="{{ piece.img }}" alt="{{piece.alt}}" loading="lazy">
     {% if piece.link %}</a>{% endif %}
-    </div>
+    {%if piece.title%}
+      <figcaption class="work-caption">{{piece.title}}{%- if piece.title and piece.year -%}, {%endif%}{%- if piece.year -%}{{ piece.year }}{%- endif -%}</figcaption>
+    {%endif%}
+    </figure>
   {% endfor %}
 </section>
 
-{# <img src="/src/img/wety.svg" style="width: 100%;" alt="works end, thank you"> #}
+<div class="wrap">
+  <span>Works end. Thank you.</span>
+</div>
