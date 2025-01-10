@@ -2,13 +2,13 @@
     {
         "img": "/src/img/whitecap.svg",
         "alt": "",
-        "title": "Whitecap Coffee identity",
+        "title": "Whitecap Coffee: Identity",
         "year": "2015"
     },
     {
         "img": "/src/img/lc.svg",
         "alt": "Listeners Club",
-        "title": "Listeners Club logo",
+        "title": "Listeners Club",
         "link": "https://listenersclub.ca",
         "year": "2017"
     },
@@ -22,9 +22,15 @@
         "img": "/src/img/untitled.svg",
         "alt": ""
     },
+
+    {
+        "img": "/src/img/work/forkflower.svg",
+        "title": "Coming Soon",
+        "year": "2024"
+    },
     {
         "img": "/src/img/martimes-caravan-circle.svg",
-        "year": "2023"
+        "year": "2023"    
     },
     {
         "img": "/src/img/tc.svg",
@@ -32,8 +38,14 @@
         "year": "2024"
     },
     {
-        "img": "/src/img/work/scp001.svg",
+        "img": "/src/img/work/scp.svg",
+        "title": "Coming Soon",
         "year": "2024"
+    },
+    {
+        "img": "/src/img/work/scp001.svg",
+        "year": "2024",
+        "title": "Unused"
     },
     {
         "img": "/src/img/going-east-going-fast.svg",
@@ -42,12 +54,16 @@
     {
         "img": "/src/img/23w.svg",
         "alt": "",
+        "title": "23West",
         "year": "2024"
     },
     {
         "img": "/src/img/work/60th.jpg",
         "year": "2022",
-        "title": "Triple E 60th Anniversary"
+        "title": "Triple E Sixtieth Anniversary"
+    },
+    {
+        "img": "/src/img/work/html5head.svg"
     },
     {
         "img": "/src/img/fli23.svg",
@@ -56,7 +72,7 @@
     },
     {
         "img": "/src/img/60.svg",
-        "title": "60th Anniversary, killed"
+        "title": "60th Anniversary, Unused"
     },
     {
         "img": "/src/img/library-lover-wb.svg",
@@ -66,17 +82,20 @@
     {
         "img": "/src/img/rw_thumb.jpg",
         "alt": "",
-        "title": "Roundnet Winkler identity",
+        "title": "Roundnet Winkler Identity",
         "year": "2019"
     },
     {
         "img": "/src/img/whitecap-wordmark.svg",
-        "title": "Whitecap Coffee logo"
+        "title": "Whitecap Coffee wordmark"
     },
     {
         "img": "/src/img/trip-planner.svg",
         "title": "Leisure Travel Vans Trip Planner",
         "year": "2023"
+    },
+    {
+        "img": "/src/img/work/playlists_years.gif"
     },
     {
         "img": "/src/img/blurred.jpg"
@@ -104,7 +123,6 @@
     {
         "img": "/src/img/cascade-island.svg",
         "alt": "",
-        "title": "Cascade Island",
         "year": "2020"
     },
     {
@@ -115,11 +133,13 @@
     },
     {
         "img": "/src/img/roundnet-winkler_pins.svg",
-        "alt": ""
+        "alt": "",
+        "title": "Roundnet Winkler"
     },
     {
         "img": "/src/img/work/lk40.jpg",
-        "year": "2020"
+        "year": "2019",
+        "title": "Lode King 40th Anniversary"
     },
     {
         "img": "/src/img/whatevertown_pillars.jpg",
@@ -135,7 +155,8 @@
     },
     {
         "img": "/src/img/whitecap_shirt_drinking-coffee.jpg",
-        "alt": "Tripp’s Tree Care"
+        "alt": "T-shirt that says: 'Drinking coffee'",
+        "title": "Whitecap Coffee"
     },
     {
         "img": "/src/img/u.svg",
@@ -149,7 +170,8 @@
     },
     {
         "img": "/src/img/reignite.svg",
-        "alt": ""
+        "alt": "",
+        "title": "Reignite"
     },
     {
         "img": "/src/img/misc-logo-hive.svg",
@@ -161,18 +183,20 @@
         "title": "Works End"
     },{
         "img": "/src/img/aurora.svg",
-        "title": "Aurora"    
+        "alt": "wormark that says 'Aurora'"    
     },
     {
         "img": "/src/img/misc-logo-coffee.svg"
     },
     {
         "img": "/src/img/whitecap_tea.jpg",
-        "title": "Whitecap Coffee menu"
+        "title": "Whitecap Coffee menu",
+        "year": "2015"
     },
     {
         "img": "/src/img/ccl.png",
-        "title": "Country Club Lane"
+        "title": "Country Club Lane",
+        "year": "2018"
     },
     {
         "img": "/src/img/mtg.svg",
@@ -189,7 +213,8 @@
         "img": "/src/img/misc-logo-forest.svg"
     },
     {
-        "img": "/src/img/whitecap_whit3cap.jpg"
+        "img": "/src/img/whitecap_whit3cap.jpg",
+        "title": "Whitecap 3rd Anniversary"
     },
     {
         "img": "/src/img/misc-logo-manitoba.svg",
@@ -208,11 +233,13 @@
     },
     {
         "img": "/src/img/alliance.svg",
-        "year": "2018"
+        "year": "2018",
+        "title": "Project killed"
     },
     {
         "img": "/src/img/work/alliance_A.svg",
-        "year": "2018"
+        "year": "2018",
+        "title": "Project killed"    
     },
     {
         "img": "/src/img/misc-logo-tyler_james.svg",
