@@ -5,12 +5,18 @@ date: Last Modified
 description: A collection of my favourite books on design, fiction, and non-fiction.
 ---
 
+<nav class="sub-nav filter-list">
+    Filter: 
+    <a href="/library/" class="">Favourites</a>
+    <a href="/library/own" class="">Library</a>
+    <a href="https://www.goodreads.com/review/list/5173121?shelf=read&sort=date_read" class="">Read</a>
+</nav>
 
 {% for topic in library %}
     <h2>{{ topic.title}}</h2>
     <ul class="library-list">
     {% for book in topic.books %}
-        <li>
+        <li itemscope itemtype="https://schema.org/Book">
             <img src="{{ book.cover }}" alt="" class="library-cover" loading="lazy">
             <span class="library-title">{{ book.title }}</span><br>
             <span class="library-author">{{ book.author }}</span>
