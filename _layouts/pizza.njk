@@ -11,13 +11,13 @@ layout: base.njk
     </center> #}
 
     <center>
-        <span>2024 №2</span>
+        <span>2025 №1</span>
         <span class="h1 date-title">Pizza Night</span>
         {# <p>Co-Hosted with Ryan & Sarah</p> #}
-        <p>27 July 2024</p>
-        <p>Afternoon activities to be announced.</p>
-        <p>Pizza menu and ingredients list to be announced.</p>
-        <p>Bring a side, if you’d like.</p>
+        <p>June 2025</p>
+        {# <p>Afternoon activities to be announced.</p> #}
+        <p>Menu to be announced.</p>
+        <p>Bring a <a href="/recipes">side</a> or a dessert, if you’d like.</p>
     </center>
 
     {# <div class="slogan">
@@ -112,19 +112,23 @@ layout: base.njk
 
         </section>
 
-        <dl class="stats-box">
-            <div class="stat">
-                <dd class="stat-feature">{{ pizza_year }}</dd>
-                <dt>Pizzas This Year</dt>
-            </div>
+        <dl class="stats-box" style="grid-template-columns: auto;">
+                <div class="stat">
+                    <dd class="stat-feature">{{ pizza_year }}</dd>
+                    <dt>Pizzas This Year</dt>
+                </div>
+            {% if pizza_party %}
             <div class="stat">
                 <dd class="stat-feature">{{ pizza_party }}</dd>
                 <dt>Pizzas Last Party<br><small>{{pizza_party_date}}</small></dt>
             </div>
+            {% endif %}
+            {% if pizza_last_year %}
             <div class="stat">
                 <dd class="stat-feature">{{ pizza_last_year }}</dd>
                 <dt>Pizzas Last Year</dt>
             </div>
+            {% endif %}
         </dl>
     </div>
 
@@ -142,7 +146,7 @@ layout: base.njk
         </svg>
 
         <span>&#9662;</span><br>
-        <span class="h1">SOON</span><br>
+        <span class="h1">JULY</span><br>
         {# <span>&#9662;&#9662;</span><br>
         <span>Townsend Dr</span> #}
     </div>

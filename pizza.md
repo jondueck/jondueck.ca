@@ -4,11 +4,11 @@ date: Last Modified
 layout: pizza.njk
 emoji: 🍕
 image: /src/img/pizza-og.jpg
-pizza_year: 19
-pizza_party: 15
-pizza_party_date: 21 June 2024
-pizza_last_year: 40
-next_party: 21 June
+pizza_year: 0
+pizza_party:
+pizza_party_date:
+pizza_last_year: 
+next_party: June
 pizzas:
     - pizza:
       name: Margherita
