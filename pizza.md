@@ -8,7 +8,7 @@ pizza_year: 0
 pizza_party:
 pizza_party_date:
 pizza_last_year: 
-next_party: June
+next_party: July
 pizzas:
     - pizza:
       name: Margherita
