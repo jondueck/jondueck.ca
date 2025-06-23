@@ -249,6 +249,10 @@ a {
 
 }
 
+.no-break {
+    display: inline-block;;
+}
+
 ::selection {
     background: var(--secondary-color);
     color: var(--body-color);
