@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 
-<div class="wrap">
+<div class="wrap" id="header">
     <img src="/src/img/pizza peel.png" alt="" height="300" class="peel">
 
 
@@ -18,33 +18,67 @@ layout: base.njk
         
         {# <p>Afternoon activities to be announced.</p> #}
     </center>
-
+ 
     <center>
         <p>Menu to be announced.</p>
-        <p>Bring a <a href="/recipes">side</a> or a dessert, if you’d like.</p>
+        <p style="transform: rotateZ(-1.5deg); font-family: 'Courier New', courier, monospace;  color: color-mix(in srgb, var(--primary-color) 50%, black); text-wrap: balance;">Time to be announced, but probably 5:30/6:00 for first pizza.</p>
     </center>
 
-    <div class="slogan">
-        <p>“Still, I have the <a href="https://youtu.be/o0so75T7GpI?si=kk2ZSqns9ToEr__u&t=39">warmth of the sun</a> <br> It won’t ever die”</p>
-    </div>        
-</div>
-{% if pizzas %}
-    <section class="pizzas" style="display: none;">
-        {# <h2>Featured Pizzas</h2> #}
-        <ul>
-            {% for pizza in pizzas %}
-            <li class="pizza-item">
-                <h3>“{{ pizza.name }}”</h3>
-                <ul class="pizza-item-ingredients">
-                {% for ingredient in pizza.ingredients %}
-                    <li>{{ ingredient }}</li>
+    {% if pizzas %}
+        <section class="pizzas" style="display: none;">
+            {# <h2>Featured Pizzas</h2> #}
+            <ul>
+                {% for pizza in pizzas %}
+                <li class="pizza-item">
+                    <h3>“{{ pizza.name }}”</h3>
+                    <ul class="pizza-item-ingredients">
+                    {% for ingredient in pizza.ingredients %}
+                        <li>{{ ingredient }}</li>
+                    {% endfor %}
+                    </ul>
+                </li>
                 {% endfor %}
-                </ul>
-            </li>
-            {% endfor %}
-        </ul>
-    </section>
-{% endif %}
+            </ul>
+        </section>
+    {% endif %}   
+</div>
+
+ <section class="wrap forecast" style="text-align: center;">
+        <p>Bring a <a href="/recipes">side</a> or a dessert, if you’d like. <br> Sign up in the Messenger group, or let me know.</p>
+        <div class="grid-auto" style="display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
+            <div class="stat">
+                <dd class="stat-feature">1</dd>
+                <dt>Side</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">1</dd>
+                <dt>Salad</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">1</dd>
+                <dt>Dessert</dt>
+            </div>
+        </div>
+    </section>    
+
+    {# <section class="wrap forecast" style="text-align: center; display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
+        <div class="stat">
+            <dd class="stat-feature">27°</dd>
+            <dt><small>Cance of rain in the morning</small></dt>
+        </div>
+        <div class="stat">
+            <dd class="stat-feature">14</dd>
+            <dt>Adults</dt>
+        </div>
+        <div class="stat">
+            <dd class="stat-feature">5</dd>
+            <dt>Kids</dt>
+        </div>
+    </section>    #}
+
+<blockquote class="slogan">
+    <p>“Still, I have the <a href="https://youtu.be/o0so75T7GpI?si=kk2ZSqns9ToEr__u&t=39">warmth of the sun</a> <br> It won’t ever die”</p>
+</blockquote>   
 
 <div class="wrap">
     <section class="ingredients-section" style="display: none;">
@@ -136,8 +170,14 @@ layout: base.njk
         </dl>
     </div>
 
+    {# <div>
+        <h3>Let’s Make a <a href="https://en.wikipedia.org/wiki/Zine">Zine</a>?</h3>
+    </div> #}
+
 </div>
 
+
+{% if next_party %}
 <div class="next-party">
         
         <svg viewBox="0 0 500 150" class="arc">
@@ -150,9 +190,10 @@ layout: base.njk
         </svg>
 
         <span>&#9662;</span><br>
-        <span class="h1">JULY</span><br>
+        <span class="h1">{{ next_party }}</span><br>
         {# <span>&#9662;&#9662;</span><br>
         <span>Townsend Dr</span> #}
     </div>
+{% endif %}
 
 <link rel="stylesheet" href="https://use.typekit.net/luq0jvf.css">

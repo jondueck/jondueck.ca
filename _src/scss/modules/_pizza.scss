@@ -1,9 +1,11 @@
 #pizza {
     // --primary-color: #D90404;
     --primary-color: var(--secondary-color);
+    --red: #e93e3e;
     --body-color: var(--primary-color);
     --peel: calc(25vh + 5vw);
     --sans: Futura-PT, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --serif: var(--sans);
     --cursive: "rizado-script", cursive;
     
     // --serif: var(--sans);
@@ -13,6 +15,21 @@
         --background: black;
         --background: hsl(215.9 75.71% 10%);
         --body-color: var(--white);
+    }
+
+    font-size: 1.25rem;
+    line-height: 1.5;
+
+    &:after {
+        content: '';
+        display: block;
+        height: 9rem;
+        width: 100%;
+        background-image: url('/src/img/pizza/pattern-ext.svg');
+        background-repeat: repeat-x;
+        background-size: contain;
+        margin-block-start: 9rem;
+        // opacity: 15%;
     }
 
 
@@ -91,6 +108,7 @@
         font-weight: 700;
         display: block;
         letter-spacing: -0.05em;
+        margin-block: 0.5lh;
     }
 
     h3 {
@@ -139,7 +157,7 @@
 
         @media (min-width: 720px) {
             margin-inline: auto;
-            width: 50ch;
+            width: 55ch;
         }
     }
 
@@ -166,6 +184,8 @@
     line-height: 1;
     text-wrap: balance;
     max-width: 90vw;
+    border: 0 none;
+    padding: 0 1ch;
 }
 
 a:hover {
@@ -217,14 +237,16 @@ a:hover {
         list-style: none;
         margin: 0;
         padding: 0;
-        display: grid;
-        gap: var(--line);
-        @media (min-width: 600px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-        @media (min-width: 1000px) {
-            grid-template-columns: repeat(4, 1fr);
-        }
+        display: grid; 
+        grid-gap: var(--line); 
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 15ch), 1fr));
+
+        // @media (min-width: 600px) {
+        //     grid-template-columns: repeat(2, 1fr);
+        // }
+        // @media (min-width: 1000px) {
+        //     grid-template-columns: repeat(4, 1fr);
+        // }
     }
 }
 .pizza-item {
@@ -246,4 +268,14 @@ a:hover {
     li {
         border-block-start: 1px dotted;
     }
+}
+
+::selection {
+    color: var(--background);
+    background-color: var(--red);
+    mix-blend-mode: multiply;
+}
+
+p:last-child {
+    margin-block-end: 0;
 }
