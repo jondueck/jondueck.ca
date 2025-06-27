@@ -18,11 +18,31 @@ layout: base.njk
         
         {# <p>Afternoon activities to be announced.</p> #}
     </center>
+
+    <center>
+        <p>@ Jon’s House</p>
+        <p>Pizzas start at 5:30</p>
+        <p>Bring a lawn chair</p>
+    </center>
+
+    <section class="wrap forecast" style="text-align: center;">
+        <p>Bring a <a href="/recipes">side</a> or a dessert, if you’d like. <br> Sign up in the Messenger group, or let me know.</p>
+        <div class="grid-auto" style="display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
+            <div class="stat">
+                <dd class="stat-feature">15–16</dd>
+                <dt>Adults RSVP’d</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">5</dd>
+                <dt>Children</dt>
+            </div>
+        </div>
+    </section>
  
     <center>
         <p>Menu to be announced.</p>
-        <p style="transform: rotateZ(-1.5deg); font-family: 'Courier New', courier, monospace;  color: color-mix(in srgb, var(--primary-color) 50%, black); text-wrap: balance;">Time to be announced, but probably 5:30/6:00 for first pizza.</p>
     </center>
+
 
     {% if pizzas %}
         <section class="pizzas" style="display: none;">
@@ -195,5 +215,8 @@ layout: base.njk
         <span>Townsend Dr</span> #}
     </div>
 {% endif %}
+
+{# <footer class="pizza-footer">
+</footer> #}
 
 <link rel="stylesheet" href="https://use.typekit.net/luq0jvf.css">

@@ -7,6 +7,8 @@
     --sans: Futura-PT, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     --serif: var(--sans);
     --cursive: "rizado-script", cursive;
+    --pizza-grid-size: 0.5rem;
+    position: relative;
     
     // --serif: var(--sans);
 
@@ -20,24 +22,15 @@
     font-size: 1.25rem;
     line-height: 1.5;
 
-    // &:after {
-    //     content: '';
-    //     display: block;
-    //     height: 9rem;
-    //     width: 100%;
-    //     background-image: url('/src/img/pizza/pattern-ext.svg');
-    //     background-repeat: repeat-x;
-    //     background-size: contain;
-    //     margin-block-start: 9rem;
-    //     // opacity: 15%;
-    // }
-
 
     main {
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: var(--line-2);
+        position: relative;
+        z-index: 1;
+        background-color: var(--background);
     }
 
     .site-header,
@@ -79,7 +72,7 @@
 
     &:before {
         content: '';
-        height: 1rem;
+        height: calc(2 * var(--pizza-grid-size));
         width: 100%;
         position: fixed;
         overflow: hidden;
@@ -91,8 +84,8 @@
             linear-gradient(135deg, var(--primary-color) 25%, transparent 25%),
             linear-gradient(45deg, transparent 75%, var(--primary-color) 75%),
             linear-gradient(135deg, transparent 75%, var(--primary-color) 75%);
-        background-size:calc(2 * 0.5rem) calc(2 * 0.5rem); 
-        background-position:0 0, 0.5rem 0, 0.5rem calc(-1 * 0.5rem), 0 calc(-1 * 0.5rem); 
+        background-size:calc(2 * var(--pizza-grid-size)) calc(2 * var(--pizza-grid-size)); 
+        background-position:0 0, var(--pizza-grid-size) 0, var(--pizza-grid-size) calc(-1 * var(--pizza-grid-size)), 0 calc(-1 * var(--pizza-grid-size)); 
         }
 
     h1,
@@ -164,7 +157,7 @@
     .peel {
         margin-inline: auto; 
         position: absolute; 
-        top: 0; 
+        top: calc(-1 * var(--peel)); 
         left: 0; 
         right: 0;
         height: var(--peel);
@@ -278,4 +271,39 @@ a:hover {
 
 p:last-child {
     margin-block-end: 0;
+}
+
+#pizza .site-footer {
+      // &:after {
+    //     content: '';
+    //     display: block;
+    //     height: 9rem;
+    //     width: 100%;
+    //     background-image: url('/src/img/pizza/pattern-ext.svg');
+    //     background-repeat: repeat-x;
+    //     background-size: contain;
+    //     margin-block-start: 9rem;
+    //     // opacity: 15%;
+    // }
+    content: '';
+    display: block;
+    width: 100%;
+    height: calc(1 * calc(18 * var(--pizza-grid-size)));
+    // height: 50dvh;
+    // height: 100vh;
+    position: sticky;
+    // background-color: color-mix(in srgb, var(--primary-color) 50%, var(--background));
+    background-image: url('/src/img/pizza/pattern-ext.svg');
+    background-repeat: repeat;
+    background-size: calc(2 * var(--pizza-grid-size));
+    background-position-x: center;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+    transition-duration: 5s;
+    > * {
+        display: none;
+        visibility: hidden;
+    }
 }

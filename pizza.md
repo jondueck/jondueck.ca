@@ -4,7 +4,7 @@ date: Last Modified
 layout: pizza.njk
 emoji: 🍕
 image: /src/img/pizza-og.jpg
-pizza_year: 0
+pizza_year: 11
 pizza_party:
 pizza_party_date:
 pizza_last_year: 
