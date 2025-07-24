@@ -12,7 +12,7 @@ layout: base.njk
 
     <center>
         <span style="font-family: var(--sans);">2025 №2</span>
-        <span class="h1 date-title">26 July 2025</span>
+        <span class="h1 date-title">26 July</span>
         {# <span class="slogan">A New Year, <span class="no-break">Another Pizza</span></span> #}
         {# <p>Co-Hosted with Ryan & Sarah</p> #}
         
@@ -38,9 +38,10 @@ layout: base.njk
         </div>
     </section> #}
  
-    <center>
-        <p>Menu to be announced.</p>
-    </center>
+    {# <center>
+        <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 3em;">
+        <p>Pizzas to be announced.</p>
+    </center> #}
 
 
     {% if pizzas %}
@@ -63,8 +64,10 @@ layout: base.njk
 </div>
 
  <section class="wrap forecast" style="text-align: center;">
+    <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 3em;">
+    <p>Pizzas to be announced.</p>
         <p>Bring a <a href="/recipes">side</a> or a dessert, if you’d like. <br> Sign up in the Messenger group, or let me know.</p>
-        {# <div class="grid-auto" style="display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
+        <div class="grid-auto" style="display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
             <div class="stat">
                 <dd class="stat-feature">1</dd>
                 <dt>Side</dt>
@@ -77,7 +80,7 @@ layout: base.njk
                 <dd class="stat-feature">1</dd>
                 <dt>Dessert</dt>
             </div>
-        </div> #}
+        </div>
     </section>    
 
     {# <section class="wrap forecast" style="text-align: center; display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
@@ -168,6 +171,8 @@ layout: base.njk
         </details>
 
         </section>
+                <img src="/src/img/pizza/pizza_party.svg" alt="Pizza Party">
+
 
         <dl class="stats-box" style="grid-template-columns: auto;">
                 <div class="stat">
