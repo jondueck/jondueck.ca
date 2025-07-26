@@ -2,6 +2,20 @@
 layout: base.njk
 ---
 
+<style>
+    .sticker {
+        filter: drop-shadow(0.5px 0.5px 0.5px var(--black) );
+        transition-duration: 0.25s;
+        will-change: filter;
+        {# transform: rotate(-2deg); #}
+        width: fit-content;
+        margin-inline: auto;
+    }
+    {# .sticker:hover {
+        filter: drop-shadow(1px 1px 1px var(--black) );
+    } #}
+</style>
+
 <div class="wrap" id="header">
     <img src="/src/img/pizza peel.png" alt="" height="300" class="peel">
 
@@ -64,7 +78,7 @@ layout: base.njk
 </div>
 
  <section class="wrap forecast" style="text-align: center;">
-    <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 3em;">
+    <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 3em;" class="sticker">
     <p>Pizzas to be announced.</p>
         <p>Bring a <a href="/recipes">side</a> or a dessert, if you’d like. <br> Sign up in the Messenger group, or let me know.</p>
         <div class="grid-auto" style="display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
@@ -77,7 +91,7 @@ layout: base.njk
                 <dt>Salad</dt>
             </div>
             <div class="stat">
-                <dd class="stat-feature">1</dd>
+                <dd class="stat-feature">2</dd>
                 <dt>Dessert</dt>
             </div>
         </div>
@@ -171,7 +185,7 @@ layout: base.njk
         </details>
 
         </section>
-                <img src="/src/img/pizza/pizza_party.svg" alt="Pizza Party">
+                <img src="/src/img/pizza/pizza_party.svg" alt="Pizza Party" class="sticker">
 
 
         <dl class="stats-box" style="grid-template-columns: auto;">
