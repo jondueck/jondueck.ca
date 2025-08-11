@@ -1,4 +1,24 @@
 [
+    {
+        "title": "Sweet Enough Scones",
+        "url": "https://www.alisoneroman.com/recipes/sweet-enough-scones",
+        "author": "Alison Roman",
+        "book": "Sweet Enough"
+    },
+    {
+        "title": "The Only Pie Crust",
+        "url": "https://www.alisoneroman.com/recipes/the-only-pie-crust",
+        "author": "Alison Roman",
+        "book": "Sweet Enough",
+        "notes": "For galettes."
+    },
+    {
+        "title": "Blueberry Cornmeal Shortbread Tart",
+        "url": "https://www.alisoneroman.com/recipes/blueberry-cornmeal-tart",
+        "author": "Alison Roman",
+        "book": "Sweet Enough",
+        "notes": "Book version is slightly different than web version."
+    },
     {   
         "title": "BA’s Best Chocolate Chip Cookies",
         "url": "https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies",
@@ -86,7 +106,7 @@
         "title": "Smashed Chili Crunch Cucumber Salad",
         "url": "https://canadashop.momofuku.com/blogs/recipes/smashed-chili-crunch-cucumber-salad",
         "author": "Momofuku",
-        "img": "https://canadashop.momofuku.com/cdn/shop/articles/Smashed_Chili_Crunch_Cucumbers_5_AJB_1_2560x.jpg",
+        "img": "https://canadashop.momofuku.com/cdn/shop/articles/Smashed_Chili_Crunch_Cucumbers_5_AJB_1_e643e3d6-be8e-4987-a7e3-3c2d047b88c2.jpg?v=1743606691&width=763",
         "emoji": "🥒"
     },
     {
@@ -136,5 +156,23 @@
         "author": "Carolina Gelen",
         "url": "https://cooking.nytimes.com/recipes/1025225-lentil-tomato-soup",
         "publisher": "New York Times"
+    },
+    {
+        "title": "Easiest Actually Good Cinnamon Rolls",
+        "url": "https://www.brianlagerstrom.com/recipes/easiest-cinnamon-rolls",
+        "author": "Brian Lagerstrom"
+    },
+    {
+        "title": "Pasta al Ragù",
+        "author": "Samin Nosrat",
+        "book": "Salt, Fat, Acid, Heat",
+        "url": "https://www.saltfatacidheat.com/fat/benedettas-ragu"
+    },
+    {
+        "title": "Weeknight Ragù",
+        "url": "https://www.bonappetit.com/recipe/weeknight-ragu",
+        "author": "Chris Morroco",
+        "publisher": "Bon Appétit",
+        "emoji": "🍝"
     }
 ]
