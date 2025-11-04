@@ -1,7 +1,7 @@
 ---
 title: My Favourite Recipes
 layout: page.njk
-date: 2024-03-09 13:00:00 -06:00
+date: 2024-11-03 19:42:00 -06:00
 updated: true
 ---
 
@@ -11,6 +11,7 @@ updated: true
         <li>
             <a href="{{ recipe.url }}">
                 {# {% if recipe.img %}<img src="{{ recipe.img }}" alt="" loading="lazy">{% endif %} #}
+                {# {% if recipe.img %}<img src="{{ recipe.img }}" alt="" loading="lazy" style="height: 3em; width: 3em; object-fit: cover; display: inline-block; margin-inline-end: 1ch; margin-block: 0; margin-block-end: -1em; border-radius: 0.5em;">{% endif %} #}
             <strong>{{ recipe.title }}</strong>
             </a> 
             {% if recipe.author %}&nbsp;by {{ recipe.author }} {% if recipe.publisher %} for {% endif %}{% endif %} 
