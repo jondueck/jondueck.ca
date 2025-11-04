@@ -28,6 +28,13 @@
         "emoji": "🍪"
     },
     {
+        "title": "Salty Lemon Shortbread",
+        "url": "https://www.alisoneroman.com/recipes/salty-lemon-shortbread/",
+        "author": "Alison Roman",
+        "book": "Sweet Enough",
+        "notes": "Book contains incorrect measurements."
+    },
+    {
         "title": "Classic Pizza Dough",
         "url": "https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect",
         "publisher": "Ooni",
@@ -174,5 +181,17 @@
         "author": "Chris Morroco",
         "publisher": "Bon Appétit",
         "emoji": "🍝"
+    },
+    {
+        "url": "https://cooking.nytimes.com/recipes/1018968-roasted-broccolini-and-lemon-with-parmesan",
+        "title": "Roasted Broccolini and Lemon with Parmesan",
+        "author": "Alison Roman",
+        "publisher": "New York Times Cooking"
+    },
+    {
+        "title": "Lemon Bars",
+        "url": "https://cooking.nytimes.com/recipes/1024410-lemon-bars",
+        "author": "Genevieve Ko",
+        "publisher": "New York Times"
     }
 ]
