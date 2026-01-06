@@ -254,8 +254,9 @@ a {
 }
 
 ::selection {
-    background: var(--secondary-color);
-    color: var(--body-color);
+    // background-color: color-mix(in srgb, var(--secondary-color) 90%, var(--body-color));
+    background-color: var(--secondary-color);
+    color: var(--background);
 }
 
 .note {
