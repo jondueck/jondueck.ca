@@ -60,6 +60,8 @@ There’s [the Record Club version of that list](https://record.club/jd/lists/20
   > <cite><a href="https://lonnieholley.bandcamp.com/track/seeds"><em>Seeds</em> by Lonnie Holley</a></cite>
 - **Favourite Album from Last Year that I Missed Until This Year**: *For Eden* by Boy Golden
 
+[2025 Songs of the Year Playlist](https://music.apple.com/ca/playlist/2025-songs-of-the-year-so-far/pl.u-MjLJT4G6MpM)
+
 ## Movies
 
 ### Movies of the Year

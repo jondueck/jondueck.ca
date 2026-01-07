@@ -75,5 +75,13 @@ Thanks again to Josiah for building [this Last.fm stats tool](https://jwww.me/pl
 
 You can also check out my [Last.fm report](https://www.last.fm/user/dueckjon/listening-report/year/2025).
 
+## Playlists
+
+- [2025 Songs of the Year Playlist](https://music.apple.com/ca/playlist/2025-songs-of-the-year-so-far/pl.u-MjLJT4G6MpM)
+- [Spring 2025 Playlist](https://music.apple.com/ca/playlist/spring-2025/pl.u-ykDlszX8KyK)
+- [Summer 2025 Playlist](https://music.apple.com/ca/playlist/summer-2025/pl.u-5aE3iYpv5d5)
+- [Fall 2025 Playlist](https://music.apple.com/ca/playlist/fall-2025/pl.u-4p62IMe8LxL)
+- [Winter 2025–2026 Playlist](https://music.apple.com/ca/playlist/winter-2025-2026-wip/pl.u-zMW6CM530r0) (in progress)
+
 ---
 Next up: My [Favourites of 2025 post](/journal/2025/favourites)
