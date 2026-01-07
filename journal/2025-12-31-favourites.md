@@ -2,11 +2,13 @@
 title: Favourites of 2025
 date: 2025-12-31 09:30:00 -06:00
 redirect_from: '/2025/'
+image: '/src/img/journal/2025og.jpg'
+
 ---
 
 Every year, I like to put out my lists of favourites. I always enjoy reading others’ end-of-year posts ([1](https://www.seeingthroughfilm.com/p/the-best-stuff-i-found-in-2025), [2](https://www.noexpectations.fyi/p/the-100-best-albums-of-2025), for example) and hope to add a few of my favourites to the conversation.
 
-Shortcuts: [Music](#music), [Movies](#movies), [Podcasts](#podcasts-of-the-year), [Books](favourite-books-read-in-2024), [Requests](#requests)
+Shortcuts: [Music](#music), [Movies](#movies), [Podcasts](#podcasts-of-the-year), [Books](favourite-books-read-in-2025), [Requests](#requests)
 
 ## Music
 
@@ -16,7 +18,7 @@ I listened to 108 albums from 2025. [Thanks to Mattias at Record Club](https://b
 
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3930130936/size=small/bgcol=ffffff/linkcol=0687f5/track=2188381932/transparent=true/" seamless><a href="https://geesebandnyc.bandcamp.com/album/getting-killed">Getting Killed by Geese</a></iframe>
 
-1. [*Getting Killed*](https://record.club/releases/albums/geese-getting-killed) by Geese <br><span class="note">What’s left to say about this album that hasn’t been said by smarter writers than me? A fun album to try to sing along to in the car while driving back from an autumn hike.</span>
+1. [*Getting Killed*](https://record.club/releases/albums/geese-getting-killed) by Geese <br><span class="note">What’s left to say about this album that hasn’t been said by smarter writers than me? Great arrangements. A fun album to try to sing along to in the car while driving back from an autumn hike.</span>
 2. [*Tonky*](https://record.club/releases/albums/lonnie-holley-tonky) by Lonnie Holley <br><span class="note">From the opening track that immediately to the beautiful, reflective *Did I Do Enough?* this is a powerful record.</span>
 3. [*Face Down in the Garden*](https://record.club/releases/albums/tennis-face-down-in-the-garden) by Tennis<br><span class="note">An all-time great night driving record. A strong finale with a final track that feels like it encompasses the entirety of the band’s run. RIP</span>
 4. [*Racing Mount Pleasant*](https://record.club/releases/albums/racing-mount-pleasant-2) by Racing Mount Pleasant
@@ -114,7 +116,7 @@ I watched 23 qualifying films this year, based on Canadian theatrical release ye
 
 Special mention to the *Mapping the Zone* podcast. I only listened to episodes from 2024 – their series on Vineland – so they didn’t qualify here.
 
-## Favourite Books Read in 2024
+## Favourite Books Read in 2025
 - *To The Lighthouse* by Virginia Woolf
 - *Vineland* by Thomas Pynchon
 - *East of Eden* by John Steinbeck

@@ -1,16 +1,17 @@
 ---
 title: 2025 Listening Stats
 date: 2025-12-31 09:00:00 -06:00
+image: '/src/img/journal/2025-listening-og.jpg'
 ---
 
-I listened to about 608 hours of music this year.
+I listened to approximately [984 unique artists](https://www.last.fm/user/dueckjon/library/artists?from=2025-01-01&to=2025-12-31), and [5232 unique songs](https://www.last.fm/user/dueckjon/library/tracks?from=2025-01-01&to=2025-12-31) for a total of [9,929 plays](https://www.last.fm/user/dueckjon/library?from=2025-01-01&to=2025-12-31), down about 9% from last year. That’s about 608 hours of listening.
 
 Thanks again to Josiah for building [this Last.fm stats tool](https://jwww.me/playground/lastfm?username=dueckjon&from=2025-01-01&to=2025-12-31) that I’ve used for all playtime stats listed here.
 
 ![Chart of listens by month](/src/img/2025-chart.svg)
 
 ## Top Artists by Playtime
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3930130936/size=small/bgcol=ffffff/linkcol=0687f5/track=2188381932/transparent=true/" seamless><a href="https://geesebandnyc.bandcamp.com/album/getting-killed">Getting Killed by Geese</a></iframe>
+<iframe class="bandcamp-embed" style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3930130936/size=small/bgcol=ffffff/linkcol=0687f5/track=2188381932/transparent=true/" seamless><a href="https://geesebandnyc.bandcamp.com/album/getting-killed">Getting Killed by Geese</a></iframe>
 
 1. Geese – 20:44, 308 plays
 2. Scott McMicken and THE EVER-EXPANDING – 9:16, 125 plays
@@ -31,7 +32,7 @@ Thanks again to Josiah for building [this Last.fm stats tool](https://jwww.me/pl
 </figure>
 
 ## Top Songs by Playtime
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3821873185/size=small/bgcol=ffffff/linkcol=0687f5/track=3813226184/transparent=true/" seamless><a href="https://rennyconti.bandcamp.com/album/renny-conti">Renny Conti by Renny Conti</a></iframe>
+<iframe class="bandcamp-embed" style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3821873185/size=small/bgcol=ffffff/linkcol=0687f5/track=3813226184/transparent=true/" seamless><a href="https://rennyconti.bandcamp.com/album/renny-conti">Renny Conti by Renny Conti</a></iframe>
 
 1. [*Looking at the Geese*](https://song.link/i/1777503672) by Renny Conti – 2:39, 36 plays
 2. [*Love Takes Miles*](https://song.link/i/1766985021) by Cameron Winter – 2:25, 44 plays
@@ -45,6 +46,9 @@ Thanks again to Josiah for building [this Last.fm stats tool](https://jwww.me/pl
 10. [*The Way*](https://song.link/i/1735555864) by Boy Golden – 1:44, 26 plays
 
 ## Top Songs by Plays
+
+<iframe class="bandcamp-embed" style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1921305161/size=small/bgcol=ffffff/linkcol=0687f5/track=2195656626/transparent=true/" seamless><a href="https://yaboygolden.bandcamp.com/track/never-have-2-leave">Never Have 2 Leave by Boy Golden</a></iframe>
+
 1. [*Never Have 2 Leave*](https://song.link/i/1735555873) by Boy Golden – 44 plays
 1. [*Love Takes Miles*](https://song.link/i/1766985021) by Cameron Winter – 44 plays
 3. [*Looking at the Geese*](https://song.link/i/1777503672) by Renny Conti – 36 plays
