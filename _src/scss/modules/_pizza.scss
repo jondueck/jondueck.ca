@@ -263,7 +263,7 @@ a:hover {
     }
 }
 
-::selection {
+#pizza ::selection {
     color: var(--background);
     background-color: var(--red);
     mix-blend-mode: multiply;
