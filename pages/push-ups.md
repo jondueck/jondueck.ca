@@ -4,9 +4,27 @@ date: git Last Modified
 layout: base.njk
 permalink: '/push-ups/'
 emoji: 💪
+eleventyExcludeFromCollections: true
 ---
 
 <style>
+    body {
+        --yellow: #cc973d;
+        --yellow: color-mix(in srgb, #E0B55C, #F2B705);
+        --red: #a2310c;
+        --red: #C54B2E;
+        --purple: #662748;
+        --purple: #7A3A66;
+        --navy: color-mix(in srgb, #0e233c, var(--secondary-color));
+        --navy: color-mix(in srgb, var(--black) 75%, var(--secondary-color));
+        --orange: #c7672c;
+        --orange: #D87A43;
+        --green: color-mix(in srgb, #507522, var(--primary-color));
+        --green: #6F8C4A;
+        --green: color-mix(in srgb, var(--primary-color), #6f8c4a);
+        --pink: #D14B6A;
+    }  
+
     table {
         width: 100%;
         border: 0 none;
@@ -21,6 +39,30 @@ emoji: 💪
             grid-template-columns: repeat(5, 1fr);
             @media(min-width: 45rem) {
                 grid-template-columns: repeat(10, 1fr);
+            }
+
+            &:nth-of-type(even) td {
+                &:nth-of-type(n+1):not(:empty):after {
+                    background-color: var(--orange);
+                }
+                &:nth-of-type(2n):not(:empty):after {
+                    background-color: var(--yellow);
+                }
+                &:nth-of-type(3n):not(:empty):after {
+                    background-color: var(--red);
+                }
+                &:nth-of-type(4n):not(:empty):after {
+                    background-color: var(--pink);
+                }
+                 &:nth-of-type(5n):not(:empty):after {
+                background-color: var(--navy);
+                }
+                &:nth-of-type(6n):not(:empty):after {
+                    background-color: var(--green);
+                }
+                &:nth-of-type(7fn):not(:empty):after {
+                    background-color: var(--purple);
+                }
             }
 
         }
@@ -48,33 +90,51 @@ emoji: 💪
                 color: transparent;
                 &:after {
                     /* background-image: url('/src/img/favicons/favicon.svg'); */
-                    height: 65%;
-                    width: 65%;
+                    height: 75%;
                     aspect-ratio: 1;
                     display: block;
                     content: '';
                     z-index: 100;
                     position: absolute;
-                    top: 17.5%;
-                    left: 17.5%;
+                    top: 12.5%;
+                    left: 12.5%;
                     transform: rotate(15deg);
                     background-color: var(--secondary-color);
                     border-radius: 100%;
                     box-shadow: 1px 1px 2px black;
 
-                }
-                &:before {
-                    color: var(--body-color);
+
+                    &:nth-of-type(6n) {
+                        background-color: var(--purple);
+                    }
+
                 }
             }
-            &:nth-of-type(even):not(:empty):after {
-                border-radius: 0.25em;
-                background-color: var(--primary-color);
-                transform: rotate(-5deg);
+            &:nth-of-type(n+1):not(:empty):after {
+                background-color: var(--navy);
+            }
+            &:nth-of-type(2n):not(:empty):after {
+                background-color: var(--green);
+            }
+            &:nth-of-type(3n):not(:empty):after {
+                background-color: var(--purple);
+            }
+            &:nth-of-type(4n):not(:empty):after {
+                background-color: var(--orange);
+            }
+            &:nth-of-type(5n):not(:empty):after {
+                background-color: var(--yellow);
+            }
+            &:nth-of-type(6n):not(:empty):after {
+                background-color: var(--red);
+            }
+            &:nth-of-type(7n):not(:empty):after {
+                background-color: var(--pink);
             }
 
         }
     }
+    
 </style>
 
 <h1 class="wrap">JON’S PUSH-UP CHART</h1><br><br>
@@ -83,7 +143,7 @@ emoji: 💪
 
 |   |   |   |   |   |   |   |   |   |   |
 | - | - | - | - | - | - | - | - | - | - |
-| x | x | x | x |   |   |   |   |   |   |
+| x | x | x | x | x | x | x | x |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
