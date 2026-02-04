@@ -145,7 +145,7 @@ redirect_from: /pushups/
 |   |   |   |   |   |   |   |   |   |   |
 | - | - | - | - | - | - | - | - | - | - |
 | 01 Feb | 01 Feb | 01 Feb | 01 Feb | 02 Feb | 02 Feb | 02 Feb | 02 Feb | 03 Feb | 03 Feb |
-| 03 Feb | 03 Feb | 03 Feb | 03 Feb |   |   |   |   |   |   |
+| 03 Feb | 03 Feb | 03 Feb | 03 Feb | 04 Feb | 04 Feb | 04 Feb | 04 Feb |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
