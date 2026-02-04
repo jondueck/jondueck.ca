@@ -20,13 +20,25 @@
     },
     {
         "img": "/src/img/untitled.svg",
-        "alt": ""
+        "title": "Leisure Travel Vans: Trip Planner",
+        "year": "2023"
     },
-
     {
         "img": "/src/img/work/forkflower.svg",
         "title": "Coming Soon",
         "year": "2024"
+    },
+    {
+        "img": "/src/img/work/tbx.svg",
+        "alt": "",
+        "title": "Leisure Travel Vans TBX",
+        "year": "2025"
+    },
+    {
+        "img": "/src/img/work/desert-shadow.svg",
+        "alt": "",
+        "title": "Leisure Travel Vans Desert Shadow",
+        "year": "2025"
     },
     {
         "img": "/src/img/martimes-caravan-circle.svg",
@@ -39,13 +51,31 @@
     },
     {
         "img": "/src/img/work/scp.svg",
-        "title": "Coming Soon",
+        "title": "Stanley Community Pathway",
         "year": "2024"
+    },
+    {
+        "img": "/src/img//graveyard/airport_dots.svg",
+        "title": "",
+        "year": "2025"
+    },
+    {
+        "img": "/src/img//graveyard/airport_ouma.svg",
+        "title": "",
+        "year": "2025"
+    },
+    {
+        "img": "/src/img//graveyard/rg.svg",
+        "title": "",
+        "year": "2025"
     },
     {
         "img": "/src/img/work/scp001.svg",
         "year": "2024",
         "title": "Unused"
+    },
+    {
+        "img": "/src/img/work/wheatland_icon.svg"
     },
     {
         "img": "/src/img/going-east-going-fast.svg",
@@ -87,11 +117,12 @@
     },
     {
         "img": "/src/img/whitecap-wordmark.svg",
-        "title": "Whitecap Coffee wordmark"
+        "title": "Whitecap Coffee wordmark",
+        "year": "2015"
     },
     {
         "img": "/src/img/trip-planner.svg",
-        "title": "Leisure Travel Vans Trip Planner",
+        "title": "Leisure Travel Vans: The Leisure List",
         "year": "2023"
     },
     {
@@ -146,9 +177,6 @@
         "alt": "",
         "title": "Whatevertown",
         "link": "https://whatevertown.com"
-    },
-    {
-        "img": "/src/img/graveyard/moai.svg"
     },
     {
         "img": "/src/img/misc-logo-globe.svg"
@@ -249,6 +277,10 @@
     },
     {
         "img": "/src/img/zodiacs-red-on-black.svg",
+        "title": "Zodiacs"
+    },
+    {
+        "img": "/src/img/work/z_jersey.png",
         "title": "Zodiacs"
     }
     

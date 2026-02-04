@@ -8,7 +8,8 @@
       }
 
       .st1 {
-        fill: #fdf8e3;
+        fill: #fff6cf;
+        opacity: .5;
       }
     </style>
   </defs>
