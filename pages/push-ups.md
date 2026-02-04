@@ -5,6 +5,7 @@ layout: base.njk
 permalink: '/push-ups/'
 emoji: 💪
 eleventyExcludeFromCollections: true
+redirect_from: /pushups/
 ---
 
 <style>
@@ -42,25 +43,25 @@ eleventyExcludeFromCollections: true
             }
 
             &:nth-of-type(even) td {
-                &:nth-of-type(n+1):not(:empty):after {
+                &:nth-of-type(n + 1):not(:empty):after {
                     background-color: var(--orange);
                 }
-                &:nth-of-type(2n):not(:empty):after {
+                &:nth-of-type(2n + 1):not(:empty):after {
                     background-color: var(--yellow);
                 }
-                &:nth-of-type(3n):not(:empty):after {
+                &:nth-of-type(3n + 1):not(:empty):after {
                     background-color: var(--red);
                 }
-                &:nth-of-type(4n):not(:empty):after {
+                &:nth-of-type(4n + 1):not(:empty):after {
                     background-color: var(--pink);
                 }
-                 &:nth-of-type(5n):not(:empty):after {
+                 &:nth-of-type(5n + 1):not(:empty):after {
                 background-color: var(--navy);
                 }
-                &:nth-of-type(6n):not(:empty):after {
+                &:nth-of-type(6n + 1):not(:empty):after {
                     background-color: var(--green);
                 }
-                &:nth-of-type(7fn):not(:empty):after {
+                &:nth-of-type(7n + 1):not(:empty):after {
                     background-color: var(--purple);
                 }
             }
@@ -110,25 +111,25 @@ eleventyExcludeFromCollections: true
 
                 }
             }
-            &:nth-of-type(n+1):not(:empty):after {
+            &:nth-of-type(n + 1):not(:empty):after {
                 background-color: var(--navy);
             }
-            &:nth-of-type(2n):not(:empty):after {
+            &:nth-of-type(2n + 1):not(:empty):after {
                 background-color: var(--green);
             }
-            &:nth-of-type(3n):not(:empty):after {
+            &:nth-of-type(3n + 1):not(:empty):after {
                 background-color: var(--purple);
             }
-            &:nth-of-type(4n):not(:empty):after {
+            &:nth-of-type(4n + 1):not(:empty):after {
                 background-color: var(--orange);
             }
-            &:nth-of-type(5n):not(:empty):after {
+            &:nth-of-type(5n + 1):not(:empty):after {
                 background-color: var(--yellow);
             }
-            &:nth-of-type(6n):not(:empty):after {
+            &:nth-of-type(6n + 1):not(:empty):after {
                 background-color: var(--red);
             }
-            &:nth-of-type(7n):not(:empty):after {
+            &:nth-of-type(7n + 1):not(:empty):after {
                 background-color: var(--pink);
             }
 
@@ -143,8 +144,8 @@ eleventyExcludeFromCollections: true
 
 |   |   |   |   |   |   |   |   |   |   |
 | - | - | - | - | - | - | - | - | - | - |
-| x | x | x | x | x | x | x | x | x | x |
-| x | x |   |   |   |   |   |   |   |   |
+| 01 Feb | 01 Feb | 01 Feb | 01 Feb | 02 Feb | 02 Feb | 02 Feb | 02 Feb | 03 Feb | 03 Feb |
+| 03 Feb | 03 Feb | 03 Feb | 03 Feb |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
