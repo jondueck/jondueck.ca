@@ -5,7 +5,7 @@ layout: base.njk
 permalink: '/push-ups/'
 emoji: 💪
 eleventyExcludeFromCollections: true
-redirect_from: /pushups/
+redirect_from: '/pushups'
 ---
 
 <style>
