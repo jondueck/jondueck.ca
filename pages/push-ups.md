@@ -138,7 +138,11 @@ redirect_from: '/pushups'
     
 </style>
 
-<h1 class="wrap">JON’S PUSH-UP CHART</h1><br><br>
+<header class="wrap">
+    <h1>JON’S PUSH-UP CHART</h1>
+    <span>Updated {{ page.date | readableDate }}</span>
+</header>
+<br><br>
 
 <div class="wrap">
 
@@ -147,8 +151,8 @@ redirect_from: '/pushups'
 | 01 Feb | 01 Feb | 01 Feb | 01 Feb | 02 Feb | 02 Feb | 02 Feb | 02 Feb | 03 Feb | 03 Feb |
 | 03 Feb | 03 Feb | 03 Feb | 03 Feb | 04 Feb | 04 Feb | 04 Feb | 04 Feb | 04 Feb | 04 Feb |
 | 05 Feb | 05 Feb | 05 Feb | 05 Feb | 06 Feb | 06 Feb | 06 Feb | 06 Feb | 07 Feb | 07 Feb |
-| 07 Feb | 07 Feb | 08 Feb | 08 Feb | 08 Feb |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |
+| 07 Feb | 07 Feb | 08 Feb | 08 Feb | 08 Feb | 09 Feb | 10 Feb | 10 Feb | 10 Feb | 11 Feb |
+| 11 Feb | 11 Feb | 11 Feb |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
