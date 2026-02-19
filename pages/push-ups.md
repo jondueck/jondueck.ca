@@ -152,8 +152,8 @@ redirect_from: '/pushups'
 | 03 Feb | 03 Feb | 03 Feb | 03 Feb | 04 Feb | 04 Feb | 04 Feb | 04 Feb | 04 Feb | 04 Feb |
 | 05 Feb | 05 Feb | 05 Feb | 05 Feb | 06 Feb | 06 Feb | 06 Feb | 06 Feb | 07 Feb | 07 Feb |
 | 07 Feb | 07 Feb | 08 Feb | 08 Feb | 08 Feb | 09 Feb | 10 Feb | 10 Feb | 10 Feb | 11 Feb |
-| 11 Feb | 11 Feb | 11 Feb |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |
+| 11 Feb | 11 Feb | 11 Feb | 18 Feb | 18 Feb | 18 Feb | 18 Feb | 18 Feb | 18 Feb | 14 Feb |
+| 14 Feb | 14 Feb |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
