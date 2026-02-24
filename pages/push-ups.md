@@ -65,6 +65,29 @@ redirect_from: '/pushups/'
                     background-color: var(--purple);
                 }
             }
+            &:nth-of-type(3n) td {
+                &:nth-of-type(9n + 1):not(:empty):after {
+                    background-color: var(--purple);
+                }
+                &:nth-of-type(2n + 1):not(:empty):after {
+                    background-color: var(--orange);
+                }
+                &:nth-of-type(4n + 1):not(:empty):after {
+                    background-color: var(--yellow);
+                }
+                &:nth-of-type(5n + 1):not(:empty):after {
+                    background-color: var(--red);
+                }
+                &:nth-of-type(6n + 1):not(:empty):after {
+                    background-color: var(--pink);
+                }
+                 &:nth-of-type(7n + 1):not(:empty):after {
+                background-color: var(--navy);
+                }
+                &:nth-of-type(8n + 1):not(:empty):after {
+                    background-color: var(--green);
+                }
+            }
 
         }
         td {
@@ -154,7 +177,7 @@ redirect_from: '/pushups/'
 | 07 Feb | 07 Feb | 08 Feb | 08 Feb | 08 Feb | 09 Feb | 10 Feb | 10 Feb | 10 Feb | 11 Feb |
 | 11 Feb | 11 Feb | 11 Feb | 18 Feb | 18 Feb | 18 Feb | 18 Feb | 18 Feb | 18 Feb | 14 Feb |
 | 14 Feb | 14 Feb | 19 Feb | 19 Feb | 19 Feb | 19 Feb | 19 Feb | 19 Feb | 20 Feb | 20 Feb | 
-| 20 Feb | 20 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb |        |        |  
+| 20 Feb | 20 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 23 Feb |  
 |        |        |        |        |        |        |        |        |        |        |  
 |        |        |        |        |        |        |        |        |        |        |  
 |        |        |        |        |        |        |        |        |        |        |  
