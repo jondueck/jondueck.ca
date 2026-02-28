@@ -179,7 +179,7 @@ redirect_from: '/pushups/'
 | 14 Feb | 14 Feb | 19 Feb | 19 Feb | 19 Feb | 19 Feb | 19 Feb | 19 Feb | 20 Feb | 20 Feb | 
 | 20 Feb | 20 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 22 Feb | 23 Feb |  
 | 23 Feb | 23 Feb | 23 Feb | 26 Feb | 26 Feb | 26 Feb | 26 Feb | 26 Feb | 26 Feb | 26 Feb |  
-| 26 Feb | 26 Feb |        |        |        |        |        |        |        |        |  
+| 26 Feb | 26 Feb | 27 Feb | 27 Feb | 27 Feb | 27 Feb | 27 Feb | 27 Feb |        |        |  
 |        |        |        |        |        |        |        |        |        |        |  
 
 </div>
