@@ -1,6 +1,7 @@
 ---
 title: The Movies, 2025
 date: 2026-03-15 09:00:00 -06:00
+image: https://wp-shoot.s3.amazonaws.com/wp-content/uploads/2025/12/02103404/OneBattleAfterAnother_BCP-R5_v47E-021325-DUSTIN_0014.jpg
 ---
 
 <style>
@@ -122,6 +123,8 @@ date: 2026-03-15 09:00:00 -06:00
 ## Favourite Picture
 My top 3–4 are interchangable.
 
+![](https://npr.brightspotcdn.com/dims4/default/f87a425/2147483647/strip/true/crop/1280x720+0+0/resize/1760x990!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F85%2F8e%2Fb34db08e41c681a58c6d19fd8a51%2Fmovies-101-10-10-25-1.png)
+
 1. **It Was Just an Accident**
 2. *Sentimental Value*
 3. *One Battle After Another*
@@ -133,7 +136,7 @@ My top 3–4 are interchangable.
 9. *The Secret Agent*
 10. *Eephus*
 
-See my full list [on Letterboxd](https://letterboxd.com/jondueck/list/2024-favourites-edited/).
+See my full list [on Letterboxd](https://boxd.it/RQq5o).
 
 ## Extras
 
