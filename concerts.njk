@@ -1,0 +1,22 @@
+---
+title: Concerts Archive
+layout: page.njk
+date: Last Modified
+---
+
+<ul class="archive journal-list">
+{% for concert in concerts %}
+<li>
+    <span>
+        <strong>{{ concert.artists }}</strong>
+        {% if concert.opener %}<br>with {{ concert.opener }}{% endif %}
+        <br><span>
+            {% if concert.venue %}@ {{concert.venue}}{% endif %}
+            {% if concert.city %}in {{concert.city}}{% endif %}
+        </span>
+        {% if concert.event %}<br><em>{{concert.event}}</em>{% endif %}
+    </span>
+    <date>{{ concert.date }}</date>
+    </li>
+{% endfor %}
+</ul>
