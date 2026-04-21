@@ -118,17 +118,18 @@ hr {
     }
 }
 
-[src$='#half'],
-img.half,
-.half { 
-    float: left;
-    width: calc(50% - calc(1ch));
-    margin-right: 2ch;
+p:has([src$='#half']),
+p:has(.half) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2ch;
 
-  + [src$='#half']:nth-of-type(even),
-  + .half:nth-of-type(even) {
-    margin-right: 0;
-  }
+    [src$='#half'],
+    .half {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
 }
 
 .library-list {
