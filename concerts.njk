@@ -9,7 +9,9 @@ image: '/src/img/alvvays1.jpg'
 {% for concert in concerts %}
 <li>
     <span>
-        <strong>{{ concert.artists }}</strong>
+        {% if concert.link %}<a href="{{ concert.link }}">{% endif %}
+        <strong class="journal-list-title">{{ concert.artists }}</strong>
+        {% if concert.link %}</a>{% endif %}
         {% if concert.opener %}<br>with {{ concert.opener }}{% endif %}
         <br><span>
             {% if concert.venue %}@ {{concert.venue}}{% endif %}
@@ -17,7 +19,7 @@ image: '/src/img/alvvays1.jpg'
         </span>
         {% if concert.event %}<br><em>{{concert.event}}</em>{% endif %}
     </span>
-    <date>{{ concert.date }}</date>
+    <time>{{ concert.date }}</time>
     </li>
 {% endfor %}
 </ul>

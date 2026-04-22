@@ -67,8 +67,8 @@
         "date": "2023-03-08",
         "venue": "Burton Cummings Theatre",
         "city": "Winnipeg",
-        "link": "",
-        "post": "journal/2023/alvvays/"    
+        "link": "/journal/2023/alvvays/",
+        "post": "/journal/2023/alvvays/"    
     },
     {
         "artists": "Japandroids with Cloud Nothings",
@@ -90,7 +90,7 @@
         "date": "2017-05-07",
         "venue": "Park Theatre with Fast Romantics",
         "city": "Winnipeg",
-        "link": "",
+        "link": "https://www.instagram.com/p/BT2oRnyAhvS/",
         "songkick": "https://www.songkick.com/concerts/29451369-said-the-whale-at-park-theatre" 
     },
     {
@@ -133,7 +133,7 @@
         "date": "2014-03-27",
         "venue": "The Garrick",
         "city": "Winnipeg",
-        "link": ""    
+        "link": "https://www.instagram.com/jondueck/p/mEtNcrjvOd/"    
     },
     {
         "artists": "Shad with We Are The City",
@@ -147,7 +147,7 @@
         "date": "2013-10-21",
         "venue": "Park Theatre",
         "city": "Winnipeg",
-        "link": ""    
+        "link": "https://www.instagram.com/jondueck/p/fwlzqyDvKq/"    
     },
     {
         "artists": "Bahamas",
