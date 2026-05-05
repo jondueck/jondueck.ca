@@ -203,5 +203,16 @@
         "url": "https://cooking.nytimes.com/recipes/1024410-lemon-bars",
         "author": "Genevieve Ko",
         "publisher": "New York Times"
+    },
+    {
+        "title": "Crispy Orecchiette with Spicy Sausage and Collard Ragu",
+        "url": "https://www.epicurious.com/recipes/food/views/crispy-orecchiette-with-spicy-sausage-and-collard-ragu",
+        "author": "Molly Baz",
+        "book": "More is More"
+    },
+    {
+        "title": "Bagels",
+        "url": "https://kitchenprojects.substack.com/p/all-about-bagels",
+        "author": "Nicola Lamb"    
     }
 ]
