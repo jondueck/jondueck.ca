@@ -13,6 +13,7 @@ layout: base.njk
         --theme-color: var(--secondary-color);
         {# --theme-color: currentColor; #}
         --body-color: var(--theme-color);
+        --white: #eceddd;
         font-family: futura-std, futura;
     }
     .bagel {
@@ -37,6 +38,13 @@ layout: base.njk
     }
     html {
         cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥯</text></svg>") 16 0,auto;
+    }
+    h1 {
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        margin-block-end: 1lh;
+        {# text-transform: uppercase; #}
     }
 </style>
 
@@ -64,10 +72,11 @@ layout: base.njk
   </g>
 </svg>
 </p>
-<p>Bagels</p>
-<p>Monday, 18 May, 2026?</p>
-<p>10:30 am</p>
-<p>Bring your own chair</p>
+<h1><a href="https://kitchenprojects.substack.com/p/all-about-bagels">Bagels</a></h1>
+<p>Monday, 18 May, 2026 <br> (May Long Weekend)</p>
+<p>10:30 am<br>You know the place.</p>
+<p>Outside, if the spring weather’s nice. <br>Bring your own chair.</p>
+<p>🌞</p>
 
 </div>
 
