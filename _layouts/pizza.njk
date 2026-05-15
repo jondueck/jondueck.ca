@@ -11,6 +11,58 @@ layout: base.njk
         width: fit-content;
         margin-inline: auto;
     }
+    .cal {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100% !important;
+        padding-inline: 1em;
+        gap: 1em;
+        {# gap: 0 !important; #}
+
+    }
+    .cal-item {
+        padding: 1lh;
+        border: 1px solid;
+        {# aspect-ratio: 1/1; #}
+        min-height: 50vh;
+        & > * + * {
+            margin-block-start: 1em;
+        }
+
+        grid-template-areas: "top " "mid" "bot";
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+
+    }
+    .cal-date {
+        grid-area: top;
+    }
+    .grid-content {
+        grid-area: mid;
+    }
+    .cal-stats {
+        grid-area: bot;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        display: none;
+    }
+
+    .cal-stat,
+    .stat {
+        flex: 1 1 auto;
+    }
+
+    .cal-content ul {
+        margin: 0;
+        padding: 0;
+        li {
+            border-bottom: 1px solid;
+            min-height: 1lh;
+
+        }
+    }
     {# .sticker:hover {
         filter: drop-shadow(1px 1px 1px var(--black) );
     } #}
@@ -19,24 +71,16 @@ layout: base.njk
 <div class="wrap" id="header">
     <img src="/src/img/pizza peel.png" alt="" height="300" class="peel">
 
-
     <center>
+        {# <span>2026</span> #}
+        {# <img src="/src/img/pizza/pizza_party.svg" alt="Pizza Party" class="sticker"> #}
         <span class="homegrown">Since 2023</span>
-    </center>
-
-    <center>
-        <span style="font-family: var(--sans);">2025 №2</span>
-        <span class="h1 date-title">26 July</span>
-        {# <span class="slogan">A New Year, <span class="no-break">Another Pizza</span></span> #}
-        {# <p>Co-Hosted with Ryan & Sarah</p> #}
+        <span class="h1 date-title">Pizza 2026</span>
+        {# <span class="slogan">Once more <span class="no-break">with feeling</span></span> #}
+        {# <span class="slogan">Never for money, <span class="no-break">always for love</span></span> #}
+        {# <span class="slogan">Real love, <span class="no-break">no fantasy</span></span> #}
+        {# <span class="slogan">Pick me up and <span class="no-break">turn me ’round.</span></span> #}
         
-        {# <p>Afternoon activities to be announced.</p> #}
-    </center>
-
-    <center>
-        <p>@ Jon’s House</p>
-        <p>Pizzas start at 5:30</p>
-        <p>Bring a lawn chair</p>
     </center>
 
     {# <section class="wrap forecast" style="text-align: center;">
@@ -77,7 +121,71 @@ layout: base.njk
     {% endif %}   
 </div>
 
- <section class="wrap forecast" style="text-align: center;">
+<div class="cal">
+    <div class="cal-item">
+        <div class="cal-date">13 June?</div>
+        <div class="cal-content ">
+            <ul style="list-style: none;">
+                <li class="">Margherita</li>
+                <li class="">?</li>
+                <li class="">?</li>
+                <li class="">?</li>
+            </ul>
+        </div>
+        <div class="cal-stats">
+            <div class="stat">
+                <dd class="stat-feature">0</dd>
+                <dt>RSVP’d</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">0°</dd>
+                <dt></dt>
+            </div>
+            
+        </div>
+    </div>
+    <div class="cal-item">
+        <div class="cal-date">4 July?</div>
+        <div class="cal-content ">
+            <ul style="list-style: none;">
+                <li class="">?</li>
+                <li class="">?</li>
+                <li class="">?</li>
+                <li class="">?</li>
+            </ul>
+        </div>
+        <div class="cal-stats">
+        </div>
+    </div>
+    <div class="cal-item">
+        <div class="cal-date">8 August?</div>
+        <div class="cal-content ">
+            <ul style="list-style: none;">
+                <li class="">?</li>
+                <li class="">?</li>
+                <li class="">?</li>
+                <li class="">?</li>
+            </ul>
+        </div>
+        <div class="cal-stats">
+        </div>
+    </div>
+    <div class="cal-item">
+        <div class="cal-date">5 September?</div>
+        <div class="cal-content ">
+            <ul style="list-style: none;">
+                <li class="">?</li>
+                <li class="">?</li>
+                <li class="">?</li>
+                <li class="">?</li>
+            </ul>
+        </div>
+        <div class="cal-stats">
+        </div>
+    </div>
+</div>
+
+ {# <section class="wrap forecast" style="text-align: center;">
     <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 3em;" class="sticker">
     <p>Pizzas to be announced.</p>
         <p>Bring a <a href="/recipes">side</a> or a dessert, if you’d like. <br> Sign up in the Messenger group, or let me know.</p>
@@ -95,7 +203,12 @@ layout: base.njk
                 <dt>Dessert</dt>
             </div>
         </div>
-    </section>    
+    </section>   #}
+
+    {# <section class="wrap" style="text-align: center;">
+    <img src="/src/img/pizza/fun.svg" alt="Fun" style="height: 3em;" class="sticker">
+    <p>TBA</p>
+    </section>     #}
 
     {# <section class="wrap forecast" style="text-align: center; display: grid; grid-gap: var(--line); grid-template-columns: repeat(auto-fit, minmax(min(100%, 5ch), 1fr));">
         <div class="stat">
@@ -117,76 +230,6 @@ layout: base.njk
 </blockquote>    #}
 
 <div class="wrap">
-    <section class="ingredients-section" style="display: none;">
-
-        <h2>Ingredients</h2><br>
-
-        <details>
-            <summary><h3>Dough</h3></summary>
-            <ul class="ingredients" [aria-label="Dough"]>
-                <li><details>
-                    <summary>Based on “Classic Dough”</summary>
-                    <a href="https://ooni.com/blogs/recipes/classic-pizza-dough-how-to-make-it-perfect">Link</a>
-                    <small>Flour, Yeast, Salt, Water. I’m doing 65% hydradtion now.</small>
-                </details></li>
-                <li><details>
-                    <summary>Gluten-Free* Dough</summary>
-                    <a href="https://ca.ooni.com/blogs/recipes/gluten-free-pizza-dough">Link</a>
-                    <small>Gluten-Free Flour, Yeast, Salt, Water, Olive Oil</small>
-                </details></li>
-            </ul>
-        </details>
-
-        <details>
-            <summary><h3>Sauce</h3></summary>
-                <ul class="ingredients" [aria-label="Sauce"]>
-                    <li><a href="https://www.delucaswinnipeg.ca/tomato-sauces-purees/de-luca-s-pizza-sauce-12-375ml-sc3550">De Luca’s Tomato Sauce</a></li>
-            </ul>
-        </details>
-        <details>
-            <summary><h3>Cheese</h3></summary>
-            <ul class="ingredients" [aria-label="Cheese"]>
-                <li>Mozzarella</li>
-                <li>Ricotta</li>
-                {# <li>Feta</li> #}
-            </ul>
-        </details>
-        <details>
-            <summary><h3>Meat</h3></summary>
-        <ul class="ingredients" [aria-label="Meat"]>
-            <li>Pepperoni</li>
-            <li>Bacon</li>
-            <li>Prosciutto</li>
-        </ul>
-        </details>
-        <details>
-            <summary><h3>Veg</h3></summary>
-            <ul class="ingredients" [aria-label="Veg"]>
-                <li>Green Bell Peppers</li>
-                <li>Red Onion</li>
-                <li>Roasted Red Peppers</li>
-                <li>Sun-Dried Tomatoes</li>
-                {# <li><em>Homegrown</em> Spinach</li> #}
-                <li><em class="homegrown">Home-grown</em> Basil</li>
-                <li>Sautéed Mushrooms</li>
-                {# <li>Pineapple?</li> #}
-            </ul>
-        </details>
-        <details>
-            <summary><h3>Topping Sauces</h3></summary>
-            <ul class="ingredients" [aria-label="Sauces"]>
-                <li>Honey</li>
-                <li>Gochujang</li>
-                <li>Chili Oil</li>
-                <li>Sweet Chili Sauce</li>
-                <li>Balsamic Glaze</li>
-                <li>Honey Dill</li>
-            </ul>
-        </details>
-
-        </section>
-                <img src="/src/img/pizza/pizza_party.svg" alt="Pizza Party" class="sticker">
-
 
         <dl class="stats-box" style="grid-template-columns: auto;">
                 <div class="stat">
@@ -215,8 +258,8 @@ layout: base.njk
 </div>
 
 
-{% if next_party %}
-<div class="next-party">
+{# {% if next_party %}
+    <div class="next-party">
         
         <svg viewBox="0 0 500 150" class="arc">
             <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" class="arc-curve"/>
@@ -229,10 +272,8 @@ layout: base.njk
 
         <span>&#9662;</span><br>
         <span class="h1">{{ next_party }}</span><br>
-        {# <span>&#9662;&#9662;</span><br>
-        <span>Townsend Dr</span> #}
     </div>
-{% endif %}
+{% endif %} #}
 
 {# <footer class="pizza-footer">
 </footer> #}
