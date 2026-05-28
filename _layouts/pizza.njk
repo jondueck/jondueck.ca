@@ -56,7 +56,6 @@ layout: base.njk
         text-align: center;
         justify-content: space-around;
         justify-content: space-evenly;
-        display: none;
     }
 
     .cal-stat,
@@ -77,29 +76,21 @@ layout: base.njk
     .sched {
         margin-inline: auto;
         display: grid;
-        grid-gap: 0;
+        grid-gap: 1em;
         width: 90%;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 1fr;
-        .sched-item:nth-of-type(even) {
-            background: var(--secondary-color);
-            color: var(--background);
-        }
         @media (min-width: 45rem) and (max-width: 75rem) {
             grid-template-columns: repeat(2, 1fr);
-            .sched-item:nth-of-type(even) {
-                background: unset;
-                color: unset;
-            }
-            .sched-item:nth-of-type(2),
-            .sched-item:nth-of-type(3) {
-                background: var(--secondary-color);
-                color: var(--background);
-            }
         }
         @media (min-width: 75rem) {
             grid-template-columns: repeat(4, 1fr);
+        }
+
+        & .active {
+            background: var(--theme);
+            color: var(--background);
         }
     }
 
@@ -130,15 +121,15 @@ layout: base.njk
         {# <img src="/src/img/pizza/pizza_party.svg" alt="Pizza Party" class="sticker"> #}
         <span class="homegrown">Since 2023</span><br>
         {# <span class="h1 date-title sr-only">Pizza 2026</span> #}
-        <p style="text-transform: uppercase; padding-top: 1lh; font-size: 1.5rem; letter-spacing: 0.05em; line-height: 1.5;">
+        <p style="text-transform: uppercase; padding-top: 1lh; font-size: 1.5rem; letter-spacing: 0.05em; line-height: 2;">
             <span class="no-break">New summer</span>,<br>
             <span class="no-break">New pizzas</span>,<br>
             <span class="no-break">New activities</span>,<br>
             <span class="no-break">New friends</span>,<br>
             <a href="https://youtu.be/5IsSpAOD6K8?t=103">Same as it ever was</a><br>
-            <a href="https://youtu.be/5IsSpAOD6K8?t=103" style="opacity: 0.75">Same as it ever was</a><br>
-            <a href="https://youtu.be/5IsSpAOD6K8?t=103" style="opacity: 0.5">Same as it ever was</a><br>
-            <a href="https://youtu.be/5IsSpAOD6K8?t=103" style="opacity: 0.25">Same as it ever was</a>
+            <a href="https://youtu.be/FJx2x0p1U-M?" style="opacity: 0.75">Same as it ever was</a><br>
+            <a href="https://youtu.be/FJx2x0p1U-M?" style="opacity: 0.5">Same as it ever was</a><br>
+            <a href="https://youtu.be/FJx2x0p1U-M?" style="opacity: 0.25">Same as it ever was</a>
         </p>
         {# <span class="slogan" style="color: var(--theme-contrast);">4 <span class="no-break">more slices</span>.</span></span> #}
         {# <span class="slogan">Once more <span class="no-break">with feeling</span></span> #}
@@ -188,20 +179,35 @@ layout: base.njk
 </div>
 
 <section class="sched">
-    <div class="sched-item">
-        <h3>13 June</h3><br>
-        <span>“The Classics”</span>
-        <span>Menu coming soon.</span>
-        <br>
-        <p>+ Tasks</p>
+    <div class="sched-item active">
+        <div>
+            <span class="homegrown">№ 1</span><br>
+            <h3>13 June</h3><br>
+            <p>“The Classics” <br>
+            Menu coming soon.</p>
+            <p>+ Tasks</p>
+        </div>
+        <!--<div class="cal-stats">
+            <div class="stat">
+                <dd class="stat-feature">0</dd>
+                <dt>RSVP’d</dt>
+            </div>
+            {# <div class="stat">
+                <dd class="stat-feature">0°</dd>
+                <dt></dt>
+            </div> #}-->
+        </div>
     </div>
     <div class="sched-item">
+        <span class="homegrown">№ 2</span><br>
         <h3>4 July?</h3>
     </div>
     <div class="sched-item">
-        <h3>August</h3>
+        <span class="homegrown">№ 3</span><br>
+        <h3>August?</h3>
     </div>
     <div class="sched-item">
+        <span class="homegrown">№ 4</span><br>
         <h3>5 September?</h3>
         <span>“The All-Stars”</span>
      </div>
