@@ -1,5 +1,5 @@
 [
-    {
+        {
         "img": "/src/img/whitecap.svg",
         "alt": "",
         "title": "Whitecap Coffee: Identity",
@@ -24,9 +24,15 @@
         "year": "2023"
     },
     {
-        "img": "/src/img/work/forkflower.svg",
-        "title": "Coming Soon",
-        "year": "2024"
+        "img": "/src/img/work/centennial-arena.svg",
+        "alt": "",
+        "title": "Winkler Centennial Arena",
+        "year": "2025"
+    },
+    {
+        "img": "/src/img/work/fyf.svg",
+        "title": "Find Your Fork",
+        "year": "2025"
     },
     {
         "img": "/src/img/work/tbx.svg",
@@ -233,6 +239,9 @@
     },
     {
         "img": "/src/img/graveyard/moai.svg"
+    },
+    {
+        "img": "/src/img/graveyard/moai-wordmark.svg"
     },
     {
         "img": "/src/img/graveyard/poppies.svg"

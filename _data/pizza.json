@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2024-06-21",
+    "adults": "",
+    "children": "",
+    "pizzas": "15",
+    "tagline": "Feel the colour of the longest day"
+  },
+  {
+    "date": "2024-07-27",
+    "adults": "",
+    "children": "",
+    "pizzas": "11"
+  },
+  {
+    "date": "2024-08-31",
+    "adults": "10",
+    "children": "2",
+    "pizzas": "12"  
+  },
+  {
+    "date": "2025-06-28",
+    "adults": "",
+    "children": "",
+    "pizzas": ""  
+  }
+]
