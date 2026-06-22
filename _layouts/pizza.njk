@@ -103,6 +103,7 @@ layout: base.njk
         align-items: center;
         border: 2px solid var(--theme);
         flex-direction: column;
+        gap: 1lh;
     }
     {# .sticker:hover {
         filter: drop-shadow(1px 1px 1px var(--black) );
@@ -187,33 +188,70 @@ layout: base.njk
 </div>
 
 <section class="sched">
-    <div class="sched-item active">
+    <div class="sched-item">
         <div>
             <span class="homegrown">№ 1</span><br>
             <h3>13 June</h3>
         </div>
-        <br>
         <div>
             <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 2em;" class="sticker">
-            <p>“The Classics” <br>Coming soon.</p>
-
-            <img src="/src/img/pizza/fun.svg" alt="Fun" style="height: 1.75em;" class="sticker">
-            <h3>Tasksmaster</h3>
-            <p style="text-wrap: balance;">Bring the coolest thing you can fit in your hand.<br>+ More tasks</p>
+            <div>
+                <h3>“Classics”</h3>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li>Pepperoni</li>
+                    <li>Deluxe</li>
+                    <li>Ham & Pineapple</li>
+                    <li>Bacon & Pineapple & Jalapeño</li>
+                    <li>Peach & Prosciutto</li>
+                </ul>
+            </div>
         </div>
-        <br>
+        <div>
+            <img src="/src/img/pizza/fun.svg" alt="Fun" style="height: 1.75em;" class="sticker">
+            <h3>Taskmaster</h3>
+            <p>Winner: Timmy</p>
+        </div>
         <div class="cal-stats">
             <div class="stat">
-                <dd class="stat-feature">20</dd>
+                <dd class="stat-feature">18</dd>
+                <dt>Adults</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">6</dd>
+                <dt>Kids</dt>
+            </div>
+            <div class="stat">
+                <dd class="stat-feature">19</dd>
+                <dt>Pizzas</dt>
+            </div>
+        </div>
+    </div>
+    <div class="sched-item active" >
+        <div>
+            <span class="homegrown">№ 2</span><br>
+            <h3>4 July</h3>
+        </div>
+        <div>
+            <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 2em;" class="sticker">
+            <h3>“Internationals”</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li>Taco</li>
+                <li>Filipino</li>
+                <li>Pierogi</li>
+                <li><em>Coming Soon</em></li>
+            </ul>
+        </div>
+        <div>
+            <img src="/src/img/pizza/fun.svg" alt="Fun" style="height: 1.75em;" class="sticker">
+            <p>Coming Soon</p>
+        </div>
+        <div class="cal-stats">
+            <div class="stat">
+                <dd class="stat-feature">3</dd>
                 <dt>RSVP’d</dt>
             </div>
-            <div class="stat">
-                <dd class="stat-feature">16°</dd>
-                <dt></dt>
-            </div>
         </div>
-        <br>
-        <div class="cal-stats">
+        {# <div class="cal-stats">
             <div class="stat">
                 <dd >2</dd>
                 <dt>Salads</dt>
@@ -230,15 +268,7 @@ layout: base.njk
                 <dd>2</dd>
                 <dt>Drinks</dt>
             </div>
-        </div>
-        <br>
-        <p>RSVP!</p>
-    </div>
-    <div class="sched-item">
-        <div>
-            <span class="homegrown">№ 2</span><br>
-            <h3>4 July?</h3>
-        </div>
+        </div> #}
         {# <div>
             <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 2em;" class="sticker">
             <p>TBA</p>
@@ -270,7 +300,7 @@ layout: base.njk
        
         <div>
             <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 2em;" class="sticker">
-            <p>“The All-Stars”</p>
+            <p>“HAll-Stars”</p>
         </div>
         {# <div>
             <img src="/src/img/pizza/fun.svg" alt="Fun" style="height: 1.75em;" class="sticker">
