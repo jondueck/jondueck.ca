@@ -11,6 +11,13 @@
 html,
 body {
   height: 100%;
+  min-height: 100vh;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 input,
@@ -42,6 +49,7 @@ html:focus-within {
 // Set core body defaults */
 body {
   min-height: 100vh;
+  min-height: 100svh;
   text-rendering: optimizeSpeed;
 
 }
