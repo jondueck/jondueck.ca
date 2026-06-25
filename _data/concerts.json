@@ -1,5 +1,13 @@
 [
     {
+        "artists": "Etran de L’Aïr",
+        "opener": "The Broke Spokes",
+        "date": "2026-06-24",
+        "venue": "Blue Note Park",
+        "city": "Winnipeg",
+        "link": ""
+    },
+    {
         "event": "Drive-Thru Confessional Album Release",
         "artists": "Mise en Scene with Kris Ulrich",
         "date": "2026-04-18",
@@ -109,7 +117,8 @@
     },
     {
         "artists": "Arkells",
-        "date": "2014-02-28",
+        "opener": "Dear Rouge",
+        "date": "2015-02-28",
         "venue": "The Garrick",
         "city": "Winnipeg",
         "link": ""    
