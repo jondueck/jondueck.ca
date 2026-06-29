@@ -5,9 +5,22 @@ date: Last Modified
 image: '/src/img/alvvays1.jpg'
 ---
 
+{# <style>
+    .concert-item {
+        font-family: monospace;
+        border: 0 none;
+        border: 1px solid var(--underline);
+        padding: 1em;
+        margin-bottom: 1em !important;
+        min-height: 5lh;
+        font-size: 1.125rem;
+    }
+</style> #}
+
+
 <ul class="archive journal-list">
 {% for concert in concerts %}
-<li>
+<li class="concert-item">
     <span>
         {% if concert.link %}<a href="{{ concert.link }}">{% endif %}
         <strong class="journal-list-title">{{ concert.artists }}</strong>
