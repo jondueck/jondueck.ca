@@ -83,15 +83,18 @@ layout: base.njk
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 1fr;
         @media (min-width: 45rem) and (max-width: 75rem) {
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(9, 1fr);
         }
         @media (min-width: 75rem) {
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(9, 1fr);
         }
-
+        > *:not(.active) {
+            grid-column: span 2;
+        }
         & .active {
             background: var(--theme);
             color: var(--background);
+           grid-column: span 3;
         }
     }
 
@@ -188,11 +191,11 @@ layout: base.njk
 </div>
 
 <section class="sched">
-    <div class="sched-item">
-        <div>
+    <details class="sched-item">
+        <summary>
             <span class="homegrown">№ 1</span><br>
             <h3>13 June</h3>
-        </div>
+        </summary>
         <div>
             <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 2em;" class="sticker">
             <div>
@@ -225,7 +228,7 @@ layout: base.njk
                 <dt>Pizzas</dt>
             </div>
         </div>
-    </div>
+    </details>
     <div class="sched-item active" >
         <div>
             <span class="homegrown">№ 2</span><br>
@@ -236,9 +239,9 @@ layout: base.njk
             <h3>“Internationals”</h3>
             <ul style="list-style: none; padding: 0; margin: 0;">
                 <li>Taco</li>
-                <li>Filipino</li>
+                <li>Lumpia</li>
                 <li>Pierogi</li>
-                <li><em>Coming Soon</em></li>
+                <li>Chimichurri</li>
             </ul>
         </div>
         <div>
@@ -251,9 +254,9 @@ layout: base.njk
                 <dt>RSVP’d</dt>
             </div>
         </div>
-        {# <div class="cal-stats">
+        <div class="cal-stats">
             <div class="stat">
-                <dd >2</dd>
+                <dd >0</dd>
                 <dt>Salads</dt>
             </div>
             <div class="stat">
@@ -261,14 +264,14 @@ layout: base.njk
                 <dt>Sides</dt>
             </div>
             <div class="stat">
-                <dd>2</dd>
+                <dd>0</dd>
                 <dt>Deserts</dt>
             </div>
             <div class="stat">
-                <dd>2</dd>
+                <dd>0</dd>
                 <dt>Drinks</dt>
             </div>
-        </div> #}
+        </div>
         {# <div>
             <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 2em;" class="sticker">
             <p>TBA</p>
