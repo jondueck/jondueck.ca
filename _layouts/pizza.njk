@@ -82,19 +82,13 @@ layout: base.njk
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 1fr;
-        @media (min-width: 45rem) and (max-width: 75rem) {
-            grid-template-columns: repeat(9, 1fr);
+        @media (min-width: 45rem) {
+            grid-template-columns: repeat(4, 1fr);
         }
-        @media (min-width: 75rem) {
-            grid-template-columns: repeat(9, 1fr);
-        }
-        > *:not(.active) {
-            grid-column: span 2;
-        }
+
         & .active {
             background: var(--theme);
             color: var(--background);
-           grid-column: span 3;
         }
     }
 
@@ -303,7 +297,7 @@ layout: base.njk
        
         <div>
             <img src="/src/img/pizza/menu.svg" alt="Menu" style="height: 2em;" class="sticker">
-            <p>“HAll-Stars”</p>
+            <p>“All-Stars”</p>
         </div>
         {# <div>
             <img src="/src/img/pizza/fun.svg" alt="Fun" style="height: 1.75em;" class="sticker">
