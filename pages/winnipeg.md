@@ -1,4 +1,4 @@
-span---
+---
 title: Winnipeg Guide
 permalink: '/winnipeg/'
 layout: page.njk
