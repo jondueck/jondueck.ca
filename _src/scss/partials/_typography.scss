@@ -53,6 +53,12 @@ p {
     margin-bottom: var(--line);
 }
 
+p,
+li,
+dd {
+    text-wrap: pretty;
+}
+
 sup {
     line-height: 0;
     font-size: 66%;
