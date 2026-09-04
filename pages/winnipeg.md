@@ -21,6 +21,7 @@ redirect_from:
 - [Little Sister Coffee Maker](https://www.littlesistercoffeemaker.ca)
 - [Thom Bargen](https://thombargen.com), Sherbrook
 - [Black Market Provisions](https://www.blackmarketwpg.com)
+- [Clementine](https://clementinewinnipeg.com)
 - [Juneberry](https://www.juneberrywpg.ca)
 - [Shirley’s](https://www.welcometoshirleys.com)
 - [Oh Doughnuts](https://ohdoughnuts.com)
