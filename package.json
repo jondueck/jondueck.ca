@@ -1,6 +1,6 @@
 {
   "name": "jd11",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "check-html-links": "^0.2.4",
     "eleventy-plugin-footnotes": "^0.11.0",
-    "markdown-it": "^13.0.1",
+    "markdown-it": "~14.1.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.77.8"
   },
@@ -30,5 +30,8 @@
     "eleventy-sass": "^2.2.4",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-attrs": "^4.1.6"
+  },
+  "overrides": {
+    "linkify-it": "^5.0.2"
   }
-}
+ }
